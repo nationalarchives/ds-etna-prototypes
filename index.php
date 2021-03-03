@@ -8,6 +8,7 @@
     <title>Title</title>
 </head>
 <body>
+<h1>Title</h1>
 <?php
 echo 'Current PHP version: ' . phpversion();
 ?>
