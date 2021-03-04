@@ -1,16 +1,18 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Title</title>
-</head>
-<body>
-<h1>Title</h1>
-<?php
-echo 'Current PHP version: ' . phpversion();
-?>
-</body>
-</html>
+<?php require_once 'includes/head.php' ?>
+<div class="tna-page">
+    <div class="container">
+        <div class="row">
+            <main class="col-xs-12 col-sm-8" role="main">
+                <article>
+                    <div class="tna-page__header">
+                        <h1>Etna prototypes</h1>
+                    </div>
+                    <div class="tna-page__entry">
+                        <p>Static HTML prototypes for Project Etna</p>
+                    </div>
+                </article>
+            </main>
+        </div>
+    </div>
+</div>
+<?php require_once 'includes/footer.php' ?>
