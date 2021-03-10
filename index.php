@@ -1,21 +1,14 @@
 <?php require_once 'includes/head.php' ?>
-<div class="tna-page">
+<main>
     <div class="container">
         <div class="row">
-            <main class="col-xs-12 col-sm-8" role="main">
-                <article>
-                    <div class="tna-page__header">
-                        <h1>Etna prototypes</h1>
-                    </div>
-                    <div class="tna-page__entry">
-                        <p>Static HTML prototypes for Project Etna</p>
-                        <ul>
-                            <li><a href="/explorer/">Explorer</a></li>
-                        </ul>
-                    </div>
-                </article>
-            </main>
+            <div class="col">
+                <h1>Etna prototypes</h1>
+                <ul>
+                    <li><a href="/explorer">Explorer</a></li>
+                </ul>
+            </div>
         </div>
     </div>
-</div>
+</main>
 <?php require_once 'includes/footer.php' ?>
