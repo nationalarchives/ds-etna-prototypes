@@ -1,0 +1,15 @@
+main {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  main {
+    display: block;
+  }
+
+  .mobile-banner {
+    display: none;
+  }
+}
+
+

@@ -9,6 +9,9 @@
                     </div>
                     <div class="tna-page__entry">
                         <p>Static HTML prototypes for Project Etna</p>
+                        <ul>
+                            <li><a href="/explorer/">Explorer</a></li>
+                        </ul>
                     </div>
                 </article>
             </main>
