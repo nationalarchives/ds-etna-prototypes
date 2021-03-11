@@ -1,0 +1,44 @@
+#time_periods {
+  div.card-container {
+    padding-bottom: 24px;
+  }
+
+  div.card {
+    border: 0;
+    text-decoration: none;
+    .content-card {
+      text-decoration: none;
+    }
+    .entry-image {
+      height: 200px;
+      background-position: center;
+      position: relative;
+    }
+
+    .content-type {
+      background-color: #26262a;
+      color: #fff;
+      text-decoration: none;
+      width: 100px;
+      text-align: center;
+      position: absolute;
+      right: 0;
+    }
+
+    &:hover {
+      .entry-image {
+        outline: 5px solid #134571;
+      }
+    }
+  }
+  .card-heading {
+    padding-top: 5px;
+    color: #134571;
+    text-decoration: underline;
+    display: block;
+    &:hover {
+      color: #fff;
+      background-color: #134571;
+    }
+  }
+}
