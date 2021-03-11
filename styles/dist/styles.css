@@ -1,16 +1,12 @@
 main {
-  display: none;
-}
+  display: none; }
 
 @media (max-width: 576px) {
   main {
-    display: initial;
-  }
+    display: initial; }
 
   .mobile-banner {
-    display: none;
-  }
-}
+    display: none; } }
 #main-navigation {
   height: 6em;
   background-image: url("/images/tna.jpeg");
@@ -18,16 +14,42 @@ main {
   background-size: 4em;
   background-repeat: no-repeat;
   background-position: 0.5em 1em;
-  padding-top: 0.5em;
-}
-#main-navigation li {
-  font-size: 0.9em;
-}
-#main-navigation li a {
-  color: black;
-}
-#main-navigation li a:hover {
+  padding-top: .5em; }
+  #main-navigation li {
+    font-size: .9em; }
+    #main-navigation li a {
+      color: black; }
+      #main-navigation li a:hover {
+        text-decoration: underline; }
+
+#time_periods div.card-container {
+  padding-bottom: 24px; }
+#time_periods div.card {
+  border: 0;
+  text-decoration: none; }
+  #time_periods div.card .content-card {
+    text-decoration: none; }
+  #time_periods div.card .entry-image {
+    height: 200px;
+    background-position: center;
+    position: relative; }
+  #time_periods div.card .content-type {
+    background-color: #26262a;
+    color: #fff;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+    right: 0; }
+  #time_periods div.card:hover .entry-image {
+    outline: 5px solid #134571; }
+#time_periods .card-heading {
+  padding-top: 5px;
+  color: #134571;
   text-decoration: underline;
-}
+  display: block; }
+  #time_periods .card-heading:hover {
+    color: #fff;
+    background-color: #134571; }
 
 /*# sourceMappingURL=styles.css.map */
