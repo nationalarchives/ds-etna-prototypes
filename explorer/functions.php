@@ -27,7 +27,7 @@ function render_time_period_card($era)
     <div class="card-container">
         <div class="card">
             <a href="#" class="content-card">
-                <div class="entry-image" style="background-image: url(/images/time_periods/$era.jpg)">
+                <div class="entry-image" style="background-image: url(https://via.placeholder.com/543x200)">
                     <div class="content-type">$start_year - $end_year</div>
                 </div>
             </a>
