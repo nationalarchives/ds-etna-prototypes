@@ -39,16 +39,17 @@ function render_time_period_card($era)
     $end_year = $era_dates[1];
     $title = str_replace("-", " ", $era); // "empire-and-industry" becomes empire and industry
     $title = ucfirst($title);
+    $url = "/explorer/time-periods/$era.php";
     echo <<<HTML
     <div class="card-container">
         <div class="card">
-            <a href="/explorer/time-periods/$era.php" class="content-card">
+            <a href="$url" class="content-card">
                 <div class="entry-image" style="background-image: url(https://via.placeholder.com/543x200)">
                     <div class="content-type">$start_year - $end_year</div>
                 </div>
             </a>
         </div>
-        <h2><a href="#" class="card-heading">$title</a></h2>
+        <h2><a href="$url" class="card-heading">$title</a></h2>
     </div>
     HTML;
 }

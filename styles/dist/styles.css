@@ -22,6 +22,48 @@ main {
       #main-navigation li a:hover {
         text-decoration: underline; }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0; }
+
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto; }
+
+#results .filter {
+  background-color: #eee; }
+  #results .filter input,
+  #results .filter label {
+    cursor: pointer; }
+#results .result {
+  background-color: #eee;
+  position: relative; }
+  #results .result.special {
+    background-color: #ddd; }
+#results .result-tab {
+  position: absolute;
+  right: 0;
+  top: -1px;
+  padding: 4px;
+  background-color: #fff; }
+
+.js #results #update-filter-button {
+  display: none; }
+
+.no-js #results #update-filter-button {
+  display: block; }
+
 #time_periods div.card-container {
   padding-bottom: 24px; }
 #time_periods div.card {
