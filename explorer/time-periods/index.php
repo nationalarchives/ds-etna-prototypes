@@ -1,9 +1,9 @@
 <?php $title = "Explore time periods" ?>
-<?php require_once '../includes/head.php' ?>
-<?php require_once './functions.php' ?>
+<?php require_once '../../includes/head.php' ?>
+<?php require_once '../functions.php' ?>
 
 <main>
-    <?php require_once '../includes/header-and-nav-bar.php' ?>
+    <?php require_once '../../includes/header-and-nav-bar.php' ?>
     <div class="container" id="time_periods">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
@@ -25,4 +25,4 @@
 
     </div>
 </main>
-<?php require_once '../includes/footer.php' ?>
+<?php require_once '../../includes/footer.php' ?>
