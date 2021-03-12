@@ -1,9 +1,17 @@
+<?php $title = "Explore time periods" ?>
 <?php require_once '../includes/head.php' ?>
 <?php require_once './functions.php' ?>
 
 <main>
     <?php require_once '../includes/header-and-nav-bar.php' ?>
     <div class="container" id="time_periods">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="/explorer/">Explore</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Time periods</li>
+            </ol>
+        </nav>
         <h1>Explore time periods</h1>
         <p>Select a time period to explore</p>
         <?php render_time_period_card("medieval") ?>
