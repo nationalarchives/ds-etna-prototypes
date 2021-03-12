@@ -4,7 +4,7 @@
 
 <main>
     <?php require_once '../../includes/header-and-nav-bar.php' ?>
-    <div class="container" id="time_periods">
+    <div class="container" id="time_period">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -25,7 +25,7 @@
         </ul>
         <div class="mt-4">
             <h2 id="#topics" class="mb-2">Magna Carta</h2>
-            <img src="https://via.placeholder.com/520x300" />
+            <a href="/explorer/results.php?time_period=medieval&topic=magna-carta"><img src="https://via.placeholder.com/520x300" /></a>
             <p class="mt-2"><?php echo get_topic_description("magna-carta") ?>
         </div>
     </div>
