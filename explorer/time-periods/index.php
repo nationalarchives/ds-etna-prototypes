@@ -3,7 +3,7 @@
 <?php require_once '../../includes/head.php' ?>
 <?php require_once '../functions.php' ?>
 
-<main>
+<main class="explorer">
     <?php require_once '../../includes/header-and-nav-bar.php' ?>
     <div class="container" id="time_periods">
         <nav aria-label="breadcrumb">

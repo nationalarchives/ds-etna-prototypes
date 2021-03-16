@@ -19,7 +19,7 @@ $records_amount = $_GET["records_amount"] ?? 56;
 
 ?>
 
-<main>
+<main class="explorer">
     <?php require_once '../includes/header-and-nav-bar.php' ?>
     <div class="container" id="results">
         <nav aria-label="breadcrumb">

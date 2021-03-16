@@ -1,9 +1,9 @@
-main {
+main.explorer {
   display: none;
 }
 
 @media (max-width: 576px) {
-  main {
+  main.explorer {
     display: initial;
   }
 

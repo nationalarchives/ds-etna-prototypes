@@ -1,12 +1,16 @@
-main {
-  display: none; }
+main.explorer {
+  display: none;
+}
 
 @media (max-width: 576px) {
-  main {
-    display: initial; }
+  main.explorer {
+    display: initial;
+  }
 
   .mobile-banner {
-    display: none; } }
+    display: none;
+  }
+}
 #main-navigation {
   height: 6em;
   background-image: url("/images/tna.jpeg");
@@ -14,13 +18,17 @@ main {
   background-size: 4em;
   background-repeat: no-repeat;
   background-position: 0.5em 1em;
-  padding-top: .5em; }
-  #main-navigation li {
-    font-size: .9em; }
-    #main-navigation li a {
-      color: black; }
-      #main-navigation li a:hover {
-        text-decoration: underline; }
+  padding-top: 0.5em;
+}
+#main-navigation li {
+  font-size: 0.9em;
+}
+#main-navigation li a {
+  color: black;
+}
+#main-navigation li a:hover {
+  text-decoration: underline;
+}
 
 .sr-only {
   position: absolute;
@@ -30,7 +38,8 @@ main {
   padding: 0;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
-  border: 0; }
+  border: 0;
+}
 
 .sr-only-focusable:active,
 .sr-only-focusable:focus {
@@ -39,49 +48,60 @@ main {
   height: auto;
   margin: 0;
   overflow: visible;
-  clip: auto; }
+  clip: auto;
+}
 
-#results .filter {
-  background-color: #eee; }
-  #results .filter input,
-  #results .filter label {
-    cursor: pointer; }
-#results .result {
+main.explorer #results .filter {
   background-color: #eee;
-  position: relative; }
-  #results .result.special {
-    background-color: #ddd; }
-#results .result-tab {
+}
+main.explorer #results .filter input,
+main.explorer #results .filter label {
+  cursor: pointer;
+}
+main.explorer #results .result {
+  background-color: #eee;
+  position: relative;
+}
+main.explorer #results .result.special {
+  background-color: #ddd;
+}
+main.explorer #results .result-tab {
   position: absolute;
   right: 0;
   top: -1px;
   padding: 4px;
-  background-color: #fff; }
+  background-color: #fff;
+}
+main.explorer .js #results #update-filter-button {
+  display: none;
+}
+main.explorer .no-js #results #update-filter-button {
+  display: block;
+}
 
-.js #results #update-filter-button {
-  display: none; }
-
-.no-js #results #update-filter-button {
-  display: block; }
-
-#time_periods div.card-container {
-  padding-bottom: 24px; }
-#time_periods div.card {
+main.explorer #time_periods div.card-container {
+  padding-bottom: 24px;
+}
+main.explorer #time_periods div.card {
   border: 0;
-  text-decoration: none; }
-  #time_periods div.card .content-card {
-    text-decoration: none; }
-  #time_periods div.card .entry-image {
-    height: 200px;
-    background-position: center;
-    position: relative; }
-  #time_periods div.card .content-type {
-    background-color: #eee;
-    color: #000;
-    text-decoration: none;
-    width: 100px;
-    text-align: center;
-    position: absolute;
-    right: 0; }
+  text-decoration: none;
+}
+main.explorer #time_periods div.card .content-card {
+  text-decoration: none;
+}
+main.explorer #time_periods div.card .entry-image {
+  height: 200px;
+  background-position: center;
+  position: relative;
+}
+main.explorer #time_periods div.card .content-type {
+  background-color: #eee;
+  color: #000;
+  text-decoration: none;
+  width: 100px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+}
 
 /*# sourceMappingURL=styles.css.map */

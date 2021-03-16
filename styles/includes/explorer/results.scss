@@ -1,40 +1,46 @@
-#results {
-  .filter {
-    background-color: #eee;
-    input,
-    label {
-      cursor: pointer;
-    }
-  }
-
-  .result {
-    background-color: #eee;
-    &.special {
-      background-color: #ddd;
-    }
-    position: relative;
-  }
-  .result-tab {
-    position: absolute;
-    right: 0;
-    top: -1px;
-    padding: 4px;
-    background-color: #fff;
-  }
-}
-
-.js {
+main.explorer {
   #results {
-    #update-filter-button {
-      display: none;
+    .filter {
+      background-color: #eee;
+
+      input,
+      label {
+        cursor: pointer;
+      }
+    }
+
+    .result {
+      background-color: #eee;
+
+      &.special {
+        background-color: #ddd;
+      }
+
+      position: relative;
+    }
+
+    .result-tab {
+      position: absolute;
+      right: 0;
+      top: -1px;
+      padding: 4px;
+      background-color: #fff;
     }
   }
-}
 
-.no-js {
-  #results {
-    #update-filter-button {
-      display: block;
+  .js {
+    #results {
+      #update-filter-button {
+        display: none;
+      }
+    }
+  }
+
+  .no-js {
+    #results {
+      #update-filter-button {
+        display: block;
+      }
     }
   }
 }
