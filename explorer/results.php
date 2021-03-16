@@ -25,35 +25,12 @@ $records_amount = $_GET["records_amount"] ?? 56;
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
                 <li class="breadcrumb-item"><a href="/explorer/">Explore</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Results</li>
+                <li class="breadcrumb-item"><a href="/explorer/time-periods">Time periods</a></li>
+                <li class="breadcrumb-item"><a href="/explorer/time-periods/medieval.php">Medieval</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Magna Carta</li>
             </ol>
         </nav>
         <h1 class="sr-only">Results</h1>
-        <div class="bg-light text-center pt-4 pb-4">
-            <strong>Your filters</strong>
-            <form class="mt-2">
-
-                <div class="filter d-inline-block p-2">
-                    <label for="topic-checkbox"><?php echo $topic ?> <i class="bi bi-x-circle"></i></label>
-                    <input type="checkbox" name="topic" class="sr-only" id="topic-checkbox" checked />
-                </div>
-
-                <div class="filter d-inline-block p-2">
-                    <label for="time-period-checkbox"><?php echo $time_period ?> <i class="bi bi-x-circle"></i></label>
-                    <input type="checkbox" name="topic" class="sr-only" id="time-period-checkbox" checked />
-                </div>
-
-                <div class="mt-2">
-                    <hr class="w-25 text-center m-auto mb-2 mt-2" />
-
-                    <a href="#" class="text-dark text-decoration-none">
-                        <strong>See more filters</strong> <i class="bi bi-plus-circle-fill"></i></a>
-                </div>
-
-                <input type="submit" id="update-filter-button" value="Update filters" />
-
-            </form>
-        </div>
 
         <ul class="nav nav-tabs mt-4" id="myTab" role="tablist">
             <li class="nav-item">
@@ -72,7 +49,6 @@ $records_amount = $_GET["records_amount"] ?? 56;
                     <option>Sorted by collection highlights</option>
                 </select>
             </div>
-
 
             <div class="result special mb-4">
                 <div class="result-tab">Collection highlight</div>
