@@ -1,4 +1,5 @@
 <?php $title = "Collection explorer" ?>
+<?php $mobile_only = true ?>
 <?php require_once '../includes/head.php' ?>
 <main>
     <?php require_once '../includes/header-and-nav-bar.php' ?>

@@ -1,4 +1,5 @@
 <?php $title = "Magna Carta" ?>
+<?php $mobile_only = true ?>
 <?php require_once '../includes/head.php' ?>
 <?php require_once './functions.php' ?>
 

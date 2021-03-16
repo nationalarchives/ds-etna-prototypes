@@ -15,4 +15,9 @@
 </head>
 
 <body>
-      <?php require_once 'mobile-only-banner.php' ?>
+
+<?php
+if (isset($mobile_only) && $mobile_only == true) {
+    require_once 'mobile-only-banner.php';
+}
+?>

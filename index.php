@@ -1,3 +1,4 @@
+<?php $mobile_only = true ?>
 <?php require_once 'includes/head.php' ?>
 <main>
     <div class="container">
