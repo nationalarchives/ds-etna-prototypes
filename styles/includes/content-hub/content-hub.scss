@@ -1,0 +1,117 @@
+.content-hub {
+  figure {
+    &.grey {
+      border: 2px solid #eee;
+      background-color: #eee;
+      figcaption {
+        background-color: #eee;
+      }
+    }
+
+    &.black {
+      border: 2px solid #26262a;
+      background-color: #26262a;
+
+      figcaption {
+        color: #fff;
+        a {
+          color: #fff;
+        }
+        background-color: #26262a;
+      }
+    }
+
+    figcaption {
+      font-size: 0.7em;
+      padding: 7px;
+    }
+  }
+
+  span {
+    &.caption-title {
+      font-weight: bold;
+      font-size: 0.9em;
+    }
+    &.caption-description {
+      display: block;
+      &.podcast-list {
+        font-size: 0.7em;
+      }
+    }
+  }
+
+  .tna-blockquote {
+    padding: 1.6em 2.4em;
+    margin-bottom: 1.6em;
+    background-color: #eee;
+    width: 100%;
+  }
+  .tna-blockquote p {
+    margin-bottom: 0;
+  }
+  .tna-blockquote p {
+    margin-bottom: 0;
+  }
+  .tna-blockquote__cite {
+    display: block;
+    font-size: 0.9em;
+    text-align: right;
+    margin: 0.6em 0;
+  }
+  .tna-blockquote--emphasis {
+    background-color: #f9f7e2;
+  }
+  .tna-blockquote--alert {
+    background-color: #fbe2bc;
+  }
+  .tna-blockquote--success {
+    background-color: #dde5d5;
+  }
+  .tna-blockquote--outdent {
+    margin: 0 0 1.6em -2.4em;
+  }
+  @media (max-width: 992px) {
+    .tna-blockquote--outdent {
+      margin: 0 0 1.6em 0;
+    }
+  }
+  @media (max-width: 992px) {
+    .tna-blockquote {
+      padding: 1.6em;
+    }
+  }
+
+  .smaller-h3 {
+    font-size: 1.2em;
+  }
+
+  .media-group {
+    background-color: #eee;
+    h3,
+    h4 {
+      font-size: 1.2em;
+      padding: 14px;
+    }
+    h5 {
+      font-size: 1.1em;
+    }
+  }
+  .search-container {
+    background-color: #eee;
+    h3 {
+      font-size: 1.2em;
+      padding: 14px;
+      padding-bottom: 4px;
+    }
+    form {
+      padding: 14px;
+      input[type="search"] {
+        border: 2px solid #26262a;
+      }
+      label {
+        font-weight: bold;
+        font-size: 0.9em;
+      }
+    }
+  }
+}
