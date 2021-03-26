@@ -97,7 +97,7 @@ Class, heading for a new life in the United States.</span>") ?>
                 </div>
             </div>
             <div id="eyewitnesses-victims-survivors">
-                <h3 class="smaller-h3">Eyewitnesses, victims and survivors</h3>
+                <h3 class="smaller-h3 mt-4 mb-4">Eyewitnesses, victims and survivors</h3>
                 <?php render_image_card("jack-phillips.png", "#", "Jack Philips, Marconi wireless operator on RMS Titanic, 1912. Catalogue reference: COPY 1/565") ?>
                 <blockquote class="tna-blockquote">
                     <p>“Phillips slipped down, and though we
@@ -177,9 +177,11 @@ COPY 1/566 - <a href='#'>view in image library</a></span>") ?>
                 <div class="mt-4 mb-4 related-content">
                     <h2 class="mt-4 mb-4 pt-4 text-center">Related content</h2>
                     <div class="related-card">
-                        <h3 class="smaller-h3 text-center">Try our online lesson on Titanic</h3>
+                        <div class="text-center">
+                            <h3 class="smaller-h3">Try our online lesson on Titanic</h3>
 
-                        <img src="/content-hub/images/related-content-1.png" class="img-fluid" />
+                            <img src="/content-hub/images/related-content-1.png" class="img-fluid" />
+                        </div>
                         <div class="related-card-text p-2">
                             <p class="text-left"><span class="fw-bold">Life aboard the Titanic</span><br />
                                 Who travelled on the fateful maiden voyage?<br />
@@ -192,26 +194,35 @@ COPY 1/566 - <a href='#'>view in image library</a></span>") ?>
 
 
                     <div class="related-card">
-                        <h3 class="smaller-h3 text-center">Read our recommended book on Titanic</h3>
+                        <div class="text-center">
+                            <h3 class="smaller-h3">Read our recommended book on Titanic</h3>
 
-                        <img src="/content-hub/images/titanic-lives.png" class="img-fluid" />
-                        <p><span class="fw-bold">Titanic Lives</span><br />
-                            A fresh investigation of the lives of those on board.<br />
-                        </p>
+                            <img src="/content-hub/images/titanic-lives.png" class="img-fluid" />
+                        </div>
+                        <div class="related-card-text p-2">
+                            <p><span class="fw-bold">Titanic Lives</span><br />
+                                A fresh investigation of the lives of those on board.<br />
+                            </p>
+                        </div>
+
                         <div class="d-flex flex-row-reverse">
                             <a href="#">Search for more books on Titanic</a>
                         </div>
                     </div>
 
                     <div class="related-card">
-                        <h3 class="smaller-h3 text-center">Explore the archive for records on Titanic</h3>
+                        <div class="text-center">
+                            <h3 class="smaller-h3">Explore the archive for records on Titanic</h3>
 
-                        <img src="/content-hub/images/collection-explorer-related-content.png" class="img-fluid" />
-                        <p class="text-left"><span class="fw-bold">Collection Explorer</span><br />
-                            A tool to help you find records in the catalogue.<br />
-                        </p>
+                            <img src="/content-hub/images/collection-explorer-related-content.png" class="img-fluid" />
+                        </div>
+                        <div class="related-card-text p-2">
+                            <p class="text-left"><span class="fw-bold">Collection Explorer</span><br />
+                                A tool to help you find records in the catalogue.<br />
+                            </p>
+                        </div>
                         <div class="d-flex flex-row-reverse">
-                            <a href="#">Search for more books on Titanic</a>
+                            <a href="#">Search our research guides</a>
                         </div>
                     </div>
                 </div>
