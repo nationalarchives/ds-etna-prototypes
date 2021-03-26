@@ -22,7 +22,7 @@
     }
 
     figcaption {
-      font-size: 0.7em;
+      font-size: 14px;
       padding: 7px;
     }
   }
@@ -30,12 +30,12 @@
   span {
     &.caption-title {
       font-weight: bold;
-      font-size: 0.9em;
+      font-size: 16px;
     }
     &.caption-description {
       display: block;
       &.podcast-list {
-        font-size: 0.7em;
+        font-size: 16px;
       }
     }
   }
@@ -82,18 +82,22 @@
   }
 
   .smaller-h3 {
-    font-size: 1.2em;
+    font-size: 20px;
   }
 
   .media-group {
     background-color: #eee;
     h3,
     h4 {
-      font-size: 1.2em;
       padding: 14px;
     }
+
+    h4 {
+      font-size: 18px;
+    }
+
     h5 {
-      font-size: 1.1em;
+      font-size: 16px;
     }
   }
   .search-container {
@@ -111,6 +115,39 @@
       label {
         font-weight: bold;
         font-size: 0.9em;
+      }
+    }
+  }
+  .follow-us a {
+    display: inline-block;
+    margin: 0 0.2em 0.3em 0;
+  }
+  .follow-us a:hover {
+    background: none;
+    outline: none;
+  }
+  .follow-us a img {
+    background-color: #26262a;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 7px;
+    width: 40px;
+    transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+  }
+  footer .follow-us a img:hover {
+    background: #555;
+  }
+
+  .related-content {
+    .related-card {
+      background-color: #000;
+      margin-bottom: 24px;
+      padding: 7px;
+      color: #fff;
+      a {
+        color: #fff;
       }
     }
   }
