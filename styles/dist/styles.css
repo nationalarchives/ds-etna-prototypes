@@ -104,4 +104,123 @@ main.explorer #time_periods div.card .content-type {
   right: 0;
 }
 
+.details a {
+  color: #222;
+}
+.details h2 {
+  font-size: 1.85rem;
+}
+.details h3 {
+  font-size: 1.4rem;
+}
+.details .section {
+  padding: 3em 0;
+  margin-bottom: 4.5em;
+}
+.details .section-border-top {
+  border-top: 3px solid #ccc;
+}
+.details .bg-light-grey {
+  background-color: #eeeeee;
+}
+.details .bg-dark-grey {
+  background-color: #333;
+  color: #fff;
+  border-bottom: 0;
+}
+.details .highlight {
+  padding: 1.5em;
+  margin: 1.5em 0 3em 0;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.details .highlight h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0.75em;
+}
+.details .summary {
+  color: #111;
+  text-align: center;
+  padding: 3em 0;
+  margin-bottom: 3em;
+  background-color: #eeeeee;
+}
+.details .summary ul {
+  display: inline-block;
+  margin-top: 1.25em;
+}
+.details .summary ul li {
+  display: inline-block;
+  margin-right: 1.5em;
+  padding: 0.75em 1.25em;
+  background: #333;
+}
+.details .summary ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.details .summary ul li a:hover {
+  text-decoration: underline;
+}
+.details .image-viewer {
+  padding-top: 30%;
+  text-align: center;
+  width: 90%;
+  height: 550px;
+  position: relative;
+  background-color: #000;
+}
+.details .image-viewer h3 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.details table {
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+.details table td {
+  padding: 0.75em;
+  background-color: #fff;
+  border: 1px dotted #ccc;
+  vertical-align: top;
+}
+.details .card {
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+.details .key-info {
+  list-style-type: none;
+  margin: 0 0;
+  padding-left: 0;
+  text-align: center;
+}
+.details .key-info a {
+  text-decoration: underline;
+  color: #fff;
+}
+.details .key-info li {
+  padding: 1em 0 1em;
+  border-bottom: 1px solid #666;
+}
+.details .key-info li:last-child {
+  border-bottom: 0;
+}
+.details .key-info span {
+  display: block;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.details .key-info span:first-letter {
+  text-transform: capitalize;
+}
+.details .hierarchy {
+  padding-left: 0;
+}
+.details .hierarchy li {
+  padding: 1em;
+  list-style-type: none;
+  border-bottom: 1px solid #999;
+}
+
 /*# sourceMappingURL=styles.css.map */

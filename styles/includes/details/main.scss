@@ -1,0 +1,144 @@
+.details {
+
+  a {
+      color: #222;
+  }
+  h2 {
+    font-size: 1.85rem;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+  .section {
+    padding: 3em 0;
+    margin-bottom: 4.5em;
+  }
+  .section-border-top {
+    border-top: 3px solid #ccc;
+  }
+  .bg-light-grey {
+    background-color: #eeeeee;
+  }
+  .bg-dark-grey {
+    background-color: #333;
+    color: #fff;
+    border-bottom: 0;
+  }
+  .highlight  {
+    padding: 1.5em;
+    margin: 1.5em 0 3em 0;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.1);
+
+      h2 {
+        font-size: 1.75rem;
+        margin-bottom: 0.75em;
+      }
+  }
+  .summary {
+    color: #111;
+    text-align: center;
+    padding: 3em 0;
+    margin-bottom: 3em;
+    background-color: #eeeeee;
+
+
+      ul {
+        display: inline-block;
+        margin-top: 1.25em;
+
+
+          li {
+            display: inline-block;
+            margin-right: 1.5em;
+            padding: 0.75em 1.25em;
+            background: #333;
+
+
+              a {
+                text-decoration: none;
+                color: #fff;
+              }
+
+              a:hover {
+                text-decoration: underline;
+              }
+          }
+      }
+
+  }
+  .image-viewer {
+    padding-top: 30%;
+    text-align: center;
+    width: 90%;
+    height: 550px;
+    position: relative;
+    background-color: #000;
+
+      h3 {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+  }
+
+  table {
+
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.1);
+
+    td {
+      padding: 0.75em;
+      background-color: #fff;
+      border: 1px dotted #ccc;
+      vertical-align: top;
+    }
+
+  }
+
+  .card {
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.1);
+  }
+
+  .key-info {
+
+    list-style-type: none;
+    margin: 0 0;
+    padding-left: 0;
+    text-align: center;
+
+    a {
+      text-decoration: underline;
+      color: #fff;
+    }
+
+      li {
+        padding: 1em 0 1em;
+        border-bottom: 1px solid #666;
+      }
+
+      li:last-child {
+        border-bottom: 0;
+      }
+
+      span {
+        display: block;
+        font-size: 1.1em;
+        font-weight: bold;
+      }
+      span:first-letter {
+        text-transform: capitalize;
+      }
+  }
+  .hierarchy {
+      padding-left: 0;
+
+
+      li {
+        padding: 1em;
+        list-style-type: none;
+        border-bottom: 1px solid #999;
+      }
+  }
+}
