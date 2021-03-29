@@ -55,7 +55,7 @@
             <!-- This needs design thinking from the FE team. It most likely won't be a "carousel" -->
             <div class="media-group text-center">
                 <h3 class="smaller-h3">The Olympic Class liners: "Belles of Belfast"</h3>
-                <?php render_media_card("item-podcast.png", "#", "bi bi-play-circle-fill", "<span class='caption-title'>Podcast: “The Belles of Belfast” (47 minutes)</span> <span class='caption-description'>A whistle-stop chronology of the Olympic Class, from 
+                <?php render_media_card("item-podcast.png", "#", "bi bi-play-circle-fill", "<span class='caption-title'><a href='#'>Podcast: “The Belles of Belfast”</a> (47 minutes)</span> <span class='caption-description'>A whistle-stop chronology of the Olympic Class, from 
 conception and construction to disaster and discovery.</span>") ?>
                 <?php render_media_card("lower-deck.png", "#", "bi bi-image-fill", "<span class='caption-title'>Lower deck, 1911</span> <span class='caption-description'>Blueprints of deck plans for Olympic and Titanic
 MT 15/504 pt 1 (8) - <a href='#'>view in image library</a></span>") ?>
@@ -77,9 +77,9 @@ MT 15/504 pt 1 (1) <a href='#'>view in image library</a></span>") ?>
 
             <div class="media-group text-center">
                 <h3 class="smaller-h3">The gulf between first class and third class</h3>
-                <?php render_media_card("first-class-suite.png", "#", "bi bi-image-fill", "<span class='caption-title'>First class suite bedroom ‘B58’ on Titanic</span> <span class='caption-description'>Ulster Folk and Transport Museum</span>") ?>
-                <?php render_media_card("third-class-suite.png", "#", "bi bi-image-fill", "<span class='caption-title'>Third class berth on Titanic</span> <span class='caption-description'>Ulster Folk and Transport Museum</span>") ?>
-                <?php render_media_card("podcast-titanic-emigrant-ship.png", "#", "bi-play-circle-fill", "<span class='caption-title'>Podcast: “Titanic: emigrant ship” (25 minutes)</span> <span class='caption-description'>This talk focuses on those travelling below decks in Third 
+                <?php render_media_card("first-class-suite.png", "#", "bi bi-image-fill", "<span class='caption-title'><a href='#'>First class suite bedroom ‘B58’ on Titanic</a></span> <span class='caption-description'>Ulster Folk and Transport Museum</span>") ?>
+                <?php render_media_card("third-class-suite.png", "#", "bi bi-image-fill", "<span class='caption-title'><a href='#'>Third class berth on Titanic</a></span> <span class='caption-description'>Ulster Folk and Transport Museum</span>") ?>
+                <?php render_media_card("podcast-titanic-emigrant-ship.png", "#", "bi-play-circle-fill", "<span class='caption-title'><a href='#'>Podcast: “Titanic: emigrant ship”</a> (25 minutes)</span> <span class='caption-description'>This talk focuses on those travelling below decks in Third 
 Class, heading for a new life in the United States.</span>") ?>
             </div>
 
@@ -93,12 +93,12 @@ Class, heading for a new life in the United States.</span>") ?>
                     </div>
                 </form>
                 <div class="text-center">
-                    <?php render_media_card("IIIF.png", "#", "bi bi-search", "<span class='caption-title'>IIIF viewer: Titanic passenger and crew lists</span>") ?>
+                    <?php render_media_card("IIIF.png", "#", "bi bi-search", "<span class='caption-title'><a href='#'>IIIF viewer: Titanic passenger and crew lists</a></span>") ?>
                 </div>
             </div>
             <div id="eyewitnesses-victims-survivors">
                 <h3 class="smaller-h3 mt-4 mb-4">Eyewitnesses, victims and survivors</h3>
-                <?php render_image_card("jack-phillips.png", "#", "Jack Philips, Marconi wireless operator on RMS Titanic, 1912. Catalogue reference: COPY 1/565") ?>
+                <?php render_image_card("jack-phillips.png", "#", "Jack Philips, Marconi wireless operator on RMS Titanic, 1912. Catalogue reference: COPY 1/565", "pt-2") ?>
                 <blockquote class="tna-blockquote">
                     <p>“Phillips slipped down, and though we
                         held his head up, he never recovered.”</p>
@@ -108,9 +108,9 @@ Class, heading for a new life in the United States.</span>") ?>
                 <div class="media-group pb-2">
                     <div class="text-center">
                         <h4>Crew, passengers and rescuers' stories</h4>
-                        <?php render_media_card("thomas-andrews.png", "#", "bi bi-image-fill", "<span class='caption-title'>Thomas Andrews</span> <span class='caption-description'>First class passenger and designer of Titanic</span>") ?>
-                        <?php render_media_card("robert-hitchins.png", "#", "bi bi-image-fill", "<span class='caption-title'>Robert Hitchins</span> <span class='caption-description'>Quartermaster, Titanaic crew</span>") ?>
-                        <?php render_media_card("the-dean-family.png", "#", "bi-image-fill", "<span class='caption-title'>The Dean family</span> <span class='caption-description'>Third class passengers</span>") ?>
+                        <?php render_media_card("thomas-andrews.png", "/content-hub/thomas-andrews.php", "bi bi-file-earmark-richtext-fill", "<span class='caption-title'><a href='/content-hub/thomas-andrews.php'>Thomas Andrews</a></span> <span class='caption-description'>First class passenger and designer of Titanic</span>") ?>
+                        <?php render_media_card("robert-hitchins.png", "#", "bi bi-file-earmark-richtext-fill", "<span class='caption-title'><a href='#'>Robert Hitchins</a></span> <span class='caption-description'>Quartermaster, Titanaic crew</span>") ?>
+                        <?php render_media_card("the-dean-family.png", "#", "bi bi-file-earmark-richtext-fill", "<span class='caption-title'><a href='#'>The Dean family</a></span> <span class='caption-description'>Third class passengers</span>") ?>
                     </div>
                     <div class="px-4">
                         <h5 class="mb-2">Titanic stories from our podcasts</h5>
@@ -135,17 +135,19 @@ Class, heading for a new life in the United States.</span>") ?>
                 <p>Safety regulations had not caught up with these new massive liners and were rapidly changed. A new regulation of 1913 required all vessels to carry enough lifeboats for every passenger. An iceberg patrol was set up by the US Coastguard.</p>
 
                 <div class="media-group text-center">
-                    <?php render_media_card("death-certificates-1.png", "#", "bi bi-search", "<span class='caption-title'>IIIF viewer: List of first class passenger deaths</span><span class='caption-description'>Catalogue reference: <a href='#'>BT 100/260</a></span>") ?>
-                    <?php render_media_card("death-certificates-2.png", "#", "bi bi-search", "<span class='caption-title'>IIIF viewer: List of third class passenger deaths</span><span class='caption-description'>Catalogue reference: <a href='#'>BT 100/260</a></span>") ?>
+                    <?php render_media_card("death-certificates-1.png", "#", "bi bi-search", "<span class='caption-title'><a href='#'>IIIF viewer: List of first class passenger deaths</a></span><span class='caption-description'>Catalogue reference: <a href='#'>BT 100/260</a></span>") ?>
+                    <?php render_media_card("death-certificates-2.png", "#", "bi bi-search", "<span class='caption-title'><a href='#'>IIIF viewer: List of third class passenger deaths</a></span><span class='caption-description'>Catalogue reference: <a href='#'>BT 100/260</a></span>") ?>
 
                 </div>
 
                 <div class="media-group text-center pb-2">
                     <h3>Titanic timeline</h3>
-                    <?php render_media_card("timeline-1.png", "#", "bi bi-search", "<span class='caption-title'>Carpathia picks up survivors from the lifeboats</span><span class='caption-description'>MS Titanic collapsible lifeboat D approaches rescue 
+                    <?php render_media_card("timeline-1.png", "#", "bi bi-image-fill", "<span class='caption-title'>Carpathia picks up survivors from the lifeboats</span><span class='caption-description'>MS Titanic collapsible lifeboat D approaches rescue 
 ship Carpathia, COPY 1/566 - <a href='#'>view in image library</a></span>") ?>
-                    <?php render_media_card("timeline-2.png", "#", "bi bi-search", "<span class='caption-title'>Carpathia arrives in New York with 705 survivors</span><span class='caption-description'>RMS Carpathia c1912<br/>
+                    <?php render_media_card("timeline-2.png", "#", "bi bi-image-fill", "<span class='caption-title'>Carpathia arrives in New York with 705 survivors</span><span class='caption-description'>RMS Carpathia c1912<br/>
 COPY 1/566 - <a href='#'>view in image library</a></span>") ?>
+                    <?php render_media_card("timeline-3.png", "#", "bi bi-image-fill", "<span class='caption-title'>US enquiry into the disaster</span><span class='caption-description'>Official enquiry by the US Senate<br/>
+ <a href='#'>Library of Congress / Science Photo Library</a></span>") ?>
                     <hr />
                     <p>04.10, 15 April 1912</p>
                 </div>
@@ -169,35 +171,39 @@ COPY 1/566 - <a href='#'>view in image library</a></span>") ?>
                 </div>
 
                 <div class="text-center mt-4 mb-4">
-                    <h2 class="mt-4 mb-4">Metadata</h2>
+                    <h2 class="mt-4 mb-4 sr-only">Metadata</h2>
                     <p>Categories: <a href="#">Category 1</a>, <a href="#">Category 2</a></p>
                     <p>Tags: <a href="#">Tag 1</a>, <a href="#">Tag 2</a></p>
                 </div>
 
                 <div class="mt-4 mb-4 related-content">
-                    <h2 class="mt-4 mb-4 pt-4 text-center">Related content</h2>
+                    <h2 class="mt-4 mb-4 pt-4 text-center sr-only">Related Content</h2>
                     <div class="related-card">
                         <div class="text-center">
-                            <h3 class="smaller-h3">Try our online lesson on Titanic</h3>
+                            <h3 class="smaller-h3"><a href="#">Try our online lesson on Titanic</a></h3>
 
-                            <img src="/content-hub/images/related-content-1.png" class="img-fluid" />
+                            <a href="#"><img src="/content-hub/images/related-content-1.png" class="img-fluid" /></a>
                         </div>
                         <div class="related-card-text p-2">
                             <p class="text-left"><span class="fw-bold">Life aboard the Titanic</span><br />
                                 Who travelled on the fateful maiden voyage?<br />
                             </p>
-                            <div class="d-flex flex-row-reverse">
-                                <a class="text-right" href="#">Search teaching resources and lesson plans</a>
-                            </div>
+                        </div>
+                    </div>
+
+                    <div class="related-card">
+                        <div class="text-center">
+                            <h3 class="smaller-h3"><a href="#">Search teaching resources and lesson plans</a></h3>
+
                         </div>
                     </div>
 
 
                     <div class="related-card">
                         <div class="text-center">
-                            <h3 class="smaller-h3">Read our recommended book on Titanic</h3>
+                            <h3 class="smaller-h3"><a href="#">Read our recommended book on Titanic</a></h3>
 
-                            <img src="/content-hub/images/titanic-lives.png" class="img-fluid" />
+                            <a href="#"><img src="/content-hub/images/titanic-lives.png" class="img-fluid" /></a>
                         </div>
                         <div class="related-card-text p-2">
                             <p><span class="fw-bold">Titanic Lives</span><br />
@@ -205,24 +211,34 @@ COPY 1/566 - <a href='#'>view in image library</a></span>") ?>
                             </p>
                         </div>
 
-                        <div class="d-flex flex-row-reverse">
-                            <a href="#">Search for more books on Titanic</a>
+
+                    </div>
+
+
+                    <div class="related-card">
+                        <div class="text-center">
+                            <h3 class="smaller-h3"><a href="#">Search for more books on Titanic</a></h3>
+
                         </div>
                     </div>
 
                     <div class="related-card">
                         <div class="text-center">
-                            <h3 class="smaller-h3">Explore the archive for records on Titanic</h3>
+                            <h3 class="smaller-h3"><a href="#">Explore the archive for records on Titanic</a></h3>
 
-                            <img src="/content-hub/images/collection-explorer-related-content.png" class="img-fluid" />
+                            <a href="#"><img src="/content-hub/images/collection-explorer-related-content.png" class="img-fluid" /></a>
                         </div>
                         <div class="related-card-text p-2">
                             <p class="text-left"><span class="fw-bold">Collection Explorer</span><br />
                                 A tool to help you find records in the catalogue.<br />
                             </p>
                         </div>
-                        <div class="d-flex flex-row-reverse">
-                            <a href="#">Search our research guides</a>
+                    </div>
+
+                    <div class="related-card">
+                        <div class="text-center">
+                            <h3 class="smaller-h3"><a href="#">Search our research guides</a></h3>
+
                         </div>
                     </div>
                 </div>

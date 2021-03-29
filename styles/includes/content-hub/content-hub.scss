@@ -142,7 +142,7 @@
 
   .related-content {
     .related-card {
-      background-color: #000;
+      background-color: #26262a;
       margin-bottom: 24px;
       padding: 7px;
       color: #fff;
@@ -150,5 +150,30 @@
         color: #fff;
       }
     }
+  }
+
+  #story-intro {
+    background-color: #26262a;
+    color: #fff;
+    padding: 7px;
+
+    .smaller-h1 {
+      display: block;
+      font-size: 14px;
+    }
+
+    img {
+      border: 2px solid #fff;
+    }
+  }
+
+  #story-navigation {
+    background-color: #26262a;
+    color: #fff;
+    a {
+      color: #fff;
+    }
+    padding: 14px;
+    padding-right: 50px;
   }
 }

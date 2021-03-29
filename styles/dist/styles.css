@@ -177,11 +177,27 @@ main.explorer #time_periods div.card {
 .content-hub footer .follow-us a img:hover {
   background: #555; }
 .content-hub .related-content .related-card {
-  background-color: #000;
+  background-color: #26262a;
   margin-bottom: 24px;
   padding: 7px;
   color: #fff; }
   .content-hub .related-content .related-card a {
+    color: #fff; }
+.content-hub #story-intro {
+  background-color: #26262a;
+  color: #fff;
+  padding: 7px; }
+  .content-hub #story-intro .smaller-h1 {
+    display: block;
+    font-size: 14px; }
+  .content-hub #story-intro img {
+    border: 2px solid #fff; }
+.content-hub #story-navigation {
+  background-color: #26262a;
+  color: #fff;
+  padding: 14px;
+  padding-right: 50px; }
+  .content-hub #story-navigation a {
     color: #fff; }
 
 /*# sourceMappingURL=styles.css.map */

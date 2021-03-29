@@ -1,9 +1,9 @@
 <?php
 
-function render_image_card($img, $url, $caption)
+function render_image_card($img, $url, $caption, $padding = null)
 {
     echo <<<HTML
-        <figure class="black">
+        <figure class="black $padding">
             <div class="text-center">
             <a href="$url">
                 <img src="/content-hub/images/$img" alt="" class="img-fluid">
