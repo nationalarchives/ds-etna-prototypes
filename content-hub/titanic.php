@@ -68,7 +68,7 @@ MT 15/504 pt 1 (1) <a href='#'>view in image library</a></span>") ?>
             <?php render_image_card("captain-smith-from-an-image-published-in-the-sphere-27th-april-1912.jpg", "#", "Captain Smith from an image published in The Sphere, 27 April 1912") ?>
             <blockquote class="tna-blockquote">
                 <p>We see Titanic as a luxury liner. Yet, technically, she was an ‘Emigrant Ship’.</p>
-                <cite class="sr-only">Captain Smith</cite>
+                <!-- <cite class="sr-only"> (The above is content written by TNA)</cite> -->
             </blockquote>
             <p>It certainly was, for some, a glamorous time. Great wealth, which some passengers in the First Class accommodation on the liner did indeed possess, could buy leisure and luxury in new and different ways, of which trans-Atlantic travel was just one.</p>
             <p>Not all the people of Europe, nor all the passengers on the Titanic, shared in this luxury. The fact that 11 million people were prepared to uproot themselves for an uncertain new life in America between 1901 and 1910 suggests that all was not well for many. They went to escape poverty, lack of political rights, religious persecution, nationalist bigotry, class prejudice.</p>
@@ -86,8 +86,8 @@ Class, heading for a new life in the United States.</span>") ?>
             <div class="search-container">
                 <h3>Search Titanic passenger and crew lists</h3>
                 <form action="#" method="POST" role="search" aria-label="A guided search of the records">
-                    <label>Search by name, occupation or place</label>
-                    <input type="search" class="w-100" />
+                    <label for="t-search">Search by name, occupation or place</label>
+                    <input type="search" id="t-search" class="w-100" />
                     <div class="d-flex flex-row-reverse">
                         <input type="submit" class="btn btn-dark m-1" value="Search">
                     </div>
@@ -182,7 +182,7 @@ COPY 1/566 - <a href='#'>view in image library</a></span>") ?>
                         <div class="text-center">
                             <h3 class="smaller-h3"><a href="#">Try our online lesson on Titanic</a></h3>
 
-                            <a href="#"><img src="/content-hub/images/related-content-1.png" class="img-fluid" /></a>
+                            <a href="#"><img src="/content-hub/images/related-content-1.png" class="img-fluid" alt="Try our online lesson on Titanic" /></a>
                         </div>
                         <div class="related-card-text p-2">
                             <p class="text-left"><span class="fw-bold">Life aboard the Titanic</span><br />
@@ -203,7 +203,7 @@ COPY 1/566 - <a href='#'>view in image library</a></span>") ?>
                         <div class="text-center">
                             <h3 class="smaller-h3"><a href="#">Read our recommended book on Titanic</a></h3>
 
-                            <a href="#"><img src="/content-hub/images/titanic-lives.png" class="img-fluid" /></a>
+                            <a href="#"><img src="/content-hub/images/titanic-lives.png" class="img-fluid" alt="Read our recommended book on Titanic" /></a>
                         </div>
                         <div class="related-card-text p-2">
                             <p><span class="fw-bold">Titanic Lives</span><br />
@@ -226,7 +226,7 @@ COPY 1/566 - <a href='#'>view in image library</a></span>") ?>
                         <div class="text-center">
                             <h3 class="smaller-h3"><a href="#">Explore the archive for records on Titanic</a></h3>
 
-                            <a href="#"><img src="/content-hub/images/collection-explorer-related-content.png" class="img-fluid" /></a>
+                            <a href="#"><img src="/content-hub/images/collection-explorer-related-content.png" class="img-fluid" alt="Explore the archive for records on Titanic" /></a>
                         </div>
                         <div class="related-card-text p-2">
                             <p class="text-left"><span class="fw-bold">Collection Explorer</span><br />
