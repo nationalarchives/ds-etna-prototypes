@@ -8,7 +8,7 @@
                 <ul>
                     <li><a href="/explorer">Explorer</a></li>
                     <li><a href="/content-hub">Content Hub</a></li>
-
+                    <li><a href="/details">Details</a></li>
                 </ul>
             </div>
         </div>
