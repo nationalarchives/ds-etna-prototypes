@@ -24,7 +24,6 @@ $records_amount = $_GET["records_amount"] ?? 56;
     <div class="container" id="results">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
                 <li class="breadcrumb-item"><a href="/explorer/">Explore</a></li>
                 <li class="breadcrumb-item"><a href="/explorer/time-periods">Time periods</a></li>
                 <li class="breadcrumb-item"><a href="/explorer/time-periods/medieval.php">Medieval</a></li>
@@ -56,7 +55,6 @@ $records_amount = $_GET["records_amount"] ?? 56;
                 <div class="p-4">
                     <h3>Magna Carta</h3>
                     <p>Duchy of Lancaster: Royal Charters. HENRY III. Magna Carta.</p>
-                    <p><strong>Date:</strong> 1225</p>
                     <p><strong>Reference:</strong> DL 10/71</p>
                 </div>
             </div>
@@ -65,7 +63,6 @@ $records_amount = $_GET["records_amount"] ?? 56;
                 <div class="p-4">
                     <h3>Magna Carta</h3>
                     <p>Public Record Office: Reproductions of Records, etc: Photographic Copies of Extraneous Documents. Magna Carta.</p>
-                    <p><strong>Date:</strong> 15 June 1215</p>
                     <p><strong>Reference:</strong> PRO 22/11</p>
                 </div>
             </div>
@@ -74,7 +71,6 @@ $records_amount = $_GET["records_amount"] ?? 56;
                 <div class="p-4">
                     <h3>Magna Carta. Dated at: Westminster</h3>
                     <p>Duchy of Lancaster: Royal Charters. EDWARD I. Magna Carta. Dated at: Westminster.</p>
-                    <p><strong>Date:</strong> 1297</p>
                     <p><strong>Reference:</strong> DL 10/197 </p>
                 </div>
             </div>
