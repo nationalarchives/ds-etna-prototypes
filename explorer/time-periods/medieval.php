@@ -16,14 +16,6 @@
         </nav>
         <h1>Medieval period</h1>
         <p class="mt-4"><?php echo get_time_period_description("medieval"); ?></p>
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item">
-                <a class="nav-link active lead" id="highlights-tab" data-toggle="tab" href="#highlights" role="tab" aria-controls="highlights" aria-selected="false"><strong>Highlights</strong></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link lead" id="topics-tab" data-toggle="tab" href="#topics" role="tab" aria-controls="topics" aria-selected="true"><strong>Topics</strong></a>
-            </li>
-        </ul>
         <div class="mt-4">
             <h2 id="#topics" class="mb-2">Magna Carta</h2>
             <a href="/explorer/results.php?time_period=medieval&topic=magna-carta"><img src="https://via.placeholder.com/520x300" class="img-fluid" /></a>
