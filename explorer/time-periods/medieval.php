@@ -17,7 +17,7 @@
         <h1>Medieval period</h1>
         <p class="mt-4"><?php echo get_time_period_description("medieval"); ?></p>
         <div class="mt-4">
-            <h2 id="#topics" class="mb-2">Magna Carta</h2>
+            <h2 id="#topics" class="mb-2"><a href="/explorer/results.php?time_period=medieval&topic=magna-carta">Magna Carta</a></h2>
             <a href="/explorer/results.php?time_period=medieval&topic=magna-carta"><img src="https://via.placeholder.com/520x300" class="img-fluid" /></a>
             <p class="mt-2"><?php echo get_topic_description("magna-carta") ?>
         </div>
