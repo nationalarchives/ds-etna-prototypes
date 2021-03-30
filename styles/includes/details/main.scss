@@ -106,16 +106,17 @@
     list-style-type: none;
     margin: 0 0;
     padding-left: 0;
-    text-align: center;
+    text-align: left;
+    color: #222;
 
     a {
       text-decoration: underline;
-      color: #fff;
+      color: #222;
     }
 
       li {
-        padding: 1em 0 1em;
-        border-bottom: 1px solid #666;
+        padding: 0.4em 0 0.4em;
+        border-bottom: 1px solid #ccc;
       }
 
       li:last-child {
@@ -123,7 +124,6 @@
       }
 
       span {
-        display: block;
         font-size: 1.1em;
         font-weight: bold;
       }
@@ -140,5 +140,8 @@
         list-style-type: none;
         border-bottom: 1px solid #999;
       }
+  }
+  .taxonomy {
+    
   }
 }

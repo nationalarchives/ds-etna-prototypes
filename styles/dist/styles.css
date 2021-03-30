@@ -193,21 +193,21 @@ main.explorer #time_periods div.card .content-type {
   list-style-type: none;
   margin: 0 0;
   padding-left: 0;
-  text-align: center;
+  text-align: left;
+  color: #222;
 }
 .details .key-info a {
   text-decoration: underline;
-  color: #fff;
+  color: #222;
 }
 .details .key-info li {
-  padding: 1em 0 1em;
-  border-bottom: 1px solid #666;
+  padding: 0.4em 0 0.4em;
+  border-bottom: 1px solid #ccc;
 }
 .details .key-info li:last-child {
   border-bottom: 0;
 }
 .details .key-info span {
-  display: block;
   font-size: 1.1em;
   font-weight: bold;
 }

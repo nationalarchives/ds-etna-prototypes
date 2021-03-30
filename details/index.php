@@ -11,22 +11,24 @@
         <div class="container highlight">
             <div class="row">
                 <div class="col-lg-8">
-                    <h2>What is a record?</h2>
-                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus luctus urna et volutpat. In id nunc vitae urna sodales vulputate. Fusce nec pulvinar nulla. Nam vel lectus leo. In a sollicitudin libero.</p>
-                </div>
-                <div class="col-lg-4">
-                    <h2>On this page</h2>
-                    <ul>
-                        <li><a href="">The record description</a></li>
-                        <li><a href="">Stories about this record</a></li>
-                        <li><a href="">Possible links to other records</a></li>
-                    </ul>
+                    <h3>Area to help introduce the details page</h3>
+                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. </p>
                 </div><!-- /col -->
+                <div class="col-lg-4">
+                    <h3>Key information</h3>
+                    <ul class="key-info">
+                        <li>This record is <span>not available to download</span></li>
+                        <li>This record description is <span>good</span></li>
+                        <li>It is held by <span><a href="">The National Archives, UK</a></span></li>
+                        <li>It was created by <span><a href="">Department for Transport</a></span></li>
+                </div>
+
             </div>
         </div><!-- /container -->
-
+        <h2>Information about the record</h2>
+        <p>Descriptive sentence to help re-inforce that this is about the record itself</p>
     </div><!-- /container -->
-    <div class="section section-border-top bg-dark-grey pt-0">
+    <div class="section section-border-top pt-0">
 
         <!-- The 'RECORD' section -->
         <div class="summary">
@@ -43,21 +45,6 @@
                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3 class="text-center sr-only">Key information</h3>
-                    <ul class="key-info">
-                        <li>This record is <span>not digitised</span></li>
-                        <li>This catalogue description is <span>good</span></li>
-                        <li>It has the following characteristics <span>large format, map</span></li>
-                        <li>It is held by <span><a href="">The National Archives, UK</a></span></li>
-                        <li>It was created by <span><a href="">Department for Transport</a></span></li>
-                    </ul>
-                </div><!-- /col -->
-            </div><!-- /row -->
-        </div><!-- /container -->
-    </div>
     </div>
     <div class="container">
         <!-- The 'CATALOGUE DESCRIPTION' section -->
@@ -132,7 +119,7 @@
                     <a href="">Why is archive hierarchy important?</a>
                     <br><br>
                     <p>You are in:</p>
-                    <p><b>The National Archives' records catalogue</b></p>
+                    <p>The National Archives' records catalogue</p>
                     <ul class="tna-ul--no-bullet hierarchy">
 
                         <li><a href="/journey/record/C">Records department C - Chancery, the Wardrobe, Royal Household, Exchequer and various commissions</a>
@@ -143,6 +130,20 @@
 
 
                         <li><a href="/journey/record/C/5">C 5 - Court of Chancery: Six Clerks Office: Pleadings before 1714, Bridges</a></li>
+
+                    </ul>
+
+                    <h3>What is this record about?</h3>
+                    <ul class="tna-ul--no-bullet taxonomy">
+
+                        <li><a href="">Subject 1</a></li>
+                        <li><a href="">Subject 2</a></li>
+                        <li><a href="">Subject 3</a></li>
+                        <li><a href="">Subject 4</a></li>
+                        <li><a href="">Subject 5</a></li>
+                        <li><a href="">Subject 6</a></li>
+                        <li><a href="">Subject 7</a></li>
+                        <li><a href="">Subject 8</a></li>
 
                     </ul>
                 </div><!-- /col -->
