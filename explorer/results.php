@@ -32,20 +32,14 @@ $records_amount = $_GET["records_amount"] ?? 56;
         </nav>
         <h1 class="sr-only">Results</h1>
 
-        <ul class="nav nav-tabs mt-4" id="myTab" role="tablist">
-            <li class="nav-item">
-                <a class="nav-link active lead" id="records-tab" data-toggle="tab" href="#records" role="tab" aria-controls="records" aria-selected="true"><strong><?php echo $records_amount ?> records</strong></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link lead" id="interpretive-tab" data-toggle="tab" href="#interpretive" role="tab" aria-controls="interpretive" aria-selected="false"><strong>Interpretive content</strong></a>
-            </li>
-        </ul>
         <h2 class="sr-only">Records</h2>
 
         <div class="results">
 
             <div class="d-flex flex-row-reverse mt-4 mb-4">
                 <select class="p-1">
+                    <option selected>Sorted chronologically</option>
+
                     <option>Sorted by collection highlights</option>
                 </select>
             </div>
