@@ -376,11 +376,25 @@ main.explorer #time_periods div.card .content-type {
 }
 .details .hierarchy {
   padding-left: 0;
+  margin-bottom: 4em;
 }
 .details .hierarchy li {
   padding: 1em;
   list-style-type: none;
   border-bottom: 1px solid #999;
+}
+.details .taxonomy {
+  margin: 2em 0 3em;
+  padding: 0;
+}
+.details .taxonomy li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0.9em;
+  margin: 0.3em;
+  border: 1px solid #666;
+  min-width: 125px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

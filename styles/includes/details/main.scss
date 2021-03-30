@@ -133,6 +133,7 @@
   }
   .hierarchy {
       padding-left: 0;
+      margin-bottom: 4em;
 
 
       li {
@@ -142,6 +143,18 @@
       }
   }
   .taxonomy {
-    
+
+    margin: 2em 0 3em;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      list-style-type: none;
+      padding: 0.9em;
+      margin: 0.3em;
+      border: 1px solid #666;
+      min-width: 125px;
+      text-align: center;
+    }
   }
 }
