@@ -1,9 +1,11 @@
-main.explorer {
+main.explorer,
+main.content-hub {
   display: none;
 }
 
 @media (max-width: 576px) {
-  main.explorer {
+  main.explorer,
+  main.content-hub {
     display: initial;
   }
 
@@ -11,5 +13,3 @@ main.explorer {
     display: none;
   }
 }
-
-

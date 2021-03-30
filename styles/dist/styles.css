@@ -1,9 +1,11 @@
-main.explorer {
+main.explorer,
+main.content-hub {
   display: none;
 }
 
 @media (max-width: 576px) {
-  main.explorer {
+  main.explorer,
+main.content-hub {
     display: initial;
   }
 
@@ -102,6 +104,164 @@ main.explorer #time_periods div.card .content-type {
   text-align: center;
   position: absolute;
   right: 0;
+}
+
+.content-hub figure.grey {
+  border: 2px solid #eee;
+  background-color: #eee;
+}
+.content-hub figure.grey figcaption {
+  background-color: #eee;
+}
+.content-hub figure.black {
+  border: 2px solid #26262a;
+  background-color: #26262a;
+}
+.content-hub figure.black figcaption {
+  color: #fff;
+  background-color: #26262a;
+}
+.content-hub figure.black figcaption a {
+  color: #fff;
+}
+.content-hub figure figcaption {
+  font-size: 14px;
+  padding: 7px;
+}
+.content-hub span.caption-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+.content-hub span.caption-description {
+  display: block;
+}
+.content-hub span.caption-description.podcast-list {
+  font-size: 16px;
+}
+.content-hub .tna-blockquote {
+  padding: 1.6em 2.4em;
+  margin-bottom: 1.6em;
+  background-color: #eee;
+  width: 100%;
+}
+.content-hub .tna-blockquote p {
+  margin-bottom: 0;
+}
+.content-hub .tna-blockquote p {
+  margin-bottom: 0;
+}
+.content-hub .tna-blockquote__cite {
+  display: block;
+  font-size: 0.9em;
+  text-align: right;
+  margin: 0.6em 0;
+}
+.content-hub .tna-blockquote--emphasis {
+  background-color: #f9f7e2;
+}
+.content-hub .tna-blockquote--alert {
+  background-color: #fbe2bc;
+}
+.content-hub .tna-blockquote--success {
+  background-color: #dde5d5;
+}
+.content-hub .tna-blockquote--outdent {
+  margin: 0 0 1.6em -2.4em;
+}
+@media (max-width: 992px) {
+  .content-hub .tna-blockquote--outdent {
+    margin: 0 0 1.6em 0;
+  }
+}
+@media (max-width: 992px) {
+  .content-hub .tna-blockquote {
+    padding: 1.6em;
+  }
+}
+.content-hub .smaller-h3 {
+  font-size: 20px;
+}
+.content-hub .media-group {
+  background-color: #eee;
+}
+.content-hub .media-group h3,
+.content-hub .media-group h4 {
+  padding: 14px;
+}
+.content-hub .media-group h4 {
+  font-size: 18px;
+}
+.content-hub .media-group h5 {
+  font-size: 16px;
+}
+.content-hub .search-container {
+  background-color: #eee;
+}
+.content-hub .search-container h3 {
+  font-size: 20px;
+  padding: 14px;
+  padding-bottom: 4px;
+}
+.content-hub .search-container form {
+  padding: 14px;
+}
+.content-hub .search-container form input[type=search] {
+  border: 2px solid #26262a;
+}
+.content-hub .search-container form label {
+  font-weight: bold;
+  font-size: 16px;
+}
+.content-hub .follow-us a {
+  display: inline-block;
+  margin: 0 0.2em 0.3em 0;
+}
+.content-hub .follow-us a:hover {
+  background: none;
+  outline: none;
+}
+.content-hub .follow-us a img {
+  background-color: #26262a;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 7px;
+  width: 40px;
+  transition: 0.4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+}
+.content-hub footer .follow-us a img:hover {
+  background: #555;
+}
+.content-hub .related-content .related-card {
+  background-color: #26262a;
+  margin-bottom: 24px;
+  padding: 7px;
+  color: #fff;
+}
+.content-hub .related-content .related-card a {
+  color: #fff;
+}
+.content-hub #story-intro {
+  background-color: #26262a;
+  color: #fff;
+  padding: 7px;
+}
+.content-hub #story-intro .smaller-h1 {
+  display: block;
+  font-size: 14px;
+}
+.content-hub #story-intro img {
+  border: 2px solid #fff;
+}
+.content-hub #story-navigation {
+  background-color: #26262a;
+  color: #fff;
+  padding: 14px;
+  padding-right: 50px;
+}
+.content-hub #story-navigation a {
+  color: #fff;
 }
 
 .details a {
