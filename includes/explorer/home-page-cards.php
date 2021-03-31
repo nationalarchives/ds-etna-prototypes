@@ -11,58 +11,36 @@
             </div>
             <div class="col">
                 <div class="row">
-                    <div class="col">
-                        <div class="card">
-                            <img class="card-img-top" src="https://via.placeholder.com/160x90" alt="Card image cap">
-                            <div class="card-body">
-                                <a href="#">Objects</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img class="card-img-top" src="https://via.placeholder.com/160x90" alt="Card image cap">
-                            <div class="card-body">
-                                <a href="#">People</a>
-                            </div>
-                        </div>
-                    </div>
+                    <?php render_home_page_card("agriculture-and-environment", "Agriculture and environment") ?>
+                    <?php render_home_page_card("arts-and-culture", "Arts and culture") ?>
                 </div>
                 <div class="row mt-4">
-                    <div class="col">
-                        <div class="card">
-                            <img class="card-img-top" src="https://via.placeholder.com/160x90" alt="Card image cap">
-                            <div class="card-body">
-                                <a href="/explorer/time-periods/index.php">Time periods</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img class="card-img-top" src="https://via.placeholder.com/160x90" alt="Card image cap">
-                            <div class="card-body">
-                                <a href="#">Historical events</a>
-                            </div>
-                        </div>
-                    </div>
+                <?php render_home_page_card("business-finance-innovation", "Business, finance and innovation") ?>
+                <?php render_home_page_card("crime-and-punishment", "Crime, courts and justice") ?>
                 </div>
                 <div class="row mt-4">
-                    <div class="col">
-                        <div class="card">
-                            <img class="card-img-top" src="https://via.placeholder.com/160x90" alt="Card image cap">
-                            <div class="card-body">
-                                <a href="#">Topics and themes</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img class="card-img-top" src="https://via.placeholder.com/160x90" alt="Card image cap">
-                            <div class="card-body">
-                                <a href="#">Places</a>
-                            </div>
-                        </div>
-                    </div>
+                <?php render_home_page_card("family", "Family and identity") ?>
+
+                <?php render_home_page_card("health", "Health and welfare") ?>
+
+                </div>
+                <div class="row mt-4">
+                <?php render_home_page_card("international-trade", "International trade and affairs") ?>
+                <?php render_home_page_card("land-and-maps", "Land and buildings") ?>
+                </div>
+                <div class="row mt-4">
+                <?php render_home_page_card("military-and-maritime", "Military") ?>
+
+                <?php render_home_page_card("religion", "Religion") ?>
+
+                </div>
+                <div class="row mt-4">
+                <?php render_home_page_card("state-and-citizens", "State and citizens") ?>
+                <?php render_home_page_card("transport-and-travel", "Transport and travel") ?>
+
+                </div>
+                <div class="row mt-4">
+                <?php render_home_page_card("military-and-maritime", "War", "-6") ?>
                 </div>
             </div>
         </div>

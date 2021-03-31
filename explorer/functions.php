@@ -53,3 +53,60 @@ function render_time_period_card($era)
     </div>
     HTML;
 }
+
+function render_home_page_card($name, $clean_name, $col_extension = null)
+{
+    echo <<<HTML
+                    <div class="col$col_extension">
+                        <div class="card">
+                            <a href="/explorer/topics-and-themes/index.php?topic=$name&topic_clean_name=$clean_name"><img class="card-img-top home-card" src="/explorer/images/topics-and-themes/$name.jpg" alt="Card image cap" /></a>
+                            <div class="card-body">
+                            <a href="/explorer/topics-and-themes/index.php?topic=$name&topic_clean_name=$clean_name">$clean_name</a>
+                            </div>
+                        </div>
+                    </div>
+
+    HTML;
+}
+
+function render_topic_card($topic, $clean_name)
+{
+    $parent_topic = $_GET["topic"];
+    $parent_topic_clean = $_GET["topic_clean_name"];
+    $url = "/explorer/topics-and-themes/subtopic.php?sub_topic=$topic&sub_topic_clean_name=$clean_name&parent_topic=$parent_topic&parent_topic_clean_name=$parent_topic_clean";
+    echo <<<HTML
+    <div class="card-container">
+        <div class="card">
+            <a href="$url" class="content-card">
+                <div class="entry-image" style="background-image: url(/explorer/images/topics-and-themes/subtopics/$topic.jpg)">
+                </div>
+            </a>
+        </div>
+        <h2><a href="$url" class="card-heading">$clean_name</a></h2>
+    </div>
+    HTML;
+}
+
+function render_subtopic_result_card($result, $clean_name, $date_range, $description) {
+    $parent_topic = $_GET["parent_topic"];
+    $parent_topic_clean = urlencode($_GET["parent_topic_clean_name"]);
+
+    $subtopic = $_GET["sub_topic"];
+    $sub_topic_clean_name = urlencode($_GET["sub_topic_clean_name"]);
+
+
+    $url = "/explorer/results_v2.php?result=$result&clean_result=$clean_name&date_range=$date_range&subtopic=$subtopic&sub_topic_clean_name=$sub_topic_clean_name&parent_topic=$parent_topic&parent_topic_clean=$parent_topic_clean";
+    echo <<<HTML
+    <div class="card-container">
+        <div class="card">
+            <a href="$url" class="content-card">
+                <div class="entry-image" style="background-image: url(/explorer/images/topics-and-themes/results/$result.jpg">
+                    <div class="content-type">$date_range</div>
+                </div>
+            </a>
+        </div>
+        <h2><a href="$url" class="card-heading">$clean_name</a></h2>
+        <p>$description</p>
+    </div>
+    HTML;
+}

@@ -1,6 +1,7 @@
 <?php $title = "Collection explorer" ?>
 <?php $mobile_only = true ?>
 <?php require_once '../includes/head.php' ?>
+<?php require_once './functions.php' ?>
 <main class="explorer">
     <?php require_once '../includes/header-and-nav-bar.php' ?>
     <div class="container">
