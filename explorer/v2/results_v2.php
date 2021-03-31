@@ -1,6 +1,6 @@
-<?php $title = "Magna Carta" ?>
+<?php $title = "Results" ?>
 <?php $mobile_only = true ?>
-<?php require_once '../includes/head.php' ?>
+<?php require_once '../../includes/head.php' ?>
 <?php require_once './functions.php' ?>
 
 <?php
@@ -20,13 +20,13 @@ $sub_topic_clean = $_GET["sub_topic_clean_name"];
 ?>
 
 <main class="explorer">
-    <?php require_once '../includes/header-and-nav-bar.php' ?>
+    <?php require_once '../../includes/header-and-nav-bar.php' ?>
     <div class="container" id="results">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/explorer/">Explore</a></li>
-                <li class="breadcrumb-item"><a href=<?php echo "/explorer/topics-and-themes/index.php?topic=$parent_topic&topic_clean_name=$parent_topic_clean" ?>><?php echo $parent_topic_clean ?></a></li>
-                <li class="breadcrumb-item"><a href=<?php echo "/explorer/time-periods/subtopic.php?sub_topic=$sub_topic&sub_topic_clean_name=$sub_topic_clean&parent_topic=$parent_topic&parent_topic_clean_name=$parent_topic_clean" ?>><?php echo $sub_topic_clean ?></a></li>
+                <li class="breadcrumb-item"><a href="/explorer/v2">Explore</a></li>
+                <li class="breadcrumb-item"><a href=<?php echo "/explorer/v2/topics-and-themes/index.php?topic=$parent_topic&topic_clean_name=$parent_topic_clean" ?>><?php echo $parent_topic_clean ?></a></li>
+                <li class="breadcrumb-item"><a href=<?php echo "/explorer/v2/topics-and-themes/subtopic.php?sub_topic=$sub_topic&sub_topic_clean_name=$sub_topic_clean&parent_topic=$parent_topic&parent_topic_clean_name=$parent_topic_clean" ?>><?php echo $sub_topic_clean ?></a></li>
                 <li class="breadcrumb-item active" aria-current="page"><?php echo $clean_result ?></li>
             </ol>
         </nav>
@@ -64,4 +64,4 @@ $sub_topic_clean = $_GET["sub_topic_clean_name"];
         </div>
     </div>
 </main>
-<?php require_once '../includes/footer.php' ?>
+<?php require_once '../../includes/footer.php' ?>

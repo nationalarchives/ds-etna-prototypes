@@ -39,7 +39,7 @@ function render_time_period_card($era)
     $end_year = $era_dates[1];
     $title = str_replace("-", " ", $era); // "empire-and-industry" becomes empire and industry
     $title = ucfirst($title);
-    $url = "/explorer/time-periods/$era.php";
+    $url = "/explorer/v2/time-periods/$era.php";
     echo <<<HTML
     <div class="card-container">
         <div class="card">
@@ -59,9 +59,9 @@ function render_home_page_card($name, $clean_name, $col_extension = null)
     echo <<<HTML
                     <div class="col$col_extension">
                         <div class="card">
-                            <a href="/explorer/topics-and-themes/index.php?topic=$name&topic_clean_name=$clean_name"><img class="card-img-top home-card" src="/explorer/images/topics-and-themes/$name.jpg" alt="Card image cap" /></a>
+                            <a href="/explorer/v2/topics-and-themes/index.php?topic=$name&topic_clean_name=$clean_name"><img class="card-img-top home-card" src="/explorer/v2/images/topics-and-themes/$name.jpg" alt="Card image cap" /></a>
                             <div class="card-body">
-                            <a href="/explorer/topics-and-themes/index.php?topic=$name&topic_clean_name=$clean_name">$clean_name</a>
+                            <a href="/explorer/v2/topics-and-themes/index.php?topic=$name&topic_clean_name=$clean_name">$clean_name</a>
                             </div>
                         </div>
                     </div>
@@ -73,12 +73,12 @@ function render_topic_card($topic, $clean_name)
 {
     $parent_topic = $_GET["topic"];
     $parent_topic_clean = $_GET["topic_clean_name"];
-    $url = "/explorer/topics-and-themes/subtopic.php?sub_topic=$topic&sub_topic_clean_name=$clean_name&parent_topic=$parent_topic&parent_topic_clean_name=$parent_topic_clean";
+    $url = "/explorer/v2/topics-and-themes/subtopic.php?sub_topic=$topic&sub_topic_clean_name=$clean_name&parent_topic=$parent_topic&parent_topic_clean_name=$parent_topic_clean";
     echo <<<HTML
     <div class="card-container">
         <div class="card">
             <a href="$url" class="content-card">
-                <div class="entry-image" style="background-image: url(/explorer/images/topics-and-themes/subtopics/$topic.jpg)">
+                <div class="entry-image" style="background-image: url(/explorer/v2/images/topics-and-themes/subtopics/$topic.jpg)">
                 </div>
             </a>
         </div>
@@ -95,12 +95,12 @@ function render_subtopic_result_card($result, $clean_name, $date_range, $descrip
     $sub_topic_clean_name = urlencode($_GET["sub_topic_clean_name"]);
 
 
-    $url = "/explorer/results_v2.php?result=$result&clean_result=$clean_name&date_range=$date_range&subtopic=$subtopic&sub_topic_clean_name=$sub_topic_clean_name&parent_topic=$parent_topic&parent_topic_clean=$parent_topic_clean";
+    $url = "/explorer/v2/results_v2.php?result=$result&clean_result=$clean_name&date_range=$date_range&subtopic=$subtopic&sub_topic_clean_name=$sub_topic_clean_name&parent_topic=$parent_topic&parent_topic_clean=$parent_topic_clean";
     echo <<<HTML
     <div class="card-container">
         <div class="card">
             <a href="$url" class="content-card">
-                <div class="entry-image" style="background-image: url(/explorer/images/topics-and-themes/results/$result.jpg">
+                <div class="entry-image" style="background-image: url(/explorer/v2/images/topics-and-themes/results/$result.jpg">
                     <div class="content-type">$date_range</div>
                 </div>
             </a>

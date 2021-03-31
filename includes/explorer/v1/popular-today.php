@@ -6,6 +6,6 @@
         <p>A photograph of children at the Queen's 1970 visit to Toxteth, Liverpool.</p>
     </div>
     <div class="col">
-        <img class="card-img-top" src="/explorer/images/placeholder-160-90.png" alt="Card image cap">
+        <img class="card-img-top" src="https://via.placeholder.com/160x90" alt="Card image cap">
     </div>
 </div>
