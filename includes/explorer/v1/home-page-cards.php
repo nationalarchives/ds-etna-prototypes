@@ -42,7 +42,7 @@
                         <div class="card">
                             <img class="card-img-top" src="https://via.placeholder.com/160x90" alt="Card image cap">
                             <div class="card-body">
-                                <a href="/explorer/time-periods/index.php">Time periods</a>
+                                <a href="/explorer/v1/time-periods/index.php">Time periods</a>
                             </div>
                         </div>
                     </div>

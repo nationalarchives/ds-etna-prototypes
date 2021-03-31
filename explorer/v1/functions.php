@@ -39,7 +39,7 @@ function render_time_period_card($era)
     $end_year = $era_dates[1];
     $title = str_replace("-", " ", $era); // "empire-and-industry" becomes empire and industry
     $title = ucfirst($title);
-    $url = "/explorer/time-periods/$era.php";
+    $url = "/explorer/v1/time-periods/$era.php";
     echo <<<HTML
     <div class="card-container">
         <div class="card">
