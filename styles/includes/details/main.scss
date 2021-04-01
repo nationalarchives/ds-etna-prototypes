@@ -14,10 +14,11 @@
     margin-bottom: 4.5em;
   }
   .section-border-top {
-    border-top: 3px solid #ccc;
+    border-top: 10px solid #ccc;
   }
   .section-border-bottom {
-    border-bottom: 3px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 7em;
   }
   .bg-light-grey {
     background-color: #eeeeee;
@@ -25,6 +26,7 @@
   .bg-dark-grey {
     background-color: #eee;
     border-bottom: 0;
+    border-bottom: 1px solid #ccc;
   }
   .highlight  {
     background: #dfdfdf;
