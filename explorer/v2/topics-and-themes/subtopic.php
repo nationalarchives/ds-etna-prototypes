@@ -8,7 +8,7 @@ $title = $_GET["sub_topic_clean_name"] ?? "Shipping";
 $results = [
     "maps-and-plans" => [["tbc", "tbc", "????", "tbc"]],
     "shipping" => [["titanic", "Titanic", "Description here"]],
-    "literature" => [["shakespeare", "Shakespeare", "Description here"]]
+    "literature" => [["dickens", "Charles Dickens", "Description here"]]
 ];
 
 $parent_topic_url_encoded = urlencode($parent_topic_clean);

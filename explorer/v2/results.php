@@ -27,8 +27,8 @@ $results_data = [
                 ["Titanic Content Hub", null, "Some Description", "/explorer/v2/details.php", "Collection Highlight" ],
                 ["Titanic Result", null, "Some Description", "/explorer/v2/details.php", null]
     ],
-    "shakespeare" => [
-        ["Will of Shakespare, William", null, "Some Description", "/explorer/v2/details.php", "Collection Highlight"]
+    "dickens" => [
+        ["Illustration to show Charles Dickens (1812-1870) and characters from his novels, 1911", "/explorer/v2/images/topics-and-themes/results/dickens.jpg", "(Catalogue ref: COPY 1/563)", "/explorer/v2/details.php", "Collection Highlight"]
     ]
 ]
 
@@ -76,7 +76,7 @@ $results_data = [
 
             echo <<<HTML
                 <div class="p-4">
-                    <h3><a href="$card[3]">$card[0]</a></h3>
+                    <h3 class="mt-2"><a href="$card[3]">$card[0]</a></h3>
                     <a href="$card[3]"><img src="$card[1]" class="img-fluid" alt="$card[0]"/></a>
                     <p>$card[2]</p>
                 </div>
