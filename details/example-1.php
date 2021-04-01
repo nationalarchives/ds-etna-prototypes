@@ -4,18 +4,19 @@
 <main class="details">
     <?php require_once '../includes/header-and-nav-bar.php' ?>
     <div class="container">
-        <h1>3</h1>
-        <p class="mb-0 text-muted">Reference: T 70/1278</p>
-        <p class="mb-0 text-muted">Date archived: 1752 July-Dec</p>
+        <h1>Medal Card of Rees, David Place of Birth: Llangnavog, Cardigan Date of...</h1>
+        <p class="mb-0 text-muted">Reference: BT 351/1/117593</p>
+        <p class="mb-0 text-muted">Date archived: [1914-1925]</p>
     </div>
 
     <div class="section section-border-bottom bg-dark-grey mt-4 pt-0">
         <!-- The 'RECORD' section -->
-        <div class="summary pb-5">
+        <div class="summary">
             <div class="container">
                 <p class="anchor">Viewing options</p>
                 <h2>The record is available to view</h2>
                 <ul>
+                    <li><a href="">Download</a></li>
                     <li><a href="">View at Kew</a></li>
                     <li><a href="">Order a copy</a></li>
                 </ul>
@@ -25,6 +26,10 @@
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
                 </div>
             </div>
+
+                <div class="image-viewer">
+                    <h3>Image viewer</h3>
+                </div>
             </div>
 
         <div class="container highlight">
@@ -36,9 +41,9 @@
                 <div class="col-lg-4">
                     <h2>Key information</h2>
                     <ul class="key-info">
-                        <li>Available to download: <span>No</span></li>
-                        <li>Description quality: <span>Poor</span></li>
-                        <li>Created by: <span><a href="">Unknown</a></span></li>
+                        <li>Available to download: <span>Yes</span></li>
+                        <li>Description quality: <span>Good</span></li>
+                        <li>Created by: <span><a href="">Registrar General of Shipping and Seamen, 1872-1992</a></span></li>
                         <li>Held by: <span><a href="">The National Archives, UK</a></span></li>
                 </div>
             </div>
@@ -59,6 +64,12 @@
 
                         <li><a href="">Subject 1</a></li>
                         <li><a href="">Subject 2</a></li>
+                        <li><a href="">Subject 3</a></li>
+                        <li><a href="">Subject 4</a></li>
+                        <li><a href="">Subject 5</a></li>
+                        <li><a href="">Subject 6</a></li>
+                        <li><a href="">Subject 7</a></li>
+                        <li><a href="">Subject 8</a></li>
 
                     </ul>
                 </div>
@@ -69,15 +80,14 @@
                     <table class="mb-5">
                         <tr>
                             <td>Reference</td>
-                            <td>T 70/1278</td>
+                            <td>BT 351/1/117593</td>
                         </tr>
                         <tr>
                             <td>Description</td>
-                            <td>3</td>
-                        </tr>
-                        <tr>
-                            <td>Date</td>
-                            <td>1752 July-Dec.</td>
+                            <td>Medal Card of	Rees, David
+                                Place of Birth:	Llangnavog, Cardigan
+                                Date of Birth:	1896
+                            </td>
                         </tr>
                         <tr>
                             <td>Held by</td>
@@ -97,20 +107,10 @@
                     <h3 class="mb-4">Where is this record in the archive?</h3>
                     <p class="mb-0"><b>The National Archives' records catalogue</b></p>
                     <ul class="tna-ul--no-bullet hierarchy">
-
-                        <li><a href="/journey/record/C">T - Records created or inherited by HM Treasury</a>
-                        </li>
-
-
-                        <li><a href="/journey/record/C/~15">Division within T - Records of Subsidiary Departments, etc</a></li>
-
-
-                        <li><a href="/journey/record/C/5">T 70 - Company of Royal Adventurers of England Trading with Africa and successors: Records</a></li>
-
-                        <li><a href="/journey/record/C/5">Subseries within T 70 - Garrison Ledgers</a></li>
-
-                        <li><a href="/journey/record/C/5">Subsubseries within T 70 - CAPE COAST CASTLE</a></li>
-
+                        <li><a href="/journey/record/C">BT - Records of the Board of Trade and of successor and related bodies</a></li>
+                        <li><a href="/journey/record/C/~15">Division within BT - Records of the Registrar General of Shipping and Seamen and successor</a></li>
+                        <li><a href="/journey/record/C/5">BT 351 - Registry of Shipping and Seamen: Index of First World War Mercantile Marine Medals and the British War Medal</a></li>
+                        <li><a href="/journey/record/C/5">BT 351/1 - Surnames Aabye - Zwet (fiches 0001 - 0678); Miscellaneous surnames Baker - Wilkinson (fiche 0679)</a></li>
                     </ul>
                 </div><!-- /col -->
             </div><!-- /row -->

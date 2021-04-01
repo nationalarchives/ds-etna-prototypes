@@ -4,9 +4,9 @@
 <main class="details">
     <?php require_once '../includes/header-and-nav-bar.php' ?>
     <div class="container">
-        <h1>3</h1>
-        <p class="mb-0 text-muted">Reference: T 70/1278</p>
-        <p class="mb-0 text-muted">Date archived: 1752 July-Dec</p>
+        <h1>Dealing with Leveson Inquiry correspondence.doc</h1>
+        <p class="mb-0 text-muted">Reference: LEV 3/F/Z</p>
+        <p class="mb-0 text-muted">Date archived: 2013 May 13</p>
     </div>
 
     <div class="section section-border-bottom bg-dark-grey mt-4 pt-0">
@@ -16,6 +16,7 @@
                 <p class="anchor">Viewing options</p>
                 <h2>The record is available to view</h2>
                 <ul>
+                    <li><a href="">Download</a></li>
                     <li><a href="">View at Kew</a></li>
                     <li><a href="">Order a copy</a></li>
                 </ul>
@@ -36,8 +37,8 @@
                 <div class="col-lg-4">
                     <h2>Key information</h2>
                     <ul class="key-info">
-                        <li>Available to download: <span>No</span></li>
-                        <li>Description quality: <span>Poor</span></li>
+                        <li>Available to download: <span>Yes</span></li>
+                        <li>Description quality: <span>Good</span></li>
                         <li>Created by: <span><a href="">Unknown</a></span></li>
                         <li>Held by: <span><a href="">The National Archives, UK</a></span></li>
                 </div>
@@ -69,14 +70,26 @@
                     <table class="mb-5">
                         <tr>
                             <td>Reference</td>
-                            <td>T 70/1278</td>
+                            <td>LEV 3/F/Z</td>
                         </tr>
                         <tr>
-                            <td>Description</td>
-                            <td>3</td>
+                            <td>Title</td>
+                            <td>Dealing with Leveson Inquiry correspondence.doc</td>
+                        </tr>
+                        <tr>
+                            <td>Note</td>
+                            <td>The record opening date is calculated from 8 March 2012 which is the closure start date as recorded on the schedule approved by the Advisory Council on National Records and Archives in February 2014.</td>
                         </tr>
                         <tr>
                             <td>Date</td>
+                            <td>2013 May 13</td>
+                        </tr>
+                        <tr>
+                            <td>Arrangement</td>
+                            <td>This born digital record was arranged under the following file structure: LEV 3 >> Guidance</td>
+                        </tr>
+                        <tr>
+                            <td>Description</td>
                             <td>1752 July-Dec.</td>
                         </tr>
                         <tr>
@@ -88,8 +101,20 @@
                             <td>Public Record(s)</td>
                         </tr>
                         <tr>
+                            <td>Physical description</td>
+                            <td>1 digital record</td>
+                        </tr>
+                        <tr>
                             <td>Closure status</td>
                             <td>Open Document, Open Description</td>
+                        </tr>
+                        <tr>
+                            <td>Access conditions</td>
+                            <td>Open on Transfer</td>
+                        </tr>
+                        <tr>
+                            <td>Record opening date</td>
+                            <td>16 November 2016</td>
                         </tr>
                     </table>
                 </div><!-- /col -->
@@ -98,19 +123,9 @@
                     <p class="mb-0"><b>The National Archives' records catalogue</b></p>
                     <ul class="tna-ul--no-bullet hierarchy">
 
-                        <li><a href="/journey/record/C">T - Records created or inherited by HM Treasury</a>
+                        <li><a href="/journey/record/C">LEV - Records of the Inquiry into the Culture, Practices and Ethics of the Press (The Leveson Inquiry)</a>
                         </li>
-
-
-                        <li><a href="/journey/record/C/~15">Division within T - Records of Subsidiary Departments, etc</a></li>
-
-
-                        <li><a href="/journey/record/C/5">T 70 - Company of Royal Adventurers of England Trading with Africa and successors: Records</a></li>
-
-                        <li><a href="/journey/record/C/5">Subseries within T 70 - Garrison Ledgers</a></li>
-
-                        <li><a href="/journey/record/C/5">Subsubseries within T 70 - CAPE COAST CASTLE</a></li>
-
+                        <li><a href="/journey/record/C/~15">LEV 3 - Inquiry into the Culture, Practices and Ethics of the Press (The Leveson Inquiry): Judicial Reviews and Administrative Records</a></li>
                     </ul>
                 </div><!-- /col -->
             </div><!-- /row -->
