@@ -44,7 +44,7 @@ main.content-hub {
   clip: auto; }
 
 .home-card {
-  object-fit: fill;
+  object-fit: scale-down;
   height: 200px; }
 
 main.explorer #results .filter {
