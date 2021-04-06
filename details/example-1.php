@@ -3,7 +3,7 @@
 <?php require_once '../includes/head.php' ?>
 <main class="details">
     <?php require_once '../includes/header-and-nav-bar.php' ?>
-    <div class="container">
+    <div class="container header">
         <h1>Medal Card of Rees, David Place of Birth: Llangnavog, Cardigan Date of...</h1>
         <p class="mb-0 text-muted">Reference: BT 351/1/117593</p>
         <p class="mb-0 text-muted">Date archived: [1914-1925]</p>

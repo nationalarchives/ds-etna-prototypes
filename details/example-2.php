@@ -3,7 +3,7 @@
 <?php require_once '../includes/head.php' ?>
 <main class="details">
     <?php require_once '../includes/header-and-nav-bar.php' ?>
-    <div class="container">
+    <div class="container header">
         <h1>3</h1>
         <p class="mb-0 text-muted">Reference: T 70/1278</p>
         <p class="mb-0 text-muted">Date archived: 1752 July-Dec</p>

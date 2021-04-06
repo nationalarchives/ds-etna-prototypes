@@ -191,4 +191,33 @@
   .anchor {
     color: #ccc;
   }
+  .text-muted {
+    font-size: 1.2em;
+    display: inline-block;
+    border-right: 1px solid #ccc;
+    padding-right: 1em;
+    margin-right: 1em;
+  }
+
+  .text-muted:last-of-type {
+    border: 0;
+  }
+  .header {
+    text-align: left;
+    @media (min-width: 992px) {
+
+    }
+
+  }
+  h1 {
+      font-size: 2em;
+    @media (min-width: 576px) {
+      font-size: 2.4em;
+    }
+  }
+
+  .border-separator {
+    border-bottom: 1px dotted #999;
+    padding-bottom: 1.5em;
+  }
 }

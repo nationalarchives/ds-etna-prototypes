@@ -55,7 +55,7 @@ main.content-hub {
 
 .home-card {
   object-fit: scale-down;
-  height: 200px; 
+  height: 200px;
 }
 
 main.explorer #results .filter {
@@ -429,6 +429,31 @@ main.explorer #time_periods div.card .content-type, main.explorer #topics div.ca
 }
 .details .anchor {
   color: #ccc;
+}
+.details .text-muted {
+  font-size: 1.2em;
+  display: inline-block;
+  border-right: 1px solid #ccc;
+  padding-right: 1em;
+  margin-right: 1em;
+}
+.details .text-muted:last-of-type {
+  border: 0;
+}
+.details .header {
+  text-align: left;
+}
+.details h1 {
+  font-size: 2em;
+}
+@media (min-width: 576px) {
+  .details h1 {
+    font-size: 2.4em;
+  }
+}
+.details .border-separator {
+  border-bottom: 1px dotted #999;
+  padding-bottom: 1.5em;
 }
 
 /*# sourceMappingURL=styles.css.map */
