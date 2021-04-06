@@ -3,7 +3,7 @@
 <?php require_once '../includes/head.php' ?>
 <main class="details">
     <?php require_once '../includes/header-and-nav-bar.php' ?>
-    <div class="container">
+    <div class="container header">
         <h1>Hearings: Video: No witness</h1>
         <p class="mb-0 text-muted">Reference: LEV 1/1</p>
         <p class="mb-0 text-muted">Date archived: 14 Nov 2011</p>

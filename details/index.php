@@ -13,6 +13,7 @@
                     <li><a href="example-3.php">Example 3 - Born digital piece/item [word document with no image viewer]</a></li>
                     <li><a href="example-4.php">Example 4 - Born digital piece/item [Video]</a></li>
                     <li><a href="example-5.php">Example 5 - Non-digitised FOI request [this is part of the delivery options]</a></li>
+                    <li><a href="example-6.php">Example 6 - User testing example (Frisby vs Frisby)</a></li>
                 </ul>
             </div>
         </div>
