@@ -3,11 +3,12 @@
 $parent_topic = $_GET["parent_topic"] ?? "travel-and-transport";
 $parent_topic_clean = $_GET["parent_topic_clean_name"] ?? "Travel and transport";
 $sub_topic = $_GET["sub_topic"] ?? "shipping";
-$topic_clean_name = $_GET["topic_clean_name"] ?? "Shipping";
-$title = $_GET["topic_clean_name"] ?? "Shipping";
+$topic_clean_name = $_GET["sub_topic_clean_name"] ?? "Shipping";
+$title = $_GET["sub_topic_clean_name"] ?? "Shipping";
 $results = [
     "maps-and-plans" => [["tbc", "tbc", "????", "tbc"]],
-    "shipping" => [["titanic", "Titanic", "1910-1920", "Description here"]]
+    "shipping" => [["titanic", "Titanic", "Description here"]],
+    "literature" => [["dickens", "Charles Dickens", "Description here"]]
 ];
 
 $parent_topic_url_encoded = urlencode($parent_topic_clean);
@@ -33,7 +34,7 @@ $parent_topic_url_encoded = urlencode($parent_topic_clean);
         <h1><?php echo $topic_clean_name ?></h1>
         <p>Select a result to explore</p>
         <?php foreach($results[$sub_topic] as $result): ?>
-        <?php render_subtopic_result_card($result[0], $result[1], $result[2], $result[3]) ?>
+        <?php render_subtopic_result_card($result[0], $result[1], $result[2]) ?>
 
        <?php endforeach; ?>
 
