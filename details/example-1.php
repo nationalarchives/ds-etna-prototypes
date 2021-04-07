@@ -13,7 +13,7 @@
         <!-- The 'RECORD' section -->
         <div class="summary">
             <div class="container">
-                <p class="anchor">Viewing options</p>
+                <p class="anchor">Access options</p>
                 <h2>The record is available to view</h2>
                 <ul>
                     <li><a href="">Download</a></li>
