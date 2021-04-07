@@ -13,7 +13,7 @@
         <!-- The 'RECORD' section -->
         <div class="summary pb-5">
             <div class="container">
-                <p class="anchor">Viewing options</p>
+                <p class="anchor">Access options</p>
                 <h2>The record is available to view</h2>
                 <ul>
                     <li><a href="">View at Kew</a></li>
@@ -30,8 +30,10 @@
         <div class="container highlight">
             <div class="row justify-content-between">
                 <div class="col-lg-7">
-                    <h2>Researching records</h2>
-                    <p>We use the word ‘record’ to mean a piece (item? document?) in The National Archives’ catalogue. This page shows how a record is described in the archive. Also shown are a record’s origin, archive location, relationships to other records, and access status – whether or not a digital version is available.</p>
+                    <h2>What is a record?</h2>
+                    <p>We use the word ‘record’ to mean a piece in The National Archives’ catalogue. It might be a letter, document, map, or a volume or box of items. Records generally belong to a 'series' (a grouping around a common subject) and a 'department' (the creator).</p>
+
+                    <p>This page doesn't show you the record itself - it gives you the archival description and associated information catalogued for this record.</p>
                 </div><!-- /col -->
                 <div class="col-lg-4">
                     <h2>Key information</h2>
@@ -47,31 +49,20 @@
 
     <div class="container">
         <!-- The 'CATALOGUE DESCRIPTION' section -->
-        <h2>Record details</h2>
-        <p>This is the archival description and associated information which has been catalogued for this record. <a href="">Find out about cataloguing</a></p>
+        <h2 class="mb-3">Record details</h2>
     </div>
     <div class="section section-border-top section-border-bottom bg-light-grey">
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h3 class="text-center">Subjects of this record</h3>
-                    <ul class="tna-ul--no-bullet taxonomy text-center border-separator">
 
-                        <li><a href="">Litigation</a></li>
-
-                    </ul>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-8">
-                    <h3 class="mb-4">Record description</h3>
                     <table class="mb-5">
                         <tr>
                             <td>Reference</td>
                             <td>T 70/1278</td>
                         </tr>
                         <tr>
-                            <td>Description</td>
+                            <td>Record description</td>
                             <td>Short title: Frisby v Frisby.
                                 Plaintiffs: John Frisby, William Frisby, and Anthony Frisby.
                                 Defendants: Esther Frisby widow.
@@ -79,7 +70,7 @@
                                 Document type: bill, answer.</td>
                         </tr>
                         <tr>
-                            <td>Date</td>
+                            <td>Record created</td>
                             <td>1698</td>
                         </tr>
                         <tr>
@@ -95,10 +86,17 @@
                             <td>Open Document, Open Description</td>
                         </tr>
                     </table>
+
+                    <h3>Subjects of this record</h3>
+                    <ul class="tna-ul--no-bullet taxonomy">
+
+                        <li><a href="">Litigation</a></li>
+
+                    </ul>
                 </div><!-- /col -->
                 <div class="col-lg-4">
                     <h3 class="mb-4">Where is this record in the archive?</h3>
-                    <p class="mb-0"><b>The National Archives' records catalogue</b></p>
+                    <p class="mb-3">Records are arranged in multiple levels - the archive hierarchy. At the top you'll find the organisation that created the record, and at the lower levels the 'pieces' or items contained in the records.</p>
                     <ul class="tna-ul--no-bullet hierarchy">
 
                         <li><a href="/journey/record/C">C - Records created, acquired, and inherited by Chancery, and also of the Wardrobe, Royal Household, Exchequer and various commissions</a>
