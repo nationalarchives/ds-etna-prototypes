@@ -1,24 +1,23 @@
 <?php $title = "Details page" ?>
 <?php $mobile_only = false ?>
-<?php require_once '../includes/head.php' ?>
-<main class="details">
-    <?php require_once '../includes/header-and-nav-bar.php' ?>
+<?php require_once '../../includes/head.php' ?>
+<main class="details-v2">
+    <?php require_once '../../includes/header-and-nav-bar.php' ?>
     <div class="container header">
-        <h1>Dealing with Leveson Inquiry correspondence.doc</h1>
-        <p class="mb-0 text-muted">Reference: LEV 3/F/Z</p>
-        <p class="mb-0 text-muted">Record created: 2013 May 13</p>
+        <h1>Hearings: Video: No witness</h1>
+        <p class="mb-0 text-muted">Reference: LEV 1/1</p>
+        <p class="mb-0 text-muted">Record created: 14 Nov 2011</p>
     </div>
 
     <div class="section section-border-bottom bg-dark-grey mt-4 pt-0">
         <!-- The 'RECORD' section -->
-        <div class="summary pb-5">
+        <div class="summary">
             <div class="container">
                 <p class="anchor">Access options</p>
-                <h2>The record is available to view</h2>
+                <h2>This record is a video</h2>
                 <ul>
-                    <li><a href="">Download</a></li>
+                    <li><a href="">Watch now</a></li>
                     <li><a href="">View at Kew</a></li>
-                    <li><a href="">Order a copy</a></li>
                 </ul>
             </div>
             <div class="collapse" id="collapseExample">
@@ -26,6 +25,10 @@
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
                 </div>
             </div>
+
+                <div class="image-viewer">
+                    <h3>Video player</h3>
+                </div>
             </div>
 
         <div class="container highlight">
@@ -59,27 +62,16 @@
                     <table class="mb-5">
                         <tr>
                             <td>Reference</td>
-                            <td>LEV 3/F/Z</td>
-                        </tr>
-                        <tr>
-                            <td>Title</td>
-                            <td>Dealing with Leveson Inquiry correspondence.doc</td>
-                        </tr>
-                        <tr>
-                            <td>Note</td>
-                            <td>The record opening date is calculated from 8 March 2012 which is the closure start date as recorded on the schedule approved by the Advisory Council on National Records and Archives in February 2014.</td>
-                        </tr>
-                        <tr>
-                            <td>Record created</td>
-                            <td>2013 May 13</td>
-                        </tr>
-                        <tr>
-                            <td>Arrangement</td>
-                            <td>This born digital record was arranged under the following file structure: LEV 3 >> Guidance</td>
+                            <td>LEV 1/1</td>
                         </tr>
                         <tr>
                             <td>Record description</td>
-                            <td>1752 July-Dec.</td>
+                            <td>Hearings: Video: No witness
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Record created</td>
+                            <td>14 Nov 2011</td>
                         </tr>
                         <tr>
                             <td>Held by</td>
@@ -90,12 +82,12 @@
                             <td>Public Record(s)</td>
                         </tr>
                         <tr>
-                            <td>Physical description</td>
-                            <td>1 digital record</td>
-                        </tr>
-                        <tr>
                             <td>Closure status</td>
                             <td>Open Document, Open Description</td>
+                        </tr>
+                        <tr>
+                            <td>Restrictions on use</td>
+                            <td>To view the files onsite in the reading rooms at Kew you will need to use specific terminals and request headphones. Please speak to a member of staff.</td>
                         </tr>
                         <tr>
                             <td>Access conditions</td>
@@ -103,7 +95,7 @@
                         </tr>
                         <tr>
                             <td>Record opening date</td>
-                            <td>16 November 2016</td>
+                            <td>11 September 2013</td>
                         </tr>
                     </table>
                     <h3>Subjects of this record</h3>
@@ -112,19 +104,16 @@
                         <li><a href="">Subject 1</a></li>
                         <li><a href="">Subject 2</a></li>
                         <li><a href="">Subject 3</a></li>
-                        <li><a href="">Subject 4</a></li>
-                        <li><a href="">Subject 5</a></li>
-                        <li><a href="">Subject 6</a></li>
                     </ul>
                 </div><!-- /col -->
                 <div class="col-lg-4">
                     <h3 class="mb-4">Where is this record in the archive?</h3>
                     <p class="mb-3">Records are arranged in multiple levels - the archive hierarchy. At the top you'll find the organisation that created the record, and at the lower levels the 'pieces' or items contained in the records.</p>
                     <ul class="tna-ul--no-bullet hierarchy">
-
-                        <li><a href="/journey/record/C">LEV - Records of the Inquiry into the Culture, Practices and Ethics of the Press (The Leveson Inquiry)</a>
-                        </li>
-                        <li><a href="/journey/record/C/~15">LEV 3 - Inquiry into the Culture, Practices and Ethics of the Press (The Leveson Inquiry): Judicial Reviews and Administrative Records</a></li>
+                        <li><a href="/journey/record/C">LEV - Records of the Inquiry into the Culture, Practices and Ethics of the Press (The Leveson Inquiry)</a></li>
+                        <li><a href="/journey/record/C/~15">Division within LEV - The Leveson Inquiry: Websites</a></li>
+                        <li><a href="/journey/record/C/5">LEV 1 - Inquiry into the Culture, Practices and Ethics of the Press (The Leveson Inquiry): Website and Video Recordings</a></li>
+                        <li><a href="/journey/record/C/5">Subseries within LEV 1 - Leveson Inquiry: Video Recordings</a></li>
                     </ul>
                 </div><!-- /col -->
             </div><!-- /row -->
@@ -222,4 +211,4 @@
         </div>
 
 </main>
-<?php require_once '../includes/footer.php' ?>
+<?php require_once '../../includes/footer.php' ?>

@@ -1,8 +1,8 @@
 <?php $title = "Details page" ?>
 <?php $mobile_only = false ?>
-<?php require_once '../includes/head.php' ?>
-<main class="details">
-    <?php require_once '../includes/header-and-nav-bar.php' ?>
+<?php require_once '../../includes/head.php' ?>
+<main class="details-v2">
+    <?php require_once '../../includes/header-and-nav-bar.php' ?>
     <div class="container">
         <h1>Record title</h1>
         <p class="mb-0 text-muted">Ref no:</p>
@@ -234,4 +234,4 @@
         </div>
 
 </main>
-<?php require_once '../includes/footer.php' ?>
+<?php require_once '../../includes/footer.php' ?>

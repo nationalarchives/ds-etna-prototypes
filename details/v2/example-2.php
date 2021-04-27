@@ -1,12 +1,12 @@
 <?php $title = "Details page" ?>
 <?php $mobile_only = false ?>
-<?php require_once '../includes/head.php' ?>
-<main class="details">
-    <?php require_once '../includes/header-and-nav-bar.php' ?>
+<?php require_once '../../includes/head.php' ?>
+<main class="details-v2">
+    <?php require_once '../../includes/header-and-nav-bar.php' ?>
     <div class="container header">
-        <h1>Short title: Frisby v Frisby. Plaintiffs: John Frisby, William Frisby, and Anthony...</h1>
-        <p class="mb-0 text-muted">Reference: C 5/139/35</p>
-        <p class="mb-0 text-muted">Record created: 1698</p>
+        <h1>3</h1>
+        <p class="mb-0 text-muted">Reference: T 70/1278</p>
+        <p class="mb-0 text-muted">Record created: 1752 July-Dec</p>
     </div>
 
     <div class="section section-border-bottom bg-dark-grey mt-4 pt-0">
@@ -40,8 +40,8 @@
                     <ul class="key-info">
                         <li>Available to download: <span>No</span></li>
                         <li>Description quality: <span>Poor</span></li>
-                        <li>Created by:<br> <span><a href="">Chancery, the Wardrobe, Royal Household, Exchequer and various commissions</a></span></li>
-                        <li>Held by:<br> <span><a href="">The National Archives, UK</a></span></li>
+                        <li>Created by: <span><a href="">Unknown</a></span></li>
+                        <li>Held by: <span><a href="">The National Archives, UK</a></span></li>
                 </div>
             </div>
         </div><!-- /container -->
@@ -53,7 +53,6 @@
     </div>
     <div class="section section-border-top section-border-bottom bg-light-grey">
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-8">
                     <table class="mb-5">
@@ -63,15 +62,11 @@
                         </tr>
                         <tr>
                             <td>Record description</td>
-                            <td>Short title: Frisby v Frisby.
-                                Plaintiffs: John Frisby, William Frisby, and Anthony Frisby.
-                                Defendants: Esther Frisby widow.
-                                Subject: property in Billesdon, Leicestershire.
-                                Document type: bill, answer.</td>
+                            <td>3</td>
                         </tr>
                         <tr>
                             <td>Record created</td>
-                            <td>1698</td>
+                            <td>1752 July-Dec.</td>
                         </tr>
                         <tr>
                             <td>Held by</td>
@@ -86,12 +81,12 @@
                             <td>Open Document, Open Description</td>
                         </tr>
                     </table>
-
                     <h3>Subjects of this record</h3>
                     <ul class="tna-ul--no-bullet taxonomy">
 
-                        <li><a href="">Litigation</a></li>
-
+                        <li><a href="">Subject 1</a></li>
+                        <li><a href="">Subject 2</a></li>
+                        <li><a href="">Subject 3</a></li>
                     </ul>
                 </div><!-- /col -->
                 <div class="col-lg-4">
@@ -99,14 +94,18 @@
                     <p class="mb-3">Records are arranged in multiple levels - the archive hierarchy. At the top you'll find the organisation that created the record, and at the lower levels the 'pieces' or items contained in the records.</p>
                     <ul class="tna-ul--no-bullet hierarchy">
 
-                        <li><a href="/journey/record/C">C - Records created, acquired, and inherited by Chancery, and also of the Wardrobe, Royal Household, Exchequer and various commissions</a>
+                        <li><a href="/journey/record/C">T - Records created or inherited by HM Treasury</a>
                         </li>
 
 
-                        <li><a href="/journey/record/C/~15">Division within C - Records of Equity Side: the Six Clerks</a></li>
+                        <li><a href="/journey/record/C/~15">Division within T - Records of Subsidiary Departments, etc</a></li>
 
 
-                        <li><a href="/journey/record/C/5">C 5 - Court of Chancery: Six Clerks Office: Pleadings before 1714, Bridges</a></li>
+                        <li><a href="/journey/record/C/5">T 70 - Company of Royal Adventurers of England Trading with Africa and successors: Records</a></li>
+
+                        <li><a href="/journey/record/C/5">Subseries within T 70 - Garrison Ledgers</a></li>
+
+                        <li><a href="/journey/record/C/5">Subsubseries within T 70 - CAPE COAST CASTLE</a></li>
 
                     </ul>
                 </div><!-- /col -->
@@ -205,4 +204,4 @@
         </div>
 
 </main>
-<?php require_once '../includes/footer.php' ?>
+<?php require_once '../../includes/footer.php' ?>
