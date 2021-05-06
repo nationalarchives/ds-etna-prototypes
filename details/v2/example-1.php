@@ -1,22 +1,24 @@
 <?php $title = "Details page" ?>
 <?php $mobile_only = false ?>
-<?php require_once '../includes/head.php' ?>
-<main class="details">
-    <?php require_once '../includes/header-and-nav-bar.php' ?>
+<?php require_once '../../includes/head.php' ?>
+<main class="details-v2">
+    <?php require_once '../../includes/header-and-nav-bar.php' ?>
     <div class="container header">
-        <h1>Press Association Submission to the Leveson Inquiry (signed)</h1>
-        <p class="mb-0 text-muted">Reference: LEV 2/552/Z</p>
-        <p class="mb-0 text-muted">Record created: ?</p>
+        <h1>Medal Card of Rees, David Place of Birth: Llangnavog, Cardigan Date of...</h1>
+        <p class="mb-0 text-muted">Reference: BT 351/1/117593</p>
+        <p class="mb-0 text-muted">Record created: [1914-1925]</p>
     </div>
 
     <div class="section section-border-bottom bg-dark-grey mt-4 pt-0">
         <!-- The 'RECORD' section -->
-        <div class="summary pb-5">
+        <div class="summary">
             <div class="container">
                 <p class="anchor">Access options</p>
-                <h2>This record is closed until 13 September 2113</h2>
+                <h2>The record is available to view</h2>
                 <ul>
-                    <li><a href="">Submit an FOI request</a></li>
+                    <li><a href="">Download</a></li>
+                    <li><a href="">View at Kew</a></li>
+                    <li><a href="">Order a copy</a></li>
                 </ul>
             </div>
             <div class="collapse" id="collapseExample">
@@ -24,6 +26,10 @@
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
                 </div>
             </div>
+
+                <div class="image-viewer">
+                    <h3>Image viewer</h3>
+                </div>
             </div>
 
         <div class="container highlight">
@@ -37,10 +43,10 @@
                 <div class="col-lg-4">
                     <h2>Key information</h2>
                     <ul class="key-info">
-                        <li>Available to download: <span>No</span></li>
-                        <li>Description quality: <span>Poor</span></li>
-                        <li>Created by: <span><a href="">Unknown</a></span></li>
-                        <li>Held by: <span><a href="">The National Archives</a></span></li>
+                        <li>Available to download: <span>Yes</span></li>
+                        <li>Description quality: <span>Good</span></li>
+                        <li>Created by: <span><a href="">Registrar General of Shipping and Seamen, 1872-1992</a></span></li>
+                        <li>Held by: <span><a href="">The National Archives, UK</a></span></li>
                 </div>
             </div>
         </div><!-- /container -->
@@ -57,35 +63,26 @@
                     <table class="mb-5">
                         <tr>
                             <td>Reference</td>
-                            <td>LEV 2/552/Z</td>
+                            <td>BT 351/1/117593</td>
                         </tr>
                         <tr>
-                            <td>Description</td>
-                            <td>Press Association Submission to the Leveson Inquiry (signed)</td>
-                        </tr>
-                        <tr>
-                            <td>Date</td>
-                            <td>1752 July-Dec.</td>
+                            <td>Record description</td>
+                            <td>Medal Card of	Rees, David
+                                Place of Birth:	Llangnavog, Cardigan
+                                Date of Birth:	1896
+                            </td>
                         </tr>
                         <tr>
                             <td>Held by</td>
-                            <td>The National Archives</td>
+                            <td>The National Archives, Kew</td>
                         </tr>
                         <tr>
                             <td>Legal status</td>
-                            <td>Public Record</td>
+                            <td>Public Record(s)</td>
                         </tr>
                         <tr>
                             <td>Closure status</td>
-                            <td>Closed Or Retained Document, Open Description</td>
-                        </tr>
-                        <tr>
-                            <td>Access conditions</td>
-                            <td>Closed for 100 years</td>
-                        </tr>
-                        <tr>
-                            <td>Record re-opening date</td>
-                            <td>13 September 2113</td>
+                            <td>Open Document, Open Description</td>
                         </tr>
                     </table>
                     <h3>Subjects of this record</h3>
@@ -95,23 +92,17 @@
                         <li><a href="">Subject 2</a></li>
                         <li><a href="">Subject 3</a></li>
                         <li><a href="">Subject 4</a></li>
+                        <li><a href="">Subject 5</a></li>
                     </ul>
                 </div><!-- /col -->
                 <div class="col-lg-4">
                     <h3 class="mb-4">Where is this record in the archive?</h3>
                     <p class="mb-3">Records are arranged in multiple levels - the archive hierarchy. At the top you'll find the organisation that created the record, and at the lower levels the 'pieces' or items contained in the records.</p>
                     <ul class="tna-ul--no-bullet hierarchy">
-
-                        <li><a href="/journey/record/C">LEV - Records of the Inquiry into the Culture, Practices and Ethics of the Press (The Leveson Inquiry)</a>
-                        </li>
-
-
-                        <li><a href="/journey/record/C/~15">LEV 2 - Inquiry into the Culture, Practices and Ethics of the Press (The Leveson Inquiry): Transcripts and Evidence</a></li>
-
-
-                        <li><a href="/journey/record/C/5">Subseries within LEV 2 - Module 1</a></li>
-
-
+                        <li><a href="/journey/record/C">BT - Records of the Board of Trade and of successor and related bodies</a></li>
+                        <li><a href="/journey/record/C/~15">Division within BT - Records of the Registrar General of Shipping and Seamen and successor</a></li>
+                        <li><a href="/journey/record/C/5">BT 351 - Registry of Shipping and Seamen: Index of First World War Mercantile Marine Medals and the British War Medal</a></li>
+                        <li><a href="/journey/record/C/5">BT 351/1 - Surnames Aabye - Zwet (fiches 0001 - 0678); Miscellaneous surnames Baker - Wilkinson (fiche 0679)</a></li>
                     </ul>
                 </div><!-- /col -->
             </div><!-- /row -->
@@ -209,4 +200,4 @@
         </div>
 
 </main>
-<?php require_once '../includes/footer.php' ?>
+<?php require_once '../../includes/footer.php' ?>
