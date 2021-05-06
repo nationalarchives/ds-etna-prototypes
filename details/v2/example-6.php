@@ -4,18 +4,31 @@
 <main class="details-v2">
     <?php require_once '../../includes/header-and-nav-bar.php' ?>
     <div class="container header">
-    <h1>Short title: Frisby v Frisby. Plaintiffs: John Frisby, William Frisby, and Anthony...</h1>
-        <p class="text-center">This page describes what this record is about. The record itself is held in at <b>The National Archives, UK</b></p>
+        <h1>Short title: Frisby v Frisby. Plaintiffs: John Frisby, William Frisby, and Anthony...</h1>
+    </div>
+    <div class="section header summary-box">
+        <div class="container">
+            <ul>
+                <li>Reference: <b>C 5/139/35</b></li>
+                <li>Record created: <b>1698</b></li>
+                <li>Created by: <b><a href="">Chancery, the Wardrobe, Royal Household, Exchequer and various commissions</a></b>.</li>
+                <li>Held at: <b><a href="">The National Archives, UK</a></b></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <!-- The 'CATALOGUE DESCRIPTION' section -->
+        <h2 class="mb-3">How can I see the record itself?</h2>
 
     </div>
+
     <div class="section header first">
-
-
         <div class="summary pb-4">
             <div class="container">
-                <h3 class="text-center mb-1">How can I see the record itself?</h3>
+                <p class="mb-2">This record is currently available to view at <a href="">The National Archives, UK</a></p>
+
                 <ul>
-                    <li><a href="">Book a visit to see it</a></li>
+                    <li><a href="#collapseExample">Book a visit to see it</a></li>
                     <li><a href="">Order a copy for delivery</a></li>
                 </ul>
             </div>
@@ -26,44 +39,26 @@
             </div>
         </div>
     </div>
-    <h3 class="text-center mb-2">What is this record about?</h3>
-
-    <div class="container header">
-
-    </div>
-
-    <div class="section  mt-4 pt-0">
-        <!-- The 'RECORD' section -->
-
-        <div class="container highlight">
-            <div class="row justify-content-between">
-                <div class="col">
-
-                    <ul class="key-info">
-                        <li>Record title: <span>Short title: Frisby v Frisby. Plaintiffs: John Frisby, William Frisby, and Anthony...</span></li>
-                        <li>Reference: <span>C 5/139/35</span></li>
-                        <li>Record created: <span>1698</span></li>
-                        <li>Physical characteristics:  <span>Large format, map</span></li>
-                        <li>Available to download: <span>No</span></li>
-                        <li>Created by: <span><a href="">Chancery, the Wardrobe, Royal Household, Exchequer and various commissions</a></span></li>
-                        <li>Held by: <span><a href="">The National Archives, UK</a></span></li>
-                    </ul>
-
-                </div>
+    <div class="section non-image">
+            <div class="container">
+                <h3 class="pb-2">Expecting to see an image of this record here?</h3>
+                <p class="helper-text">Much of our collection is not digitised or available to view online.
+                    <br><a href="">Find out more about digitisation</a> </p>
             </div>
-        </div><!-- /container -->
-        <p class="text-center mt-3"> The description of this record may be limited.</p>
     </div>
 
     <div class="container">
         <!-- The 'CATALOGUE DESCRIPTION' section -->
-        <h2 class="mb-3">Record details</h2>
+        <h2 class="mb-3">What is this record about?</h2>
+
     </div>
+
+
+
     <div class="section section-border-top section-border-bottom bg-light-grey">
         <div class="container">
 
-            <div class="row">
-                <div class="col-lg-8">
+            <h3 class="mb-3">Description</h3>
                     <table class="mb-5">
                         <tr>
                             <td>Reference</td>
@@ -95,14 +90,6 @@
                         </tr>
                     </table>
 
-                    <h3>Subjects of this record</h3>
-                    <ul class="tna-ul--no-bullet taxonomy">
-
-                        <li><a href="">Litigation</a></li>
-
-                    </ul>
-                </div><!-- /col -->
-                <div class="col-lg-4">
                     <h3 class="mb-4">Where is this record in the archive?</h3>
                     <p class="mb-3">Records are arranged in multiple levels - the archive hierarchy. At the top you'll find the organisation that created the record, and at the lower levels the 'pieces' or items contained in the records.</p>
                     <ul class="tna-ul--no-bullet hierarchy">
@@ -117,8 +104,13 @@
                         <li><a href="/journey/record/C/5">C 5 - Court of Chancery: Six Clerks Office: Pleadings before 1714, Bridges</a></li>
 
                     </ul>
-                </div><!-- /col -->
-            </div><!-- /row -->
+            <h3>Topics covered</h3>
+            <ul class="tna-ul--no-bullet taxonomy">
+
+                <li><a href="">Litigation</a></li>
+
+            </ul>
+
 
         </div><!-- /container -->
     </div>
