@@ -507,7 +507,7 @@ main.explorer #time_periods div.card .content-type, main.explorer #topics div.ca
   font-weight: bold;
 }
 .details-v2 .section-border-top {
-  border-top: 10px solid #ccc;
+  border-top: 5px solid #ccc;
 }
 .details-v2 .section-border-bottom {
   border-bottom: 1px solid #ccc;
@@ -533,38 +533,53 @@ main.explorer #time_periods div.card .content-type, main.explorer #topics div.ca
   color: #222;
 }
 .details-v2 .summary {
-  border-top: 10px solid #ccc;
-  border-bottom: 2px solid #e5e5e5;
+  border-top: 5px solid #ccc;
   color: #fff;
   text-align: center;
   padding: 1.7em 0 0;
   background-color: #eeeeee;
+  border-bottom: 0 !important;
 }
 .details-v2 .summary p {
   color: #333;
+}
+.details-v2 .summary .location a {
   font-weight: bold;
+  font-size: 1.1em;
+  display: block;
 }
 .details-v2 .summary h3 {
   font-size: 1.3em;
   padding-bottom: 0.3em;
   color: #222;
 }
-.details-v2 .summary ul {
+.details-v2 .delivery-options {
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+  padding: 1.7em 0 1.5em;
+  background-color: #fff;
+  margin-bottom: 6em;
+  color: #222;
+}
+.details-v2 .delivery-options p {
+  font-weight: bold;
+}
+.details-v2 .delivery-options ul {
   display: inline-block;
   margin-top: 1.25em;
 }
-.details-v2 .summary ul li {
+.details-v2 .delivery-options ul li {
   display: inline-block;
   margin-right: 1.5em;
   padding: 0.75em 1.25em;
   background: #134571;
   font-weight: bold;
 }
-.details-v2 .summary ul li a {
+.details-v2 .delivery-options ul li a {
   text-decoration: none;
   color: #fff;
 }
-.details-v2 .summary ul li a:hover {
+.details-v2 .delivery-options ul li a:hover {
   text-decoration: underline;
 }
 .details-v2 .image-viewer {
@@ -680,17 +695,32 @@ main.explorer #time_periods div.card .content-type, main.explorer #topics div.ca
 }
 .details-v2 .summary-box ul {
   margin: 0;
+  margin-bottom: 1em;
   border-top: 5px solid #ddd;
-  border-bottom: 5px solid #ddd;
   padding: 1.3em 0;
   list-style-type: none;
   background: #fff;
+}
+.details-v2 .summary-box p {
+  font-weight: bold;
+  text-align: center;
+  padding: 1em;
+  background: #f5ecc2;
+}
+.details-v2 .summary-box p a {
+  color: #134571;
 }
 .details-v2 .header {
   text-align: left;
 }
 .details-v2 h1 {
   font-size: 2em;
+}
+.details-v2 h1 span {
+  font-size: 0.45em;
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: normal;
 }
 @media (min-width: 576px) {
   .details-v2 h1 {

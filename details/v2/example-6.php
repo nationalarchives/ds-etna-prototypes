@@ -4,52 +4,53 @@
 <main class="details-v2">
     <?php require_once '../../includes/header-and-nav-bar.php' ?>
     <div class="container header">
-        <h1>Short title: Frisby v Frisby. Plaintiffs: John Frisby, William Frisby, and Anthony...</h1>
+        <h1><span>Record title: </span>Short title: Frisby v Frisby. Plaintiffs: John Frisby, William Frisby, and Anthony...</h1>
     </div>
     <div class="section header summary-box">
         <div class="container">
             <ul>
                 <li>Reference: <b>C 5/139/35</b></li>
-                <li>Record created: <b>1698</b></li>
-                <li>Created by: <b><a href="">Chancery, the Wardrobe, Royal Household, Exchequer and various commissions</a></b>.</li>
-                <li>Held at: <b><a href="">The National Archives, UK</a></b></li>
+                <li>Date created: <b>1698</b></li>
+                <li>Creator: <b><a href="">Chancery, the Wardrobe, Royal Household, Exchequer and various commissions</a></b>.</li>
             </ul>
+            <p class="mb-2">The record is not available to view online. <br><a href="">See the description and record details</a></p>
         </div>
+
     </div>
     <div class="container">
         <!-- The 'CATALOGUE DESCRIPTION' section -->
-        <h2 class="mb-3">How can I see the record itself?</h2>
+        <h2 class="mb-3">How to view and order this record</h2>
 
     </div>
 
     <div class="section header first">
         <div class="summary pb-4">
             <div class="container">
-                <p class="mb-2">This record is currently available to view at <a href="">The National Archives, UK</a></p>
+                <p class="location mb-2">The record is held at <a href="">The National Archives, UK</a></p>
+            </div>
+        </div>
+            <div class="delivery-options">
+                <div class="container">
+                    <p class="mb-2">It has not been digitised and cannot be downloaded</p>
 
-                <ul>
-                    <li><a href="#collapseExample">Book a visit to see it</a></li>
-                    <li><a href="">Order a copy for delivery</a></li>
-                </ul>
+                    <ul>
+                        <li><a href="#collapseExample">Book a visit to see it <span>(free)</span></a></li>
+                        <li><a href="">Order a copy for delivery <span>(£8)</span></a></li>
+                    </ul>
+                </div>
             </div>
             <div class="collapse" id="collapseExample">
                 <div class="card card-body">
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
                 </div>
             </div>
-        </div>
+
     </div>
-    <div class="section non-image">
-            <div class="container">
-                <h3 class="pb-2">Expecting to see an image of this record here?</h3>
-                <p class="helper-text">Much of our collection is not digitised or available to view online.
-                    <br><a href="">Find out more about digitisation</a> </p>
-            </div>
-    </div>
+
 
     <div class="container">
         <!-- The 'CATALOGUE DESCRIPTION' section -->
-        <h2 class="mb-3">What is this record about?</h2>
+        <h2 class="mb-3">Description and record details</h2>
 
     </div>
 

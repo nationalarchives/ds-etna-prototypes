@@ -54,7 +54,7 @@
     }
   }
   .section-border-top {
-    border-top: 10px solid #ccc;
+    border-top: 5px solid #ccc;
   }
   .section-border-bottom {
     border-bottom: 1px solid #ccc;
@@ -86,16 +86,26 @@
       }
   }
   .summary {
-    border-top: 10px solid #ccc;
-    border-bottom: 2px solid #e5e5e5;
+    border-top: 5px solid #ccc;
     color: #fff;
     text-align: center;
     padding: 1.7em 0 0;
     background-color: #eeeeee;
+    border-bottom: 0 !important;
+
+
 
     p {
       color: #333;
-      font-weight: bold;
+    }
+    .location {
+
+
+      a {
+        font-weight: bold;
+        font-size: 1.1em;
+        display: block;
+      }
     }
 
     h3 {
@@ -104,30 +114,48 @@
       color: #222;
     }
 
-      ul {
+  }
+  .delivery-options {
+
+    border-bottom: 2px solid #ccc;
+
+    text-align: center;
+    padding: 1.7em 0 1.5em;
+    background-color: #fff;
+    margin-bottom: 6em;
+    color: #222;
+
+    p {
+      font-weight: bold;
+    }
+    ul {
+      display: inline-block;
+      margin-top: 1.25em;
+
+
+      li {
         display: inline-block;
-        margin-top: 1.25em;
+        margin-right: 1.5em;
+        padding: 0.75em 1.25em;
+        background: #134571;
+        font-weight: bold;
 
 
-          li {
-            display: inline-block;
-            margin-right: 1.5em;
-            padding: 0.75em 1.25em;
-            background: #134571;
-            font-weight: bold;
+        a {
+          text-decoration: none;
+          color: #fff;
+
+          span {
 
 
-              a {
-                text-decoration: none;
-                color: #fff;
-              }
-
-              a:hover {
-                text-decoration: underline;
-              }
           }
-      }
+        }
 
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
   }
   .image-viewer {
     margin-top: 3em;
@@ -266,12 +294,22 @@
 
     ul {
       margin: 0;
+      margin-bottom: 1em;
       border-top: 5px solid #ddd;
-      border-bottom: 5px solid #ddd;
 
       padding: 1.3em 0;
       list-style-type: none;
       background: #fff;
+    }
+    p {
+      font-weight: bold;
+      text-align: center;
+      padding: 1em;
+      background: #f5ecc2;
+
+      a {
+        color: #134571;
+      }
     }
   }
 
@@ -284,6 +322,13 @@
   }
   h1 {
       font-size: 2em;
+
+    span {
+      font-size: 0.45em;
+      display: block;
+      margin-bottom: 0.5em;
+      font-weight: normal;
+    }
     @media (min-width: 576px) {
       font-size: 2.4em;
     }
