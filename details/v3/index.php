@@ -6,9 +6,8 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h1 class="mb-5">Details page (version 2) index</h1>
-                <p>Date created: 27 April 2021</p>
-                <p>Date retired: 20 May 2021</p>
+                <h1 class="mb-5">Details page (version 3) index</h1>
+                <p>Date created: 20 May 2021</p>
                 <ul>
                     <li><a href="example-1.php">Example 1 - Digitised Piece/item with 'other possible matches' and image viewer</a></li>
                     <li><a href="example-2.php">Example 2 - Non-digitised piece/item with poor description - 6th level within the catalogue hierarchy</a></li>

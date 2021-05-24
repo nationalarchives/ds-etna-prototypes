@@ -4,80 +4,74 @@
 <main class="details-v2">
     <?php require_once '../../includes/header-and-nav-bar.php' ?>
     <div class="container header">
-        <h1><span>Record title: </span>Short title: Frisby v Frisby. Plaintiffs: John Frisby, William Frisby, and Anthony...</h1>
-    </div>
-    <div class="section header summary-box">
-        <div class="container">
-            <ul>
-                <li>Reference: <b>C 5/139/35</b></li>
-                <li>Date created: <b>1698</b></li>
-                <li>Creator: <b><a href="">Chancery, the Wardrobe, Royal Household, Exchequer and various commissions</a></b>.</li>
-            </ul>
-            <p class="mb-2">The record is not available to view online. <br><a href="">See the description and record details</a></p>
-        </div>
-
-    </div>
-    <div class="container">
-        <!-- The 'CATALOGUE DESCRIPTION' section -->
-        <h2 class="mb-3">How to view and order this record</h2>
-
+        <h1>Hearings: Video: No witness</h1>
+        <p class="mb-0 text-muted">Reference: LEV 1/1</p>
+        <p class="mb-0 text-muted">Record created: 14 Nov 2011</p>
     </div>
 
-    <div class="section header first">
-
-        <div class="summary pb-4">
+    <div class="section section-border-bottom bg-dark-grey mt-4 pt-0">
+        <!-- The 'RECORD' section -->
+        <div class="summary">
             <div class="container">
-                <p class="location mb-2">The record is held at <a href="">The National Archives, UK</a></p>
-            </div>
-        </div>
-        <div class="delivery-options">
-            <div class="container">
-                <p class="mb-2">This record has not been digitised and cannot be downloaded.</p>
-
+                <p class="anchor">Access options</p>
+                <h2>This record is a video</h2>
                 <ul>
-                    <li><a href="#collapseExample">Book a visit to see it <span>(free)</span></a></li>
-                    <li><a href="">Order a paper copy for delivery <span>(£8)</span></a></li>
+                    <li><a href="">Watch now</a></li>
+                    <li><a href="">View at Kew</a></li>
                 </ul>
             </div>
-        </div>
-        <div class="collapse" id="collapseExample">
-            <div class="card card-body">
-                Your order will take approximately 45 minutes to be prepared.
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </div>
             </div>
-        </div>
 
+                <div class="image-viewer">
+                    <h3>Video player</h3>
+                </div>
+            </div>
 
+        <div class="container highlight">
+            <div class="row justify-content-between">
+                <div class="col-lg-7">
+                    <h2>What is a record?</h2>
+                    <p>We use the word ‘record’ to mean a piece in The National Archives’ catalogue. It might be a letter, document, map, or a volume or box of items. Records generally belong to a 'series' (a grouping around a common subject) and a 'department' (the creator).</p>
+
+                    <p>This page doesn't show you the record itself - it gives you the archival description and associated information catalogued for this record.</p>
+                </div><!-- /col -->
+                <div class="col-lg-4">
+                    <h2>Key information</h2>
+                    <ul class="key-info">
+                        <li>Available to download: <span>Yes</span></li>
+                        <li>Description quality: <span>Good</span></li>
+                        <li>Created by: <span><a href="">Unknown</a></span></li>
+                        <li>Held by: <span><a href="">The National Archives, UK</a></span></li>
+                </div>
+            </div>
+        </div><!-- /container -->
     </div>
-
 
     <div class="container">
         <!-- The 'CATALOGUE DESCRIPTION' section -->
-        <h2 class="mb-3">Description and record details</h2>
-
+        <h2 class="mb-3">Record details</h2>
     </div>
-
-
-
     <div class="section section-border-top section-border-bottom bg-light-grey">
         <div class="container">
-
-            <h3 class="mb-3">Description</h3>
+            <div class="row">
+                <div class="col-lg-8">
                     <table class="mb-5">
                         <tr>
                             <td>Reference</td>
-                            <td>T 70/1278</td>
+                            <td>LEV 1/1</td>
                         </tr>
                         <tr>
                             <td>Record description</td>
-                            <td>Short title: Frisby v Frisby.
-                                Plaintiffs: John Frisby, William Frisby, and Anthony Frisby.
-                                Defendants: Esther Frisby widow.
-                                Subject: property in Billesdon, Leicestershire.
-                                Document type: bill, answer.</td>
+                            <td>Hearings: Video: No witness
+                            </td>
                         </tr>
                         <tr>
                             <td>Record created</td>
-                            <td>1698</td>
+                            <td>14 Nov 2011</td>
                         </tr>
                         <tr>
                             <td>Held by</td>
@@ -91,29 +85,38 @@
                             <td>Closure status</td>
                             <td>Open Document, Open Description</td>
                         </tr>
+                        <tr>
+                            <td>Restrictions on use</td>
+                            <td>To view the files onsite in the reading rooms at Kew you will need to use specific terminals and request headphones. Please speak to a member of staff.</td>
+                        </tr>
+                        <tr>
+                            <td>Access conditions</td>
+                            <td>Open on Transfer</td>
+                        </tr>
+                        <tr>
+                            <td>Record opening date</td>
+                            <td>11 September 2013</td>
+                        </tr>
                     </table>
+                    <h3>Subjects of this record</h3>
+                    <ul class="tna-ul--no-bullet taxonomy">
 
+                        <li><a href="">Subject 1</a></li>
+                        <li><a href="">Subject 2</a></li>
+                        <li><a href="">Subject 3</a></li>
+                    </ul>
+                </div><!-- /col -->
+                <div class="col-lg-4">
                     <h3 class="mb-4">Where is this record in the archive?</h3>
                     <p class="mb-3">Records are arranged in multiple levels - the archive hierarchy. At the top you'll find the organisation that created the record, and at the lower levels the 'pieces' or items contained in the records.</p>
                     <ul class="tna-ul--no-bullet hierarchy">
-
-                        <li><a href="/journey/record/C">C - Records created, acquired, and inherited by Chancery, and also of the Wardrobe, Royal Household, Exchequer and various commissions</a>
-                        </li>
-
-
-                        <li><a href="/journey/record/C/~15">Division within C - Records of Equity Side: the Six Clerks</a></li>
-
-
-                        <li><a href="/journey/record/C/5">C 5 - Court of Chancery: Six Clerks Office: Pleadings before 1714, Bridges</a></li>
-
+                        <li><a href="/journey/record/C">LEV - Records of the Inquiry into the Culture, Practices and Ethics of the Press (The Leveson Inquiry)</a></li>
+                        <li><a href="/journey/record/C/~15">Division within LEV - The Leveson Inquiry: Websites</a></li>
+                        <li><a href="/journey/record/C/5">LEV 1 - Inquiry into the Culture, Practices and Ethics of the Press (The Leveson Inquiry): Website and Video Recordings</a></li>
+                        <li><a href="/journey/record/C/5">Subseries within LEV 1 - Leveson Inquiry: Video Recordings</a></li>
                     </ul>
-            <h3>Topics covered</h3>
-            <ul class="tna-ul--no-bullet taxonomy">
-
-                <li><a href="">Litigation</a></li>
-
-            </ul>
-
+                </div><!-- /col -->
+            </div><!-- /row -->
 
         </div><!-- /container -->
     </div>
