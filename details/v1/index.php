@@ -7,6 +7,8 @@
         <div class="row">
             <div class="col">
                 <h1 class="mb-5">Details page (version 1) index</h1>
+                <p>Date created: </p>
+                <p>Date created: </p>
                 <ul>
                     <li><a href="example-1.php">Example 1 - Digitised Piece/item with 'other possible matches' and image viewer</a></li>
                     <li><a href="example-2.php">Example 2 - Non-digitised piece/item with poor description - 6th level within the catalogue hierarchy</a></li>
