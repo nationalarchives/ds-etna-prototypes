@@ -8,7 +8,7 @@
                 <ul>
                     <li><a href="/details/v1">V1</a></li>
                     <li><a href="/details/v2">V2</a></li>
-
+                    <li><a href="/details/v3">V3</a></li>
                 </ul>
             </div>
         </div>
