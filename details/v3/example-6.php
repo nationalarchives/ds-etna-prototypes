@@ -18,36 +18,11 @@
             <ul>
                 <li><span>Record created by:</span><b><a href="">Chancery, the Wardrobe, Royal Household, Exchequer and various commissions</a></b>.</li>
                 <li><span>Record now held at:</span><b><a href="">The National Archives, UK</a></b>.</li>
-                <li><b><a href="">See the full description</a></b></li>
+                <li><b><span class="small">&#x2193;</span><a href="">See the full description</a></b></li>
             </ul>
         </div>
     </div>
-    <div class="container">
-        <!-- The 'CATALOGUE DESCRIPTION' section -->
-        <h2 class="mb-3">This record is not available to view online</h2>
-
-
-    </div>
-
-    <div class="section bg-light-green">
-
-        <div class="delivery-options">
-            <div class="container">
-                <h2 class="mb-3">How to view and order this record</h2>
-
-
-                <ul>
-                    <li><a href="#collapseExample">Book a visit to see it <span>(free)</span></a></li>
-                    <li><a href="">Order a paper copy for delivery <span>(£8)</span></a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="collapse" id="collapseExample">
-            <div class="card card-body">
-                Your order will take approximately 45 minutes to be prepared.
-            </div>
-        </div>
-    </div>
+    <?php require "record-access.php"; ?>
 
 
 

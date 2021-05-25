@@ -753,7 +753,8 @@ main.explorer #time_periods div.card .content-type, main.explorer #topics div.ca
   font-family: "Roboto", sans-serif;
 }
 .details-v3 a {
-  color: #222;
+  color: #134571;
+  font-weight: bold;
 }
 .details-v3 h2 {
   font-size: 1.8rem;
@@ -814,7 +815,7 @@ main.explorer #time_periods div.card .content-type, main.explorer #topics div.ca
   margin-bottom: 7em;
 }
 .details-v3 .bg-light-grey {
-  border-top: 5px solid #adcc8f;
+  border-top: 3px dotted #d3dde5;
 }
 .details-v3 .bg-dark-grey {
   background-color: #eee;
@@ -869,7 +870,7 @@ main.explorer #time_periods div.card .content-type, main.explorer #topics div.ca
   display: inline-block;
   margin-right: 1.5em;
   padding: 0.75em 1.25em;
-  background: #222;
+  background: #134571;
   font-weight: bold;
 }
 .details-v3 .delivery-options ul li a {
@@ -987,14 +988,13 @@ main.explorer #time_periods div.card .content-type, main.explorer #topics div.ca
   border: 0;
 }
 .details-v3 .summary-box {
-  margin: 0.5em 0 4em 0;
+  margin: 0.5em 0 3.5em 0;
   padding: 0;
   text-align: left !important;
   font-family: "Roboto", sans-serif;
 }
 .details-v3 .summary-box ul {
   margin: 0;
-  margin-bottom: 1em;
   padding: 1.3em 0;
   list-style-type: none;
   background: #fff;
@@ -1045,7 +1045,7 @@ main.explorer #time_periods div.card .content-type, main.explorer #topics div.ca
 }
 @media (min-width: 576px) {
   .details-v3 h3 {
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-bottom: 0;
   }
 }
@@ -1065,8 +1065,7 @@ main.explorer #time_periods div.card .content-type, main.explorer #topics div.ca
   font-family: "Roboto", sans-serif;
 }
 .details-v3 .bg-light-green {
-  border-top: 5px solid #adcc8f;
-  background: #dde5d5;
+  background: #d3dde5;
   padding: 1em 0;
 }
 .details-v3 .not-online {
@@ -1078,6 +1077,31 @@ main.explorer #time_periods div.card .content-type, main.explorer #topics div.ca
 }
 .details-v3 .not-online a {
   color: #134571;
+}
+.details-v3 .small {
+  margin-top: 0.5em;
+  text-align: center;
+  font-size: 0.9em;
+  margin-right: 0.7em;
+  min-width: 25px !important;
+  color: #fff;
+  background: #222;
+  padding: 0;
+  height: 1.6em;
+  border-radius: 50%;
+}
+.details-v3 .toggle {
+  font-size: 0.43em;
+  margin-left: 1em;
+  border: 1px solid #93b3cf;
+  padding: 0.35em 0.45em;
+  height: 14px;
+  width: 14px;
+  display: inline-block;
+  color: #93b3cf;
+  vertical-align: 2px;
+  background: #eee;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=styles.css.map */
