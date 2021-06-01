@@ -460,4 +460,101 @@ h2 {
   outline-color: #8EC0EC;
 }
 
+.insights-v1 .hero-img {
+  height: 500px;
+}
+.insights-v1 .callout {
+  border: 1px solid #000;
+  padding: 3rem;
+}
+.insights-v1 .callout ul {
+  list-style: none;
+  padding-top: 2rem;
+}
+.insights-v1 .content-block {
+  padding: 2rem;
+}
+.insights-v1 .content-block p:last-child {
+  margin-bottom: 0;
+}
+.insights-v1 .content-block__light-grey {
+  background-color: #f3f3f3;
+}
+.insights-v1 main .row {
+  margin-bottom: 2rem;
+}
+.insights-v1 .chapter-nav {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background: #f0f0f0;
+  color: black;
+  padding: 1rem 2rem;
+}
+.insights-v1 .chapter-nav span:first-child {
+  min-width: 80%;
+}
+.insights-v1 .chapter-nav #contents-toggle {
+  text-align: right;
+}
+.insights-v1 .chapter-nav #contents-toggle button {
+  min-width: 220px;
+  padding: 20px 40px 20px 20px;
+  background-color: #9b9b9b;
+  border: none;
+}
+.insights-v1 .chapter-nav #contents-toggle button:hover {
+  cursor: pointer;
+  color: #fff;
+}
+.insights-v1 .chapter-nav #contents-toggle button:focus {
+  outline: 5px solid #1d70b8;
+}
+.insights-v1 .chapter-nav #article, .insights-v1 .chapter-nav #chapter {
+  font-weight: bold;
+}
+.insights-v1 .chapter-nav #contents ul {
+  list-style: none;
+  padding-left: 0;
+  column-count: 3;
+}
+.insights-v1 .chapter-nav #contents ul li a {
+  color: #000;
+}
+.insights-v1 .list-title {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+.insights-v1 .king-james-shakespeare-img {
+  width: 500px;
+}
+.insights-v1 .audio-embed-image {
+  margin: auto;
+}
+.insights-v1 .audio-embed-image:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.insights-v1 .image-container {
+  position: relative;
+  width: 200px;
+  height: 300px;
+}
+.insights-v1 .image-container .after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  color: #FFF;
+}
+.insights-v1 .image-container .after {
+  display: block;
+  background: rgba(0, 0, 0, 0.6);
+}
+.insights-v1 .chapter-nav .row {
+  margin-bottom: 0;
+}
+
 /*# sourceMappingURL=etna.css.map */

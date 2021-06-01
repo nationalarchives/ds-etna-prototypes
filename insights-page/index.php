@@ -100,9 +100,9 @@
 <ul>
     <li>
         <span>1</span>
-        <a href="/insights-page/insights.php">Insights page</a>
+        <a href="/insights-page/insights-v1.php">Insights page v1</a>
         <br>
-        insights-page/insights.php
+        insights-page/insights-v1.php
     </li>
 </ul>
 
