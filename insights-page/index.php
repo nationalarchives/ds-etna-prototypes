@@ -100,9 +100,15 @@
 <ul>
     <li>
         <span>1</span>
-        <a href="/insights-page/insights.php">Insights page</a>
+        <a href="/insights-page/insights-shakespeare-v1.php">Shakespeare insights page v1</a>
         <br>
-        insights-page/insights.php
+        insights-page/insights-shakespeare-v1.php
+    </li>
+    <li>
+        <span>2</span>
+        <a href="/insights-page/insights-black-asian-presence-v1.php">Black and Asian presence insights page v1</a>
+        <br>
+        insights-page/insights-black-asian-presence-v1.php
     </li>
 </ul>
 
