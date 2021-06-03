@@ -111,11 +111,6 @@
 
   .audio-embed-image {
     margin: auto;
-
-    &:hover {
-      cursor: pointer;
-      opacity: 0.9;
-    }
   }
 
   .image-container {
@@ -145,7 +140,40 @@
     }
   }
 
-  .call-out-box, .key-facts-box {
+  .call-out-box {
+    background-color: #12477a;
+    padding: 2rem 0;
+    width: 100%;
+
+    a, p {
+      color: #fff;
+    }
+
+    .call-out-links {
+      li {
+        background-color: #292929;
+        margin-bottom: 1rem;
+
+        .heading {
+          font-size: 20px;
+        }
+
+        a {
+          display: inline-block;
+          padding: 1rem;
+          width: 100%;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+
+    }
+  }
+
+  .key-facts-box {
     position: relative;
     margin: 3rem 3rem 0 3rem;
 
@@ -195,11 +223,8 @@
 
   .image-wrapper {
     position: relative;
-    margin: auto;
+    width: 100%;
 
-    &:hover {
-      cursor: pointer;
-    }
   }
 
   .image-wrapper:before {
@@ -221,7 +246,7 @@
     text-align: center;
     z-index: 1000;
 
-    h3, p {
+    h2, p {
       color: #fff;
     }
   }
@@ -259,6 +284,33 @@
     padding-bottom: 0 !important;
   }
 
+  .no-padding-right {
+    padding-right: 0;
+  }
+
+  .no-padding-left {
+    padding-left: 0;
+  }
+
+  .no-margin-bottom {
+    margin-bottom: 0;
+  }
+
+  .author-bio {
+    background-color: #eee;
+    height: 80%;
+    padding: 2rem;
+
+    .author-name {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .author-occupation {
+      font-weight: bold;
+    }
+  }
+
   .stand-first {
     &:after {
       border-bottom: 5px solid #dde5d5;
@@ -269,7 +321,7 @@
   }
 
   .stand-first-text {
-    padding: 2rem 15px 0 15px;
+    padding: 2rem 0;
     margin: auto;
   }
 
@@ -304,21 +356,114 @@
     margin-bottom: 2rem;
   }
 
+  .blog-embed {
+    margin: auto;
+    text-align: center;
 
+    .centred-overlay {
+      padding: 2rem;
+      width: 100%;
+      top: 120%;
+    }
 
+    .image-wrapper:before {
+      background-color: #fff;
+      opacity: 0.8;
+      top: 80%;
+    }
 
+    .image-wrapper:after {
+      content: "";
+      display: block;
+      margin-bottom: 10rem;
+    }
 
+    .blog-embed-text {
+      text-align: left;
 
+      h2, span, p {
+        color: #000;
+      }
+    }
+  }
 
+  .research-resources {
+    text-align: center;
+    width: 100%;
 
+    .research-links {
+      list-style: none;
 
+      li {
+        background-color: #12477a;
+        margin: auto auto 1rem;
+        width: 50%;
 
+        .heading {
+          font-size: 20px;
+        }
 
+        a {
+          display: inline-block;
+          padding: 1rem;
+          width: 100%;
+          text-decoration: none;
+          color: #fff;
+          text-align: left;
 
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
 
+  .bold-text {
+    font-weight: bold;
+  }
 
+  .button {
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    transition: none;
 
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
 
+  .button-inverted {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    transition: none;
+
+    &:hover {
+      background-color: #fff;
+      color: #000;
+      outline: 5px solid #000;
+    }
+  }
+
+  .record-embed-text {
+    text-align: center;
+
+    span.reference {
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .record-embed-heading {
+    padding: 1rem;
+  }
 
   .record-embed-container {
     background-color: #000;
@@ -331,7 +476,7 @@
     figcaption {
       background-color: #292929;
       color: #fff;
-      padding: 1rem 10rem;
+      padding: 1rem;
     }
   }
 
@@ -394,7 +539,17 @@
     margin-bottom: 0.5em;
     text-transform: uppercase;
   }
+
+  .separator-left, .separator-right {
+    border-bottom: 5px solid #ddd;
+    height: 35px;
+  }
+
+  .separator-icon {
+    text-align: center;
+
+    p {
+      padding-top: 1rem;
+    }
+  }
 }
-
-
-
