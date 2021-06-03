@@ -548,10 +548,6 @@ h2 {
 .insights-v1 .audio-embed-image {
   margin: auto;
 }
-.insights-v1 .audio-embed-image:hover {
-  cursor: pointer;
-  opacity: 0.9;
-}
 .insights-v1 .image-container {
   position: relative;
   width: 200px;
@@ -573,18 +569,42 @@ h2 {
 .insights-v1 .chapter-nav .row {
   margin-bottom: 0;
 }
-.insights-v1 .call-out-box, .insights-v1 .key-facts-box {
+.insights-v1 .call-out-box {
+  background-color: #12477a;
+  padding: 2rem 0;
+  width: 100%;
+}
+.insights-v1 .call-out-box a, .insights-v1 .call-out-box p {
+  color: #fff;
+}
+.insights-v1 .call-out-box .call-out-links li {
+  background-color: #292929;
+  margin-bottom: 1rem;
+}
+.insights-v1 .call-out-box .call-out-links li .heading {
+  font-size: 20px;
+}
+.insights-v1 .call-out-box .call-out-links li a {
+  display: inline-block;
+  padding: 1rem;
+  width: 100%;
+  text-decoration: none;
+}
+.insights-v1 .call-out-box .call-out-links li a:hover {
+  text-decoration: underline;
+}
+.insights-v1 .key-facts-box {
   position: relative;
   margin: 3rem 3rem 0 3rem;
 }
-.insights-v1 .call-out-box blockquote, .insights-v1 .key-facts-box blockquote {
+.insights-v1 .key-facts-box blockquote {
   padding: 2rem;
 }
-.insights-v1 .call-out-box .quote-icon, .insights-v1 .key-facts-box .quote-icon {
+.insights-v1 .key-facts-box .quote-icon {
   position: absolute;
   top: -20px;
 }
-.insights-v1 .call-out-box:before, .insights-v1 .key-facts-box:before {
+.insights-v1 .key-facts-box:before {
   content: "";
   display: block;
   /* This will put the pseudo element on its own line. */
@@ -596,7 +616,7 @@ h2 {
   border-top: 3px solid black;
   /* This creates the border. Replace black with whatever color you want. */
 }
-.insights-v1 .call-out-box .citation, .insights-v1 .key-facts-box .citation {
+.insights-v1 .key-facts-box .citation {
   text-align: right;
   border-top: 3px solid black;
   margin-left: 60%;
@@ -619,10 +639,7 @@ h2 {
 }
 .insights-v1 .image-wrapper {
   position: relative;
-  margin: auto;
-}
-.insights-v1 .image-wrapper:hover {
-  cursor: pointer;
+  width: 100%;
 }
 .insights-v1 .image-wrapper:before {
   content: "";
@@ -642,7 +659,7 @@ h2 {
   text-align: center;
   z-index: 1000;
 }
-.insights-v1 .centred-overlay h3, .insights-v1 .centred-overlay p {
+.insights-v1 .centred-overlay h2, .insights-v1 .centred-overlay p {
   color: #fff;
 }
 .insights-v1 .podcast-link {
@@ -667,6 +684,27 @@ h2 {
 .insights-v1 .no-padding-bottom {
   padding-bottom: 0 !important;
 }
+.insights-v1 .no-padding-right {
+  padding-right: 0;
+}
+.insights-v1 .no-padding-left {
+  padding-left: 0;
+}
+.insights-v1 .no-margin-bottom {
+  margin-bottom: 0;
+}
+.insights-v1 .author-bio {
+  background-color: #eee;
+  height: 80%;
+  padding: 2rem;
+}
+.insights-v1 .author-bio .author-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+.insights-v1 .author-bio .author-occupation {
+  font-weight: bold;
+}
 .insights-v1 .stand-first:after {
   border-bottom: 5px solid #dde5d5;
   content: "";
@@ -674,7 +712,7 @@ h2 {
   width: 80%;
 }
 .insights-v1 .stand-first-text {
-  padding: 2rem 15px 0 15px;
+  padding: 2rem 0;
   margin: auto;
 }
 @media only screen and (min-width: 576px) {
@@ -703,6 +741,95 @@ h2 {
   font-family: "Roboto-Mono", sans-serif;
   margin-bottom: 2rem;
 }
+.insights-v1 .blog-embed {
+  margin: auto;
+  text-align: center;
+}
+.insights-v1 .blog-embed .centred-overlay {
+  padding: 2rem;
+  width: 100%;
+  top: 120%;
+}
+.insights-v1 .blog-embed .image-wrapper:before {
+  background-color: #fff;
+  opacity: 0.8;
+  top: 80%;
+}
+.insights-v1 .blog-embed .image-wrapper:after {
+  content: "";
+  display: block;
+  margin-bottom: 10rem;
+}
+.insights-v1 .blog-embed .blog-embed-text {
+  text-align: left;
+}
+.insights-v1 .blog-embed .blog-embed-text h2, .insights-v1 .blog-embed .blog-embed-text span, .insights-v1 .blog-embed .blog-embed-text p {
+  color: #000;
+}
+.insights-v1 .research-resources {
+  text-align: center;
+  width: 100%;
+}
+.insights-v1 .research-resources .research-links {
+  list-style: none;
+}
+.insights-v1 .research-resources .research-links li {
+  background-color: #12477a;
+  margin: auto auto 1rem;
+  width: 50%;
+}
+.insights-v1 .research-resources .research-links li .heading {
+  font-size: 20px;
+}
+.insights-v1 .research-resources .research-links li a {
+  display: inline-block;
+  padding: 1rem;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  text-align: left;
+}
+.insights-v1 .research-resources .research-links li a:hover {
+  text-decoration: underline;
+}
+.insights-v1 .bold-text {
+  font-weight: bold;
+}
+.insights-v1 .button {
+  background-color: #fff;
+  color: #000;
+  display: inline-block;
+  padding: 1rem;
+  text-decoration: none;
+  transition: none;
+}
+.insights-v1 .button:hover {
+  background-color: #000;
+  color: #fff;
+}
+.insights-v1 .button-inverted {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  padding: 1rem;
+  text-decoration: none;
+  transition: none;
+}
+.insights-v1 .button-inverted:hover {
+  background-color: #fff;
+  color: #000;
+  outline: 5px solid #000;
+}
+.insights-v1 .record-embed-text {
+  text-align: center;
+}
+.insights-v1 .record-embed-text span.reference {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+.insights-v1 .record-embed-heading {
+  padding: 1rem;
+}
 .insights-v1 .record-embed-container {
   background-color: #000;
   width: 100%;
@@ -713,7 +840,7 @@ h2 {
 .insights-v1 .record-embed-container figcaption {
   background-color: #292929;
   color: #fff;
-  padding: 1rem 10rem;
+  padding: 1rem;
 }
 .insights-v1 .record-embed-image {
   position: relative;
@@ -766,6 +893,16 @@ h2 {
   letter-spacing: 0.15em;
   margin-bottom: 0.5em;
   text-transform: uppercase;
+}
+.insights-v1 .separator-left, .insights-v1 .separator-right {
+  border-bottom: 5px solid #ddd;
+  height: 35px;
+}
+.insights-v1 .separator-icon {
+  text-align: center;
+}
+.insights-v1 .separator-icon p {
+  padding-top: 1rem;
 }
 
 /*# sourceMappingURL=etna.css.map */

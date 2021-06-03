@@ -106,6 +106,12 @@
     </li>
     <li>
         <span>2</span>
+        <a href="/insights-page/insights-shakespeare-v2.php">Shakespeare insights page v2</a>
+        <br>
+        insights-page/insights-shakespeare-v2.php
+    </li>
+    <li>
+        <span>3</span>
         <a href="/insights-page/insights-black-asian-presence-v1.php">Black and Asian presence insights page v1</a>
         <br>
         insights-page/insights-black-asian-presence-v1.php
