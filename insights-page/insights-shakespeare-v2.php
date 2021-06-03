@@ -44,28 +44,34 @@
                         <a href="#content-1">1. Career</a>
                     </li>
                     <li>
-                        <a href="#content-2">2. Record embed</a>
+                        <a href="#content-2">2. The Face of Shakespeare</a>
                     </li>
                     <li>
-                        <a href="#content-3">3. Quote</a>
+                        <a href="#content-3">3. Content block</a>
                     </li>
                     <li>
-                        <a href="#content-4">4. Audio embed</a>
+                        <a href="#content-4">4. Call out</a>
                     </li>
                     <li>
-                        <a href="#content-5">5. The King's Men</a>
+                        <a href="#content-5">5. Shakespeare and James I</a>
                     </li>
                     <li>
-                        <a href="#content-6">6. Record embed</a>
+                        <a href="#content-6">6. A Tourist's Guide to Shakespeare's London</a>
                     </li>
                     <li>
-                        <a href="#content-7">7. Shakespeare's will</a>
+                        <a href="#content-7">7. Content block</a>
                     </li>
                     <li>
-                        <a href="#content-8">8. Key facts</a>
+                        <a href="#content-8">8. Research Resources</a>
                     </li>
                     <li>
-                        <a href="#content-9">9. Find out more</a>
+                        <a href="#content-9">9. Shakespeare's Will</a>
+                    </li>
+                    <li>
+                        <a href="#content-10">10. Quote</a>
+                    </li>
+                    <li>
+                        <a href="#content-11">11. Find out more</a>
                     </li>
                 </ul>
             </div>
@@ -137,6 +143,7 @@
     <div class="container-fluid px-0">
         <div class="col-md-12">
             <div class="row">
+                <span id="content-2"></span>
                 <div class="offset-1 col-md-10">
                     <h2 class="record-embed-heading bold-text">The face of Shakespeare</h2>
                 </div>
@@ -180,7 +187,6 @@
                                         </a>
                                     </div>
                                 </figcaption>
-
                             </figure>
                     </div>
                 </div>
@@ -191,7 +197,7 @@
     <div class="container">
         <div class="col-md-12 content">
             <div class="row">
-                <span id="content-1"></span>
+                <span id="content-3"></span>
                 <div class="content-block">
                     <p>
                         William Shakespeare, also known as the ‘Bard’, was born in Stratford-upon-Avon on April 23rd 1564. It is thought he married his wife,
@@ -213,7 +219,7 @@
     <div class="container-fluid px-0">
         <div class="col-12">
             <div class="row">
-                <span id="content-3"></span>
+                <span id="content-4"></span>
                 <div class="call-out-box">
                     <div class="container">
                         <p>
@@ -279,7 +285,7 @@
     <div class="container">
         <div class="col-md-12 content">
             <div class="row">
-                <span id="content-88"></span>
+                <span id="content-5"></span>
                 <div class="record-embed-text">
                     <div class="separator-icon">
                         <img style="height:75px;width:75px" src="images/insights-shakespeare-v1/icons/explore-icon.png" alt="audio icon">
@@ -303,7 +309,7 @@
         <div class="col-md-12 content">
             <div class="row">
                 <div class="image-wrapper">
-                    <span id="content-4"></span>
+                    <span id="content-6"></span>
                     <img class="audio-embed-image" src="images/insights-shakespeare-v1/audio-embed.png" alt="Alt text" />
                     <div class="centred-overlay">
                         <img style="height:75px;width:75px" src="images/insights-shakespeare-v1/icons/audio-icon.svg" alt="audio icon">
@@ -333,7 +339,7 @@
     <div class="container">
         <div class="col-md-12 content">
             <div class="row">
-                <span id="content-5"></span>
+                <span id="content-7"></span>
                 <div class="content-block">
                     <p>
                         Six shillings and eight pence is what Shakespeare’s company of actors, the Lord Chamberlain’s Men, were charged for the
@@ -366,7 +372,7 @@
     <div class="container-fluid px-0">
         <div class="col-md-12 content">
             <div class="row">
-                <span id="content-88"></span>
+                <span id="content-8"></span>
                 <div class="research-resources">
                     <h2 class="bold-text">Research resources</h2>
                     <div>
@@ -417,6 +423,7 @@
     <div class="container-fluid px-0">
         <div class="col-md-12 content">
             <div class="row">
+                <span id="content-9"></span>
                 <div class="blog-embed">
                     <h2 class="bold-text">
                         Shakespeare's will
@@ -448,7 +455,7 @@
     <div class="container">
         <div class="col-md-12">
             <div class="row">
-                <span id="content-8"></span>
+                <span id="content-10"></span>
                 <div class="key-facts-box">
                     <img src="images/insights-shakespeare-v1/quote-right.svg" class="quote-icon" alt="" />
                     <blockquote>
@@ -468,7 +475,7 @@
             </div>
 
             <div class="row">
-                <span id="content-10"></span>
+                <span id="content-11"></span>
                 <h2 style="width: 100%">Explore our other content about Shakespeare</h2>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card-group-secondary-nav">
