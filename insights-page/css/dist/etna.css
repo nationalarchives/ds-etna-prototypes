@@ -595,7 +595,7 @@ h2 {
 }
 .insights-v1 .key-facts-box {
   position: relative;
-  margin: 3rem 3rem 0 3rem;
+  margin: 3rem 0;
 }
 .insights-v1 .key-facts-box blockquote {
   padding: 2rem;
@@ -745,23 +745,13 @@ h2 {
   margin: auto;
   text-align: center;
 }
-.insights-v1 .blog-embed .centred-overlay {
-  padding: 2rem;
-  width: 100%;
-  top: 120%;
-}
-.insights-v1 .blog-embed .image-wrapper:before {
+.insights-v1 .blog-embed .blog-embed-text {
   background-color: #fff;
   opacity: 0.8;
-  top: 80%;
-}
-.insights-v1 .blog-embed .image-wrapper:after {
-  content: "";
-  display: block;
-  margin-bottom: 10rem;
-}
-.insights-v1 .blog-embed .blog-embed-text {
+  padding: 2rem;
   text-align: left;
+  width: 40%;
+  margin: -60px auto 0 auto;
 }
 .insights-v1 .blog-embed .blog-embed-text h2, .insights-v1 .blog-embed .blog-embed-text span, .insights-v1 .blog-embed .blog-embed-text p {
   color: #000;
@@ -903,6 +893,17 @@ h2 {
 }
 .insights-v1 .separator-icon p {
   padding-top: 1rem;
+}
+.insights-v1 .border-top-grey {
+  border-top: 5px solid #ddd;
+  margin-top: 3rem;
+}
+.insights-v1 .border-bottom-grey {
+  border-bottom: 5px solid #ddd;
+  margin-bottom: 5.5rem;
+}
+.insights-v1 .generic-intro img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=etna.css.map */

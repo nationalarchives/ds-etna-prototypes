@@ -175,7 +175,7 @@
 
   .key-facts-box {
     position: relative;
-    margin: 3rem 3rem 0 3rem;
+    margin: 3rem 0;
 
     blockquote {
       padding: 2rem;
@@ -360,26 +360,13 @@
     margin: auto;
     text-align: center;
 
-    .centred-overlay {
-      padding: 2rem;
-      width: 100%;
-      top: 120%;
-    }
-
-    .image-wrapper:before {
+    .blog-embed-text {
       background-color: #fff;
       opacity: 0.8;
-      top: 80%;
-    }
-
-    .image-wrapper:after {
-      content: "";
-      display: block;
-      margin-bottom: 10rem;
-    }
-
-    .blog-embed-text {
+      padding: 2rem;
       text-align: left;
+      width: 40%;
+      margin: -60px auto 0 auto;
 
       h2, span, p {
         color: #000;
@@ -550,6 +537,22 @@
 
     p {
       padding-top: 1rem;
+    }
+  }
+
+  .border-top-grey {
+    border-top: 5px solid #ddd;
+    margin-top: 3rem;
+  }
+
+  .border-bottom-grey {
+    border-bottom: 5px solid #ddd;
+    margin-bottom: 5.5rem;
+  }
+
+  .generic-intro {
+    img {
+      width: 100%;
     }
   }
 }
