@@ -15,7 +15,17 @@
                     <?php require './includes/breadcrumbs.php' ?>
                     <div class="row">
                         <div class="col-md-3">
-                            <img class="img-fluid" src="images/insights-shakespeare-v1/shakespeare.jpg" alt="Portrait of William Shakespeare"/>
+                            <img class="img-fluid" src="images/insights-shakespeare-v1/shakespeare.png" alt="Portrait of William Shakespeare"/>
+                        </div>
+                        <div class="col-md-9">
+                            <span class="stand-first-heading">
+                                William Shakespeare is often thought of as one of the greatest writers in the English language.
+                            </span>
+                            <p>
+                                His plays have been translated into every major language, and are performed more often than any other playwright.
+                                Shakespeare’s writing also affected the way the English language evolved, and several words and phrases, such as
+                                ‘all’s well that ends well’, ‘with bated breath’ and ‘a foregone conclusion’ have moved into everyday use.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -83,7 +93,7 @@
             <div class="row">
                 <div class="offset-2 col-md-2 no-padding-right no-padding-left">
                     <div class="author-image">
-                        <img style="width: 300px;" class="img-fluid" src="images/insights-shakespeare-v1/shakespeare.jpg" alt="Portrait of William Shakespeare">
+                        <img style="width: 300px;" class="img-fluid" src="images/insights-shakespeare-v1/shakespeare.png" alt="Portrait of William Shakespeare">
                     </div>
                 </div>
                 <div class="col-md-8 no-padding-left no-padding-right">
@@ -100,7 +110,7 @@
         </div>
     </div>
 
-    <div class="container-fluid px-0 stand-first">
+    <!--<div class="container-fluid px-0 stand-first">
         <div class="offset-2 col-md-10">
             <div class="row">
                 <div class="stand-first-text">
@@ -115,7 +125,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
     <div class="container">
         <div class="col-md-12 content">
@@ -155,7 +165,7 @@
                                         <div class="content-overlay"></div>
                                         <img
                                                 class="content-image"
-                                                src="images/insights-shakespeare-v1/shakespeare.jpg"
+                                                src="images/insights-shakespeare-v1/shakespeare.png"
                                                 alt="Shakespeare's portrait"
                                         >
                                     </a>
@@ -424,56 +434,58 @@
         <div class="col-md-12 content">
             <div class="row">
                 <span id="content-9"></span>
-                <div class="blog-embed">
-                    <h2 class="bold-text">
-                        Shakespeare's will
-                    </h2>
-                    <div class="image-wrapper">
-                        <span id="content-4"></span>
+                    <div class="blog-embed">
+                        <h2 class="bold-text">
+                            Shakespeare's will
+                        </h2>
                         <img src="images/insights-shakespeare-v1/blog-embed-image.jpeg" alt="Person reading">
-                        <div class="centred-overlay">
-                            <div class="blog-embed-text">
+                        <div class="blog-embed-text">
+                            <span class="bold-text">Published on 25 July 2021</span>
+                            <p>
+                                On 25 March 1616, William Shakespeare made his will, signed ‘by me, William Shakespeare’. He probably died in April, after
+                                finalising his will over the preceding months, but scholars are unsure of the exact date of his death. As Head of Legal
+                                Records at The National Archives, I've been looking in detail at one of our treasures: Shakespeare's original will, full of
+                                amendments, which was left in the probate court by his executor.
+                            </p>
+                        </div>
+                        <a class="button-inverted" href="">
+                            Read the full blog
+                        </a>
+                    </div>
+            </div>
+        </div>
+    </div>
 
-                                <span class="bold-text">Published on 25 July 2021</span>
-                                <p>
-                                    On 25 March 1616, William Shakespeare made his will, signed ‘by me, William Shakspeare’. He probably died in April, after
-                                    finalising his will over the preceding months, but scholars are unsure of the exact date of his death. As Head of Legal
-                                    Records at The National Archives, I've been looking in detail at one of our treasures: Shakespeare's original will, full of
-                                    amendments, which was left in the probate court by his executor.
-                                </p>
-                            </div>
-                            <a class="button-inverted" href="">
-                                Read the full blog
-                            </a>
+    <div class="container-fluid px-0">
+        <div class="col-md-12">
+            <div class="row">
+                <span id="content-10"></span>
+                <div class="col-md-2 border-top-grey"></div>
+                <div class="col-md-8">
+                    <div class="key-facts-box">
+                        <img src="images/insights-shakespeare-v1/quote-right.svg" class="quote-icon" alt="" />
+                        <blockquote>
+                            <p>
+                                Whilst the registry record of Shakespeare’s birth is held in Stratford-upon-Avon and his November 28th 1582 marriage
+                                bond to Anne Hathaway is now in Worcestershire Record Office, a series of important records of his life are held at
+                                The National Archives, including pleadings and depositions in three lawsuits in the Court of Requests involving
+                                Shakespeare.
+                            </p>
+                        </blockquote>
+                        <div class="citation">
+                            <cite>
+                                The National Archives
+                            </cite>
                         </div>
                     </div>
                 </div>
+                <div class="col-md-2 border-bottom-grey"></div>
             </div>
         </div>
     </div>
 
     <div class="container">
         <div class="col-md-12">
-            <div class="row">
-                <span id="content-10"></span>
-                <div class="key-facts-box">
-                    <img src="images/insights-shakespeare-v1/quote-right.svg" class="quote-icon" alt="" />
-                    <blockquote>
-                        <p>
-                            Whilst the registry record of Shakespeare’s birth is held in Stratford-upon-Avon and his November 28th 1582 marriage
-                            bond to Anne Hathaway is now in Worcestershire Record Office, a series of important records of his life are held at
-                            The National Archives, including pleadings and depositions in three lawsuits in the Court of Requests involving
-                            Shakespeare.
-                        </p>
-                    </blockquote>
-                    <div class="citation">
-                        <cite>
-                            The National Archives
-                        </cite>
-                    </div>
-                </div>
-            </div>
-
             <div class="row">
                 <span id="content-11"></span>
                 <h2 style="width: 100%">Explore our other content about Shakespeare</h2>
