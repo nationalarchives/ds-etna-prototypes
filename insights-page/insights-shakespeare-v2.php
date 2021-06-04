@@ -8,26 +8,21 @@
 <?php require 'includes/header.php' ?>
 
 <main id="maincontent">
-    <div class="generic-intro generic-intro--dark">
+    <div class="generic-intro generic-intro--dark no-padding-bottom">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-md-12">
                     <?php require './includes/breadcrumbs.php' ?>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img class="img-fluid" src="images/insights-shakespeare-v1/shakespeare.png" alt="Portrait of William Shakespeare"/>
-                        </div>
-                        <div class="col-md-9">
-                            <span class="stand-first-heading">
-                                William Shakespeare is often thought of as one of the greatest writers in the English language.
-                            </span>
-                            <p>
-                                His plays have been translated into every major language, and are performed more often than any other playwright.
-                                Shakespeare’s writing also affected the way the English language evolved, and several words and phrases, such as
-                                ‘all’s well that ends well’, ‘with bated breath’ and ‘a foregone conclusion’ have moved into everyday use.
-                            </p>
-                        </div>
-                    </div>
+                    <h1>William Shakespeare</h1>
+                    <p>An insight into our records relating to William Shakespeare</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row no-margin-bottom">
+                <div class="col-md-12 px-0">
+                    <img class="img-fluid" src="images/insights-shakespeare-v1/shakespeare-3.png" alt="Portrait of William Shakespeare"/>
                 </div>
             </div>
         </div>
@@ -110,7 +105,7 @@
         </div>
     </div>
 
-    <!--<div class="container-fluid px-0 stand-first">
+    <div class="container-fluid px-0 stand-first">
         <div class="offset-2 col-md-10">
             <div class="row">
                 <div class="stand-first-text">
@@ -125,7 +120,7 @@
                 </div>
             </div>
         </div>
-    </div>-->
+    </div>
 
     <div class="container">
         <div class="col-md-12 content">

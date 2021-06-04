@@ -698,7 +698,7 @@ h2 {
   padding-top: 0;
 }
 .insights-v1 .no-margin-bottom {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 .insights-v1 .author-bio {
   background-color: #eee;
