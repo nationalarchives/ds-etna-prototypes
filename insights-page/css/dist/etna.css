@@ -577,21 +577,29 @@ h2 {
 .insights-v1 .call-out-box a, .insights-v1 .call-out-box p {
   color: #fff;
 }
-.insights-v1 .call-out-box .call-out-links li {
+.insights-v1 .call-out-box .call-out-links ul {
+  list-style: none;
+  padding-left: 0;
+}
+.insights-v1 .call-out-box .call-out-links li, .insights-v1 .call-out-box .call-out-links .call-out-card {
   background-color: #292929;
   margin-bottom: 1rem;
 }
-.insights-v1 .call-out-box .call-out-links li .heading {
+.insights-v1 .call-out-box .call-out-links li .heading, .insights-v1 .call-out-box .call-out-links .call-out-card .heading {
   font-size: 20px;
 }
-.insights-v1 .call-out-box .call-out-links li a {
+.insights-v1 .call-out-box .call-out-links li a, .insights-v1 .call-out-box .call-out-links .call-out-card a {
   display: inline-block;
   padding: 1rem;
   width: 100%;
   text-decoration: none;
 }
-.insights-v1 .call-out-box .call-out-links li a:hover {
+.insights-v1 .call-out-box .call-out-links li a:hover, .insights-v1 .call-out-box .call-out-links .call-out-card a:hover {
   text-decoration: underline;
+}
+.insights-v1 .call-out-box .call-out-card .heading {
+  display: block;
+  margin-bottom: 1rem;
 }
 .insights-v1 .key-facts-box {
   position: relative;
@@ -622,10 +630,6 @@ h2 {
   margin-left: 60%;
   padding-top: 1rem;
   width: 40%;
-}
-.insights-v1 .call-out-links {
-  list-style: none;
-  padding-left: 0;
 }
 .insights-v1 .quote-icon {
   height: 50px;
@@ -690,8 +694,11 @@ h2 {
 .insights-v1 .no-padding-left {
   padding-left: 0;
 }
+.insights-v1 .no-padding-top {
+  padding-top: 0;
+}
 .insights-v1 .no-margin-bottom {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 .insights-v1 .author-bio {
   background-color: #eee;
@@ -745,6 +752,9 @@ h2 {
   margin: auto;
   text-align: center;
 }
+.insights-v1 .blog-embed .button-inverted {
+  margin-top: 0.5rem;
+}
 .insights-v1 .blog-embed .blog-embed-text {
   background-color: #fff;
   opacity: 0.8;
@@ -759,6 +769,26 @@ h2 {
 .insights-v1 .research-resources {
   text-align: center;
   width: 100%;
+}
+.insights-v1 .research-resources .research-resource-card {
+  text-align: left;
+  background-color: #12477a;
+  margin-bottom: 1rem;
+}
+.insights-v1 .research-resources .research-resource-card .heading {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 1rem;
+}
+.insights-v1 .research-resources .research-resource-card a {
+  display: inline-block;
+  padding: 1rem;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+}
+.insights-v1 .research-resources .research-resource-card a:hover {
+  text-decoration: underline;
 }
 .insights-v1 .research-resources .research-links {
   list-style: none;
@@ -904,6 +934,12 @@ h2 {
 }
 .insights-v1 .generic-intro img {
   width: 100%;
+}
+.insights-v1 .vertical-separator {
+  margin: auto;
+  height: 50%;
+  width: 50%;
+  border-bottom: 5px solid #ddd;
 }
 
 /*# sourceMappingURL=etna.css.map */
