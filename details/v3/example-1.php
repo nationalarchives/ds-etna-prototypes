@@ -1,7 +1,7 @@
 <?php $title = "Details page" ?>
 <?php $mobile_only = false ?>
 <?php require_once '../../includes/head.php' ?>
-<main class="details-v2">
+<main class="details-v3">
     <?php require_once '../../includes/header-and-nav-bar.php' ?>
     <div class="container header">
         <h1>Medal Card of Rees, David Place of Birth: Llangnavog, Cardigan Date of...</h1>

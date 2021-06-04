@@ -1,7 +1,7 @@
 <?php $title = "Details page" ?>
 <?php $mobile_only = false ?>
 <?php require_once '../../includes/head.php' ?>
-<main class="details-v2">
+<main class="details-v3">
     <?php require_once '../../includes/header-and-nav-bar.php' ?>
     <div class="container header">
         <h1>Press Association Submission to the Leveson Inquiry (signed)</h1>
