@@ -1081,9 +1081,9 @@ main.explorer #time_periods div.card .content-type, main.explorer #topics div.ca
 .details-v3 .small {
   margin-top: 0.5em;
   text-align: center;
-  font-size: 0.9em;
+  font-size: 1em;
   margin-right: 0.7em;
-  min-width: 25px !important;
+  min-width: 28px !important;
   color: #fff;
   background: #222;
   padding: 0;
@@ -1094,9 +1094,9 @@ main.explorer #time_periods div.card .content-type, main.explorer #topics div.ca
   font-size: 0.43em;
   margin-left: 1em;
   border: 1px solid #93b3cf;
-  padding: 0.35em 0.45em;
-  height: 14px;
-  width: 14px;
+  padding: 0.15em 0.25em;
+  height: 15px;
+  width: 15px;
   display: inline-block;
   color: #93b3cf;
   vertical-align: 2px;

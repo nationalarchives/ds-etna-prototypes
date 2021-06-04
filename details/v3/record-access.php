@@ -1,7 +1,7 @@
 <?php
 
 
-$page = $_GET['p'];
+// $page = $_GET['p'];
 $delivery_location = 'includes/d';
 $file_extension = '.php';
 

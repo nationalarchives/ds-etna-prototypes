@@ -18,7 +18,7 @@
             <ul>
                 <li><span>Record created by:</span><b><a href="">Chancery, the Wardrobe, Royal Household, Exchequer and various commissions</a></b>.</li>
                 <li><span>Record now held at:</span><b><a href="">The National Archives, UK</a></b>.</li>
-                <li><b><span class="small">&#x2193;</span><a href="">See the full description</a></b></li>
+                <li><b><span class="small">&#x21E3;</span><a href="">See the full description</a></b></li>
             </ul>
         </div>
     </div>
