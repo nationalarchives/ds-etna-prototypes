@@ -49,10 +49,10 @@
                         <a href="#content-2">2. Record embed</a>
                     </li>
                     <li>
-                        <a href="#content-3">3. Why Asian and Black History?</a>
+                        <a href="#content-3">3. What Do We Know?</a>
                     </li>
                     <li>
-                        <a href="#content-4">4. What Do We Know?</a>
+                        <a href="#content-4">4. Early Migrations</a>
                     </li>
                     <li>
                         <a href="#content-5">5. Call out</a>
