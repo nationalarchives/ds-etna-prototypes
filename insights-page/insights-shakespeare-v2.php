@@ -239,53 +239,55 @@
                             Shakespeare.
                         </p>
 
-                        <ul class="call-out-links">
-                            <li>
-                                <a href="">
-                                    <span class="heading bold-text">
-                                        The case of Belott versus Mountjoy
-                                    </span>
-                                    <div class="row">
-                                        <div class="col-md-10">
-                                            <p class="no-margin-bottom">
-                                                This concerns a marriage dowry and contains Shakespeare’s signed
-                                                deposition. The documents pinpoint his residence in 1604.
-                                            </p>
+                        <div class="call-out-links">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <span class="heading bold-text">
+                                            The case of Belott versus Mountjoy
+                                        </span>
+                                        <div class="row">
+                                            <div class="col-md-10">
+                                                <p class="no-margin-bottom">
+                                                    This concerns a marriage dowry and contains Shakespeare’s signed
+                                                    deposition. The documents pinpoint his residence in 1604.
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="heading bold-text">
-                                        The case of Keysar versus Burbage and others
-                                    </span>
-                                    <div class="row">
-                                        <div class="col-md-10">
-                                            <p class="no-margin-bottom">
-                                                This describes the King’s Men acting company’s involvement
-                                                in the Blackfriars Playhouse.
-                                            </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span class="heading bold-text">
+                                            The case of Keysar versus Burbage and others
+                                        </span>
+                                        <div class="row">
+                                            <div class="col-md-10">
+                                                <p class="no-margin-bottom">
+                                                    This describes the King’s Men acting company’s involvement
+                                                    in the Blackfriars Playhouse.
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="heading bold-text">
-                                        The case of Witter versus Heminges and Condell
-                                    </span>
-                                    <div class="row">
-                                        <div class="col-md-10">
-                                            <p class="no-margin-bottom">
-                                                This describes the way in which the shares in the syndicate
-                                                that leased the Globe playhouse were distributed.
-                                            </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span class="heading bold-text">
+                                            The case of Witter versus Heminges and Condell
+                                        </span>
+                                        <div class="row">
+                                            <div class="col-md-10">
+                                                <p class="no-margin-bottom">
+                                                    This describes the way in which the shares in the syndicate
+                                                    that leased the Globe playhouse were distributed.
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
