@@ -22,13 +22,13 @@
         <div class="container-fluid">
             <div class="row no-margin-bottom">
                 <div class="col-md-12 px-0">
-                    <img class="img-fluid" src="images/insights-shakespeare-v1/shakespeare-3.png" alt="Portrait of William Shakespeare"/>
+                    <img class="img-fluid" src="images/insights-shakespeare-v1/shakespeare-banner.png" alt="Portrait of William Shakespeare"/>
                 </div>
             </div>
         </div>
     </div>
 
-    <nav class="chapter-nav">
+    <!--<nav class="chapter-nav">
         <div class="row">
             <div class="col-md-8">
                 <p class="mb-0 mt-4">
@@ -81,7 +81,7 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav>-->
 
     <div class="container-fluid px-0">
         <div class="col-md-12">
