@@ -55,7 +55,7 @@
                         <a href="#content-4">4. What Do We Know?</a>
                     </li>
                     <li>
-                        <a href="#content-5">5. Quote</a>
+                        <a href="#content-5">5. Call out</a>
                     </li>
                     <li>
                         <a href="#content-6">6. Africans in Britain</a>
@@ -64,10 +64,25 @@
                         <a href="#content-7">7. Record embed</a>
                     </li>
                     <li>
-                        <a href="#content-8">8. Audio embed</a>
+                        <a href="#content-8">8. Quote</a>
                     </li>
                     <li>
-                        <a href="#content-9">9. Find out more</a>
+                        <a href="#content-9">9. Audio embed</a>
+                    </li>
+                    <li>
+                        <a href="#content-10">10. Record embed</a>
+                    </li>
+                    <li>
+                        <a href="#content-11">11. Research resources</a>
+                    </li>
+                    <li>
+                        <a href="#content-12">12. Blog embed</a>
+                    </li>
+                    <li>
+                        <a href="#content-13">13. Audio embed</a>
+                    </li>
+                    <li>
+                        <a href="#content-14">14. Find out more</a>
                     </li>
                 </ul>
             </div>
@@ -221,7 +236,7 @@
     <div class="container-fluid px-0">
         <div class="col-12">
             <div class="row">
-                <span id="content-4"></span>
+                <span id="content-5"></span>
                 <div class="call-out-box">
                     <div class="container">
                         <p>
@@ -310,7 +325,7 @@
     <div class="container-fluid px-0">
         <div class="col-md-12">
             <div class="row">
-                <span id="content-2"></span>
+                <span id="content-7"></span>
                 <div class="offset-1 col-md-10">
                     <h2 class="record-embed-heading bold-text">Africans Enslaved and Freed</h2>
                 </div>
@@ -364,7 +379,7 @@
     <div class="container-fluid px-0">
         <div class="col-md-12">
             <div class="row">
-                <span id="content-10"></span>
+                <span id="content-8"></span>
                 <div class="col-md-2 border-top-grey"></div>
                 <div class="col-md-8">
                     <div class="key-facts-box">
@@ -395,7 +410,7 @@
         <div class="col-md-12 content">
             <div class="row">
                 <div class="image-wrapper">
-                    <span id="content-6"></span>
+                    <span id="content-9"></span>
                     <img class="audio-embed-image" src="images/insights-black-asian-presence-v1/image7.png" alt="Alt text" />
                     <div class="centred-overlay">
                         <img style="height:75px;width:75px" src="images/insights-shakespeare-v1/icons/audio-icon.svg" alt="audio icon">
@@ -424,7 +439,7 @@
     <div class="container">
         <div class="col-md-12 content">
             <div class="row">
-                <span id="content-5"></span>
+                <span id="content-10"></span>
                 <div class="col-md-5">
                     <div class="record-embed-text">
                         <div class="separator-icon">
@@ -488,7 +503,7 @@
     <div class="container-fluid px-0">
         <div class="col-md-12 content">
             <div class="row">
-                <span id="content-8"></span>
+                <span id="content-11"></span>
                 <div class="research-resources">
                     <div class="container">
                         <h2 class="bold-text">Research resources</h2>
@@ -560,7 +575,7 @@
     <div class="container-fluid px-0">
         <div class="col-md-12 content">
             <div class="row">
-                <span id="content-9"></span>
+                <span id="content-12"></span>
                 <div class="blog-embed">
                     <h2 class="bold-text">
                         Young, British and black: opposing race discrimination
@@ -597,7 +612,7 @@
     <div class="container-fluid px-0">
         <div class="col-md-12 content">
             <div class="row">
-                <span id="content-9"></span>
+                <span id="content-13"></span>
                 <div class="blog-embed">
                     <h2 class="bold-text">
                         Black Poppies: Britain’s black community and the Great War
@@ -624,7 +639,7 @@
     <div class="container">
         <div class="col-md-12 content">
             <div class="row">
-                <span id="content-9"></span>
+                <span id="content-14"></span>
                 <h2 style="width: 100%">Find out more</h2>
 
                 <div class="col-sm-12 col-md-6 col-lg-4">
