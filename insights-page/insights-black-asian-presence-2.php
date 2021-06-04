@@ -201,7 +201,7 @@
             <div class="row">
                 <span id="content-3"></span>
                 <div class="content-block">
-                    <h2>Why Asian and Black History?</h2>
+                    <h2>What Do We Know?</h2>
                     <p>
                         There were many Asian and Black people living in Britain throughout the period covered by this exhibition (1500-1850).
                     </p>
@@ -211,17 +211,17 @@
                         Or that Elizabeth I tried to expel a number of Black people from England? Or that thousands of Black men, and probably
                         even a few Black women, fought in the British army and navy during the Napoleonic Wars?
                     </p>
+                    <p>
+                        There is much historical evidence about Black people in Britain, and this exhibition explores some of it. But many subjects
+                        have not been researched, and there is much that we still do not know.
+                    </p>
                 </div>
             </div>
 
             <div class="row">
                 <span id="content-4"></span>
                 <div class="content-block no-padding-top">
-                    <h2>What Do We Know?</h2>
-                    <p>
-                        There is much historical evidence about Black people in Britain, and this exhibition explores some of it. But many subjects
-                        have not been researched, and there is much that we still do not know.
-                    </p>
+
                     <h2>Early Migrations</h2>
                     <p>
                         In Roman times, Black troops were sent to the remote and barbaric province of Britannia, and some of them stayed when
