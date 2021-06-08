@@ -353,7 +353,7 @@
         </div>
     </div>
 
-    <div class="container standard-padding">
+    <div class="container">
         <div class="row">
             <span id="content-9"></span>
             <div class="blog-embed">
@@ -374,7 +374,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container standard-padding">
             <div class="row">
                 <div class="key-facts-box">
                     <img src="images/insights-shakespeare-v1/quote-right.svg" class="quote-icon" alt="" />
@@ -396,79 +396,80 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="col-md-12">
-            <div class="row">
-                <span id="content-11"></span>
-                <h2 style="width: 100%">Explore our other content about Shakespeare</h2>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="card-group-secondary-nav">
-                        <a href='/' class="card-group-secondary-nav__link">
-                            <h3 class="sr-only">Blog - Kidnapped to order: child actors in Shakespeare’s day</h3>
-                            <div class="card-group-secondary-nav__image">
-                                <picture>
-                                    <img style="width:348px; height:208px;" src="images/insights-shakespeare-v1/shakespeare-card-1.png" alt="Farm workers rest at sunset and share some refreshments" class="card-group-secondary-nav__image-fallback">
-                                </picture>
-                            </div>
-                            <div class="card-group-secondary-nav__body">
-                                <h3 class="tna-card__heading" aria-hidden="true">Blog - Kidnapped to order: child actors in Shakespeare’s day</h3>
-                                <p>
-                                    In Shakespeare’s day women could not act in public and female roles were performed by boys and young men.
-                                    However, what is less well known is there were children’s companies entirely comprised of young boys who played
-                                    both male and female roles. The Children of the Chapel was one of the most famous, and this blog will explore some
-                                    of the more extreme methods they went to in order to recruit boys actors
-                                </p>
-                                <p>Saturday 23 April 2016</p>
-                            </div>
-                        </a>
+    <div class="background bg-black text-white">
+        <div class="container related-content">
+            <h2>Explore our other content about Shakespeare</h2>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card-group-secondary-nav">
+                            <a href='/' class="card-group-secondary-nav__link">
+                                <h3 class="sr-only">Blog - Kidnapped to order: child actors in Shakespeare’s day</h3>
+                                <div class="card-group-secondary-nav__image">
+                                    <picture>
+                                        <img style="width:348px; height:208px;" src="images/insights-shakespeare-v1/shakespeare-card-1.png" alt="Farm workers rest at sunset and share some refreshments" class="card-group-secondary-nav__image-fallback">
+                                    </picture>
+                                </div>
+                                <div class="card-group-secondary-nav__body">
+                                    <h3 class="tna-card__heading" aria-hidden="true">Blog - Kidnapped to order: child actors in Shakespeare’s day</h3>
+                                    <p class="caption-text bold-text">Saturday 23 April 2016</p>
+                                    <p>
+                                        In Shakespeare’s day women could not act in public and female roles were performed by boys and young men.
+                                        However, what is less well known is there were children’s companies entirely comprised of young boys who played
+                                        both male and female roles. The Children of the Chapel was one of the most famous, and this blog will explore some
+                                        of the more extreme methods they went to in order to recruit boys actors
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card-group-secondary-nav">
+                            <a href='/' class="card-group-secondary-nav__link">
+                                <h3 class="sr-only">Podcast - Philip Henslowe, Edward Alleyn and the invention of London theatre in the age of Shakespeare</h3>
+                                <div class="card-group-secondary-nav__image">
+                                    <picture>
+                                        <img style="width:348px; height:208px;" src="images/insights-shakespeare-v1/shakespeare-card-2.png" alt="A grey haired man in front of artworks with artworks behind him" class="card-group-secondary-nav__image-fallback">
+                                    </picture>
+                                </div>
+                                <div class="card-group-secondary-nav__body">
+                                    <h3 class="tna-card__heading" aria-hidden="true">Podcast - Philip Henslowe, Edward Alleyn and the invention of London theatre in the age of Shakespeare</h3>
+                                    <p class="caption-text bold-text">Tuesday 5 April 2016</p>
+                                    <p>
+                                        The actor Edward Alleyn and his father-in-law Philip Henslowe built and expanded several London public
+                                        playhouses, including the Rose, the Fortune, and the Hope. Named by King James VI and I as Joint ‘Masters of
+                                        the Royal Game of Bears, Bulls and Mastiff Dogs’, Henslowe and Alleyn also staged such blood sports as bull- and
+                                        bear- and lion-baiting at the Bear Garden and other venues, including royal palaces. They also commissioned
+                                        plays and ran acting companies.
+                                    </p>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card-group-secondary-nav">
+                            <a href='/' class="card-group-secondary-nav__link">
+                                <h3 class="sr-only">Event - ‘Before Shakespeare’ at The National Archives</h3>
+                                <div class="card-group-secondary-nav__image">
+                                    <picture>
+                                        <img src="images/insights-shakespeare-v1/cards/543/business.png" alt="Hands type on a computer terminal from the 1960s" class="card-group-secondary-nav__image-fallback">
+                                    </picture>
+                                </div>
+                                <div class="card-group-secondary-nav__body">
+                                    <h3 class="tna-card__heading" aria-hidden="true">Event - ‘Before Shakespeare’ at The National Archives</h3>
+                                    <p class="caption-text bold-text">Date: Every Wednesday, starting Wednesday 1 August 2018</p>
+                                    <p>
+                                        In this talk, the project team will ask the fundamental question, ‘what is a playhouse?’, and explore surviving
+                                        documents that tell us what we know about these spaces, and rethink the builders, managers, and audiences
+                                        who brought them into being.
+                                    </p>
+
+                                    <p class="bold-text">Price: £4 – £5</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="card-group-secondary-nav">
-                        <a href='/' class="card-group-secondary-nav__link">
-                            <h3 class="sr-only">Podcast - Philip Henslowe, Edward Alleyn and the invention of London theatre in the age of Shakespeare</h3>
-                            <div class="card-group-secondary-nav__image">
-                                <picture>
-                                    <img style="width:348px; height:208px;" src="images/insights-shakespeare-v1/shakespeare-card-2.png" alt="A grey haired man in front of artworks with artworks behind him" class="card-group-secondary-nav__image-fallback">
-                                </picture>
-                            </div>
-                            <div class="card-group-secondary-nav__body">
-                                <h3 class="tna-card__heading" aria-hidden="true">Podcast - Philip Henslowe, Edward Alleyn and the invention of London theatre in the age of Shakespeare</h3>
-                                <p>
-                                    The actor Edward Alleyn and his father-in-law Philip Henslowe built and expanded several London public
-                                    playhouses, including the Rose, the Fortune, and the Hope. Named by King James VI and I as Joint ‘Masters of
-                                    the Royal Game of Bears, Bulls and Mastiff Dogs’, Henslowe and Alleyn also staged such blood sports as bull- and
-                                    bear- and lion-baiting at the Bear Garden and other venues, including royal palaces. They also commissioned
-                                    plays and ran acting companies.
-                                </p>
-                                <p>Tuesday 5 April 2016</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="card-group-secondary-nav">
-                        <a href='/' class="card-group-secondary-nav__link">
-                            <h3 class="sr-only">Event - ‘Before Shakespeare’ at The National Archives</h3>
-                            <div class="card-group-secondary-nav__image">
-                                <picture>
-                                    <img src="images/insights-shakespeare-v1/cards/543/business.png" alt="Hands type on a computer terminal from the 1960s" class="card-group-secondary-nav__image-fallback">
-                                </picture>
-                            </div>
-                            <div class="card-group-secondary-nav__body">
-                                <h3 class="tna-card__heading" aria-hidden="true">Event - ‘Before Shakespeare’ at The National Archives</h3>
-                                <p>
-                                    In this talk, the project team will ask the fundamental question, ‘what is a playhouse?’, and explore surviving
-                                    documents that tell us what we know about these spaces, and rethink the builders, managers, and audiences
-                                    who brought them into being.
-                                </p>
-                                <p>Date: Every Wednesday, starting Wednesday 1 August 2018</p>
-                                <p>Price: £4 – £5</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </main>

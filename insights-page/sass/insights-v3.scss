@@ -148,6 +148,7 @@
 
       .middle {
         font-size: 1.55em;
+        letter-spacing: -1.5px;
       }
 
     }
@@ -829,5 +830,12 @@
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 0.9em;
+  }
+  .related-content {
+    a {
+      text-decoration: none;
+      font-weight: normal;
+      color: #fff;
+    }
   }
 }
