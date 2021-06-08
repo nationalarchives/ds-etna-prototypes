@@ -100,13 +100,14 @@
                     <h2 class="author-name no-margin-bottom">Authored by Dr Jo Pugh</h2>
                     <p class="author-occupation">Principal Records Specialist &mdash; The National Archives, UK</p>
                     <p class="author-info">Jo Pugh is the Principal Records Specialist at The National Archives and is an expert in The National Archives’ records relating to Black and Asian Presence in Britain.</p>
-                    <a class="button-inverted" href="">Read more about Jo</a>
+                    <a class="button-inverted" href="https://www.nationalarchives.gov.uk/about/our-research-and-academic-collaboration/our-research-and-people/staff-profiles/dr-jo-pugh/" target="_blank" rel="noopener noreferrer">Read more about Jo</a>
                 </div>
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end background -->
 
     <!-- STANDFIRST -->
+    <span id="content-1"></span>
     <div class="container standard-padding content-slice">
         <div class="row">
             <p><span class="stand-first-heading">People of African and Asian origin have lived in Britain for at least two thousand years.</span></p>
@@ -126,6 +127,7 @@
     </div><!-- end container -->
 
     <!-- IMAGE VIEWER 1 -->
+    <span id="content-2"></span>
     <div class="row">
 
         <!-- PART 1: IMAGE -->
@@ -164,12 +166,13 @@
                     almost entirely reproduces the one in an earlier work by Olfert Dapper, a Dutch scholar who had never even visited
                     Africa.
                 </p>
-                <a class="button" href="">View in the catalogue</a><a class="button" href="">Read more in our blog</a>
+                <a class="button" href="http://discovery.nationalarchives.gov.uk/details/r/C3741250" target="_blank" rel="noopener noreferrer">View in the catalogue</a>
             </div><!-- end container -->
         </div><!-- end background -->
     </div><!-- end row -->
 
     <!-- CONTENT SLICE -->
+    <span id="content-3"></span>
     <div class="container standard-padding content-slice">
         <div class="row">
             <h2>What Do We Know?</h2>
@@ -190,6 +193,7 @@
     </div><!-- end container -->
 
     <!-- CONTENT SLICE -->
+    <span id="content-4"></span>
     <div class="container standard-padding content-slice">
         <div class="row">
             <h2>Early Migrations</h2>
@@ -202,6 +206,7 @@
     </div><!-- end container -->
 
     <!-- CALL OUT BOX -->
+    <span id="content-5"></span>
     <div class="background bg-blue">
         <div class="container call-out-box">
             <div class="row">
@@ -261,6 +266,7 @@
     </div><!-- end background -->
 
     <!-- CONTENT SLICE -->
+    <span id="content-6"></span>
     <div class="container standard-padding content-slice">
         <div class="row">
             <h2>Africans in Britain</h2>
@@ -277,6 +283,7 @@
     </div><!-- end container -->
 
     <!-- IMAGE VIEWER 2 -->
+    <span id="content-7"></span>
     <div class="row">
 
         <!-- PART 1: IMAGE -->
@@ -317,12 +324,13 @@
                     and was 'graciously received by nobility'. Dressed in an African gown, he was presented to the king and queen. After
                     spending some time in England, he was taken back to Africa by the Royal African Company.
                 </p>
-                <a class="button" href="">View in the catalogue</a><a class="button" href="">Read more in our blog</a>
+                <a class="button" href="http://discovery.nationalarchives.gov.uk/details/r/945fd103-9ea4-498f-b093-d67358d926d0" target="_blank" rel="noopener noreferrer">View in the catalogue</a>
             </div><!-- end container -->
         </div><!-- end background -->
     </div><!-- end row -->
 
     <!-- QUOTE -->
+    <span id="content-8"></span>
     <div class="container standard-padding">
         <div class="row">
             <div class="key-facts-box">
@@ -347,6 +355,7 @@
     </div><!-- end container -->
 
     <!-- AUDIO EMBED -->
+    <span id="content-9"></span>
     <div class="background image-audio">
         <div class="overlay"></div>
         <div class="container margin-top-medium standard-padding">
@@ -366,13 +375,14 @@
                         a trainer in research skills for the media and for family historians.
                     </p>
 
-                    <a class="button-inverted" href="">Listen now</a>
+                    <a class="button-inverted" href="https://media.nationalarchives.gov.uk/index.php/researching-untold-histories/" target="_blank" rel="noopener noreferrer">Listen now</a>
                 </div><!-- end panel-center-->
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end background -->
 
     <!-- RECORD EMBED -->
+    <span id="content-10"></span>
     <div class="container standard-padding margin-top-medium">
         <div class="row">
             <div class="panel-center col-md-5">
@@ -388,7 +398,7 @@
                     to his family; mentions the printed books that belong to him; and makes provision for his children's education, although one
                     of his two daughters (Anna Maria) did not live to inherit her legacy.
                 </p>
-                <a class="button-inverted" href="">View in the catalogue</a>
+                <a class="button-inverted" href="http://discovery.nationalarchives.gov.uk/details/r/C5478835" target="_blank" rel="noopener noreferrer">View in the catalogue</a>
             </div><!-- end panel-center-->
 
             <div class="col-md-2">
@@ -414,6 +424,7 @@
     </div><!-- end container -->
 
     <!-- RESOURCE EMBED -->
+    <span id="content-11"></span>
     <div class="background border-top-grey">
         <div class="container">
             <div class="row">
@@ -435,7 +446,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="research-resource-card">
-                                <a href="">
+                                <a href="http://www.nationalarchives.gov.uk/help-with-your-research/research-guides/black-british-social-and-political-history-in-the-20th-century/" target="_blank" rel="noopener noreferrer">
                                             <span class="heading bold-text">
                                                 Research Guide - Black British Social and Political History
                                             </span>
@@ -447,24 +458,24 @@
                         </div>
                         <div class="col-md-4">
                             <div class="research-resource-card">
-                                <a href="">
+                                <a href="http://www.nationalarchives.gov.uk/help-with-your-research/research-guides/black-british-social-and-political-history-in-the-20th-century/" target="_blank" rel="noopener noreferrer">
                                             <span class="heading bold-text">
-                                                Research Guide - Asian Social and Political History in Britain
+                                                Research Guide - Black British Social and Political History
                                             </span>
                                     <p class="no-margin-bottom">
-                                        Our research guide on Asian social and political history in Britain in the 20th century is a useful place to start.
+                                        Our research guide on black British social and political history in the 20th century is a useful place to start.
                                     </p>
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="research-resource-card">
-                                <a href="">
+                                <a href="http://www.nationalarchives.gov.uk/help-with-your-research/research-guides/black-british-social-and-political-history-in-the-20th-century/" target="_blank" rel="noopener noreferrer">
                                             <span class="heading bold-text">
                                                 Research Guide - Black British Social and Political History
                                             </span>
                                     <p class="no-margin-bottom">
-                                        Our research guide on Black British social and political history in the 20th century is a useful place to start.
+                                        Our research guide on black British social and political history in the 20th century is a useful place to start.
                                     </p>
                                 </a>
                             </div>
@@ -476,6 +487,7 @@
     </div><!-- end container -->
 
     <!-- RESOURCE EMBED -->
+    <span id="content-12"></span>
     <div class="background border-top-grey">
         <div class="container">
             <div class="row">
@@ -499,12 +511,13 @@
                         The National Archives in record series CK 2.
                     </p>
                 </div><!-- end blog embed text -->
-                <a class="button-inverted text-center" href="">Read the full blog</a>
+                <a class="button-inverted text-center" href="https://blog.nationalarchives.gov.uk/young-british-black-case-race-discrimination-1970s-dance-halls/" target="_blank" rel="noopener noreferrer">Read the full blog</a>
             </div><!-- end blog embed -->
         </div><!-- end row -->
     </div><!-- end container -->
 
     <!-- RESOURCE EMBED -->
+    <span id="content-13"></span>
     <div class="background border-top-grey">
         <div class="container">
             <div class="row">
@@ -531,12 +544,13 @@
                         in spite of what they and their families had done for Britain during the war.
                     </p>
                 </div><!-- end blog embed text -->
-                <a class="button-inverted text-center" href="">Listen now</a>
+                <a class="button-inverted text-center" href="https://media.nationalarchives.gov.uk/index.php/black-poppies-britains-black-community-great-war/" target="_blank" rel="noopener noreferrer">Listen now</a>
             </div><!-- end blog embed -->
         </div><!-- end row -->
     </div><!-- end container -->
 
     <!-- RELATED LINKS COLLECTION -->
+    <span id="content-14"></span>
     <div class="background bg-black text-white">
         <div class="container related-content">
             <h2>Explore our other content about Black and Asian Presence in Britain</h2>

@@ -13,7 +13,7 @@ $chapters.each(function () {
 
 		$contents.slideUp();
 		$('html, body').animate({
-			scrollTop: $(target).offset().top - 250
+			scrollTop: $(target).offset().top - 325
 		}, 600);
 	})
 })
