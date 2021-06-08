@@ -1,0 +1,833 @@
+.insights-v3 {
+
+  a {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  p {
+    font-size: 1.1em;
+  }
+  .background {
+    width: 100%;
+    padding: 3rem 0;
+    position: relative;
+  }
+  .no-padding {
+    padding: 0;
+  }
+  .bg-black {
+    background: #000;
+  }
+  .bg-dark-grey {
+    background: #222;
+  }
+  .bg-blue {
+    background: #12477a;
+  }
+  .bg-light-grey {
+    background: #e5e5e5;
+  }
+  .text-white {
+    color: #fff;
+    z-index: 999;
+  }
+  .border-top-grey {
+    border-top: 5px solid #eee;
+  }
+  .image-audio {
+    background: url("../../images/insights-shakespeare-v1/audio-embed.png") no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .image-hero {
+    background: url("../../images/insights-shakespeare-v3/hero-image.jpg") no-repeat;
+
+    background-size: cover;
+    position: relative;
+    height: 420px;
+  }
+  .menu-container {
+    display: block;
+    float: left;
+    margin-top: -100px;
+    margin-left: 370px;
+  }
+  .standard-padding {
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+  .nav-container {
+    width: 100%;
+    padding: 6rem 0 2rem;
+    position: relative;
+    border-top: 3px solid #222;
+
+      .nav-content {
+
+        h2 {
+          color: #fff;
+          font-size: 2em;
+          font-family: 'Roboto Mono', sans-serif;
+        }
+        ol {
+          color: #fff;
+          margin: 0 0 2rem;
+          padding: 0;
+          padding-left: 1em;
+          -moz-column-count: 2;
+          -moz-column-gap: 20px;
+          -webkit-column-count: 2;
+          -webkit-column-gap: 10px;
+          column-count: 2;
+          column-gap: 10px;
+          font-family: 'Roboto Mono', sans-serif;
+          li {
+            font-size: 1em;
+            color: #fff;
+            margin: 0 1em 0 1.2em;
+            float: left;
+            width: 19.6em;
+            vertical-align: top;
+            list-style-position: outside;
+            padding-left: 1em;
+
+            a {
+              color: #fff;
+              text-decoration: none;
+              font-weight: normal;
+                &:hover {
+                  text-decoration: underline;
+                }
+            }
+          }
+        }
+      }
+
+  }
+  .badge-container {
+    width: 18rem;
+    margin: 0;
+    display: block;
+    float: left;
+    margin-top: -279px;
+  }
+  .badge {
+    z-index: 2;
+    width: 16rem;
+
+    h2 {
+      margin: 0;
+      text-transform: uppercase;
+      font-family: 'Roboto Mono', sans-serif;
+      letter-spacing: -0.5px;
+      font-size: 1.8em !important;
+      font-weight: normal;
+      text-align: center;
+
+      span {
+        border: 3px solid #111;
+        border-bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90px;
+        background: rgba(255, 255, 255, 0.4);
+        color: #222;
+
+        &:first-child {
+          border-top: 3px solid #111;
+        }
+
+        &:last-child {
+          border-bottom: 3px solid #111;
+          background: #222;
+          color: #fff;
+          font-size: 75% !important;
+        }
+      }
+
+      .middle {
+        font-size: 1.55em;
+      }
+
+    }
+  }
+  .overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .panel-center {
+    text-align: center;
+    z-index: 1;
+    position: relative;
+  }
+
+  .hero-img {
+    height: 500px;
+  }
+
+  .callout {
+    border: 1px solid #000;
+    padding: 3rem;
+
+    ul {
+      list-style: none;
+      padding-top: 2rem;
+    }
+  }
+
+  .content-block {
+    padding: 2rem;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .content-block__light-grey {
+    background-color: #f3f3f3;
+  }
+
+  .chapter-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+    background: #dde5d5;
+    color: black;
+    padding: 1rem 2rem;
+
+    span:first-child {
+      min-width: 80%;
+    }
+
+    #contents-toggle {
+      text-align: right;
+
+      button {
+        min-width: 220px;
+        padding: 20px 40px 20px 20px;
+        background-color: #fff;
+        border: none;
+
+        &:hover {
+          background-color: #000;
+          cursor: pointer;
+          color: #fff;
+        }
+
+        &:focus {
+          outline: 5px solid #1d70b8;
+        }
+      }
+    }
+
+    #article, #chapter {
+      font-weight: bold;
+    }
+
+    #contents {
+      padding-top: 1rem;
+
+      &:before {
+        content: "";
+        border-top: 2px solid black;
+        width: 30%;
+      }
+
+      ul {
+        list-style: none;
+        padding-left: 15px;
+        column-count: 3;
+        column-gap: 4rem;
+
+        li {
+          a {
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+
+  .list-title {
+    font-size: 20px;
+    margin-bottom: 1rem;
+
+    &:before {
+      content: "";
+      display: block;
+      border-top: 2px solid black;
+      margin-bottom: 1rem;
+      width: 400px;
+    }
+  }
+
+  .king-james-shakespeare-img {
+    width: 500px;
+  }
+
+  .audio-embed-image {
+    margin: auto;
+  }
+
+  .image-container {
+    position: relative;
+    width: 200px;
+    height: 300px;
+  }
+
+  .image-container .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+  }
+
+  .image-container .after {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+  }
+
+  .chapter-nav {
+    .row {
+      margin-bottom: 0;
+    }
+  }
+
+  .call-out-box {
+    width: 100%;
+
+
+    p {
+
+      &:first-child {
+
+      font-family: 'Roboto Mono', sans-serif;
+      font-size: 1.4em;
+      margin-bottom: 3em;
+      color: #fff;
+
+      }
+    }
+    a, p {
+      color: #ccc;
+    }
+
+    .call-out-links {
+      ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      li, .call-out-card {
+        background-color: #292929;
+        margin-bottom: 1rem;
+        border-left: 20px solid #333;
+        font-size: 0.95em;
+
+        .heading {
+          font-size: 26px;
+          font-family: 'Roboto', sans-serif;
+          color: #fff;
+        }
+
+        a {
+          display: inline-block;
+          padding: 1rem;
+          width: 100%;
+          text-decoration: none;
+          font-weight: normal;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    .call-out-card {
+      .heading {
+        display: block;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  .key-facts-box {
+    position: relative;
+    margin: 3rem 0;
+
+    blockquote {
+      padding: 2rem;
+      font-family: 'Roboto Mono', sans-serif;
+      font-size: 1.4em;
+    }
+
+    .quote-icon {
+      position: absolute;
+      top: -20px;
+    }
+
+    &:before {
+      content: "";
+      display: block; /* This will put the pseudo element on its own line. */
+      width: 40%; /* Change this to whatever width you want. */
+      margin-left: 5rem;
+      padding-top: 2rem; /* This creates some space between the element and the border. */
+      border-top: 5px solid black; /* This creates the border. Replace black with whatever color you want. */
+    }
+
+    .citation {
+      text-align: right;
+      border-top: 5px solid black;
+      margin-left: 60%;
+      padding-top: 1rem;
+      width: 40%;
+    }
+  }
+
+  .quote-icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .audio-embed-image {
+    width: 100%;
+    padding: 0;
+    margin: auto;
+    display: block;
+  }
+
+  .image-wrapper {
+    position: relative;
+    width: 100%;
+
+  }
+
+  .image-wrapper:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+
+  .centred-overlay {
+
+    text-align: center;
+
+    h2, p {
+      color: #fff;
+    }
+  }
+
+  .podcast-link {
+
+    margin-top: 3rem;
+
+    a {
+      background-color: #000;
+      color: #fff;
+      padding: 1rem;
+      transition: none;
+
+      &:hover {
+        background-color: #fff;
+        color: #000;
+        text-decoration: underline;
+        outline: 5px solid #000;
+      }
+    }
+  }
+
+
+  .generic-intro {
+    .px-0 {
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  .no-padding-bottom {
+    padding-bottom: 0 !important;
+  }
+
+  .no-padding-right {
+    padding-right: 0;
+  }
+
+  .no-padding-left {
+    padding-left: 0;
+  }
+
+  .no-padding-top {
+    padding-top: 0;
+  }
+
+  .no-margin-bottom {
+    margin-bottom: 0 !important;
+  }
+  .author-image {
+
+    img {
+      width: 75%;
+
+    }
+  }
+  .author-name {
+    font-size: 24px;
+
+  }
+  .author-occupation {
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 2px dotted #ccc;
+    padding-bottom: 1em;
+  }
+  .stand-first {
+    &:after {
+      border-bottom: 5px solid #dde5d5;
+      content: "";
+      display: block;
+      width: 80%;
+    }
+  }
+
+  .stand-first-text {
+    padding: 2rem 0;
+    margin: auto;
+  }
+
+  @media only screen and (min-width: 576px) {
+    .stand-first-text {
+      width: 540px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .stand-first-text {
+      width: 720px;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    .stand-first-text {
+      width: 960px;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .stand-first-text {
+      width: 1140px;
+    }
+  }
+
+  .stand-first-heading {
+    display: block;
+    font-size: 26px;
+    font-family: 'Roboto Mono', sans-serif;
+    margin-bottom: 2rem;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+  }
+
+  .blog-embed {
+    margin: auto;
+    text-align: center;
+
+    .button-inverted {
+      margin-top: 0.5rem;
+    }
+
+    .blog-embed-text {
+      background-color: #fff;
+      opacity: 0.9;
+      padding: 2rem;
+      text-align: left;
+      width: 100%;
+      margin: -60px auto 0 auto;
+      border-top: 2px dotted #ccc;
+      border-bottom: 2px dotted #ccc;
+      margin-bottom: 2em;
+
+
+      h2, span, p {
+        color: #000;
+      }
+    }
+  }
+
+  .research-resources {
+    text-align: center;
+    width: 100%;
+
+    .research-resource-card {
+      text-align: left;
+      background-color: #12477a;
+      margin-bottom: 1rem;
+
+      .heading {
+        font-size: 20px;
+        display: block;
+        margin-bottom: 1rem;
+      }
+
+      a {
+        display: inline-block;
+        padding: 1rem;
+        width: 100%;
+        text-decoration: none;
+        color: #fff;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+
+    .research-links {
+      list-style: none;
+      margin-bottom: 8em;
+
+      li {
+        background-color: #12477a;
+        margin: auto auto 1rem;
+        border-left: 20px solid #0d3964;
+
+        .heading {
+          font-size: 26px;
+          font-family: 'Roboto', sans-serif;
+          color: #fff;
+        }
+
+        a {
+          display: inline-block;
+          padding: 1rem;
+          width: 100%;
+          text-decoration: none;
+          color: #fff;
+          text-align: left;
+          font-weight: normal;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  .bold-text {
+    font-weight: bold;
+  }
+
+  .button {
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    transition: none;
+    font-weight: bold;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 1.1em;
+    margin: 1em 1em 1em 0;
+    letter-spacing: -0.2px;
+
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+
+  .button-inverted {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    transition: none;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 1.1em;
+    margin: 1em 0;
+    letter-spacing: -0.2px;
+
+    &:hover {
+      background-color: #fff;
+      color: #000;
+      outline: 5px solid #000;
+    }
+  }
+
+  .record-embed-text {
+    text-align: center;
+
+    span.reference {
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .record-embed-heading {
+    padding: 1rem;
+  }
+
+  .record-embed-container {
+    background-color: #000;
+    width: 100%;
+
+    figure {
+      margin-bottom: 0;
+    }
+
+    figcaption {
+      background-color: #292929;
+      color: #fff;
+      padding: 1rem;
+    }
+  }
+
+  .record-embed-image {
+    position: relative;
+    margin: auto;
+    max-width: 400px;
+    overflow: hidden;
+    padding: 2rem;
+  }
+
+  .large-image {
+    max-width: 800px;
+  }
+
+  .record-embed-image .content-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+  }
+
+  .record-embed-image:hover .content-overlay{
+    opacity: 1;
+  }
+
+  .content-image{
+    width: 100%;
+    border: 20px solid #ccc;
+  }
+
+  .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .record-embed-image:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+
+  .content-details h3{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+
+  .separator-left, .separator-right {
+    border-bottom: 5px solid #ddd;
+    height: 35px;
+  }
+
+  .separator-icon {
+    margin: -110px auto;
+    text-align: center;
+    background: #12477a;
+    height: 120px;
+    width: 120px;
+    z-index: 2;
+    border: 20px solid #fff;
+    border-radius: 50%;
+
+    p {
+      padding-top: 1rem;
+    }
+  }
+
+  .border-top-grey {
+    border-top: 5px solid #ddd;
+    margin-top: 3rem;
+  }
+
+  .border-bottom-grey {
+    border-bottom: 5px solid #ddd;
+    margin-bottom: 5.5rem;
+  }
+
+  .generic-intro {
+    img {
+      width: 100%;
+    }
+  }
+
+  .vertical-separator {
+    margin: auto;
+    height: 50%;
+    width: 50%;
+    border-bottom: 5px solid #ddd;
+  }
+  .caption-text {
+    font-family: 'Roboto Mono', sans-serif;
+    letter-spacing: -0.2px;
+  }
+  .margin-top-x-large {
+    margin-top: 140px;
+  }
+  .margin-top-small {
+    margin-top: 10px;
+  }
+  .margin-top-medium {
+    margin-top: 95px;
+  }
+  .margin-top-large {
+    margin-top: 120px;
+  }
+  .border-less {
+    width: 80px;
+    height: 80px;
+    border: 0;
+  }
+  .icon-label {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+}

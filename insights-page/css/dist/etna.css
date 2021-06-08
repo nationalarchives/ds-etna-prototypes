@@ -942,4 +942,694 @@ h2 {
   border-bottom: 5px solid #ddd;
 }
 
+.insights-v3 a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.insights-v3 p {
+  font-size: 1.1em;
+}
+.insights-v3 .background {
+  width: 100%;
+  padding: 3rem 0;
+  position: relative;
+}
+.insights-v3 .no-padding {
+  padding: 0;
+}
+.insights-v3 .bg-black {
+  background: #000;
+}
+.insights-v3 .bg-dark-grey {
+  background: #222;
+}
+.insights-v3 .bg-blue {
+  background: #12477a;
+}
+.insights-v3 .bg-light-grey {
+  background: #e5e5e5;
+}
+.insights-v3 .text-white {
+  color: #fff;
+  z-index: 999;
+}
+.insights-v3 .border-top-grey {
+  border-top: 5px solid #eee;
+}
+.insights-v3 .image-audio {
+  background: url("../../images/insights-shakespeare-v1/audio-embed.png") no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.insights-v3 .image-hero {
+  background: url("../../images/insights-shakespeare-v3/hero-image.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 420px;
+}
+.insights-v3 .menu-container {
+  display: block;
+  float: left;
+  margin-top: -100px;
+  margin-left: 370px;
+}
+.insights-v3 .standard-padding {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.insights-v3 .nav-container {
+  width: 100%;
+  padding: 6rem 0 2rem;
+  position: relative;
+  border-top: 3px solid #222;
+}
+.insights-v3 .nav-container .nav-content h2 {
+  color: #fff;
+  font-size: 2em;
+  font-family: "Roboto Mono", sans-serif;
+}
+.insights-v3 .nav-container .nav-content ol {
+  color: #fff;
+  margin: 0 0 2rem;
+  padding: 0;
+  padding-left: 1em;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 10px;
+  column-count: 2;
+  column-gap: 10px;
+  font-family: "Roboto Mono", sans-serif;
+}
+.insights-v3 .nav-container .nav-content ol li {
+  font-size: 1em;
+  color: #fff;
+  margin: 0 1em 0 1.2em;
+  float: left;
+  width: 19.6em;
+  vertical-align: top;
+  list-style-position: outside;
+  padding-left: 1em;
+}
+.insights-v3 .nav-container .nav-content ol li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+}
+.insights-v3 .nav-container .nav-content ol li a:hover {
+  text-decoration: underline;
+}
+.insights-v3 .badge-container {
+  width: 18rem;
+  margin: 0;
+  display: block;
+  float: left;
+  margin-top: -279px;
+}
+.insights-v3 .badge {
+  z-index: 2;
+  width: 16rem;
+}
+.insights-v3 .badge h2 {
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Roboto Mono", sans-serif;
+  letter-spacing: -0.5px;
+  font-size: 1.8em !important;
+  font-weight: normal;
+  text-align: center;
+}
+.insights-v3 .badge h2 span {
+  border: 3px solid #111;
+  border-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  background: rgba(255, 255, 255, 0.4);
+  color: #222;
+}
+.insights-v3 .badge h2 span:first-child {
+  border-top: 3px solid #111;
+}
+.insights-v3 .badge h2 span:last-child {
+  border-bottom: 3px solid #111;
+  background: #222;
+  color: #fff;
+  font-size: 75% !important;
+}
+.insights-v3 .badge h2 .middle {
+  font-size: 1.55em;
+}
+.insights-v3 .overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+.insights-v3 .panel-center {
+  text-align: center;
+  z-index: 1;
+  position: relative;
+}
+.insights-v3 .hero-img {
+  height: 500px;
+}
+.insights-v3 .callout {
+  border: 1px solid #000;
+  padding: 3rem;
+}
+.insights-v3 .callout ul {
+  list-style: none;
+  padding-top: 2rem;
+}
+.insights-v3 .content-block {
+  padding: 2rem;
+}
+.insights-v3 .content-block p:last-child {
+  margin-bottom: 0;
+}
+.insights-v3 .content-block__light-grey {
+  background-color: #f3f3f3;
+}
+.insights-v3 .chapter-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1001;
+  background: #dde5d5;
+  color: black;
+  padding: 1rem 2rem;
+}
+.insights-v3 .chapter-nav span:first-child {
+  min-width: 80%;
+}
+.insights-v3 .chapter-nav #contents-toggle {
+  text-align: right;
+}
+.insights-v3 .chapter-nav #contents-toggle button {
+  min-width: 220px;
+  padding: 20px 40px 20px 20px;
+  background-color: #fff;
+  border: none;
+}
+.insights-v3 .chapter-nav #contents-toggle button:hover {
+  background-color: #000;
+  cursor: pointer;
+  color: #fff;
+}
+.insights-v3 .chapter-nav #contents-toggle button:focus {
+  outline: 5px solid #1d70b8;
+}
+.insights-v3 .chapter-nav #article, .insights-v3 .chapter-nav #chapter {
+  font-weight: bold;
+}
+.insights-v3 .chapter-nav #contents {
+  padding-top: 1rem;
+}
+.insights-v3 .chapter-nav #contents:before {
+  content: "";
+  border-top: 2px solid black;
+  width: 30%;
+}
+.insights-v3 .chapter-nav #contents ul {
+  list-style: none;
+  padding-left: 15px;
+  column-count: 3;
+  column-gap: 4rem;
+}
+.insights-v3 .chapter-nav #contents ul li a {
+  color: #000;
+}
+.insights-v3 .list-title {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+.insights-v3 .list-title:before {
+  content: "";
+  display: block;
+  border-top: 2px solid black;
+  margin-bottom: 1rem;
+  width: 400px;
+}
+.insights-v3 .king-james-shakespeare-img {
+  width: 500px;
+}
+.insights-v3 .audio-embed-image {
+  margin: auto;
+}
+.insights-v3 .image-container {
+  position: relative;
+  width: 200px;
+  height: 300px;
+}
+.insights-v3 .image-container .after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  color: #FFF;
+}
+.insights-v3 .image-container .after {
+  display: block;
+  background: rgba(0, 0, 0, 0.6);
+}
+.insights-v3 .chapter-nav .row {
+  margin-bottom: 0;
+}
+.insights-v3 .call-out-box {
+  width: 100%;
+}
+.insights-v3 .call-out-box p:first-child {
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 1.4em;
+  margin-bottom: 3em;
+  color: #fff;
+}
+.insights-v3 .call-out-box a, .insights-v3 .call-out-box p {
+  color: #ccc;
+}
+.insights-v3 .call-out-box .call-out-links ul {
+  list-style: none;
+  padding-left: 0;
+}
+.insights-v3 .call-out-box .call-out-links li, .insights-v3 .call-out-box .call-out-links .call-out-card {
+  background-color: #292929;
+  margin-bottom: 1rem;
+  border-left: 20px solid #333;
+  font-size: 0.95em;
+}
+.insights-v3 .call-out-box .call-out-links li .heading, .insights-v3 .call-out-box .call-out-links .call-out-card .heading {
+  font-size: 26px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+.insights-v3 .call-out-box .call-out-links li a, .insights-v3 .call-out-box .call-out-links .call-out-card a {
+  display: inline-block;
+  padding: 1rem;
+  width: 100%;
+  text-decoration: none;
+  font-weight: normal;
+}
+.insights-v3 .call-out-box .call-out-links li a:hover, .insights-v3 .call-out-box .call-out-links .call-out-card a:hover {
+  text-decoration: underline;
+}
+.insights-v3 .call-out-box .call-out-card .heading {
+  display: block;
+  margin-bottom: 1rem;
+}
+.insights-v3 .key-facts-box {
+  position: relative;
+  margin: 3rem 0;
+}
+.insights-v3 .key-facts-box blockquote {
+  padding: 2rem;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 1.4em;
+}
+.insights-v3 .key-facts-box .quote-icon {
+  position: absolute;
+  top: -20px;
+}
+.insights-v3 .key-facts-box:before {
+  content: "";
+  display: block;
+  /* This will put the pseudo element on its own line. */
+  width: 40%;
+  /* Change this to whatever width you want. */
+  margin-left: 5rem;
+  padding-top: 2rem;
+  /* This creates some space between the element and the border. */
+  border-top: 5px solid black;
+  /* This creates the border. Replace black with whatever color you want. */
+}
+.insights-v3 .key-facts-box .citation {
+  text-align: right;
+  border-top: 5px solid black;
+  margin-left: 60%;
+  padding-top: 1rem;
+  width: 40%;
+}
+.insights-v3 .quote-icon {
+  height: 50px;
+  width: 50px;
+}
+.insights-v3 .audio-embed-image {
+  width: 100%;
+  padding: 0;
+  margin: auto;
+  display: block;
+}
+.insights-v3 .image-wrapper {
+  position: relative;
+  width: 100%;
+}
+.insights-v3 .image-wrapper:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+.insights-v3 .centred-overlay {
+  text-align: center;
+}
+.insights-v3 .centred-overlay h2, .insights-v3 .centred-overlay p {
+  color: #fff;
+}
+.insights-v3 .podcast-link {
+  margin-top: 3rem;
+}
+.insights-v3 .podcast-link a {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  transition: none;
+}
+.insights-v3 .podcast-link a:hover {
+  background-color: #fff;
+  color: #000;
+  text-decoration: underline;
+  outline: 5px solid #000;
+}
+.insights-v3 .generic-intro .px-0 img {
+  height: 100%;
+  width: 100%;
+}
+.insights-v3 .no-padding-bottom {
+  padding-bottom: 0 !important;
+}
+.insights-v3 .no-padding-right {
+  padding-right: 0;
+}
+.insights-v3 .no-padding-left {
+  padding-left: 0;
+}
+.insights-v3 .no-padding-top {
+  padding-top: 0;
+}
+.insights-v3 .no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+.insights-v3 .author-image img {
+  width: 75%;
+}
+.insights-v3 .author-name {
+  font-size: 24px;
+}
+.insights-v3 .author-occupation {
+  font-family: "Roboto", sans-serif;
+  border-bottom: 2px dotted #ccc;
+  padding-bottom: 1em;
+}
+.insights-v3 .stand-first:after {
+  border-bottom: 5px solid #dde5d5;
+  content: "";
+  display: block;
+  width: 80%;
+}
+.insights-v3 .stand-first-text {
+  padding: 2rem 0;
+  margin: auto;
+}
+@media only screen and (min-width: 576px) {
+  .insights-v3 .stand-first-text {
+    width: 540px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .insights-v3 .stand-first-text {
+    width: 720px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .insights-v3 .stand-first-text {
+    width: 960px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .insights-v3 .stand-first-text {
+    width: 1140px;
+  }
+}
+.insights-v3 .stand-first-heading {
+  display: block;
+  font-size: 26px;
+  font-family: "Roboto Mono", sans-serif;
+  margin-bottom: 2rem;
+  letter-spacing: -0.5px;
+  font-weight: 500;
+}
+.insights-v3 .blog-embed {
+  margin: auto;
+  text-align: center;
+}
+.insights-v3 .blog-embed .button-inverted {
+  margin-top: 0.5rem;
+}
+.insights-v3 .blog-embed .blog-embed-text {
+  background-color: #fff;
+  opacity: 0.9;
+  padding: 2rem;
+  text-align: left;
+  width: 100%;
+  margin: -60px auto 0 auto;
+  border-top: 2px dotted #ccc;
+  border-bottom: 2px dotted #ccc;
+  margin-bottom: 2em;
+}
+.insights-v3 .blog-embed .blog-embed-text h2, .insights-v3 .blog-embed .blog-embed-text span, .insights-v3 .blog-embed .blog-embed-text p {
+  color: #000;
+}
+.insights-v3 .research-resources {
+  text-align: center;
+  width: 100%;
+}
+.insights-v3 .research-resources .research-resource-card {
+  text-align: left;
+  background-color: #12477a;
+  margin-bottom: 1rem;
+}
+.insights-v3 .research-resources .research-resource-card .heading {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 1rem;
+}
+.insights-v3 .research-resources .research-resource-card a {
+  display: inline-block;
+  padding: 1rem;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+}
+.insights-v3 .research-resources .research-resource-card a:hover {
+  text-decoration: underline;
+}
+.insights-v3 .research-resources .research-links {
+  list-style: none;
+  margin-bottom: 8em;
+}
+.insights-v3 .research-resources .research-links li {
+  background-color: #12477a;
+  margin: auto auto 1rem;
+  border-left: 20px solid #0d3964;
+}
+.insights-v3 .research-resources .research-links li .heading {
+  font-size: 26px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+.insights-v3 .research-resources .research-links li a {
+  display: inline-block;
+  padding: 1rem;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  text-align: left;
+  font-weight: normal;
+}
+.insights-v3 .research-resources .research-links li a:hover {
+  text-decoration: underline;
+}
+.insights-v3 .bold-text {
+  font-weight: bold;
+}
+.insights-v3 .button {
+  background-color: #fff;
+  color: #000;
+  display: inline-block;
+  padding: 1rem;
+  text-decoration: none;
+  transition: none;
+  font-weight: bold;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 1.1em;
+  margin: 1em 1em 1em 0;
+  letter-spacing: -0.2px;
+}
+.insights-v3 .button:hover {
+  background-color: #000;
+  color: #fff;
+}
+.insights-v3 .button-inverted {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  padding: 1rem;
+  text-decoration: none;
+  transition: none;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 1.1em;
+  margin: 1em 0;
+  letter-spacing: -0.2px;
+}
+.insights-v3 .button-inverted:hover {
+  background-color: #fff;
+  color: #000;
+  outline: 5px solid #000;
+}
+.insights-v3 .record-embed-text {
+  text-align: center;
+}
+.insights-v3 .record-embed-text span.reference {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+.insights-v3 .record-embed-heading {
+  padding: 1rem;
+}
+.insights-v3 .record-embed-container {
+  background-color: #000;
+  width: 100%;
+}
+.insights-v3 .record-embed-container figure {
+  margin-bottom: 0;
+}
+.insights-v3 .record-embed-container figcaption {
+  background-color: #292929;
+  color: #fff;
+  padding: 1rem;
+}
+.insights-v3 .record-embed-image {
+  position: relative;
+  margin: auto;
+  max-width: 400px;
+  overflow: hidden;
+  padding: 2rem;
+}
+.insights-v3 .large-image {
+  max-width: 800px;
+}
+.insights-v3 .record-embed-image .content-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+}
+.insights-v3 .record-embed-image:hover .content-overlay {
+  opacity: 1;
+}
+.insights-v3 .content-image {
+  width: 100%;
+  border: 20px solid #ccc;
+}
+.insights-v3 .content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.insights-v3 .record-embed-image:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+.insights-v3 .content-details h3 {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+.insights-v3 .separator-left, .insights-v3 .separator-right {
+  border-bottom: 5px solid #ddd;
+  height: 35px;
+}
+.insights-v3 .separator-icon {
+  margin: -110px auto;
+  text-align: center;
+  background: #12477a;
+  height: 120px;
+  width: 120px;
+  z-index: 2;
+  border: 20px solid #fff;
+  border-radius: 50%;
+}
+.insights-v3 .separator-icon p {
+  padding-top: 1rem;
+}
+.insights-v3 .border-top-grey {
+  border-top: 5px solid #ddd;
+  margin-top: 3rem;
+}
+.insights-v3 .border-bottom-grey {
+  border-bottom: 5px solid #ddd;
+  margin-bottom: 5.5rem;
+}
+.insights-v3 .generic-intro img {
+  width: 100%;
+}
+.insights-v3 .vertical-separator {
+  margin: auto;
+  height: 50%;
+  width: 50%;
+  border-bottom: 5px solid #ddd;
+}
+.insights-v3 .caption-text {
+  font-family: "Roboto Mono", sans-serif;
+  letter-spacing: -0.2px;
+}
+.insights-v3 .margin-top-x-large {
+  margin-top: 140px;
+}
+.insights-v3 .margin-top-small {
+  margin-top: 10px;
+}
+.insights-v3 .margin-top-medium {
+  margin-top: 95px;
+}
+.insights-v3 .margin-top-large {
+  margin-top: 120px;
+}
+.insights-v3 .border-less {
+  width: 80px;
+  height: 80px;
+  border: 0;
+}
+.insights-v3 .icon-label {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
 /*# sourceMappingURL=etna.css.map */
