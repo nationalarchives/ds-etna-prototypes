@@ -148,17 +148,6 @@
 
     </div><!-- end row -->
 
-
-    <!-- CONTENT SLICE 2 -->
-    <div class="container standard-padding content-slice">
-        <div class="row">
-                <p>William Shakespeare, also known as the ‘Bard’, was born in Stratford-upon-Avon on April 23rd 1564. It is thought he married his wife, Anne Hathaway, in 1582, although we have no specific marriage certificate. He pursued a career as an actor, poet and dramatist in London.</p>
-                <p>His now famous plays were performed widely during his lifetime, often at the purpose-built Globe Theatre in London on the south bank of the Thames. The first folio was published in 1623, with 154 sonnets, 37 plays, and 2 long poems. It is suggested that his friends put it together in case others tried to copy Shakespeare’s work and claim it as their own.</p>
-                <p>Since then, he has become internationally renowned as the world’s greatest ever playwright.</p>
-        </div><!-- end row -->
-    </div><!-- end container -->
-
-
     <!-- RECORD EMBED -->
     <span id="content-3"></span>
     <div class="background bg-blue">
