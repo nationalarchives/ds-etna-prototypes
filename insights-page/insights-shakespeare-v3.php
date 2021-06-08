@@ -7,7 +7,7 @@
 
 <?php require 'includes/header.php' ?>
 
-<main id="maincontent">
+<main>
     <div class="generic-intro generic-intro--dark no-padding-bottom">
         <div class="container">
             <div class="row">
@@ -75,13 +75,13 @@
         </div>
     </nav>-->
 
-
+    <!-- TOP BANNER -->
     <div class="background no-padding">
 
-        <!-- HERO IMAGE -->
+        <!-- PART 1: HERO IMAGE -->
         <div class="image-hero"></div>
 
-        <!-- TABLE OF CONTENTS -->
+        <!-- PART 2: TABLE OF CONTENTS -->
         <div class="nav-container bg-blue">
             <div class="nav-content">
                 <div class="container">
@@ -95,37 +95,34 @@
                             <h2>On this page</h2>
                             <ol>
                                 <li>
-                                    <a href="#content-1">Career</a>
+                                    <a href="#content-1">Shakespeare's career</a>
                                 </li>
                                 <li>
-                                    <a href="#content-2">The Face of Shakespeare</a>
+                                    <a href="#content-2">The face of Shakespeare</a>
                                 </li>
                                 <li>
-                                    <a href="#content-3">Content block</a>
+                                    <a href="#content-3">Legal cases</a>
                                 </li>
                                 <li>
-                                    <a href="#content-4">Call out</a>
+                                    <a href="#content-4">Shakespeare and James I</a>
                                 </li>
                                 <li>
-                                    <a href="#content-5">Shakespeare and James I</a>
+                                    <a href="#content-5">A tourist’s guide to Shakespeare’s London</a>
                                 </li>
                                 <li>
-                                    <a href="#content-6">A Tourist's Guide to Shakespeare's London</a>
+                                    <a href="#content-6">Paying for the privilege: a new Shakespeare discovery</a>
                                 </li>
                                 <li>
-                                    <a href="#content-7">Content block</a>
+                                    <a href="#content-7">Research resources</a>
                                 </li>
                                 <li>
-                                    <a href="#content-8">Research Resources</a>
+                                    <a href="#content-8">Shakespeare's will</a>
                                 </li>
                                 <li>
-                                    <a href="#content-9">Shakespeare's Will</a>
+                                    <a href="#content-9">An extract from William Shakespeare’s will</a>
                                 </li>
                                 <li>
-                                    <a href="#content-10">Quote</a>
-                                </li>
-                                <li>
-                                    <a href="#content-11">Find out more</a>
+                                    <a href="#content-10">Explore our other content about Shakespeare</a>
                                 </li>
                             </ol>
                         </div><!-- end menu-container -->
@@ -136,9 +133,6 @@
     </div><!-- end background -->
 
 
-
-
-
     <!-- KEY FACTS BOX -->
     <div class="background bg-light-grey no-padding">
         <div class="container">
@@ -147,7 +141,7 @@
                     <img src="images/insights-shakespeare-v3/author-image.jpg" alt="Portrait of William Shakespeare">
                 </div>
                 <div class="col-md-8">
-                    <h2 class="author-name no-margin-bottom">Authored by Dr     Jo Pugh</h2>
+                    <h2 class="author-name no-margin-bottom">Authored by Dr Jo Pugh</h2>
                     <p class="author-occupation">Principal Records Specialist &mdash; The National Archives, UK</p>
                     <p class="author-info">Jo Pugh is the Principal Records Specialist at The National Archives and is an expert in The National Archives’ records relating to Shakespeare.</p>
                     <a class="button-inverted" href="">Read more about Jo</a>
@@ -157,14 +151,13 @@
     </div><!-- end background -->
 
 
-
     <!-- STANDFIRST -->
-    <div class="container standard-padding">
+    <div class="container standard-padding content-slice">
         <div class="row">
             <p><span class="stand-first-heading">William Shakespeare is often thought of as one of the greatest writers in the English language.</span></p>
             <p>His plays have been translated into every major language, and are performed more often than any other playwright. Shakespeare’s writing also affected the way the English language evolved, and several words and phrases, such as ‘all’s well that ends well’, ‘with bated breath’ and ‘a foregone conclusion’ have moved into everyday use.</p>
 
-            <h2>Career</h2>
+            <h2>Shakespeare's career</h2>
             <p>William Shakespeare, also known as the ‘Bard’, was born in Stratford-upon-Avon on April 23rd 1564. It is thought he married his wife, Anne Hathaway, in 1582, although we have no specific marriage certificate. He pursued a career as an actor, poet and dramatist in London.</p>
             <p>His now famous plays were performed widely during his lifetime, often at the purpose-built Globe Theatre in London on the south bank of the Thames. The first folio was published in 1623, with 154 sonnets, 37 plays, and 2 long poems. It is suggested that his friends put it together in case others tried to copy Shakespeare’s work and claim it as their own.</p>
             <p>Since then, he has become internationally renowned as the world’s greatest ever playwright.</p>
@@ -176,7 +169,7 @@
     <!-- IMAGE VIEWER 1 -->
     <div class="row">
 
-        <!-- IMAGE -->
+        <!-- PART 1: IMAGE -->
         <div class="background bg-black no-padding">
             <div class="container">
                 <h2 class="text-white" style="margin-top: 40px; padding-bottom: 10px; border-bottom: 5px solid #666;">The face of Shakespeare</h2>
@@ -194,7 +187,7 @@
             </div><!-- end container -->
         </div><!-- end background -->
 
-        <!-- CAPTION -->
+        <!-- PART 2: CAPTION -->
         <div class="background bg-dark-grey text-white">
             <div class="container">
                 <p class="caption-text no-margin-bottom">Reference: PRO 30/25/205</p>
@@ -209,7 +202,7 @@
 
 
     <!-- CONTENT SLICE 2 -->
-    <div class="container standard-padding">
+    <div class="container standard-padding content-slice">
         <div class="row">
                 <p>William Shakespeare, also known as the ‘Bard’, was born in Stratford-upon-Avon on April 23rd 1564. It is thought he married his wife, Anne Hathaway, in 1582, although we have no specific marriage certificate. He pursued a career as an actor, poet and dramatist in London.</p>
                 <p>His now famous plays were performed widely during his lifetime, often at the purpose-built Globe Theatre in London on the south bank of the Thames. The first folio was published in 1623, with 154 sonnets, 37 plays, and 2 long poems. It is suggested that his friends put it together in case others tried to copy Shakespeare’s work and claim it as their own.</p>
@@ -244,7 +237,6 @@
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end background -->
-
 
 
     <!-- RECORD EMBED -->
@@ -287,13 +279,46 @@
 
 
     <!-- CONTENT SLICE 3 -->
-    <div class="container standard-padding">
+    <div class="container standard-padding content-slice">
         <div class="row">
             <p>Six shillings and eight pence is what Shakespeare’s company of actors, the Lord Chamberlain’s Men, were charged for the first stage of a bureaucratic process to gain a licence granting them the patronage of the new king, James I; henceforth, the company would be known as the King’s Men. It was expensive – at the time, actors in London were normally paid less than one shilling a day – but it was to prove a wise investment.</p>
             <p>This information has recently come to light in a new examination of a document in The National Archives by Dr Hannah Crummé.</p>
         </div><!-- end row -->
     </div><!-- end container -->
 
+    <!-- SIMPLE BLOG EMBED -->
+
+    <!-- RESOURCE EMBED -->
+    <div class="background border-top-grey">
+        <div class="container">
+            <div class="row">
+                <div class="separator-icon">
+                    <img style="height: 65px;width:65px;margin: 5px 0 0 -3px;" src="images/insights-shakespeare-v3/read-icon.png" alt="Read icon">
+                    <p class="margin-top-small icon-label">Read</p>
+                </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end background -->
+
+    <div class="container">
+        <div class="row">
+            <div class="panel-center margin-bottom-medium">
+                <h2>Paying for the privilege: a new Shakespeare discovery</h2>
+                <p class="caption-text bold-text">Saturday 23 April 2016</p>
+                <p class="margin-top-small"> One third of a pound does not go far today – it’s not even a small child’s pocket money. But in 1603, it helped Shakespeare secure his future.</p>
+                <a class="button-inverted" href="">Read the full blog</a>
+            </div><!-- end panel-center-->
+        </div><!-- end row -->
+    </div><!-- end container -->
+
+    <hr>
+
+    <!-- CONTENT SLICE 4 -->
+    <div class="container standard-padding content-slice">
+        <div class="row">
+            <p >Shakespeare’s will itself is a matter of debate. The last will and testament helps us to learn about Shakespeare at the end of his life, providing us with minute details about his final wishes. The source evidence in this lesson shows that he was a man of considerable wealth by the time he died, and that most of it was left to his eldest daughter, Susanna Hall. The will also provides us with three of only six surviving samples of his signature.</p>
+        </div><!-- end row -->
+    </div><!-- end container -->
 
     <!-- RESOURCE EMBED -->
     <div class="background border-top-grey">
@@ -303,60 +328,58 @@
                     <img style="height: 65px;width:65px;margin: 5px 0 0 -3px;" src="images/insights-shakespeare-v3/learn-icon.png" alt="Read icon">
                     <p class="margin-top-small icon-label">Learn</p>
                 </div>
-            </div>
-        </div>
-    </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end background -->
 
     <div class="container">
-            <div class="row">
-                <div class="research-resources">
-                    <h2>Research resources</h2>
-                    <div>
-                        <p>
-                            These research resources may be a helpful way to continue your exploration of Shakespeare.
-                        </p>
-                    </div>
-                    <ul class="research-links">
-                        <li>
-                            <a href="">
-                            <span class="heading">
-                                Tudor Entertainment
-                            </span>
-                                <p class="no-margin-bottom">
-                                    What was the effect of the early playhouses?
-                                </p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                            <span class="heading">
-                                James I
-                            </span>
-                                <p class="no-margin-bottom">
-                                    What were the key areas of dispute?
-                                </p>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-    </div>
+        <div class="row">
+            <div class="research-resources">
+                <h2>Research resources</h2>
+                <p>These research resources may be a helpful way to continue your exploration of Shakespeare.</p>
 
+                <ul class="research-links">
+                    <li>
+                        <a href="">
+                        <span class="heading">
+                            Tudor Entertainment
+                        </span>
+                            <p class="no-margin-bottom">
+                                What was the effect of the early playhouses?
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                        <span class="heading">
+                            James I
+                        </span>
+                            <p class="no-margin-bottom">
+                                What were the key areas of dispute?
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div><!-- end research-resources -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+
+
+    <!-- BLOG EMBED -->
     <div class="background border-top-grey">
         <div class="container">
             <div class="row">
                 <div class="separator-icon">
                     <img style="height: 65px;width:65px;margin: 7px 0 0 -1px;" src="images/insights-shakespeare-v3/read-icon.png" alt="Read icon">
                     <p class="margin-top-small icon-label">Read</p>
-                </div>
-            </div>
-        </div>
-    </div>
+                </div><!-- end separator-icon -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end background -->
 
     <div class="container">
         <div class="row">
-            <span id="content-9"></span>
-            <div class="blog-embed">
+            <div class="blog-embed margin-bottom-medium">
                 <h2>Shakespeare's will</h2>
                 <p class="caption-text bold-text">Published on 25 July 2021</p>
                 <img src="images/insights-shakespeare-v1/blog-embed-image.jpeg" alt="Person reading">
@@ -367,35 +390,69 @@
                         Records at The National Archives, I've been looking in detail at one of our treasures: Shakespeare's original will, full of
                         amendments, which was left in the probate court by his executor.
                     </p>
-                </div>
+                </div><!-- end blog embed text -->
                 <a class="button-inverted text-center" href="">Read the full blog</a>
+            </div><!-- end blog embed -->
+        </div><!-- end row -->
+    </div><!-- end container -->
 
-            </div>
-        </div>
-    </div>
+    <!-- IMAGE VIEWER 2 -->
+    <div class="row">
 
+        <!-- PART 1: IMAGE -->
+        <div class="background bg-black no-padding">
+            <div class="container">
+                <h2 class="text-white" style="margin-top: 40px; padding-bottom: 10px; border-bottom: 5px solid #666;">An extract from William Shakespeare’s will</h2>
+                <figure>
+                    <div class="record-embed-image">
+                        <a href="#">
+                            <div class="content-overlay"></div>
+                            <img class="content-image" src="images/insights-shakespeare-v3/shakespeares-will.jpg" alt="Shakespeare's will">
+                        </a>
+                        <div class="content-details">
+                            <h3 class="content-title">View in image viewer</h3>
+                        </div>
+                    </div><!-- end record-embed-image -->
+                </figure>
+            </div><!-- end container -->
+        </div><!-- end background -->
+
+        <!-- PART 2: CAPTION -->
+        <div class="background bg-dark-grey text-white">
+            <div class="container">
+                <p class="caption-text no-margin-bottom">Reference: PROB 1/4</p>
+                <p class="caption-text">Date created: 1616</p>
+               <p>Excerpts from Shakespeare’s Will</p>
+                <a class="button" href="">View our classroom resource</a>
+            </div><!-- end container -->
+        </div><!-- end background -->
+
+    </div><!-- end row -->
+
+    <!-- QUOTE -->
     <div class="container standard-padding">
-            <div class="row">
-                <div class="key-facts-box">
-                    <img src="images/insights-shakespeare-v1/quote-right.svg" class="quote-icon" alt="" />
-                    <blockquote>
-                        <p>
-                            Whilst the registry record of Shakespeare’s birth is held in Stratford-upon-Avon and his November 28th 1582 marriage
-                            bond to Anne Hathaway is now in Worcestershire Record Office, a series of important records of his life are held at
-                            The National Archives, including pleadings and depositions in three lawsuits in the Court of Requests involving
-                            Shakespeare.
-                        </p>
-                    </blockquote>
-                    <div class="citation">
-                        <cite>
-                            The National Archives
-                        </cite>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        <div class="row">
+            <div class="key-facts-box">
+                <img src="images/insights-shakespeare-v1/quote-right.svg" class="quote-icon" alt="" />
+                <blockquote>
+                    <p>
+                        Whilst the registry record of Shakespeare’s birth is held in Stratford-upon-Avon and his November 28th 1582 marriage
+                        bond to Anne Hathaway is now in Worcestershire Record Office, a series of important records of his life are held at
+                        The National Archives, including pleadings and depositions in three lawsuits in the Court of Requests involving
+                        Shakespeare.
+                    </p>
+                </blockquote>
+                <div class="citation">
+                    <cite>
+                        The National Archives
+                    </cite>
+                </div><!-- end citation -->
+            </div><!-- end key-facts-box -->
+        </div><!-- end row -->
+    </div><!-- end container -->
 
+
+    <!-- RELATED LINKS COLLECTION -->
     <div class="background bg-black text-white">
         <div class="container related-content">
             <h2>Explore our other content about Shakespeare</h2>
@@ -408,7 +465,7 @@
                                     <picture>
                                         <img style="width:348px; height:208px;" src="images/insights-shakespeare-v1/shakespeare-card-1.png" alt="Farm workers rest at sunset and share some refreshments" class="card-group-secondary-nav__image-fallback">
                                     </picture>
-                                </div>
+                                </div><!-- end nav__image -->
                                 <div class="card-group-secondary-nav__body">
                                     <h3 class="tna-card__heading" aria-hidden="true">Blog - Kidnapped to order: child actors in Shakespeare’s day</h3>
                                     <p class="caption-text bold-text">Saturday 23 April 2016</p>
@@ -418,10 +475,10 @@
                                         both male and female roles. The Children of the Chapel was one of the most famous, and this blog will explore some
                                         of the more extreme methods they went to in order to recruit boys actors
                                     </p>
-                                </div>
+                                </div><!-- end nav__body -->
                             </a>
-                        </div>
-                    </div>
+                        </div><!-- end nav__link -->
+                    </div><!-- end col -->
                     <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="card-group-secondary-nav">
                             <a href='/' class="card-group-secondary-nav__link">
@@ -430,7 +487,7 @@
                                     <picture>
                                         <img style="width:348px; height:208px;" src="images/insights-shakespeare-v1/shakespeare-card-2.png" alt="A grey haired man in front of artworks with artworks behind him" class="card-group-secondary-nav__image-fallback">
                                     </picture>
-                                </div>
+                                </div><!-- end nav__image -->
                                 <div class="card-group-secondary-nav__body">
                                     <h3 class="tna-card__heading" aria-hidden="true">Podcast - Philip Henslowe, Edward Alleyn and the invention of London theatre in the age of Shakespeare</h3>
                                     <p class="caption-text bold-text">Tuesday 5 April 2016</p>
@@ -441,11 +498,10 @@
                                         bear- and lion-baiting at the Bear Garden and other venues, including royal palaces. They also commissioned
                                         plays and ran acting companies.
                                     </p>
-
-                                </div>
+                                </div><!-- end nav__body -->
                             </a>
-                        </div>
-                    </div>
+                        </div><!-- end nav__link -->
+                    </div><!-- end col -->
                     <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="card-group-secondary-nav">
                             <a href='/' class="card-group-secondary-nav__link">
@@ -454,7 +510,7 @@
                                     <picture>
                                         <img src="images/insights-shakespeare-v1/cards/543/business.png" alt="Hands type on a computer terminal from the 1960s" class="card-group-secondary-nav__image-fallback">
                                     </picture>
-                                </div>
+                                </div><!-- end nav__image -->
                                 <div class="card-group-secondary-nav__body">
                                     <h3 class="tna-card__heading" aria-hidden="true">Event - ‘Before Shakespeare’ at The National Archives</h3>
                                     <p class="caption-text bold-text">Date: Every Wednesday, starting Wednesday 1 August 2018</p>
@@ -465,13 +521,13 @@
                                     </p>
 
                                     <p class="bold-text">Price: £4 – £5</p>
-                                </div>
+                                </div><!-- end nav__body -->
                             </a>
-                        </div>
-                    </div>
-                </div>
-        </div>
-    </div>
+                        </div><!-- end nav__link -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end background -->
 </main>
 
 
