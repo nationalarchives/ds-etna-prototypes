@@ -252,12 +252,17 @@
 
     <div class="container">
         <div class="row">
-            <div class="panel-center margin-bottom-medium">
+            <div class="blog-embed margin-bottom-medium">
                 <h2>Paying for the privilege: a new Shakespeare discovery</h2>
-                <p class="caption-text bold-text">Saturday 23 April 2016</p>
-                <p class="margin-top-small"> One third of a pound does not go far today – it’s not even a small child’s pocket money. But in 1603, it helped Shakespeare secure his future.</p>
+                <p class="caption-text bold-text">Published on Saturday 23 April 2016</p>
+                <img src="images/insights-shakespeare-v3/paying-for-privilege.jpg" alt="Person reading">
+                <div class="blog-embed-text">
+                    <p class="no-margin-bottom">
+                        One third of a pound does not go far today – it’s not even a small child’s pocket money. But in 1603, it helped Shakespeare secure his future.
+                    </p>
+                </div><!-- end blog embed text -->
                 <a class="button-inverted" href="https://blog.nationalarchives.gov.uk/paying-privilege-new-shakespeare-discovery/" target="_blank" rel="noopener noreferrer">Read the full blog</a>
-            </div><!-- end panel-center-->
+          </div><!-- end blog embed -->
         </div><!-- end row -->
     </div><!-- end container -->
 
