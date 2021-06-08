@@ -112,15 +112,27 @@
     </li>
     <li>
         <span>3</span>
+        <a href="/insights-page/insights-shakespeare-v3.php">Shakespeare insights page v3</a>
+        <br>
+        insights-page/insights-shakespeare-v3.php
+    </li>
+    <li>
+        <span>4</span>
         <a href="/insights-page/insights-black-asian-presence-v1.php">Black and Asian presence insights page v1</a>
         <br>
         insights-page/insights-black-asian-presence-v1.php
     </li>
     <li>
-        <span>4</span>
+        <span>5</span>
         <a href="/insights-page/insights-black-asian-presence-2.php">Black and Asian presence insights page v2</a>
         <br>
         insights-page/insights-black-asian-presence-v2.php
+    </li>
+    <li>
+        <span>5</span>
+        <a href="/insights-page/insights-black-asian-presence-v3.php">Black and Asian presence insights page v3</a>
+        <br>
+        insights-page/insights-black-asian-presence-v3.php
     </li>
 </ul>
 
