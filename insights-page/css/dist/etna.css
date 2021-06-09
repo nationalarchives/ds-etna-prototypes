@@ -1120,8 +1120,8 @@ h2 {
   position: sticky;
   top: 0;
   z-index: 1001;
-  background: #dde5d5;
-  color: black;
+  background: #12477a;
+  color: #fff;
   padding: 1rem 2rem;
 }
 .insights-v3 .chapter-nav span:first-child {
@@ -1152,7 +1152,6 @@ h2 {
 }
 .insights-v3 .chapter-nav #contents:before {
   content: "";
-  border-top: 2px solid black;
   width: 30%;
 }
 .insights-v3 .chapter-nav #contents ul {
@@ -1162,7 +1161,7 @@ h2 {
   column-gap: 4rem;
 }
 .insights-v3 .chapter-nav #contents ul li a {
-  color: #000;
+  color: #fff;
 }
 .insights-v3 .list-title {
   font-size: 20px;
@@ -1171,7 +1170,7 @@ h2 {
 .insights-v3 .list-title:before {
   content: "";
   display: block;
-  border-top: 2px solid black;
+  border-top: 2px solid #fff;
   margin-bottom: 1rem;
   width: 400px;
 }

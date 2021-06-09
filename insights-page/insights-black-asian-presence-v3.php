@@ -438,7 +438,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="research-resources">
+            <div class="research-resources margin-bottom-medium">
                 <h2>Research resources</h2>
                 <p>These research resources may be a helpful way to continue your exploration of Black and Asian presence in Britain.</p>
 
