@@ -198,8 +198,8 @@
     position: sticky;
     top: 0;
     z-index: 1001;
-    background: #dde5d5;
-    color: black;
+    background: #12477a;
+    color: #fff;
     padding: 1rem 2rem;
 
     span:first-child {
@@ -236,7 +236,7 @@
 
       &:before {
         content: "";
-        border-top: 2px solid black;
+        border-top: 2px solid #fff;
         width: 30%;
       }
 
@@ -248,7 +248,7 @@
 
         li {
           a {
-            color: #000;
+            color: #fff;
           }
         }
       }
@@ -262,7 +262,7 @@
     &:before {
       content: "";
       display: block;
-      border-top: 2px solid black;
+      border-top: 2px solid #fff;
       margin-bottom: 1rem;
       width: 400px;
     }
