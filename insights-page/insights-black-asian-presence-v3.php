@@ -52,10 +52,10 @@
                         <a href="#content-3">3. What Do We Know?</a>
                     </li>
                     <li>
-                        <a href="#content-4">4. Early Migrations</a>
+                        <a href="#content-4">4. What Information is Missing?</a>
                     </li>
                     <li>
-                        <a href="#content-5">5. Call out</a>
+                        <a href="#content-5">5. Multiracial Britain</a>
                     </li>
                     <li>
                         <a href="#content-6">6. Africans in Britain</a>
@@ -118,10 +118,10 @@
 
             <h2>Introduction: Arriving in Britain</h2>
             <p>
-                People of African and Asian origin have lived in Britain for at least two millennia. They arrived here many hundreds of years
-                before the massive forced migrations sparked by the slave trade and the British colonisation of India. And by the time the SS
-                Windrush arrived in 1948, famously carrying the first postwar arrivals from the Caribbean, Britain had a firmly established
-                Black and Asian population.
+                People of African and Asian origin have lived in Britain for at least two millennia. They arrived here many hundreds of years before
+                the massive forced migrations sparked by the slave trade and the British colonisation of India. And by the time the SS Windrush
+                arrived in 1948, famously carrying the first postwar arrivals from the Caribbean, Britain had a firmly established Black and Asian
+                population.
             </p>
         </div><!-- end row -->
     </div><!-- end container -->
@@ -141,7 +141,8 @@
                             <img
                                 class="content-image"
                                 src="images/insights-black-asian-presence-v1/image2.jpg"
-                                alt="Digging for gold"
+                                alt="A black and white line drawing depicting five figures sitting, standing, diving and working by a river in
+                                 the hills of West Africa."
                             >
                         </a>
                         <div class="content-details">
@@ -158,13 +159,12 @@
                 <p class="caption-text no-margin-bottom">Reference: PRO 30/25/205</p>
                 <p class="caption-text">Date created: 1958</p>
                 <p>
-                    Between 1678 and 1682, Jean Barbot, a French commercial agent, traded for gold along the Gold Coast (now Ghana),
-                    in West Africa. This drawing is taken from his journals, held by The National Archives. In his journals, among a variety
-                    of observations on African life, Barbot describes how gold is mined. Methods used include panning for gold dust and,
-                    as shown here, diving for nuggets in the local rivers. Intriguingly, and despite his having first-hand knowledge of the
-                    area, both Barbot’s report on gold mining and his drawing rely on material in other sources. This drawing, for example,
-                    almost entirely reproduces the one in an earlier work by Olfert Dapper, a Dutch scholar who had never even visited
-                    Africa.
+                    Between 1678 and 1682, Jean Barbot, a French commercial agent, traded for gold along the Gold Coast (now Ghana), in West
+                    Africa. This drawing is taken from his journals, held by The National Archives. In his journals, among a variety of observations
+                    on African life, Barbot describes how gold is mined. Methods used include panning for gold dust and, as shown here, diving for
+                    nuggets in the local rivers. Intriguingly, and despite his having first-hand knowledge of the area, both Barbot’s report on gold
+                    mining and his drawing rely on material in other sources. This drawing, for example, almost entirely reproduces the one in an
+                    earlier work by Olfert Dapper, a Dutch scholar who had never even visited Africa.
                 </p>
                 <a class="button" href="http://discovery.nationalarchives.gov.uk/details/r/C3741250" target="_blank" rel="noopener noreferrer">View in the catalogue</a>
             </div><!-- end container -->
@@ -180,14 +180,10 @@
                 There were many Asian and Black people living in Britain throughout the period covered by this exhibition (1500-1850).
             </p>
             <p>
-                It is often assumed that the population of Britain was entirely White at this period. How many people know, for example,
-                that one of the leaders of the radical Chartist movement, which fought for the vote in the 19th century, was Black?
-                Or that Elizabeth I tried to expel a number of Black people from England? Or that thousands of Black men, and probably
-                even a few Black women, fought in the British army and navy during the Napoleonic Wars?
-            </p>
-            <p>
-                There is much historical evidence about Black people in Britain, and this exhibition explores some of it. But many subjects
-                have not been researched, and there is much that we still do not know.
+                It is often assumed that the population of Britain was entirely White at this period. How many people know, for example, that one
+                of the leaders of the radical Chartist movement, which fought for the vote in the 19th century, was Black? Or that Elizabeth I tried
+                to expel a number of Black people from England? Or that thousands of Black men, and probably even a few Black women, fought
+                in the British army and navy during the Napoleonic Wars?
             </p>
         </div><!-- end row -->
     </div><!-- end container -->
@@ -196,11 +192,17 @@
     <span id="content-4"></span>
     <div class="container standard-padding content-slice">
         <div class="row">
+            <h2>What information is missing?</h2>
+            <p>
+                There is much historical evidence about Black people in Britain, and this exhibition explores some of it. But many subjects have
+                not been researched, and there is much that we still do not know.
+            </p>
+
             <h2>Early Migrations</h2>
             <p>
-                In Roman times, Black troops were sent to the remote and barbaric province of Britannia, and some of them stayed when
-                the Roman legions left Britain. Later on, in the Middle Ages, Moors arrived in Britain. They probably came, directly or
-                indirectly, from Spain, which had been conquered by Muslims from North and Northwest Africa in the 8th century.
+                In Roman times, Black troops were sent to the remote and barbaric province of Britannia, and some of them stayed when the
+                Roman legions left Britain. Later on, in the Middle Ages, Moors arrived in Britain. They probably came, directly or indirectly, from
+                Spain, which had been conquered by Muslims from North and Northwest Africa in the 8th century.
             </p>
         </div><!-- end row -->
     </div><!-- end container -->
@@ -210,9 +212,15 @@
     <div class="background bg-blue">
         <div class="container call-out-box">
             <div class="row">
+                <h2 class="text-white">Multiracial Britain</h2>
                 <p>
-                    Although the British government tried several times to get rid of groups of Black people, there was clearly a settled
-                    Black and Asian population here throughout the period 1500-1850.
+                    The British government tried to force migration of Black people out of Britain. However, here was clearly a settled Black and
+                    Asian population here throughout the period 1500-1850.
+                </p>
+
+                <p>
+                    This Collection Insight offers an introduction to some of these sources, particularly those in The National Archives. It cannot tell
+                    the whole story but it does start to find some of the missing pieces of the jigsaw.
                 </p>
 
                 <div class="call-out-links">
@@ -271,9 +279,9 @@
         <div class="row">
             <h2>Africans in Britain</h2>
             <p>
-                British involvement in the slave trade began in the 16th century and had reached huge proportions by the 18th. Over a period
-                of 400 years, Europeans transported many millions of Africans to labour in their colonies in the Americas. These migrations
-                created the Black diaspora.
+                British involvement in the slave trade began in the 16th century and had reached huge proportions by the 18th. Over a period of
+                400 years, Europeans transported many millions of African slaves in their colonies in the Americas. These migrations created the
+                Black diaspora.
             </p>
             <p>
                 Here, they were not necessarily treated significantly more humanely than they were on the plantations and their legal status
@@ -297,7 +305,10 @@
                             <img
                                 class="content-image"
                                 src="images/insights-black-asian-presence-v1/image5.jpg"
-                                alt="2 African freemen"
+                                alt="A rectangular, black and white line drawing depicting two figureheads from the shoulder up. The figurehead
+                                 on the left is wearing a cloth wrap around their head and a gown, while the figurehead on the right has their head
+                                  uncovered and is wearing traditional upper-class English clothing including a button-down jacket. Both figureheads
+                                   are encircled by a wreath shape."
                             >
                         </a>
                         <div class="content-details">
@@ -314,15 +325,15 @@
                 <p class="caption-text no-margin-bottom">Reference: PRO 30/25/205</p>
                 <p class="caption-text">Date created: 1958</p>
                 <p>
-                    This image, from the Gentleman's Magazine, shows Ayuba Suleiman Diallo (here called by the English version of his
-                    name, Job ben Solomon), the son of a Muslim imam from Gambia, and William Ansah Sessarakoo, a prince from Ghana.
-                    They were both tricked into slavery, but freed on account of their noble origins and education. Sessarakoo lived in
-                    England from 1749 to 1750.
+                    This image, from the Gentleman's Magazine, shows Ayuba Suleiman Diallo (here called by the English version of his name,
+                    Job ben Solomon), the son of a Muslim imam from Gambia, and William Ansah Sessarakoo, a prince from Ghana. They were
+                    both tricked into slavery, but freed on account of their noble origins and education. Sessarakoo lived in England from 1749 to
+                    1750.
                 </p>
                 <p>
-                    Solomon travelled to England after spending time on a plantation in Maryland. He became something of a celebrity
-                    and was 'graciously received by nobility'. Dressed in an African gown, he was presented to the king and queen. After
-                    spending some time in England, he was taken back to Africa by the Royal African Company.
+                    Solomon travelled to England after spending time on a plantation in Maryland. He became something of a celebrity and was
+                    'graciously received by nobility'. Dressed in an African gown, he was presented to the king and queen. After spending some
+                    time in England, he was taken back to Africa by the Royal African Company.
                 </p>
                 <a class="button" href="http://discovery.nationalarchives.gov.uk/details/r/945fd103-9ea4-498f-b093-d67358d926d0" target="_blank" rel="noopener noreferrer">View in the catalogue</a>
             </div><!-- end container -->
@@ -369,10 +380,15 @@
                     <h2>Researching Untold Histories: Black people in England and Wales c1660-1807</h2>
                     <p class="caption-text bold-text">Tuesday 13 September 2016</p>
                     <p>
-                        Dr Kathleen Chater discusses her book Researching Untold Histories: Black people in England and Wales during the
-                        period of the British slave trade, c1660-1807. Kathleen worked for the BBC until 1994. One of her interests was family
-                        history so when she left  she became self-employed as a writer of books and articles on aspects of history and also as
-                        a trainer in research skills for the media and for family historians.
+                        Dr Kathleen Chater discusses her book Researching Untold Histories: Black people in England and Wales during the period
+                        of the British slave trade, c1660-1807. Kathleen worked for the BBC until 1994. One of her interests was family history so
+                        when she left  she became self-employed as a writer of books and articles on aspects of history and also as a trainer in
+                        research skills for the media and for family historians.
+                    </p>
+
+                    <p>
+                        This talk was part of the Writer of the Month – a series of free talks, in which each month a high profile author shared
+                        their experiences of using original records in their writing.
                     </p>
 
                     <a class="button-inverted" href="https://media.nationalarchives.gov.uk/index.php/researching-untold-histories/" target="_blank" rel="noopener noreferrer">Listen now</a>
@@ -438,7 +454,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="research-resources">
+            <div class="research-resources margin-bottom-medium">
                 <h2>Research resources</h2>
                 <p>These research resources may be a helpful way to continue your exploration of Black and Asian presence in Britain.</p>
 
@@ -502,7 +518,7 @@
     <div class="container">
         <div class="row">
             <div class="blog-embed margin-bottom-medium">
-                <h2>Young, British and black: opposing race discrimination</h2>
+                <h2>Young, British and Black: Opposing Race Discrimination</h2>
                 <p class="caption-text bold-text">Published on 25 July 2021</p>
                 <img src="images/insights-black-asian-presence-v1/image4.jpg" alt="Extract from the Race Relations Act 1968">
                 <div class="blog-embed-text">
@@ -532,16 +548,22 @@
     <div class="container">
         <div class="row">
             <div class="blog-embed margin-bottom-medium">
-                <h2>Black Poppies: Britain’s black community and the Great War</h2>
+                <h2>Black Poppies: Britain’s Black Community and the Great War</h2>
                 <p class="caption-text bold-text">Published on 25 July 2021</p>
                 <img src="images/insights-black-asian-presence-v1/image1.png" alt="Black Poppies and the Great War">
                 <div class="blog-embed-text">
-                    <p class="no-margin-bottom">
+                    <p>
                         Stephen Bourne talks about his latest book, Black Poppies, published by The History Press to coincide with the centenary
                         of the First World War. Black Poppies explores the military and civilian wartime experiences of Britain’s black community,
-                        from the trenches to the music halls. Poignantly, it concludes by examining the anti-black ‘race riots’ of 1919. In cities
-                        such as Cardiff and Liverpool, black citizens came under attack from returning white soldiers who resented their presence,
-                        in spite of what they and their families had done for Britain during the war.
+                        from the trenches to the music halls. Poignantly, it concludes by examining the anti-black ‘race riots’ of 1919. In cities such
+                        as Cardiff and Liverpool, black citizens came under attack from returning white soldiers who resented their presence, in
+                        spite of what they and their families had done for Britain during the war.
+                    </p>
+
+                    <p class="no-margin-bottom">
+                        Stephen Bourne is one of Britain’s leading experts on Black British history. The author of many books on the subject,
+                        Stephen has written for BBC History Magazine and is a regular contributor to the Oxford Dictionary of National Biography.
+                        For further information go to his website. This talk formed part of The National Archives’ Diversity Week 2015.
                     </p>
                 </div><!-- end blog embed text -->
                 <a class="button-inverted text-center" href="https://media.nationalarchives.gov.uk/index.php/black-poppies-britains-black-community-great-war/" target="_blank" rel="noopener noreferrer">Listen now</a>
