@@ -12,7 +12,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <?php require './includes/breadcrumbs.php' ?>
                     <h1 class="generic-intro__title">Black and Asian Presence in Britain</h1>
                     <p>An insight into our records relating to Black and Asian presence in Britain</p>
                 </div>
