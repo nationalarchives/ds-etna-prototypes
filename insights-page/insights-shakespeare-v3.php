@@ -12,7 +12,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <?php require 'includes/breadcrumbs.php' ?>
                     <h1>William Shakespeare</h1>
                     <p>An insight into our records relating to William Shakespeare</p>
                 </div>
