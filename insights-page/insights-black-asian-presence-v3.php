@@ -119,8 +119,7 @@
             <p>
                 People of African and Asian origin have lived in Britain for at least two millennia. They arrived here many hundreds of years before
                 the massive forced migrations sparked by the slave trade and the British colonisation of India. And by the time the SS Windrush
-                arrived in 1948, famously carrying the first postwar arrivals from the Caribbean, Britain had a firmly established Black and Asian
-                population.
+                arrived in 1948, carrying the first postwar arrivals from the Caribbean, Britain had a firmly established Black and Asian population.
             </p>
         </div><!-- end row -->
     </div><!-- end container -->
@@ -201,7 +200,7 @@
             <p>
                 In Roman times, Black troops were sent to the remote and barbaric province of Britannia, and some of them stayed when the
                 Roman legions left Britain. Later on, in the Middle Ages, Moors arrived in Britain. They probably came, directly or indirectly, from
-                Spain, which had been conquered by Muslims from North and Northwest Africa in the 8th century.
+                Spain, which had been conquered by Muslim people from north and northwest Africa in the 8th century.
             </p>
         </div><!-- end row -->
     </div><!-- end container -->
@@ -213,7 +212,7 @@
             <div class="row">
                 <h2 class="text-white">Multiracial Britain</h2>
                 <p>
-                    The British government tried to force migration of Black people out of Britain. However, here was clearly a settled Black and
+                    The British government tried to force migration of Black people out of Britain. However, there was clearly a settled Black and
                     Asian population here throughout the period 1500-1850.
                 </p>
 
@@ -276,11 +275,11 @@
     <span id="content-6"></span>
     <div class="container standard-padding content-slice">
         <div class="row">
-            <h2>Africans in Britain</h2>
+            <h2>African people in Britain</h2>
             <p>
                 British involvement in the slave trade began in the 16th century and had reached huge proportions by the 18th. Over a period of
-                400 years, Europeans transported many millions of African slaves in their colonies in the Americas. These migrations created the
-                Black diaspora.
+                400 years, Europeans transported many millions of African slaves in their colonies in the Americas. These migrations formed part
+                of the Black diaspora.
             </p>
             <p>
                 Here, they were not necessarily treated significantly more humanely than they were on the plantations and their legal status
@@ -296,7 +295,7 @@
         <!-- PART 1: IMAGE -->
         <div class="background bg-black no-padding">
             <div class="container">
-                <h2 class="text-white" style="margin-top: 40px; padding-bottom: 10px; border-bottom: 5px solid #666;">Africans Enslaved and Freed</h2>
+                <h2 class="text-white" style="margin-top: 40px; padding-bottom: 10px; border-bottom: 5px solid #666;">Africans enslaved and freed</h2>
                 <figure>
                     <div class="record-embed-image large-image">
                         <a href="#">
