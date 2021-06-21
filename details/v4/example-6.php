@@ -180,27 +180,23 @@
         <div class="col-md-2 hierarchy-bg">
             <div class="hierarchy-container">
                 <h2 class="mb-4">Where am I in the catalogue?</h2>
-                <div class="catalogue-controls">
-                    <p><i class="fas fa-chevron-circle-left icon-navigation"></i>Go left</p>
-                    <p><i class="fas fa-chevron-circle-up icon-navigation"></i>Go up</p>
-                    <p><i class="fas fa-chevron-circle-right icon-navigation"></i>Go right</p>
-                </div>
                 <ul class="tna-ul--no-bullet hierarchy">
 
-                    <li><a href="/journey/record/C">C - Records created, acquired, and inherited by Chancery, and also of the Wardrobe, Royal Household, Exchequer and various commissions</a>
+                    <li><span class="compressed top-option"><a href="/journey/record/C">C - Records created, acquired, and inherited by Chancery, and also of the Wardrobe, Royal Household, Exchequer and various commissions</span></a>
                     </li>
-                    <li role="separator" class="arrow-down"><i class="fas fa-chevron-down"></i></li>
 
-                    <li><a href="/journey/record/C/~15">Division within C - Records of Equity Side: the Six Clerks</a></li>
-
-                    <li role="separator" class="arrow-down"><i class="fas fa-chevron-down"></i></li>
+                    <li class="second-option"><span class="compressed"><a href="/journey/record/C/~15">Division within C - Records of Equity Side: the Six Clerks</a><br></span></li>
 
 
-                    <li><a href="/journey/record/C/5">C 5 - Court of Chancery: Six Clerks Office: Pleadings before 1714, Bridges</a></li>
-                    <li role="separator" class="arrow-down"><i class="fas fa-chevron-down"></i></li>
+
+                    <li><span class="uncompressed"><a href="/journey/record/C/5">C 5 - Court of Chancery: Six Clerks Office: Pleadings before 1714, Bridges</a> This is a summmary of what is in the series description....</span></li>
                     <li>Short title: Frisby v Frisby. Plaintiffs: John Frisby, William Frisby, and Anthony...</li>
 
                 </ul>
+                <div class="catalogue-controls">
+                    <p><i class="fas fa-chevron-circle-left icon-navigation"></i>Previous record in the series</p>
+                    <p><i class="fas fa-chevron-circle-right icon-navigation"></i>Next record in the series</p>
+                </div>
 
             </div>
         </div>
