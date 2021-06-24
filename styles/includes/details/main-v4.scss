@@ -1,4 +1,8 @@
 .details-v4 {
+
+  .pad-rt-0 {
+    padding-right: 0;
+  }
   font-family: 'Open Sans', sans-serif;
   letter-spacing: -0.2px;
   h1 {
@@ -165,12 +169,18 @@
     }
   }
   .image-viewer {
-    margin-top: 3em;
+    margin-top: 1em;
     text-align: center;
     width: 100%;
-    height: 550px;
     position: relative;
-    background-color: #111;
+    padding: 1em;
+    background: repeating-linear-gradient( -45deg, #000 0px, #111 5px, #111 6px, #000 7px, #111 12px);
+
+      img {
+        height: 100%;
+
+
+      }
 
       h3 {
         margin: 0;
@@ -181,7 +191,46 @@
         color: #fff;
       }
   }
+  .image-viewer .content-overlay {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .image-viewer .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 
+  }
+  .image-viewer .content-details .button {
+    color: #fff;
+    display: inline-block;
+    margin-right: 1.5em;
+    padding: 0.9em 1em 0.75em;
+    background: rgba(0, 0, 0, 1);
+    font-weight: bold;
+    text-decoration: none;
+
+
+    i {
+      margin-right: 0.3em;
+      font-size: 1.3em;
+      vertical-align: middle;
+      color: rgba(255,255,255,1);
+    }
+  }
   table {
 
       width: 100%;
@@ -342,7 +391,7 @@
     span {
       font-size: 0.5em;
       display: block;
-      margin-top: 0.5em;
+      margin-bottom: 0.5em;
       font-weight: normal;
       font-family: 'Open Sans', sans-serif;
     }
@@ -398,23 +447,19 @@
     font-size: 1em;
     margin-right: 0.7em;
     min-width: 28px !important;
-    color: #fff;
-    background: #222;
     padding: 0;
     height: 1.6em;
     border-radius: 50%;
   }
 
   .toggle {
-    font-size: 0.43em;
+    font-size: 0.8em;
     margin-left: 1em;
-    border: 1px solid #93b3cf;
-    padding: 0.15em 0.25em;
-    height: 15px;
+    height: 20px;
     width: 15px;
     display: inline-block;
-    color: #93b3cf;
-    vertical-align: 2px;
+    color: #222;
+    vertical-align: -5px;
     background: #eee;
     border-radius: 50%;
 
@@ -423,20 +468,34 @@
     }
   }
   .hierarchy-bg {
-    border-left: 5px solid #ccc;
-    border-right: 5px solid #fff;
+    border-left: 2px solid #26252a;
+    padding: 0;
+    border-top: 2px solid #26252a;
+
 
     .hierarchy-container {
       position: -webkit-sticky;
       position: sticky;
       top: 20px;
-      .compressed {
-        padding: 0em;
-        margin-top: -60px;
 
+      h2 {
+        padding: 1em 1em 0.2em;
+        margin-bottom: 0;
+        font-size: 1.3em;
+      }
+      p {
+        padding: 0.2em 1.5em;
+        font-size: 0.9em;
+        margin-bottom: 0;
+      }
+      .compressed {
+
+        margin-top: -60px;
         display: block;
         width: 100%;
-        min-height: 70px;
+        min-height: 120px;
+        position: relative;
+        padding-left: 0em;
 
 
         &:hover {
@@ -448,37 +507,89 @@
           font-weight: normal !important;
           font-size: 0.9em;
           background: white;
-          border-top: 2px solid #666;
+          border-top: 1px dotted #555;
           display: inline-block;
-          padding: 0.5em;
-
+          padding: 0.5em 0.5em 0.5em 2em;
+          box-shadow: 0px -10px 5px rgba(255,255,255,0.8);
+          width: 100%;
+          .reference {
+            display: block;
+            font-weight: bold;
+            font-size: 0.9em;
+            color: #222;
+          }
 
         }
       }
-      .top-option {
+      .first-option {
         margin-top: 0 !important;
+
+          a {
+
+          }
+
       }
+      .second-option {
+
+          a {
+
+          }
+      }
+
 
 
       .uncompressed {
         font-weight: normal;
-        color: #444;
+        color: #fff;
         display: block;
         width: 100%;
-        border-top: 2px solid #666;
-          font-size: 0.9em !important;
-        margin-top: -30px;
-        padding-top: 1em;
+        border-top: 1px solid #26252a;
+        border-bottom: 1px solid #26252a;
+        background-color: #134571;
+        margin-top: -60px;
+        margin-left: 0px;
+        padding: 1em 0.5em 1em 2em;
+
+        min-height: 60px;
+        position: relative;
+
 
         a {
           display: block;
-          font-size: 1.1em;
+          color: #fff;
+          text-decoration: none;
+          font-size: 1em;
+          font-weight: normal;
+          width: 100%;
+
+          .reference {
+            display: block;
+            font-weight: bold;
+            font-size: 0.8em !important;
+            color: #fff;
+          }
+        }
+        .current-record {
+          font-weight: bold;
+          background: #fff;
+          padding: 0.3em 0.7em;
+          color:rgb(19, 69, 113);
+          margin-top: 1em;
+          font-size: 0.8em;
+
+          display: inline-block;
+            i {
+              color:rgb(19, 69, 113);
+              margin-right: 0.3em;
+            }
+
         }
       }
       ul {
         margin-bottom: 1em;
         li {
           padding: 0.7em 0;
+
 
 
           &:last-child {
@@ -490,6 +601,38 @@
 
       }
 
+      .marker {
+        width: 28px;
+        height: 28px;
+
+        display: block;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 10px;
+        left: 0px;
+
+        z-index: 10;
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: 700 !important;
+        color: #fff;
+        padding-top: -0.8em;
+          .bi::before {
+            vertical-align: 0em !important;
+          }
+      }
+      .background-grey {
+        top: 10px;
+        color: #222;
+        width: 25px;
+        border: 0;
+        height: 25px;
+        left: 1px;
+        .bi::before {
+          vertical-align: 1.2em !important;
+        }
+      }
 
       .arrow-down {
         padding: 0 !important;
@@ -519,6 +662,35 @@
           display: block;
         }
       }
+    }
+
+  }
+  .series-controls {
+    padding: 1em 0 0.5em;
+    border-top: 1px dotted #222;
+        text-align: center !important;
+  }
+  .ref-highlight {
+    border: 1px solid #222;
+    color: #222;
+    padding: 0em 0.6em;
+    margin-right: 0.5em;
+  }
+  .help {
+    text-align: center;
+    font-size: 1em !important;
+    a {
+      color: #444;
+      text-decoration-style: dotted;
+      text-underline-offset: 3px;
+      padding-bottom: 0.4em;
+      font-weight: normal;
+
+    }
+    i {
+      color: #444;
+      margin-right: 0.5em;
+
     }
   }
 }

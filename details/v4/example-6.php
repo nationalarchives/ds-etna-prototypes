@@ -4,13 +4,33 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 <main class="details-v4">
     <?php require_once '../../includes/header-and-nav-bar.php' ?>
+    <div class="series-controls">
+        <div class="row">
+
+                <div class="col-md-2">
+                    <i class="bi bi-chevron-left"></i>
+                    <p>Previous record<br><a href="">C 5/139/34</a></p>
+
+                </div>
+                <div class="col-md-8">
+                    <i class="bi bi-chevron-up"></i>
+                    <p>This record is within the series<br> <b class="ref-highlight">C 5</b> <a href="">Court of Chancery: Six Clerks Office: Pleadings before 1714, Bridges</a></p>
+                </div>
+                <div class="col-md-2">
+                    <i class="bi bi-chevron-right"></i>
+                    <p>Next record<br><a href="">C 5/139/36</a></p>
+
+                </div>
+
+        </div>
+    </div>
     <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-10 pad-rt-0">
 
             <div class="heading-container">
                 <div class="container header">
 
-                    <h1>Short title: Frisby v Frisby. Plaintiffs: John Frisby, William Frisby, and Anthony...<span>Reference: C 5/139/35</span></h1>
+                    <h1><span>Reference: C 5/139/35</span>Short title: Frisby v Frisby. Plaintiffs: John Frisby, William Frisby, and Anthony...</h1>
 
 
                 </div>
@@ -21,7 +41,7 @@
                         <li><span>Date created:</span><b>1698</b></li>
                         <li><span>Record created by:</span><b><a href="">Chancery, the Wardrobe, Royal Household, Exchequer and various commissions</a></b>.</li>
                         <li><span>Record now held at:</span><b><a href="">The National Archives, UK</a></b>.</li>
-                        <li><b><span class="small">&#x21E3;</span><a href="">See the full description</a></b></li>
+                        <li><b><span class="small"><i class="bi bi-chevron-down"></i></span><a href="">See the full description</a></b></li>
                     </ul>
                 </div>
             </div>
@@ -30,7 +50,17 @@
                 <h2 class="mb-3">How to view this record</h2>
 
             </div>
-            <?php require "record-access.php"; ?>
+            <div class="image-viewer">
+                <div class="content-overlay"><div class="content-details"><a href="" class="button"><i class="bi bi-zoom-in"></i>  Open in our image viewer</a></div></div>
+                <div class="container">
+
+
+
+                    <img src="images/dummy-image.png" alt="">
+
+                </div>
+            </div><?php require "record-access.php"; ?>
+
 
 
 
@@ -179,24 +209,22 @@
         </div>
         <div class="col-md-2 hierarchy-bg">
             <div class="hierarchy-container">
-                <h2 class="mb-4">Where am I in the catalogue?</h2>
+                <h2>Where am I in the catalogue?</h2>
+                <p>Select a level move up</p>
                 <ul class="tna-ul--no-bullet hierarchy">
 
-                    <li><span class="compressed top-option"><a href="/journey/record/C">C - Records created, acquired, and inherited by Chancery, and also of the Wardrobe, Royal Household, Exchequer and various commissions</span></a>
+                    <li><span class="compressed first-option"><span class="marker background-grey"><i class="bi bi-arrow-down-short"></i></span><a href="/journey/record/C"><span class="reference">C</span>Records created, acquired, and inherited by Chancery, and also of the Wardrobe, Royal Household, Exchequer and various commissions</span></a>
                     </li>
 
-                    <li class="second-option"><span class="compressed"><a href="/journey/record/C/~15">Division within C - Records of Equity Side: the Six Clerks</a><br></span></li>
+                    <li><span class="compressed"><span class="marker background-grey"><i class="bi bi-arrow-down-short"></i></span><a href="/journey/record/C/~15"><span class="reference">Division within C</span>Records of Equity Side: the Six Clerks</a><br></span></li>
 
 
 
-                    <li><span class="uncompressed"><a href="/journey/record/C/5">C 5 - Court of Chancery: Six Clerks Office: Pleadings before 1714, Bridges</a> This is a summmary of what is in the series description....</span></li>
-                    <li>Short title: Frisby v Frisby. Plaintiffs: John Frisby, William Frisby, and Anthony...</li>
+                    <li><span class="compressed"><span class="marker background-grey"><i class="bi bi-arrow-down-short"></i></span><a href="/journey/record/C/5"><span class="reference">C 5</span>Court of Chancery: Six Clerks Office: Pleadings before 1714, Bridges</a></span></li>
+                    <li><span class="uncompressed"><span class="marker"><i class="bi bi-arrow-right-short"></i></span><a href="/journey/record/C/5"><span class="reference">C 5/139/35</span>Short title: Frisby v Frisby. Plaintiffs: John Frisby, William Frisby, and <span class="current-record"><i class="bi bi-geo-alt"></i> You are here</span></a></span></li>
 
                 </ul>
-                <div class="catalogue-controls">
-                    <p><i class="fas fa-chevron-circle-left icon-navigation"></i>Previous record in the series</p>
-                    <p><i class="fas fa-chevron-circle-right icon-navigation"></i>Next record in the series</p>
-                </div>
+                <p class="help"><i class="bi bi-info-circle"></i><a href="#">Why is this important?</a></p>
 
             </div>
         </div>
