@@ -26,19 +26,26 @@
 
     <nav class="chapter-nav">
         <div class="row">
-            <div class="col-md-8">
-                <p class="mb-0 mt-4">
-                    You are reading <span id="chapter">Introduction: Arriving in Britain</span> in <span id="article">Black and Asian Presence in Britain</span>.
-                </p>
+            <div class="col-md-3">
+                <div class="insights-logo">
+                    <img src="images/tna-horizontal-white-logo.svg" alt="Insights logo">
+                </div>
             </div>
-            <div id="contents-toggle" class="col-md-4">
+            <div class="col-md-6">
+                <div class="insights-title">
+                    <p class="mb-0 mt-4">
+                        <span id="article">Black and Asian Presence in Britain</span>
+                    </p>
+                </div>
+            </div>
+            <div id="contents-toggle" class="col-md-3">
                 <button>
-                    Contents
+                    On this page
                 </button>
             </div>
             <div id="contents">
                 <div class="list-title col-md-12">
-                    <p>Contents</p>
+                    <p>On this page</p>
                 </div>
                 <ul>
                     <li>
