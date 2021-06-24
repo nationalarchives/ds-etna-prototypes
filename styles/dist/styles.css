@@ -1243,8 +1243,7 @@ main.explorer #time_periods div.card .content-type, main.explorer #topics div.ca
   text-align: center;
   width: 100%;
   position: relative;
-  padding: 1em;
-  background: repeating-linear-gradient(-45deg, #000 0px, #111 5px, #111 6px, #000 7px, #111 12px);
+  padding: 0em;
 }
 .details-v4 .image-viewer img {
   height: 100%;
@@ -1258,7 +1257,7 @@ main.explorer #time_periods div.card .content-type, main.explorer #topics div.ca
   color: #fff;
 }
 .details-v4 .image-viewer .content-overlay {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.12);
   position: absolute;
   height: 100%;
   width: 100%;
