@@ -258,14 +258,6 @@
   .list-title {
     font-size: 20px;
     margin-bottom: 1rem;
-
-    &:before {
-      content: "";
-      display: block;
-      border-top: 2px solid #fff;
-      margin-bottom: 1rem;
-      width: 400px;
-    }
   }
 
   .king-james-shakespeare-img {
@@ -851,4 +843,12 @@
     border-bottom: 5px solid #ccc;
     color: #ccc;
   }
+}
+
+.insights-logo {
+  padding-top: 1rem;
+}
+
+.insights-title {
+  text-align: center;
 }
