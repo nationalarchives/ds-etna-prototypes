@@ -1,4 +1,4 @@
-<footer class="tna-footer standard-padding">
+<footer class="tna-footer standard-padding-top">
     <h2 class="sr-only">Footer</h2>
     <div class="cta-banner-newsletter tna-bg--grey">
         <div class="container py-3">
