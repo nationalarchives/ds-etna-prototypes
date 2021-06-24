@@ -134,12 +134,6 @@
         <br>
         insights-page/insights-black-asian-presence-v3.php
     </li>
-    <li>
-        <span>7</span>
-        <a href="/insights-page/image-viewer.php">Image viewer</a>
-        <br>
-        insights-page/image-viewer.php
-    </li>
 </ul>
 
 </body>
