@@ -1485,7 +1485,6 @@ main.explorer #time_periods div.card .content-type, main.explorer #topics div.ca
   width: 15px;
   display: inline-block;
   color: #222;
-  vertical-align: -5px;
   background: #eee;
   border-radius: 50%;
 }
