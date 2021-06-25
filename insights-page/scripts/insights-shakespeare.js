@@ -1,9 +1,8 @@
 var $contents = $("#contents");
 var $chapters = $("#contents ul li a");
 
-$contents.hide();
-
 $("#contents-toggle button").click(function(){
+	$(this).toggleClass("expanded");
 	$contents.slideToggle();
 });
 
