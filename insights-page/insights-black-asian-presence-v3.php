@@ -26,71 +26,72 @@
 
     <nav class="chapter-nav">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-12">
                 <div class="insights-logo">
                     <img src="images/tna-horizontal-white-logo.svg" alt="Insights logo">
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-12">
                 <div class="insights-title">
-                    <p class="mb-0 mt-4">
+                    <p>
                         <span id="article">Black and Asian Presence in Britain</span>
                     </p>
                 </div>
             </div>
             <div id="contents-toggle" class="col-md-3">
-                <button>
-                    On this page
+                <button class="expanded">
                 </button>
             </div>
-            <div id="contents">
-                <div class="list-title col-md-12">
-                    <p>On this page</p>
+            <div class="col-md-12">
+                <div id="contents">
+                    <div class="list-title col-md-12">
+                        <p>On this page</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#content-1">1. Introduction: Arriving in Britain</a>
+                        </li>
+                        <li>
+                            <a href="#content-2">2. Record embed</a>
+                        </li>
+                        <li>
+                            <a href="#content-3">3. What Do We Know?</a>
+                        </li>
+                        <li>
+                            <a href="#content-4">4. What Information is Missing?</a>
+                        </li>
+                        <li>
+                            <a href="#content-5">5. Multiracial Britain</a>
+                        </li>
+                        <li>
+                            <a href="#content-6">6. Africans in Britain</a>
+                        </li>
+                        <li>
+                            <a href="#content-7">7. Record embed</a>
+                        </li>
+                        <li>
+                            <a href="#content-8">8. Quote</a>
+                        </li>
+                        <li>
+                            <a href="#content-9">9. Audio embed</a>
+                        </li>
+                        <li>
+                            <a href="#content-10">10. Record embed</a>
+                        </li>
+                        <li>
+                            <a href="#content-11">11. Research resources</a>
+                        </li>
+                        <li>
+                            <a href="#content-12">12. Blog embed</a>
+                        </li>
+                        <li>
+                            <a href="#content-13">13. Audio embed</a>
+                        </li>
+                        <li>
+                            <a href="#content-14">14. Find out more</a>
+                        </li>
+                    </ul>
                 </div>
-                <ul>
-                    <li>
-                        <a href="#content-1">1. Introduction: Arriving in Britain</a>
-                    </li>
-                    <li>
-                        <a href="#content-2">2. Record embed</a>
-                    </li>
-                    <li>
-                        <a href="#content-3">3. What Do We Know?</a>
-                    </li>
-                    <li>
-                        <a href="#content-4">4. What Information is Missing?</a>
-                    </li>
-                    <li>
-                        <a href="#content-5">5. Multiracial Britain</a>
-                    </li>
-                    <li>
-                        <a href="#content-6">6. Africans in Britain</a>
-                    </li>
-                    <li>
-                        <a href="#content-7">7. Record embed</a>
-                    </li>
-                    <li>
-                        <a href="#content-8">8. Quote</a>
-                    </li>
-                    <li>
-                        <a href="#content-9">9. Audio embed</a>
-                    </li>
-                    <li>
-                        <a href="#content-10">10. Record embed</a>
-                    </li>
-                    <li>
-                        <a href="#content-11">11. Research resources</a>
-                    </li>
-                    <li>
-                        <a href="#content-12">12. Blog embed</a>
-                    </li>
-                    <li>
-                        <a href="#content-13">13. Audio embed</a>
-                    </li>
-                    <li>
-                        <a href="#content-14">14. Find out more</a>
-                    </li>
-                </ul>
             </div>
         </div>
     </nav>
