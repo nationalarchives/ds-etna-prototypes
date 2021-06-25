@@ -195,7 +195,7 @@
   }
 
   .chapter-nav {
-    position: sticky;
+    position: static;
     top: 0;
     z-index: 1001;
     background: #12477a;
@@ -207,26 +207,7 @@
     }
 
     #contents-toggle {
-      text-align: right;
-
-      button {
-        padding: 20px 40px 20px 20px;
-        background-color: #12477a;
-        border: none;
-        background: url("/insights-page/images/icon-chevron-down.png") no-repeat;
-
-        &.expanded {
-          background: url("/insights-page/images/icon-chevron-up.png") no-repeat;
-        }
-
-        &:hover {
-          cursor: pointer;
-        }
-
-        &:focus {
-          outline: 5px solid #1d70b8;
-        }
-      }
+      display: none;
     }
 
     #article, #chapter {
@@ -868,5 +849,35 @@
 
   #contents {
     display: block;
+  }
+}
+
+.insights-v3.js {
+  .chapter-nav {
+    position: sticky;
+
+    #contents-toggle {
+      display: block;
+      text-align: right;
+
+      button {
+        padding: 20px 40px 20px 20px;
+        background-color: #12477a;
+        border: none;
+        background: url("/insights-page/images/icon-chevron-down.png") no-repeat;
+
+        &.expanded {
+          background: url("/insights-page/images/icon-chevron-up.png") no-repeat;
+        }
+
+        &:hover {
+          cursor: pointer;
+        }
+
+        &:focus {
+          outline: 5px solid #1d70b8;
+        }
+      }
+    }
   }
 }

@@ -11,4 +11,6 @@
     <link rel="stylesheet" type="text/css" href="css/libraries/tna-toolkit.0.0.1.css">
     <link rel="stylesheet" type="text/css" href="css/dist/etna.css">
 
+    <script>document.getElementsByTagName("html")[0].className += " js";</script>
+
 </head>

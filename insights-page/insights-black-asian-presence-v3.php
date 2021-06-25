@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js insights-v3" lang="en">
+<html class="insights-v3" lang="en">
 
 <?php require 'includes/head.php' ?>
 

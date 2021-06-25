@@ -1117,7 +1117,7 @@ h2 {
   background-color: #f3f3f3;
 }
 .insights-v3 .chapter-nav {
-  position: sticky;
+  position: static;
   top: 0;
   z-index: 1001;
   background: #12477a;
@@ -1128,22 +1128,7 @@ h2 {
   min-width: 80%;
 }
 .insights-v3 .chapter-nav #contents-toggle {
-  text-align: right;
-}
-.insights-v3 .chapter-nav #contents-toggle button {
-  padding: 20px 40px 20px 20px;
-  background-color: #12477a;
-  border: none;
-  background: url("/insights-page/images/icon-chevron-down.png") no-repeat;
-}
-.insights-v3 .chapter-nav #contents-toggle button.expanded {
-  background: url("/insights-page/images/icon-chevron-up.png") no-repeat;
-}
-.insights-v3 .chapter-nav #contents-toggle button:hover {
-  cursor: pointer;
-}
-.insights-v3 .chapter-nav #contents-toggle button:focus {
-  outline: 5px solid #1d70b8;
+  display: none;
 }
 .insights-v3 .chapter-nav #article, .insights-v3 .chapter-nav #chapter {
   font-weight: bold;
@@ -1664,6 +1649,28 @@ h2 {
   #contents {
     display: block;
   }
+}
+.insights-v3.js .chapter-nav {
+  position: sticky;
+}
+.insights-v3.js .chapter-nav #contents-toggle {
+  display: block;
+  text-align: right;
+}
+.insights-v3.js .chapter-nav #contents-toggle button {
+  padding: 20px 40px 20px 20px;
+  background-color: #12477a;
+  border: none;
+  background: url("/insights-page/images/icon-chevron-down.png") no-repeat;
+}
+.insights-v3.js .chapter-nav #contents-toggle button.expanded {
+  background: url("/insights-page/images/icon-chevron-up.png") no-repeat;
+}
+.insights-v3.js .chapter-nav #contents-toggle button:hover {
+  cursor: pointer;
+}
+.insights-v3.js .chapter-nav #contents-toggle button:focus {
+  outline: 5px solid #1d70b8;
 }
 
 /*# sourceMappingURL=etna.css.map */
