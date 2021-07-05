@@ -973,9 +973,6 @@ h2 {
   color: #fff;
   z-index: 999;
 }
-.insights-v3 .border-top-grey {
-  border-top: 5px solid #eee;
-}
 .insights-v3 .image-audio {
   background: url("../../images/insights-shakespeare-v1/audio-embed.png") no-repeat;
   background-size: cover;
@@ -1564,7 +1561,6 @@ h2 {
   padding-top: 1rem;
 }
 .insights-v3 .border-top-grey {
-  border-top: 5px solid #ddd;
   margin-top: 3rem;
 }
 .insights-v3 .border-bottom-grey {
@@ -1671,6 +1667,28 @@ h2 {
 }
 .insights-v3.js .chapter-nav #contents-toggle button:focus {
   outline: 5px solid #1d70b8;
+}
+.insights-v3.js .section-separator {
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+}
+.insights-v3.js .section-separator .col-md-5 {
+  border-top: 5px solid #000;
+}
+.insights-v3.js .section-separator .col-md-2 {
+  text-align: center;
+  bottom: 2.4rem;
+}
+.insights-v3.js .section-separator .col-md-2 h2 {
+  font-family: "Roboto Mono", sans-serif;
+}
+.insights-v3.js .content-slice--grey {
+  background-color: #e5e5e5;
+  margin-bottom: 5rem;
+}
+.insights-v3.js .content-slice--grey p {
+  font-size: 1.3em;
 }
 
 /*# sourceMappingURL=etna.css.map */

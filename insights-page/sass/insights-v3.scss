@@ -31,9 +31,6 @@
     color: #fff;
     z-index: 999;
   }
-  .border-top-grey {
-    border-top: 5px solid #eee;
-  }
   .image-audio {
     background: url("../../images/insights-shakespeare-v1/audio-embed.png") no-repeat;
     background-size: cover;
@@ -753,7 +750,6 @@
   }
 
   .border-top-grey {
-    border-top: 5px solid #ddd;
     margin-top: 3rem;
   }
 
@@ -878,6 +874,34 @@
           outline: 5px solid #1d70b8;
         }
       }
+    }
+  }
+
+  .section-separator {
+    width: 100vw;
+    position: relative;
+    left: calc(-50vw + 50%);
+
+    .col-md-5 {
+      border-top: 5px solid #000;
+    }
+
+    .col-md-2 {
+      text-align: center;
+      bottom: 2.4rem;
+
+      h2 {
+        font-family: "Roboto Mono", sans-serif;
+      }
+    }
+  }
+
+  .content-slice--grey {
+    background-color: #e5e5e5;
+    margin-bottom: 5rem;
+
+    p {
+      font-size: 1.3em;
     }
   }
 }
