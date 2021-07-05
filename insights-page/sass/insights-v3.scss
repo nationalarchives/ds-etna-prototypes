@@ -750,6 +750,7 @@
   }
 
   .border-top-grey {
+    border-top: 5px solid #ddd;
     margin-top: 3rem;
   }
 
@@ -904,4 +905,8 @@
       font-size: 1.3em;
     }
   }
+}
+
+.separator-icon-container {
+  margin-top: 3rem;
 }

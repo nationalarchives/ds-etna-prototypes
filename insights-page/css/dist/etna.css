@@ -1561,6 +1561,7 @@ h2 {
   padding-top: 1rem;
 }
 .insights-v3 .border-top-grey {
+  border-top: 5px solid #ddd;
   margin-top: 3rem;
 }
 .insights-v3 .border-bottom-grey {
@@ -1689,6 +1690,10 @@ h2 {
 }
 .insights-v3.js .content-slice--grey p {
   font-size: 1.3em;
+}
+
+.separator-icon-container {
+  margin-top: 3rem;
 }
 
 /*# sourceMappingURL=etna.css.map */

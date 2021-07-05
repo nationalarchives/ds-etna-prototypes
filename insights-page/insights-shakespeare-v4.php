@@ -228,7 +228,7 @@
 
     <!-- RESOURCE EMBED -->
     <span id="content-6"></span>
-    <div class="background border-top-grey">
+    <div class="background separator-icon-container">
         <div class="container">
             <div class="row">
                 <div class="separator-icon">
@@ -266,7 +266,7 @@
 
     <!-- RESOURCE EMBED -->
     <span id="content-7"></span>
-    <div class="background border-top-grey">
+    <div class="background separator-icon-container">
         <div class="container">
             <div class="row">
                 <div class="separator-icon">
@@ -322,7 +322,7 @@
 
     <!-- BLOG EMBED -->
     <span id="content-8"></span>
-    <div class="background border-top-grey">
+    <div class="background separator-icon-container">
         <div class="container">
             <div class="row">
                 <div class="separator-icon">
