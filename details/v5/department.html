@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Details prototype</title>
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Extensions for details pages -->
+    <link href="assets/dist/css/search.css" rel="stylesheet">
+    <link href="assets/dist/css/extensions.css" rel="stylesheet">
+
+
+    <!-- Extensions for fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/hkj3kuz.css">
+
+  </head>
+  <body>
+
+<header class="header">
+  <div class="header__logo-holder">
+    <a href="https://ds-etna-search.herokuapp.com/" class="header__logo-link"><img src="assets/brand/tna-square-white-logo.svg" class="header__logo-image" alt="The National Archives logo"></a>
+  </div>
+  <nav class="header__nav">
+    <ul class="header__nav-list">
+      <li class="header__nav-list-item">
+        <a class="header__nav-list-item-link" href="https://ds-etna-search.herokuapp.com/explore">Explore</a>
+      </li>
+      <li class="header__nav-list-item">
+        <a class="header__nav-list-item-link" href="https://ds-etna-search.herokuapp.com/search/catalogue/?collection=HO#">What's on</a>
+      </li>
+      <li class="header__nav-list-item">
+        <a class="header__nav-list-item-link" href="https://ds-etna-search.herokuapp.com/search/catalogue/?collection=HO#">Visit</a>
+      </li>
+      <li class="header__nav-list-item">
+        <a class="header__nav-list-item-link" href="https://ds-etna-search.herokuapp.com/search/catalogue/?collection=HO#">Learn</a>
+      </li>
+      <li class="header__nav-list-item">
+
+        <a class="header__nav-list-item-link header__nav-list-item-link-search" href="https://ds-etna-search.herokuapp.com/search" aria-current="true">
+          <span class="sr-only">Search</span></a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section class="px-4 py-3 bg-mid-grey" id="hierarchy">
+    <div class="container-fluid my-3">
+      <h2 class="font-weight-light">Where is this record in the catalogue?</h2>
+      <div class="row mx-auto my-auto justify-content-left">
+
+
+                <div class="col-md-4">
+                  <div class="card on department">
+                    <div class="card-body">
+                      <p class="icon-descriptor">You are looking at the department: <span>Level 2</span></p>
+                      <h5 class="card-title">Records created or inherited by the Department of Scientific and Industrial Research, and related bodies</h5>
+                      <p class="card-text">DSIR</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-4">
+                  <div class="chevron-wrapper">
+                  <div class="card building">
+                    <div class="card-body">
+                      <p class="icon-descriptor">It is held at: <span>Level 1</span></p>
+                      <h5 class="card-title"><a href="archive.html">The National Archives</a></h5>
+                      <p class="card-text">Located in Kew, Surrey</p>
+                    </div>
+                  </div>
+                </div>
+
+
+      </div>
+    </div>
+    <div class="display-controls mt-3">
+      <p class="search-sort-view__descriptor">Change display</p>
+      <ul class="search-sort-view__list">
+
+
+
+        <li class="search-sort-view__list-item">
+          <a href="/search/catalogue/?grid=n&amp;list=y" class="search-sort-view__icon-list">
+                  <span class="sr-only">Display as a list</span>
+          </a>
+        </li>
+        <li class="search-sort-view__list-item">
+            <span aria-current="true" class="search-sort-view__icon-grid">
+                <span class="sr-only">Displaying as a grid</span>
+            </span>
+
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <section class="py-3 px-5 container-fluid" id="navigation">
+    <div class="back-to-search">
+      <p><span><</span><a href="#">Back to search results</a></p>
+    </div>
+      <div class="next-previous">
+        <ul>
+          <li><span><</span> <a href="#">ASSI 1</a></li>
+          <li>Division within ASSI</li>
+          <li><a href="#">ASSI 3</a> <span>></span></li>
+        </ul>
+      </div>
+
+  </section>
+
+  <section class="container" id="page">
+    <div class="row py-lg-3">
+      <div class="col-md-11">
+        <div class="p-3">
+          <h3>Overview of this department</h3>
+          <h1 class="fw-light mb-4">Records created or inherited by the Department of Scientific and Industrial Research, and related bodies</h1>
+          <p class="metadata">Date created:	1803-1993</p>
+          <p class="metadata mb-4">Reference: DSIR</p>
+          <p class="metadata paragraph">Records created or inherited by the Department of Scientific and Industrial Research, and of related bodies relating to government research establishments and funding for other scientific and industrial research.
+            Contains records of the department's central organisation and its Records Bureau, of its Advisory Council and Research Council and of various research establishments and research funding organisations comprising the National Engineering Laboratory, the National Physical Laboratory, the Warren Spring Laboratory, the Aeronautical Research Council, the Laboratory of the Government Chemist, research organisations (boards, committees and laboratories), the Imperial Trust and Industrial Research Associations.</p>
+
+          <h3 class="mt-5">Full description</h3>
+          <table class="table table-striped">
+              <tbody>
+              <tr>
+                <th scope="row">Reference:</th>
+                <td>
+                  DSIR
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Title:</th>
+                <td>
+                  Records created or inherited by the Department of Scientific and Industrial Research, and related bodies
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Description:</th>
+                <td id="annotationcontentdescription">
+                  <p class="scopecontent">Records created or inherited by the Department of Scientific and Industrial Research, and of related bodies relating to government research establishments and funding for other scientific and industrial research.</p>
+                  <p class="scopecontent">Contains records of the department's central organisation and its Records Bureau, of its Advisory Council and Research Council and of various research establishments and research funding organisations comprising the National Engineering Laboratory, the National Physical Laboratory, the Warren Spring Laboratory, the Aeronautical Research Council, the Laboratory of the Government Chemist, research organisations (boards, committees and laboratories), the Imperial Trust and Industrial Research Associations.</p>
+                </td>
+              </tr>
+
+
+              <tr>
+                <th scope="row">Date:</th>
+                <td>
+                  1803-1993
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Related material:</th>
+                <td>
+                  <p>For records of the Department of Scientific and Industrial Research's successor bodies see:</p><p>For further records of research institutes of the Department of Scientific and Industrial Research see Records of various research institutes: <a href="/details/r/C22">AY</a></p><p><a href="/details/r/C113">EV</a></p><p><a href="/details/r/C145">HF</a></p>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Separated material:</th>
+                <td>
+                  <p>For records of the Department of Scientific and Industrial Research's involvement in the Second World War atomic energy project see <a href="/details/r/C1616">AB 1</a></p>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Held by:</th>
+                <td>
+                  <a href="/details/a/A13530124" target="_blank">The National Archives, Kew</a>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Legal status: </th>
+                <td>
+                  Public Record(s)
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Language: </th>
+                <td>
+                  English
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  Creator:
+                </th>
+                <td>
+                  <p>Department of Industry, 1974-1983</p><p>Department of Scientific and Industrial Research, 1916-1965</p><p>Department of Trade and Industry, 1970-1974</p><p>Department of Trade and Industry, 1983-2007</p><p>Ministry of Technology, 1964-1970</p><p>Privy Council, Committee for Scientific and Industrial Research, 1915-1916</p>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Physical description: </th>
+                <td>
+                  75 series
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Access conditions: </th>
+                <td>
+                  Subject to 30 year closure unless otherwise stated
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Immediate source of acquisition: </th>
+                <td>
+                  <p>Department of the Environment, Transport and the Regions from 1997</p>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Custodial history: </th>
+                <td>
+                  Records previously transferred to the Public Record Office from the Ministry of Defence, Department of Transport, Department of Trade and Industry and Department of Industry.
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Administrative / biographical background:</th>
+                <td>
+                  <div>
+                    <p class="scopecontent">Before the twentieth century the government was little concerned with scientific enquiry. By 1914 there were a number of small governmental bodies with a specialised scientific interest, but little organised effort towards the application of discoveries made in fundamental research and no organisation concerned with the application of science to industry. The impetus to the establishment of the department was provided by the needs of the war effort. The initiative was taken by the President of the Board of Education who, in May 1915, presented to Parliament a white paper urging that a permanent organisation for the promotion of scientific and industrial research should be set up.</p>
+                    <p class="scopecontent">By order in council of 28 July 1915 authority for such an organisation was vested in a committee of the Privy Council consisting at first of six ministers and three other privy councillors in their personal capacities. This new Committee for Scientific and Industrial Research was to be assisted by an Advisory Council, which in turn was assisted by certain advisory committees. As a first step a scheme was devised for encouraging groups of firms to set up co-operative industrial research associations. For this purpose a lump sum of £1 million, the 'Million Fund', was voted and an Imperial Trust was set up to administer it.</p>
+                    <p class="scopecontent">Because of the close connection between education and research the President of the Board of Education was nominated as vice-president of the committee of the Privy Council, and the committee's staff and accommodation were at first provided by the board. With the increasing importance of the industrial side of research, these initial arrangements soon became inadequate. Consequently in December 1916 a separate Department of Scientific and Industrial Research was created, having its own parliamentary vote but responsible to Parliament through the Lord President of the Council.</p>
+                    <p class="scopecontent">Once the full four-tier organisation of the committee of the council, the Advisory Council, the Imperial Trust and the department was established. In 1928 the committee of council was reconstituted with an entirely ministerial membership; otherwise the organisation survived with only small changes until the 1950s.</p>
+                    <p class="scopecontent">The department was responsible for the organisation, development and encouragement of scientific and industrial research and the dissemination of its results. It worked by encouraging and supporting scientific research in universities, technical colleges and other institutions, establishing and developing its own research organisations for investigation and research relative to the advancement of trade and industry, and taking steps to further the practical application of the results of research. It could make grants for the purposes of any of these functions.</p>
+                    <p class="scopecontent">The department was not responsible for research undertaken primarily to meet the requirements of national defence, nor did it cover all government activity in research for civil purposes. Large areas of research were the responsibility of other bodies - aviation, atomic energy, agriculture, health and medicine, meteorology - though it might undertake specific investigation on behalf of the responsible departments. The department encouraged and supported scientific research in universities and other institutions by means of grants for special research projects, research fellowships, studentships, grants to research associations and research contracts.</p>
+                    <p class="scopecontent">The department absorbed or created a number of research organisations, which included large laboratories for special fields of work. Existing institutions for which it assumed responsibility were the National Physical Laboratory from the Royal Society in 1918, the Geological Survey and Museum from the Board of Education in 1919, the Road Experimental Station from the Ministry of Transport in 1933, the Laboratory of the Government Chemist (previously the Government Chemist's Department) in 1959, and the Tropical Products Institute from the Colonial Office in the same year.</p>
+                    <p class="scopecontent">Some research organisations founded by the department had functions defined in terms of a field of science or technology such as the Chemical Research Laboratory, the National Engineering Laboratory and the Hydraulics Research Station. Others were defined in terms of a practical objective, such as the Building Research Station, the Fire Research Station, the Forest Products Research Laboratory, the Fuel Research Station, the Radio Research Station, the Torry Research Station and the Water Pollution Research Laboratory. The British Museum Laboratory, established by the department in 1919, was transferred to the museum in 1930.</p>
+                    <p class="scopecontent">Three food research establishments, the Pest Infestation Laboratory, Low Temperature Research Station and Ditton Laboratory, passed to the Agricultural Research Council in 1959. From 1941 to 1945 the department was responsible for atomic energy research, in an organisation known as the Directorate of Tube Alloys. In the 1950s the department embarked on research in the human sciences in relation to the needs of industry, undertaken from 1953 to 1957 in collaboration with the Medical Research Council; in 1958 the department's research programme was transferred from its Headquarters Office to the new Warren Spring Laboratory.</p>
+                    <p class="scopecontent">The executive head of each research organisation was a director of research responsible to the head of the department. The director was provided with one or more research institutes or laboratories and with an advisory research board. The research boards were appointed by the lord president of the Council until 1956 and thereafter by the Council for Scientific and Industrial Research. The boards were responsible for advising the council on the programme of work to be undertaken, and to watch, comment and advise, and to report annually, on the progress of the approved programme.</p>
+                    <p class="scopecontent">A Scottish branch office of the department was opened in Edinburgh in September 1947, a Welsh office at Cardiff in 1953, and a Northern branch office at Newcastle upon Tyne in 1963. Late in 1954 the Lord President appointed a small committee under the chairmanship of Sir Henry Jephcott to enquire into the organisation and functioning of the department. Its recommendations were given effect in the Department of Scientific and Industrial Research Act 1956, which abolished the advisory council and the Imperial Trust and vested executive power in a new Council for Scientific and Industrial Research.</p>
+                    <p class="scopecontent">The council, set up on 7 November 1956, was appointed by and responsible to the Lord President of the Council, and was required to comply with any directions it might receive from a committee of the Privy Council for scientific and industrial research. In 1959 these functions of the lord president were transferred to the newly-created Minister for Science.</p>
+                    <p class="scopecontent">The department was abolished by the Science and Technology Act 1965, which dispersed its functions over a number of government departments and other bodies. Those primarily concerned were the new Ministry of Technology, which became responsible for the application of scientific knowledge to industry and for the majority of the department's research establishments; the Department of Education and Science, which took over responsibility for overseas scientific liaison and the general advancement of scientific knowledge; and the new Science Research Council, which was now to deal with grants for university research and awards for postgraduate students.</p>
+                  </div>
+                </td>
+              </tr>
+              </tbody>
+
+          </table>
+
+
+
+          <h3>What is this record about?</h3>
+          <ul class="topics">
+            <li>Topic 1</li>
+            <li>Topic 2</li>
+            <li>Topic 3</li>
+            <li>Topic 4</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+  </div>
+</footer>
+
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/dist/js/extensions.js"></script>
+
+      
+  </body>
+</html>
