@@ -353,3 +353,9 @@ h1 {
     background: #efefef;
     border: #FFCC00 solid 2px;
 }
+#page .creators-panel {
+    background: #FFCC00 url(../../../assets/brand/static/people-fill.svg) no-repeat 15px 12px !important;
+    background-size: 30px !important;
+    border-radius: 0;
+    border: 0;
+}
