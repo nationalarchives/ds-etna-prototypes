@@ -16,25 +16,25 @@
                 <p>Date created: 09 March 2022</p>
                 <h2>TNA record example</h2>
                 <ul>
-                    <li><a href="tna-record/item.html">Item</a></li>
-                    <li><a href="tna-record/piece.html">Piece</a></li>
-                    <li><a href="tna-record/sub-series.html">Sub-series</a></li>
-                    <li><a href="tna-record/series.html">Series</a></li>
-                    <li><a href="tna-record/division.html">Division</a></li>
-                    <li><a href="tna-record/department.html">Department</a></li>
-                    <li><a href="tna-record/archive.html">Archive</a></li>
+                    <li><a href="/details/v5/tna-record/item.html">Item</a></li>
+                    <li><a href="/details/v5/tna-record/piece.html">Piece</a></li>
+                    <li><a href="/details/v5/tna-record/sub-series.html">Sub-series</a></li>
+                    <li><a href="/details/v5/tna-record/series.html">Series</a></li>
+                    <li><a href="/details/v5/tna-record/division.html">Division</a></li>
+                    <li><a href="/details/v5/tna-record/department.html">Department</a></li>
+                    <li><a href="/details/v5/tna-record/archive.html">Archive</a></li>
                 </ul>
 
                 <h2>Other archives example</h2>
                 <ul>
-                    <li><a href="other-archives/myc-a2a.html">MYC/A2A</a></li>
-                    <li><a href="other-archives/nra.html">NRA</a></li>
-                    <li><a href="other-archives/tna-nra.html">TNA record (from NRA)</a></li>
+                    <li><a href="/details/v5/other-archives/myc-a2a.html">MYC/A2A</a></li>
+                    <li><a href="/details/v5/other-archives/nra.html">NRA</a></li>
+                    <li><!--<a href="/details/v5/other-archives/tna-nra.html"> -->TNA record (from NRA)<!-- </a> --></li>
                 </ul>
 
                 <h2>Other pages</h2>
                 <ul>
-                    <li><a href="other-pages/record-creators.html">Record creators</a></li>
+                    <li><a href="/details/v5/other-pages/record-creators.html">Record creators</a></li>
                 </ul>
             </div>
         </div>
