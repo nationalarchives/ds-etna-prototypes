@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Details prototype</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Extensions for details pages -->
+    <link href="../assets/dist/css/search.css" rel="stylesheet">
+    <link href="../assets/dist/css/extensions.css" rel="stylesheet">
+
+
+    <!-- Extensions for fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/hkj3kuz.css">
+
+</head>
+<body>
+
+<header class="header">
+    <div class="header__logo-holder">
+        <a href="https://ds-etna-search.herokuapp.com/" class="header__logo-link"><img
+                src="../assets/brand/tna-square-white-logo.svg" class="header__logo-image"
+                alt="The National Archives logo"></a>
+    </div>
+    <nav class="header__nav">
+        <ul class="header__nav-list">
+            <li class="header__nav-list-item">
+                <a class="header__nav-list-item-link" href="https://ds-etna-search.herokuapp.com/explore">Explore</a>
+            </li>
+            <li class="header__nav-list-item">
+                <a class="header__nav-list-item-link"
+                   href="https://ds-etna-search.herokuapp.com/search/catalogue/?collection=HO#">What's on</a>
+            </li>
+            <li class="header__nav-list-item">
+                <a class="header__nav-list-item-link"
+                   href="https://ds-etna-search.herokuapp.com/search/catalogue/?collection=HO#">Visit</a>
+            </li>
+            <li class="header__nav-list-item">
+                <a class="header__nav-list-item-link"
+                   href="https://ds-etna-search.herokuapp.com/search/catalogue/?collection=HO#">Learn</a>
+            </li>
+            <li class="header__nav-list-item">
+
+                <a class="header__nav-list-item-link header__nav-list-item-link-search"
+                   href="https://ds-etna-search.herokuapp.com/search" aria-current="true">
+                    <span class="sr-only">Search</span></a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section class="py-3 px-5 container-fluid" id="navigation">
+        <div class="back-to-search">
+            <p><span><</span><a href="#">Back to search results</a></p>
+        </div>
+        <div class="next-previous">
+            <ul>
+                <li><span><</span> <a href="#">DSIR 27/6/ADM170</a></li>
+                <li>DSIR 27/6/ADM171</li>
+                <li><a href="#">DSIR 27/6/ADM172</a> <span>></span></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section class="container" id="page">
+        <div class="row py-lg-3">
+            <div class="col-md-7">
+                <div class="p-3">
+                    <h3>This record is part of The National Archives collection</h3>
+                    <h1 class="fw-light mb-4">The pressures produced by explosions underwater of 1-oz. solid cone
+                        charges of P.E. By...</h1>
+                    <!-- Please note - this is just quickly thrown together prototype code to explore some ideas. It is far from acceptable. -->
+                    <style>
+
+                        .hierarchy_short {
+                            position: relative;
+                            border: 1px solid #dedede;
+                            margin-bottom: 3rem;
+                        }
+
+                        .toggle {
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            font-size: 0.9rem;
+                            border: 0;
+                            padding: .1rem 0.7rem;
+                            font-family: supria-sans-condensed, sans-serif;
+                        }
+
+                        .hierarchy_short ul {
+                            font-family: supria-sans-condensed, sans-serif;
+                            padding: 1rem;
+                            margin: 0;
+                        }
+
+                        .hierarchy_short li {
+                            margin-top: 1rem;
+                            list-style: none;
+                            background: url('../assets/brand/static/arrow-return-right.svg') no-repeat 2px 2px;
+                            padding-left: 1.5em;
+                        }
+
+                        .hierarchy_short li:first-of-type {
+                            margin-top: 0;
+                        }
+
+                        .type {
+                            background: #FFCC00 url('../assets/brand/static/folder.svg') no-repeat 7px 7px !important;
+                            padding: 0.3rem 0.5rem;
+                            padding-left: 2rem;
+                            margin-right: .2rem;
+                        }
+
+                        .hierarchy_short li:nth-of-type(2) {
+                            margin-left: 2rem;
+                        }
+
+                        .hierarchy_short li:nth-of-type(2) {
+                            margin-left: 2rem;
+                        }
+
+                        .hierarchy_short li:last-of-type {
+                            margin-left: 4rem;
+                        }
+
+                        .hierarchy_short li:first-of-type .type {
+                            background: #EFEFEF url('../assets/brand/static/archive.svg') no-repeat 7px 7px !important;
+                        }
+
+                        .hierarchy_short li:last-of-type .type {
+                            background: #EFEFEF url('../assets/brand/static/file-earmark-text.svg') no-repeat 7px 7px !important;
+                        }
+                    </style>
+                    <h3 class="mt-5">Full description of this record</h3>
+                    <table class="table table-striped">
+                        <tbody>
+                        <tr>
+                            <th scope="row">Reference:</th>
+                            <td>
+                                DSIR 27/6/ADM171
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Description:</th>
+                            <td id="annotationcontentdescription">
+                                <p class="scopecontent">The pressures produced by explosions underwater of 1-oz. solid
+                                    cone charges of
+                                    P.E. By G. Charlesworth</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Note:</th>
+                            <td>
+                                U
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Date:</th>
+                            <td>
+                                Mar 1944
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Held by:</th>
+                            <td>
+                                <a href="/details/a/A13530124" target="_blank">The National Archives, Kew</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Former reference in The National Archives:</th>
+                            <td>DSIR 27/6/ADM 171</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Legal status:</th>
+                            <td>
+                                Public Record(s)
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Closure status:</th>
+                            <td>
+                                Open Document, Open Description
+                            </td>
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+
+
+                    <h3>What is this record about?</h3>
+                    <ul class="topics">
+                        <li>Armed forces (General administration)</li>
+                        <li>Navy</li>
+                        <li>Research</li>
+                        <li>Road transport</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="p-3">
+                    <h3>Where this record is in the collection</h3>
+                    <div class="hierarchy_short">
+                        <button class="toggle">Show all levels</button>
+                        <ul>
+                            <li><span class="type">Department</span> DSIR</li>
+                            <li><span class="type">Series</span> DSIR 27</li>
+                            <li><span class="type this">This item</span> DSIR 27/6/ADM171</li>
+                        </ul>
+                    </div>
+                    <h3>View the series</h3>
+                    <div class="card shadow-sm series-panel">
+                        <div class="card-body">
+                            <h5 class="card-title"><small
+                                    style="font-size: 1rem; font-weight: normal; margin-bottom: 0.5rem; display: inline-block;">DSIR
+                                27</small><br>Department of Scientific and Industrial Research: Road Research Laboratory
+                                Reports</h5>
+                            <p class="card-text">See the series level description for more information about this
+                                record.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="series.html">View series description</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="text-muted py-5">
+    <div class="container">
+        <p class="float-end mb-1">
+            <a href="#">Back to top</a>
+        </p>
+    </div>
+</footer>
+
+
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="../assets/dist/js/extensions.js"></script>
+
+
+</body>
+</html>
