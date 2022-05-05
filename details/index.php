@@ -12,6 +12,7 @@
                     <li><a href="/details/v4">V4</a></li>
                     <li><a href="/details/v5">V5</a></li>
                     <li><a href="/details/v6a">V6a</a></li>
+                    <li><a href="/details/v6b">V6b</a></li>
                 </ul>
             </div>
         </div>
