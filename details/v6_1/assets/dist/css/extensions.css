@@ -367,12 +367,12 @@ h1 {
 
 .level-1, .level-2, .level-3, .level-4, .level-5, .level-6, .level-7 {
     background-color: #333;
-    text-align: right;
-    padding: 0.5rem 1.25rem;
-    font-size: 1.5rem;
+    text-align: left;
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
     display: inline-block;
     vertical-align: top;
-    min-height: 80px;
+    min-height: 60px;
     color: #fff;
 }
 .level-text {
@@ -381,13 +381,13 @@ h1 {
     margin-left: 1rem;
 }
 .level-container {
-    min-height: 90px;
+    min-height: 60px;
     margin-bottom: 0.5rem;
     border-bottom: 2px solid #e5e5e5;
     padding: 0.5rem 0;
 }
 .level-text h3 {
-    margin: 0;
+    margin: 0.7rem 0 0;
     padding: 0;
     font-size: 1.15rem;
     line-height: 1.3rem;
@@ -395,30 +395,31 @@ h1 {
 .level-text p {
     margin: 0;
     padding: 0;
+    font-size: 0.95rem;
 }
 .level-text a {
     font-size: 1.15rem;
 }
 .level-1 {
-    width: 6%;
+    width: 22%;
 }
 .level-2 {
-    width: 8%;
+    width: 20%;
 }
 .level-3 {
-    width: 10%;
+    width: 18%;
 }
 .level-4 {
-    width: 12%;
+    width: 16%;
 }
 .level-5 {
     width: 14%;
 }
 .level-6 {
-    width: 16%;
+    width: 12%;
 }
 .level-7 {
-    width: 18%;
+    width: 10%;
 }
 .level-current {
     background-color: #FFCC00;
@@ -439,9 +440,14 @@ h1 {
     margin-left: 8px;
 }
 
-.level-1 span, .level-2 span, .level-3 span, .level-4 span, .level-5 span, .level-6 span, .level-7 span {
-    display: block;
-    font-size: 0.75rem;
+.number {
+    display: inline-block;
+    font-size: 1.2rem;
+    width: 100%;
+}
+.label {
+    display: inline-block;
+    font-size: 0.8rem;
 }
 .current-container {
     display: inline-block;
@@ -451,4 +457,93 @@ h1 {
 #hierarchy h2 {
     border-bottom: 2px dotted #FFCC00;
     display: inline-block;
+}
+
+/* Condensed hierarchy */
+.hierarchy_short {
+    position: relative;
+    border: 2px solid #FFCC00;
+    margin-top: 1.5rem;
+    padding-bottom: 0.75rem;
+
+}
+
+.toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0.9rem;
+    border: 0;
+    padding: .1rem 0.7rem;
+    font-family: supria-sans-condensed, sans-serif;
+}
+
+.hierarchy_short h4 {
+    margin: 1rem;
+}
+
+.hierarchy_short ul {
+    font-family: supria-sans-condensed, sans-serif;
+    padding: 1rem;
+    margin: 0;
+}
+
+.hierarchy_short li {
+    margin-top: 1rem;
+    list-style: none;
+    background: url('../../../assets/brand/static/arrow-return-right.svg') no-repeat 2px 2px;
+    padding-left: 1.5em;
+}
+
+.hierarchy_short li:first-of-type {
+    margin-top: 0;
+}
+
+.type {
+    background: #e5e5e5 url('../../../assets/brand/static/folder.svg') no-repeat 7px 7px !important;
+    padding: 0.3rem 0.5rem;
+    padding-left: 2rem;
+    margin-right: .2rem;
+}
+
+.hierarchy_short li:nth-of-type(2) {
+    margin-left: 2rem;
+}
+
+.hierarchy_short li:nth-of-type(2) {
+    margin-left: 2rem;
+}
+
+.hierarchy_short li:last-of-type {
+    margin-left: 4rem;
+}
+
+.hierarchy_short li:first-of-type .type {
+    background: #e5e5e5 url('../../../assets/brand/static/archive.svg') no-repeat 7px 7px !important;
+}
+
+.hierarchy_short li:last-of-type .type {
+    background: #e5e5e5 url('../../../assets/brand/static/file-earmark-text.svg') no-repeat 7px 7px !important;
+}
+.hierarchy_short li:last-of-type .this {
+    background: #FFCC00  url('../../../assets/brand/static/folder.svg') no-repeat 7px 7px !important;
+}
+.hierarchy_short a {
+    margin: 0.1rem 1rem;
+    font-size: 0.9rem;
+    text-align: right;
+    display: block;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hierarchy_short li a {
+    display: inline;
+    margin: 0;
+    font-size: 1rem;
+    text-align: left;
+    color: black;
+    font-weight: normal;
 }
