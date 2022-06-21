@@ -545,3 +545,33 @@ html {
     color: black;
     font-weight: normal;
 }
+
+.copy {
+    display: inline-block;
+    font-size: 0.9rem;
+    color: #333;
+    text-decoration: transparent;
+    background: #FFCC00;
+    float: right;
+    border: 0;
+    padding: 0.1rem 0.5rem;
+    font-family: supria-sans-condensed, sans-serif;
+}
+.copy:hover {
+    text-decoration: none;
+    background: #111;
+    color: #fff;
+}
+.copy .icon {
+    display: inline-block;
+    background: transparent url('../../../assets/brand/static/files.svg') no-repeat center !important;
+    background-size: 17px !important;
+    width: 17px !important;
+    height: 17px;
+    border: 0;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+.copy:hover .icon {
+    background: transparent url('../../../assets/brand/static/files-white.svg') no-repeat center !important;
+}
