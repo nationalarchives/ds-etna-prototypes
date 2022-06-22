@@ -41,7 +41,6 @@ h1, h2, h3, h4, h5 {
 .series-panel {
     background-color:#ffb952;
 }
-
 h3 {
     font-size: 1.3rem;
     margin-bottom: 1.5rem;
@@ -60,7 +59,7 @@ table {
     width: 100%;
     overflow-y: hidden;
     overflow-x: scroll;
-   border: 3px solid #fff;
+    border: 3px solid #fff;
     padding-top: 1rem;
     background: #e5e5e5;
 }
@@ -268,44 +267,64 @@ table {
 }
 #navigation {
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
+    align-items: center;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
+    padding: 0.75rem 1rem;
+    margin-bottom: 2rem;
+
 }
 
 #navigation .back-to-search {
-
+    vertical-align: middle;
 }
 #navigation p {
     display: inline-block;
     font-weight: bold;
+    margin: 0;
 }
 #navigation ul {
     display: inline-block;
-    padding-left: 0.25rem;
+    margin: 0;
+    padding: 0;
 }
 #navigation li {
     display: inline-block;
-    font-weight: bold;
-    padding: 0 0.25rem;
-}
-#navigation li::before {
-    content: " | ";
-    color: #ccc;
-    font-weight: normal;
     padding: 0 0.5rem;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    line-height: 1.35rem;
+    font-size: 0.9rem;
 }
-
+#navigation li:first-of-type {
+    text-align: right;
+    padding-right: 1.5rem;
+}
+#navigation li:first-of-type::before {
+    padding: 1rem;
+}
+#navigation li:last-of-type {
+    text-align: left;
+    border: 0;
+    padding-left: 1.5rem;
+}
+#navigation span, #navigation a {
+    font-size: 1rem;
+    font-weight: normal;
+}
 #navigation span {
     margin: 0 0.5rem;
-    color: #1A67A2;
+    color: #111;
+    font-weight: bold;
 }
 
 #navigation li:first-child::before {
     content: "";
 }
 #navigation .next-previous {
-
+    vertical-align: middle;
 }
 
 h1 {
@@ -549,9 +568,9 @@ html {
 .copy {
     display: inline-block;
     font-size: 0.9rem;
-    color: #333;
+    color: #fff;
     text-decoration: transparent;
-    background: #FFCC00;
+    background: #111;
     float: right;
     border: 0;
     padding: 0.1rem 0.5rem;
@@ -559,8 +578,8 @@ html {
 }
 .copy:hover {
     text-decoration: none;
-    background: #111;
-    color: #fff;
+    background: #FFCC00;
+    color: #000;
 }
 .copy .icon {
     display: inline-block;
@@ -574,4 +593,72 @@ html {
 }
 .copy:hover .icon {
     background: transparent url('../../../assets/brand/static/files-white.svg') no-repeat center !important;
+}
+
+.migration-message {
+    margin-bottom: 2.5rem;
+}
+.migration-message .card {
+
+}
+.migration-message .card-body {
+    background-color: #FFCC00 !important;
+    box-shadow: 0 0 0 0 transparent !important;
+    border-left: 1px dotted #fff;
+}
+.migration-message .card a {
+    padding: 0.5rem 0.75rem;
+    color: #333 !important;
+    background: #fff;
+    text-decoration: none;
+    margin-bottom: 0.75rem;
+}
+.migration-message .card a:hover {
+    color: #fff !important;
+    background: #333;
+}
+
+#migration-message > div {
+    box-shadow: 0px 0px 11px -1px #c9c5c5;
+    padding: 1.5rem;
+}
+#migration-message h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+#migration-message p {
+    display: block;
+    line-height: 1.6rem;
+}
+
+#migration-message ul {
+    list-style-type: none;
+    padding: 0;
+}
+#migration-message li {
+    display: inline-block;
+}
+#migration-message a.primary {
+    background: #FFCC00;
+    display: inline-block;
+    font-size: 1.15rem;
+    color: #333;
+    padding: 0.5rem 0.75rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    font-family: supria-sans-condensed, sans-serif;
+}
+#migration-message a.secondary {
+    display: inline-block;
+    font-size: 1.1rem;
+    font-family: supria-sans-condensed, sans-serif;
+}
+.highlight {
+    border-bottom: 2px dotted #FFCC00;
+    line-height: 1.2rem;
+    display: inline-block;
+}
+#page .download-panel {
+    background: #FFCC00 url('../../../assets/brand/static/download.svg') no-repeat 15px 12px !important;
+    background-size: 30px !important;
 }
