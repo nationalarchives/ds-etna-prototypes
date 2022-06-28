@@ -12,11 +12,14 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h1 class="mb-5">Details page (version 6.1) index</h1>
-                <p>Date created: 10 May 2022</p>
+                <h1 class="mb-5">Details page (version 6.2) index</h1>
+                <p>Date created: 22 June 2022</p>
                 <h2>TNA record example</h2>
                 <ul>
-                    <li><a href="/details/v6_1/tna-record/item.html">Item</a></li>
+                    <li><a href="/details/v6_2/tna-record/item.html">Item</a></li>
+                    <li><a href="/details/v6_2/tna-record/C198022.html">C198022</a> -
+                        <i>For user testing of closer look concept (29th June 2022)</i></li>
+
                     <!--
                     <li><a href="/details/v6_1/tna-record/piece.html">Piece</a></li>
                     <li><a href="/details/v6_1/tna-record/sub-series.html">Sub-series</a></li>
