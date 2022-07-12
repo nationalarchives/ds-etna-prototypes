@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Details prototype</title>
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Extensions for details pages -->
+    <link href="../assets/dist/css/search.css" rel="stylesheet">
+    <link href="../assets/dist/css/extensions.css" rel="stylesheet">
+
+
+    <!-- Extensions for fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/hkj3kuz.css">
+
+  </head>
+  <body>
+
+<header class="header">
+  <div class="header__logo-holder">
+    <a href="https://ds-etna-search.herokuapp.com/" class="header__logo-link"><img src="../assets/brand/tna-square-white-logo.svg" class="header__logo-image" alt="The National Archives logo"></a>
+  </div>
+  <nav class="header__nav">
+    <ul class="header__nav-list">
+      <li class="header__nav-list-item">
+        <a class="header__nav-list-item-link" href="https://ds-etna-search.herokuapp.com/explore">Explore</a>
+      </li>
+      <li class="header__nav-list-item">
+        <a class="header__nav-list-item-link" href="https://ds-etna-search.herokuapp.com/search/catalogue/?collection=HO#">What's on</a>
+      </li>
+      <li class="header__nav-list-item">
+        <a class="header__nav-list-item-link" href="https://ds-etna-search.herokuapp.com/search/catalogue/?collection=HO#">Visit</a>
+      </li>
+      <li class="header__nav-list-item">
+        <a class="header__nav-list-item-link" href="https://ds-etna-search.herokuapp.com/search/catalogue/?collection=HO#">Learn</a>
+      </li>
+      <li class="header__nav-list-item">
+
+        <a class="header__nav-list-item-link header__nav-list-item-link-search" href="https://ds-etna-search.herokuapp.com/search" aria-current="true">
+          <span class="sr-only">Search</span></a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section class="px-4 py-3 bg-mid-grey" id="hierarchy">
+    <div class="container-fluid my-3">
+      <h2 class="font-weight-light">Where is this record in the catalogue?</h2>
+      <div class="row mx-auto my-auto justify-content-center">
+        <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+          <div class="px-4 carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <div class="col-md-4">
+                  <div class="card on folder">
+                    <div class="card-body">
+                      <p class="icon-descriptor">You are looking at a series: <span>Level 4</span></p>
+                      <h5 class="card-title">Department of Scientific and Industrial Research: Road Research Laboratory Reports</h5>
+                      <p class="card-text">DSIR 27</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="col-md-4">
+                  <div class="chevron-wrapper">
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="icon-descriptor">It is in the division: <span>Level 3</span></p>
+                      <h5 class="card-title"><a href="division.html">Records of the Road Research Laboratory and Successor</a></h5>
+                      <p class="card-text">Division within DSIR</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <div class="col-md-4">
+                  <div class="chevron-wrapper">
+                  <div class="card department">
+                    <div class="card-body">
+                      <p class="icon-descriptor">Which is from the department: <span>Level 2</span></p>
+                      <h5 class="card-title"><a href="department.html">Records created or inherited by the Department of Scientific and Industrial Research, and related bodies</a></h5>
+                      <p class="card-text">DSIR</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <div class="col-md-4">
+                  <div class="chevron-wrapper">
+                  <div class="card building">
+                    <div class="card-body">
+                      <p class="icon-descriptor">Which is held at: <span>Level 1</span></p>
+                      <h5 class="card-title"><a href="archive.html">The National Archives</a></h5>
+                      <p class="card-text">Located in Kew, Surrey</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a class="carousel-control-next w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="display-controls">
+      <p class="search-sort-view__descriptor">Change display</p>
+      <ul class="search-sort-view__list">
+
+
+
+        <li class="search-sort-view__list-item">
+          <a href="/search/catalogue/?grid=n&amp;list=y" class="search-sort-view__icon-list">
+                  <span class="sr-only">Display as a list</span>
+          </a>
+        </li>
+        <li class="search-sort-view__list-item">
+            <span aria-current="true" class="search-sort-view__icon-grid">
+                <span class="sr-only">Displaying as a grid</span>
+            </span>
+
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <section class="py-3 px-5 container-fluid" id="navigation">
+    <div class="back-to-search">
+      <p><span><</span><a href="#">Back to search results</a></p>
+    </div>
+      <div class="next-previous">
+        <ul>
+          <li><span><</span> <a href="#">DSIR 26</a></li>
+          <li>DSIR 27</li>
+          <li><a href="#">DSIR 28</a> <span>></span></li>
+        </ul>
+      </div>
+
+  </section>
+
+  <section class="container" id="page">
+    <div class="row py-lg-3">
+      <div class="col-md-11">
+        <div class="p-3">
+          <h3>Overview of this series</h3>
+          <h1 class="fw-light mb-4">Department of Scientific and Industrial Research: Road Research Laboratory Reports</h1>
+          <p class="metadata">Date created:	1933-1973</p>
+          <p class="metadata mb-4">Reference: DSIR 27</p>
+          <p class="metadata paragraph">This series contains detailed reports of tests carried out by the Road Research Laboratory on road construction methods and materials. The World War papers concern, as well, the study of engineering problems in civil defence and work undertaken for government departments.</p>
+          <p class="metadata paragraph">Later papers, those in the LN, RN, TN series, concern road construction and also the wider aspects of road safety and traffic flow. Some reports of road conditions in developing countries are to be found in the RN series.</p>
+
+          <h3>Search for records within this series</h3>
+          <div class="series-form">
+            <!--<h2 class="section-heading">Search within or <a href="/browse/r/r/C6359">browse</a> this series to find specific records of interest.</h2>-->
+            <form action="/advancedsearch/search" method="get">
+              <fieldset>
+
+              <div class="form-group row">
+                <label for="_q" class="col-sm-2 col-form-label">Keyword search</label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control" id="_q" placeholder="">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="_q" class="col-sm-2 col-form-label">Date range</label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control" id="_q" placeholder="From (yyyy):">
+                </div>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control" id="_q" placeholder="To (yyyy):">
+                </div>
+              </div>
+                <div class="form-group row">
+                  <div class="col-sm-5">
+                    <input class="btn btn-primary" type="submit" name="name" value="Search">
+                  </div>
+              </div>
+            </fieldset>
+            </form>
+          </div>
+
+
+          <h3 class="mt-5">Full description</h3>
+          <table class="table table-striped">
+            <tbody>
+              <tr>
+                <th scope="row">Reference:</th>
+                <td>
+                  DSIR 27
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Title:</th>
+                <td>
+                  Department of Scientific and Industrial Research: Road Research Laboratory Reports
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Description:</th>
+                <td id="annotationcontentdescription">
+                  <p class="scopecontent">This series contains detailed reports of tests carried out by the Road Research Laboratory on road construction methods and materials. The World War papers concern, as well, the study of engineering problems in civil defence and work undertaken for government departments.</p>
+                  <p class="scopecontent">Later papers, those in the LN, RN, TN series, concern road construction and also the wider aspects of road safety and traffic flow. Some reports of road conditions in developing countries are to be found in the RN series.</p>
+                </td>
+              </tr>
+
+
+              <tr>
+                <th scope="row">Date:</th>
+                <td>
+                  1933-1973
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Arrangement:</th>
+                <td>
+                  <div>
+                    <p class="scopecontent">Firstly wartime material in serial letter order, then the RL series of reports of work carried out for the Ministry of Transport from 1933-1941, followed by laboratory reports in the RN series 1933-1962, LN series 1962-1965, and TN series 1965-1973.</p>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Held by:</th>
+                <td>
+                  <a href="/details/a/A13530124" target="_blank">The National Archives, Kew</a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Former reference in its original department:</th>
+                <td>LN, RN, TN file series</td>
+              </tr>
+
+              <tr>
+                <th scope="row">Legal status: </th>
+                <td>
+                  Public Record(s)
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Language: </th>
+                <td>
+                  English
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Physical description: </th>
+                <td>
+                  532 files and volumes
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Access conditions: </th>
+                <td>
+                  Subject to 30 year closure
+                </td>
+              </tr>
+
+
+
+              <tr>
+                <th scope="row">Unpublished finding aids:</th>
+                <td>
+                  <p> A list of titles of papers in DSIR 27/326-531 is in DSIR 27/532 </p>
+                </td>
+              </tr>
+              </tbody>
+          </table>
+
+
+
+          <h3>What is this record about?</h3>
+          <ul class="topics">
+            <li>Research</li>
+            <li>Road transport</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+  </div>
+</footer>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="../assets/dist/js/extensions.js"></script>
+
+      
+  </body>
+</html>

@@ -157,7 +157,7 @@ table {
     margin-top: 0;
 }
 #hierarchy .card {
-    background: #e5e5e5 url(../../../assets/brand/static/archive.svg) no-repeat 15px 12px !important;
+    background: #e5e5e5 url(../../brand/static/archive.svg) no-repeat 15px 12px !important;
     background-size: 30px !important;
     border-radius: 0;
     box-shadow: 0px 0px 11px -1px #C9C5C5;
@@ -165,28 +165,28 @@ table {
 }
 #hierarchy .on {
     border: 7px solid #FFCC00;
-    background: #e5e5e5 url(../../../assets/brand/static/file-earmark-text.svg) no-repeat 12px 12px !important;
+    background: #e5e5e5 url(../../brand/static/file-earmark-text.svg) no-repeat 12px 12px !important;
     background-size: 30px !important;
     border-radius: 0;
 }
 #hierarchy .department {
-    background: #e5e5e5 url(../../../assets/brand/static/door-open.svg) no-repeat 15px 12px !important;
+    background: #e5e5e5 url(../../brand/static/door-open.svg) no-repeat 15px 12px !important;
     background-size: 30px !important;
 }
 #hierarchy .building {
-    background: #e5e5e5 url(../../../assets/brand/static/building.svg) no-repeat 15px 12px !important;
+    background: #e5e5e5 url(../../brand/static/building.svg) no-repeat 15px 12px !important;
     background-size: 30px !important;
 }
 #hierarchy .folder {
-    background: #e5e5e5 url(../../../assets/brand/static/folder.svg) no-repeat 15px 12px !important;
+    background: #e5e5e5 url(../../brand/static/folder.svg) no-repeat 15px 12px !important;
     background-size: 30px !important;
 }
 #hierarchy .folder-divider {
-    background: #e5e5e5 url(../../../assets/brand/static/folder-divider.png) no-repeat 15px 12px !important;
+    background: #e5e5e5 url(../../brand/static/folder-divider.png) no-repeat 15px 12px !important;
     background-size: 35px !important;
 }
 #hierarchy .shelf {
-    background: #e5e5e5 url(../../../assets/brand/static/shelf.png) no-repeat 10px 13px !important;
+    background: #e5e5e5 url(../../brand/static/shelf.png) no-repeat 10px 13px !important;
     background-size: 40px !important;
 }
 
@@ -245,14 +245,14 @@ table {
     margin-top: 0;
 }
 #page .card {
-    background: #FFCC00 url(../../../assets/brand/static/folder.svg) no-repeat 15px 12px !important;
+    background: #FFCC00 url(../../brand/static/folder.svg) no-repeat 15px 12px !important;
     background-size: 30px !important;
     border-radius: 0;
     border: 0;
 }
 #page .on {
     border: 2px solid #111;
-    background: #FFCC00 url(../../../assets/brand/static/eye.svg) no-repeat 12px 12px !important;
+    background: #FFCC00 url(../../brand/static/eye.svg) no-repeat 12px 12px !important;
     background-size: 30px !important;
 }
 .metadata {
@@ -272,12 +272,21 @@ table {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     padding: 0.75rem 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
+    box-shadow: 0px 0px 11px -1px #c9c5c5;
 
 }
 
 #navigation .back-to-search {
     vertical-align: middle;
+
+}
+#navigation .back-to-search a {
+    display: inline-block;
+    padding: 0.25rem 0rem;
+    margin-right: 2rem;
+    font-family: 'supria-sans-condensed', sans-serif !important;
+    font-size: 1.1rem;
 }
 #navigation p {
     display: inline-block;
@@ -326,12 +335,15 @@ table {
 #navigation .next-previous {
     vertical-align: middle;
 }
-
+.next-previous span, .next-previous a {
+    font-family: 'supria-sans-condensed', sans-serif;
+    font-size: 1.1rem !important;
+}
 h1 {
     margin-top: 0;
 }
 #hierarchy .chevron-wrapper {
-    background: url(../../../assets/brand/static/chevron-compact-left.svg) no-repeat -10px center;
+    background: url(../../brand/static/chevron-compact-left.svg) no-repeat -10px center;
     background-size: 32px;
     padding-left: 2.5rem;
     height: 100%;
@@ -377,31 +389,38 @@ h1 {
     border: #FFCC00 solid 2px;
 }
 #page .creators-panel {
-    background: #FFCC00 url(../../../assets/brand/static/people-fill.svg) no-repeat 15px 12px !important;
+    background: #FFCC00 url(../../brand/static/people-fill.svg) no-repeat 15px 12px !important;
     background-size: 30px !important;
     border-radius: 0;
     border: 0;
 }
 
 .level-1, .level-2, .level-3, .level-4, .level-5, .level-6, .level-7 {
-    background-color: #333;
+    background-color: #e4dec6;
     text-align: left;
     padding: 0.5rem 1rem;
     font-size: 0.75rem;
     display: inline-block;
     vertical-align: top;
     min-height: 60px;
-    color: #fff;
+    color: #111;
+    border: 1px solid #d0c9aa;
+    border-left: 0;
 }
 .level-text {
     display: inline-block;
     vertical-align: top;
     margin-left: 1rem;
+
 }
 .level-container {
     min-height: 60px;
+    padding: 0.25rem 0;
+}
+.level-container:last-of-type {
+    min-height: 60px;
     margin-bottom: 0.5rem;
-    border-bottom: 2px solid #e5e5e5;
+    border-bottom: 0;
     padding: 0.5rem 0;
 }
 .level-text h3 {
@@ -419,29 +438,30 @@ h1 {
     font-size: 1.15rem;
 }
 .level-1 {
-    width: 22%;
+    width: 12%;
 }
 .level-2 {
-    width: 20%;
+    width: 12%;
 }
 .level-3 {
-    width: 18%;
+    width: 12%;
 }
 .level-4 {
-    width: 16%;
+    width: 12%;
 }
 .level-5 {
-    width: 14%;
+    width: 12%;
 }
 .level-6 {
     width: 12%;
 }
 .level-7 {
-    width: 10%;
+    width: 12%;
 }
 .level-current {
-    background-color: #FFCC00;
-    color: #222;
+    background: #FFCC00;
+    border: 1px solid #333;
+    border-left: 0;
 }
 .level-1 img, .level-2 img, .level-3 img, .level-4 img, .level-5 img, .level-6 img, .level-7 img {
     float: right;
@@ -480,9 +500,14 @@ h1 {
 .hierarchy_short {
     position: relative;
     border: 2px solid #FFCC00;
-    margin-top: 1.5rem;
-    padding-bottom: 0.75rem;
-
+    margin-bottom: 0.5rem;
+    background: #FFCC00 url('../../brand/static/diagram-3.svg') no-repeat 11px 12px;
+    background-size: 35px;
+    padding-left: 3.5rem;
+}
+.hierarchy_short .inner-background {
+    background: #faf6e0;
+    overflow:auto;
 }
 
 .toggle {
@@ -494,22 +519,35 @@ h1 {
     padding: .1rem 0.7rem;
     font-family: supria-sans-condensed, sans-serif;
 }
+.hierarchy_short .toggle {
+    float: right;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
 
 .hierarchy_short h4 {
-    margin: 1rem;
+    margin: 1rem 1rem 0;
+    font-size: 1.3rem;
 }
 
 .hierarchy_short ul {
     font-family: supria-sans-condensed, sans-serif;
-    padding: 1rem;
-    margin: 0;
+    padding: 0;
+    margin: 1rem 1rem;
 }
 
 .hierarchy_short li {
-    margin-top: 1rem;
     list-style: none;
-    background: url('../../../assets/brand/static/arrow-return-right.svg') no-repeat 2px 2px;
-    padding-left: 1.5em;
+    background: url('../../brand/static/chevron-double-right.svg') no-repeat left center;
+    background-size: 16px;
+    margin: 0 0.7rem 0 0;
+    padding-left: 1.8rem;
+    display: inline-block;
+
+}
+.hierarchy_short li:first-child {
+    background: none;
+    padding: 0;
 }
 
 .hierarchy_short li:first-of-type {
@@ -517,39 +555,44 @@ h1 {
 }
 
 .type {
-    background: #e5e5e5 url('../../../assets/brand/static/folder.svg') no-repeat 7px 7px !important;
+    background: transparent url('../../brand/static/folder.svg') no-repeat 7px 7px !important;
     padding: 0.3rem 0.5rem;
     padding-left: 2rem;
     margin-right: .2rem;
 }
-
-.hierarchy_short li:nth-of-type(2) {
-    margin-left: 2rem;
-}
-
-.hierarchy_short li:nth-of-type(2) {
-    margin-left: 2rem;
-}
-
-.hierarchy_short li:last-of-type {
-    margin-left: 4rem;
+.this {
+    padding: 0.3rem 0.5rem;
+    padding-left: 2rem;
+    margin-right: .2rem;
+    text-decoration: underline;
+    font-size: 1.1rem;
 }
 
 .hierarchy_short li:first-of-type .type {
-    background: #e5e5e5 url('../../../assets/brand/static/archive.svg') no-repeat 7px 7px !important;
+    background: transparent url('../../brand/static/archive.svg') no-repeat 7px 7px !important;
 }
 
 .hierarchy_short li:last-of-type .type {
-    background: #e5e5e5 url('../../../assets/brand/static/file-earmark-text.svg') no-repeat 7px 7px !important;
+    background: transparent url('../../brand/static/file-earmark-text.svg') no-repeat 7px 7px !important;
 }
 .hierarchy_short li:last-of-type .this {
-    background: #FFCC00  url('../../../assets/brand/static/folder.svg') no-repeat 7px 7px !important;
+    background: transparent  url('../../brand/static/file-earmark-text.svg') no-repeat 7px 7px !important;
 }
 .hierarchy_short a {
     margin: 0.1rem 1rem;
     font-size: 0.9rem;
     text-align: right;
     display: block;
+}
+
+.hierarchy_short .full-hierarchy a {
+    display: inline-block;
+    font-size: 1.1rem;
+    text-align: left;
+    margin: 0;
+}
+.hierarchy_short .full-hierarchy h4 {
+    margin: 2rem 1rem 0;
 }
 
 html {
@@ -559,31 +602,31 @@ html {
 .hierarchy_short li a {
     display: inline;
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-align: left;
-    color: black;
+    color: #1A67A2;
     font-weight: normal;
 }
 
 .copy {
     display: inline-block;
-    font-size: 0.9rem;
-    color: #fff;
-    text-decoration: transparent;
-    background: #111;
+    font-size: 1rem;
+    color: #1A67A2 !important;
+    text-decoration: underline !important;
+    background: transparent;
     float: right;
     border: 0;
     padding: 0.1rem 0.5rem;
     font-family: supria-sans-condensed, sans-serif;
 }
 .copy:hover {
-    text-decoration: none;
-    background: #FFCC00;
-    color: #000;
+    text-decoration: none !important;
+    background: transparent;
+    cursor: pointer;
 }
 .copy .icon {
     display: inline-block;
-    background: transparent url('../../../assets/brand/static/files.svg') no-repeat center !important;
+    background: transparent url('../../brand/static/files.svg') no-repeat center !important;
     background-size: 17px !important;
     width: 17px !important;
     height: 17px;
@@ -591,33 +634,13 @@ html {
     margin-right: 0.5rem;
     vertical-align: middle;
 }
-.copy:hover .icon {
-    background: transparent url('../../../assets/brand/static/files-white.svg') no-repeat center !important;
-}
 
 .migration-message {
-    margin-bottom: 2.5rem;
-}
-.migration-message .card {
+    margin-bottom: 5rem;
+    text-align: left;
+
 
 }
-.migration-message .card-body {
-    background-color: #FFCC00 !important;
-    box-shadow: 0 0 0 0 transparent !important;
-    border-left: 1px dotted #fff;
-}
-.migration-message .card a {
-    padding: 0.5rem 0.75rem;
-    color: #333 !important;
-    background: #fff;
-    text-decoration: none;
-    margin-bottom: 0.75rem;
-}
-.migration-message .card a:hover {
-    color: #fff !important;
-    background: #333;
-}
-
 #migration-message > div {
     box-shadow: 0px 0px 11px -1px #c9c5c5;
     padding: 1.5rem;
@@ -658,11 +681,6 @@ html {
     line-height: 1.2rem;
     display: inline-block;
 }
-#page .download-panel {
-    background: #FFCC00 url('../../../assets/brand/static/download.svg') no-repeat 15px 12px !important;
-    background-size: 30px !important;
-}
-
 .feedback-mechanism {
     margin-top: 4rem;
     padding: 2rem;
@@ -734,3 +752,59 @@ html {
  }
 }
 
+tr {
+    border-style: none !important;
+    border-width: 0 !important;
+}
+.table > :not(caption) > * > * {
+    border-bottom-width: 0;
+}
+.download {
+    background: transparent url('../../brand/static/download.svg') no-repeat left !important;
+    background-size: 20px !important;
+    padding-left: 2rem !important;
+}
+.back-search {
+    background: transparent url('../../brand/static/list-ul.svg') no-repeat left !important;
+    background-size: 20px !important;
+    padding-left: 2rem !important;
+}
+
+.topics {
+    padding: 0;
+    margin: 0 0 0;
+    text-align: center;
+    display: inline-block;
+}
+
+.topics li {
+    display: inline-block;
+    margin: 0 1.5rem 0 0;
+    padding: 0;
+}
+.topics-container {
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    margin-bottom: 3px;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: bold;
+}
+.topics-container {
+    background: #222;
+    margin-bottom: 5rem;
+}
+.topics-container li {
+    color: #fff;
+    padding: 0;
+}
+
+.topics-container h3 {
+    display: inline-block;
+    margin-right: 2rem !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+}
+.topics-container h3 {
+    margin: 0;
+}
