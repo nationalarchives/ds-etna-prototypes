@@ -207,7 +207,9 @@ table {
     text-align: right;
 }
 
-
+#record-description {
+    margin-top: 5rem;
+}
 /* Page card */
 #page .card {
     min-height: 100%;
@@ -239,7 +241,6 @@ table {
 #page .card-body {
     background-color: #fff;
     margin-left: 3.5rem;
-    box-shadow: 0px 0px 11px -1px #C9C5C5;
 }
 #page .card-body h5 {
     margin-top: 0;
@@ -248,7 +249,7 @@ table {
     background: #FFCC00 url(../../brand/static/folder.svg) no-repeat 15px 12px !important;
     background-size: 30px !important;
     border-radius: 0;
-    border: 0;
+    border: 2px solid #FFCC00;
 }
 #page .on {
     border: 2px solid #111;
@@ -364,15 +365,16 @@ h1 {
 }
 .form-group label {
     font-family: supria-sans-condensed, sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
 }
 .series-form {
-    background-color: #FFCC00;
-    padding: 3rem 2rem 0 2rem;
+    padding: 1rem 0;
 }
 .form-group .btn-primary {
-    background-color: #222;
+    background-color: #134571;
     font-size: 1.2rem;
+    border: 0;
+    font-family: supria-sans-condensed, sans-serif;
 }
 .icon-descriptor span {
     background: #FFCC00;
@@ -460,7 +462,6 @@ h1 {
 }
 .level-current {
     background: #FFCC00;
-    border: 1px solid #333;
     border-left: 0;
 }
 .level-1 img, .level-2 img, .level-3 img, .level-4 img, .level-5 img, .level-6 img, .level-7 img {
@@ -636,38 +637,28 @@ html {
 }
 
 .migration-message {
-    margin-bottom: 5rem;
     text-align: left;
-
-
+    background: #efefef;
+    padding: 2rem 0;
 }
-#migration-message > div {
-    box-shadow: 0px 0px 11px -1px #c9c5c5;
-    padding: 1.5rem;
-}
-#migration-message h2 {
+
+.migration-message h2 {
     font-size: 1.3rem;
     margin-bottom: 1.5rem;
 }
-#migration-message p {
+.migration-message p {
     display: block;
     line-height: 1.6rem;
 }
 
-#migration-message ul {
-    list-style-type: none;
-    padding: 0;
-}
-#migration-message li {
-    display: inline-block;
-}
-#migration-message a.primary {
-    background: #FFCC00;
+
+.migration-message a.primary {
+    background: #134571;
     display: inline-block;
     font-size: 1.15rem;
-    color: #333;
+    color: #fff;
     padding: 0.5rem 0.75rem;
-    margin-right: 1rem;
+    margin: 1rem 1rem 1rem 0;
     text-decoration: none;
     font-family: supria-sans-condensed, sans-serif;
 }
@@ -721,7 +712,7 @@ html {
      font-weight: 700;
      border: 0;
      color: #fff;
-     padding: 1em 1.3em;
+     padding: 0.5em 1em;
      margin-top: 1em;
 
 }
@@ -769,12 +760,16 @@ tr {
     background-size: 20px !important;
     padding-left: 2rem !important;
 }
-
+.search-series {
+    background: transparent url('../../brand/static/search-black.svg') no-repeat left !important;
+    background-size: 20px !important;
+    padding-left: 2rem !important;
+}
 .topics {
     padding: 0;
-    margin: 0 0 0;
-    text-align: center;
+    margin: 1rem 0 0;
     display: inline-block;
+
 }
 
 .topics li {
@@ -783,19 +778,17 @@ tr {
     padding: 0;
 }
 .topics-container {
-    color: #fff;
-    padding: 0.5rem 1.5rem;
-    margin-bottom: 3px;
+    color: #555;
+    margin-top: 0;
     font-size: 0.9rem;
-    text-align: center;
-    font-weight: bold;
+    text-align: left;
+    border-top: 2px dotted #111;
 }
 .topics-container {
-    background: #222;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 .topics-container li {
-    color: #fff;
+    color: #555;
     padding: 0;
 }
 
@@ -804,7 +797,81 @@ tr {
     margin-right: 2rem !important;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.9rem;
+    font-weight: bold;
 }
 .topics-container h3 {
     margin: 0;
 }
+.glossary-link {
+    text-decoration: none;
+    border-bottom: 2px dotted #FFCC00;
+    color: #111 !important;
+    font-weight: normal;
+}
+
+.glossary {
+    position: fixed;
+    top: 30%;
+    right: 0;
+    display: block;
+    z-index: 3;
+    background: #1A67A2;
+    width: 20rem;
+    padding: 0.25rem 1.5rem;
+    color: #fff;
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+}
+.glossary a {
+    margin-bottom: 1.5rem;
+    display: block;
+    color: #fff;
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }

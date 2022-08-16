@@ -50,12 +50,22 @@
 </header>
 
 <main class="position-relative">
-
+<div class="glossary" id="glossary" style="display: none;">
+  <h2>An item (or item-level)</h2>
+  <p>In a description of an archival collection, this is usually the smallest unit of a description, giving information about a single document, such as a letter, photograph, or report.</p>
+  <a href="#" onclick="closeGlossary()">Close this definition</a>
+</div>
+  <script>
+    function closeGlossary() {
+      var x = document.getElementById("glossary");
+      x.style.display = "none";
+    }
+  </script>
   <section class="container-fluid" id="navigation">
     <div class="back-to-search">
         <div class="center">
           <a class="back-search" href="">Back to search results</a>
-          <a class="download" href="">Order/download this record</a>
+          <a class="download" onclick="accessToggle()" href="#">Order/download this record</a>
 
         </div>
     </div>
@@ -69,28 +79,52 @@
     </div>
 
   </section>
+  <script>
+    function accessToggle() {
+      var x = document.getElementById("access-togglee");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
 
-
-  <section class="migration-message container-fluid">
-
+  <section class="migration-message" id="access-togglee" style="display:none;">
+    <div class="container">
+      <h2>Looking to view, download or order a copy of this record?</h2>
+  <p>Access options are not available in this service. To find out whether you can view, order or download this record you will need to view the availability of this record on it's description page in Discovery - our catalogue.</p>
+      <a href="#" class="primary">View this record in Discovery</a>
+    </div>
   </section>
 
 
+  <script>
+    function glossaryToggle() {
+      var x = document.getElementById("glossary");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
   <section class="container" id="page">
     <div class="row pb-lg-3" id="record-description">
-          <h3>You are viewing a catalogue description</h3>
+          <h3>You are viewing the catalogue description of the following <a class="glossary-link" onclick="glossaryToggle()" href="#">item</a>:</h3>
           <h1 class="fw-light">The pressures produced by explosions underwater of 1-oz. solid cone charges of P.E. By...</h1>
       </div>
           <div class="hierarchy_short">
             <div class="inner-background">
-            <h4>This record is in:</h4><a class="toggle" onclick="myFunction()" href="#hierarchy"><img src="../assets/brand/static/chevron-down-black.svg" style="margin-right: 0.5rem;">Show full hierarchy</a>
-            <ul>
-              <li><span class="type"><a href="">Department</a></span>- &nbsp;DSIR</li>
-              <li><span class="type"><a href="">Series</a></span>-  &nbsp; DSIR 27</li>
-              <li><span class="type this">This item</span>-  &nbsp; DSIR 27/6/ADM171</li>
+            <h4>This record is in:</h4><a class="toggle" onclick="hierarchyToggle()" href="#hierarchy"><img src="../assets/brand/static/chevron-down-black.svg" style="margin-right: 0.5rem;">Show full hierarchy</a>
+              <p style="display:inline-block;margin:0 0 0 1.3rem;">...</p>
+              <ul style="display:inline-block;">
+              <li><span class="type"><a href="">Department</a></span>(DSIR)</li>
+              <li><span class="type"><a href="series.html">Series</a></span>(DSIR 27)</li>
+              <li><span class="type this">This item</span>(DSIR 27/6/ADM171)</li>
             </ul>
             <script>
-                  function myFunction() {
+                  function hierarchyToggle() {
                   var x = document.getElementById("hierarchy-togglee");
                   if (x.style.display === "none") {
                   x.style.display = "block";
@@ -129,7 +163,7 @@
                 <div class="level-container">
                   <div class="level-4"><span class="number">500</span><span class="label">records</span><span class="arrow-return-left"></span></div>
                   <div class="level-text">
-                    <h3>Within the series: <a href="">DSIR 27</a></h3>
+                    <h3>Within the series: <a href="series.html">DSIR 27</a></h3>
                     <p>Department of Scientific and Industrial Research: Road Research Laboratory Reports</p>
                     <span class="arrow-return-left"></span>
                   </div>
@@ -230,10 +264,10 @@
 
             <h3>This record is about: </h3>
             <ul class="topics">
-              <li>&#8729; Armed forces (General administration)</li>
-              <li>&#8729; Navy</li>
-              <li>&#8729; Research</li>
-              <li>&#8729; Road transport</li>
+              <li><a href="">Armed forces (General administration)</a></li>
+              <li><a href="">Navy</a></li>
+              <li><a href="">Research</a></li>
+              <li><a href="">Road transport</a></li>
             </ul>
           </div>
       </div>
@@ -243,8 +277,8 @@
 
 
  <section class="container pb-5" id="page">
-   <h3>This record is within the series</h3>
-   <div class="card shadow-sm series-panel">
+   <h2 class="mb-4">This record is within the series</h2>
+   <div class="card series-panel">
      <div class="card-body">
        <h5 class="card-title"><small style="font-size: 1rem; font-weight: normal; margin-bottom: 0.5rem; display: inline-block;">DSIR 27</small><br>Department of Scientific and Industrial Research: Road Research Laboratory Reports</h5>
        <p class="card-text">See the series level description for more information about this record.</p>
@@ -298,7 +332,7 @@
     <div class="container py-3">
       <div class="row justify-content-md-center text-center">
         <div class="col-sm-12 col-lg-2">
-          <img src="/static/images/fontawesome-svgs/envelope.svg" class="cta-banner-newsletter__icon" alt="" width="60" height="60">
+          <img src="../assets/brand/static/envelope.svg" class="cta-banner-newsletter__icon" alt="" width="60" height="60">
         </div>
         <div class="col-sm-12 col-lg-6">
           <h3 class="cta-banner-newsletter__heading">Sign me up to The National Archives' mailing list</h3>
@@ -368,37 +402,37 @@
         <h3 class="sr-only">Follow us on social media</h3>
         <div class="col-4 col-sm-4 col-md-2">
           <a href="https://twitter.com/UKNatArchives" class="d-inline-block" target="_blank" rel="noopener noreferrer">
-            <img src="/static/images/fontawesome-svgs/twitter.svg" class="tna-footer__social-media-icon" alt="" width="35" height="35"><br>
+            <img src="../assets/brand/fontawesome-svgs/twitter.svg" class="tna-footer__social-media-icon" alt="" width="35" height="35"><br>
             <span>Twitter</span>
           </a>
         </div>
         <div class="col-4 col-sm-4 col-md-2">
           <a href="https://www.youtube.com/c/TheNationalArchivesUK" class="d-inline-block" target="_blank" rel="noopener noreferrer" data-link="YouTube">
-            <img src="/static/images/fontawesome-svgs/youtube.svg" class="tna-footer__social-media-icon" alt="" width="40" height="35"><br>
+            <img src="../assets/brand/fontawesome-svgs/youtube.svg" class="tna-footer__social-media-icon" alt="" width="40" height="35"><br>
             <span>YouTube</span>
           </a>
         </div>
         <div class="col-4 col-sm-4 col-md-2">
           <a href="https://www.flickr.com/photos/nationalarchives" class="d-inline-block" target="_blank" rel="noopener noreferrer" data-link="Flickr">
-            <img src="/static/images/fontawesome-svgs/flickr.svg" class="tna-footer__social-media-icon" alt="" width="31" height="35"><br>
+            <img src="../assets/brand/fontawesome-svgs/flickr.svg" class="tna-footer__social-media-icon" alt="" width="31" height="35"><br>
             <span>Flickr</span>
           </a>
         </div>
         <div class="col-4 col-sm-4 col-md-2">
           <a href="https://www.facebook.com/TheNationalArchives" class="d-inline-block" target="_blank" rel="noopener noreferrer" data-link="Facebook">
-            <img src="/static/images/fontawesome-svgs/facebook.svg" class="tna-footer__social-media-icon" alt="" width="35" height="35"><br>
+            <img src="../assets/brand/fontawesome-svgs/facebook.svg" class="tna-footer__social-media-icon" alt="" width="35" height="35"><br>
             <span>Facebook</span>
           </a>
         </div>
         <div class="col-4 col-sm-4 col-md-2">
           <a href="https://www.instagram.com/nationalarchivesuk/" class="d-inline-block" target="_blank" rel="noopener noreferrer" data-link="Instagram">
-            <img src="/static/images/fontawesome-svgs/instagram.svg" class="tna-footer__social-media-icon" alt="" width="31" height="35"><br>
+            <img src="../assets/brand/fontawesome-svgs/instagram.svg" class="tna-footer__social-media-icon" alt="" width="31" height="35"><br>
             <span>Instagram</span>
           </a>
         </div>
         <div class="col-4 col-sm-4 col-md-2">
           <a href="https://www.nationalarchives.gov.uk/rss/" class="d-inline-block" data-link="RSS">
-            <img src="/static/images/fontawesome-svgs/rss.svg" class="tna-footer__social-media-icon" alt="" width="31" height="35"><br>
+            <img src="../assets/brand/fontawesome-svgs/rss.svg" class="tna-footer__social-media-icon" alt="" width="31" height="35"><br>
             <span>RSS</span>
           </a>
         </div>
@@ -409,7 +443,7 @@
     <div class="container pb-3">
       <div class="row justify-content-md-center">
         <div class="col-md-2 text-center">
-          <img src="/static/images/logo-ogl.png" alt="Open Government License logo" id="ogl-logo" class="img-fluid">
+          <img src="../assets/brand/logo-ogl.png" alt="Open Government License logo" id="ogl-logo" class="img-fluid">
         </div>
         <div class="col-md-8 text-center align-self-center">
           <p class="mb-0">
@@ -420,14 +454,15 @@
         </div>
         <div class="col-md-2 text-center">
           <a href="http://gov.uk/" target="_blank" rel="noopener noreferrer" data-link="GOV.UK logo - link opens in a new window">
-            <img alt="GOV.UK logo" src="/static/images/logo-gov-uk.png" class="img-fluid">
+            <img alt="GOV.UK logo" src="../assets/brand/logo-gov-uk.png" class="img-fluid">
             <span class="sr-only">GOV.UK</span>
           </a>
         </div>
       </div>
     </div>
   </div>
-</footer>>
+</footer>
+
 
 
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
