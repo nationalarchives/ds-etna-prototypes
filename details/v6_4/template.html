@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Details prototype</title>
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Extensions for details pages -->
+    <link href="assets/dist/css/search.css" rel="stylesheet">
+    <link href="assets/dist/css/extensions.css" rel="stylesheet">
+
+
+    <!-- Extensions for fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/hkj3kuz.css">
+
+  </head>
+  <body>
+
+<header class="header">
+  <div class="header__logo-holder">
+    <a href="https://ds-etna-search.herokuapp.com/" class="header__logo-link"><img src="assets/brand/tna-square-white-logo.svg" class="header__logo-image" alt="The National Archives logo"></a>
+  </div>
+  <nav class="header__nav">
+    <ul class="header__nav-list">
+      <li class="header__nav-list-item">
+        <a class="header__nav-list-item-link" href="https://ds-etna-search.herokuapp.com/explore">Explore</a>
+      </li>
+      <li class="header__nav-list-item">
+        <a class="header__nav-list-item-link" href="https://ds-etna-search.herokuapp.com/search/catalogue/?collection=HO#">What's on</a>
+      </li>
+      <li class="header__nav-list-item">
+        <a class="header__nav-list-item-link" href="https://ds-etna-search.herokuapp.com/search/catalogue/?collection=HO#">Visit</a>
+      </li>
+      <li class="header__nav-list-item">
+        <a class="header__nav-list-item-link" href="https://ds-etna-search.herokuapp.com/search/catalogue/?collection=HO#">Learn</a>
+      </li>
+      <li class="header__nav-list-item">
+
+        <a class="header__nav-list-item-link header__nav-list-item-link-search" href="https://ds-etna-search.herokuapp.com/search" aria-current="true">
+          <span class="sr-only">Search</span></a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section class="px-4 py-3 bg-mid-grey" id="hierarchy">
+    <div class="container-fluid my-3">
+      <h2 class="font-weight-light">Where is this record in the catalogue?</h2>
+      <div class="row mx-auto my-auto justify-content-center">
+        <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+          <div class="px-4 carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="col-md-4">
+                <div class="card on">
+                    <div class="card-body">
+                      <p  class="icon-descriptor">You are currently looking at:</p>
+                      <h5 class="card-title">Home, Norfolk and South-Eastern Circuits</h5>
+                      <p class="card-text">Division within ASSI</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <div class="col-md-4">
+                  <div class="chevron-wrapper">
+                  <div class="card folder-divider">
+                    <div class="card-body">
+                      <p class="icon-descriptor">It is in the sub-sub-series:</p>
+                      <h5 class="card-title">Record title</h5>
+                      <p class="card-text">Reference number</p>
+                      <a href="#">View sub-sub-series description</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <div class="col-md-4">
+                  <div class="chevron-wrapper">
+                  <div class="card folder-divider">
+                    <div class="card-body">
+                      <p class="icon-descriptor">Which is in the sub-series:</p>
+                      <h5 class="card-title">Record title</h5>
+                      <p class="card-text">Reference number</p>
+                      <a href="#">View sub-series description</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <div class="col-md-4">
+                  <div class="chevron-wrapper">
+                  <div class="card folder">
+                    <div class="card-body">
+                      <p class="icon-descriptor">Which is in the series:</p>
+                      <h5 class="card-title">Record title</h5>
+                      <p class="card-text">Reference number</p>
+                      <a href="#">View series description</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <div class="col-md-4">
+                  <div class="chevron-wrapper">
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="icon-descriptor">Which is in the sub-division:</p>
+                      <h5 class="card-title">Record title</h5>
+                      <p class="card-text">Reference number</p>
+                      <a href="#">View sub-division description</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="col-md-4">
+                  <div class="chevron-wrapper">
+                  <div class="card shelf">
+                    <div class="card-body">
+                      <p class="icon-descriptor">Which is in the division:</p>
+                      <h5 class="card-title">Record title</h5>
+                      <p class="card-text">Reference number</p>
+                      <a href="#">View division description</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <div class="col-md-4">
+                  <div class="chevron-wrapper">
+                  <div class="card department">
+                    <div class="card-body">
+                      <p class="icon-descriptor">Which is from the department:</p>
+                      <h5 class="card-title">Record title</h5>
+                      <p class="card-text">Reference number</p>
+                      <a href="#">View department description</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <div class="col-md-4">
+                  <div class="chevron-wrapper">
+                  <div class="card building">
+                    <div class="card-body">
+                      <p class="icon-descriptor">Which is held at:</p>
+                      <h5 class="card-title">The National Archives</h5>
+                      <p class="card-text">Located in Kew, Surrey</p>
+                      <a href="#">View archive details</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a class="carousel-control-next w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="display-controls">
+      <p class="search-sort-view__descriptor">Change display</p>
+      <ul class="search-sort-view__list">
+
+
+
+        <li class="search-sort-view__list-item">
+          <a href="/search/catalogue/?grid=n&amp;list=y" class="search-sort-view__icon-list">
+                  <span class="sr-only">Display as a list</span>
+          </a>
+        </li>
+        <li class="search-sort-view__list-item">
+            <span aria-current="true" class="search-sort-view__icon-grid">
+                <span class="sr-only">Displaying as a grid</span>
+            </span>
+
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <section class="py-3 px-5 container-fluid" id="navigation">
+    <div class="back-to-search">
+      <p><span><</span><a href="#">Back to search results</a></p>
+    </div>
+      <div class="next-previous">
+        <ul>
+          <li><span><</span> <a href="#">ASSI 1</a></li>
+          <li>Division within ASSI</li>
+          <li><a href="#">ASSI 3</a> <span>></span></li>
+        </ul>
+      </div>
+
+  </section>
+
+  <section class="container" id="page">
+    <div class="row py-lg-3">
+      <div class="col-md-8">
+        <div class="p-3">
+          <h3>Overview of this record</h3>
+          <h1 class="fw-light mb-4">Home, Norfolk and South-Eastern Circuits</h1>
+          <p class="metadata">Date created:	1554-1971</p>
+          <p class="metadata">Reference: Division within ASSI</p>
+          <h3 class="mt-5">Full description</h3>
+          <table class="table table-striped">
+
+            <tbody>
+            <tr>
+              <th scope="row">Reference:</th>
+              <td>
+                Division within ASSI
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row">Title:</th>
+              <td>
+                Home, Norfolk and South-Eastern Circuits
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row">Description:</th>
+              <td id="annotationcontentdescription">
+                <p class="scopecontent">Records of the Home Circuit, Norfolk Circuit and South-Eastern Circuit of the
+                  Justice of Assize.</p>
+                <p class="scopecontent">They are in <a
+                        href="http://discovery.nationalarchives.gov.uk/SearchUI/details?Uri=C2414" class="external-link"
+                        title="Opens in a new tab" target="_blank">ASSI 16</a>, <a
+                        href="http://discovery.nationalarchives.gov.uk/SearchUI/details?Uri=C2424" class="external-link"
+                        title="Opens in a new tab" target="_blank">ASSI 32</a>-<a
+                        href="http://discovery.nationalarchives.gov.uk/SearchUI/details?Uri=C2432" class="external-link"
+                        title="Opens in a new tab" target="_blank">ASSI 40</a>, <a
+                        href="http://discovery.nationalarchives.gov.uk/SearchUI/details?Uri=C2475" class="external-link"
+                        title="Opens in a new tab" target="_blank">ASSI 90</a>, <a
+                        href="http://discovery.nationalarchives.gov.uk/SearchUI/details?Uri=C2479" class="external-link"
+                        title="Opens in a new tab" target="_blank">ASSI 94</a> and <a
+                        href="http://discovery.nationalarchives.gov.uk/SearchUI/details?Uri=C2480" class="external-link"
+                        title="Opens in a new tab" target="_blank">ASSI 95</a></p>
+              </td>
+            </tr>
+
+
+            <tr>
+              <th scope="row">Date:</th>
+              <td>
+                1554-1971
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Arrangement:</th>
+              <td>
+                <div>
+                  <p class="scopecontent">Surrey was not incorporated in the South-Eastern Circuit until 1893 but its
+                    records for the period when it was not attached were subsequently filed with those of the
+                    circuit.</p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Separated material:</th>
+              <td>
+                <p>A single record for the Home Circuit is in <a href="/details/r/C3604959">PRO 30/26/104</a></p>
+                <p>For a further South-Eastern Circuit record see also <a href="/details/r/C12020">PRO 30/74</a></p>
+              </td>
+            </tr>
+
+
+            <tr>
+              <th scope="row">Legal status:</th>
+              <td>
+                Public Record(s)
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Language:</th>
+              <td>
+                English
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                Creator:
+              </th>
+              <td>
+                <p>Justices of Assize, Home Circuit, 1541-1876</p>
+                <p>Justices of Assize, Norfolk Circuit, 1541-1876</p>
+                <p>Justices of Assize, South-Eastern Circuit, 1876-1971</p>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Physical description:</th>
+              <td>
+                14 series
+              </td>
+            </tr>
+
+
+            <tr>
+              <th scope="row">Administrative / biographical background:</th>
+              <td>
+                <div>
+                  <p class="scopecontent">As a result of the reform of 1876 which rearranged the assize circuits, the
+                    Home Circuit and some of the Norfolk Circuit were combined to create the South Eastern Circuit. It
+                    should be noted that the jurisdiction of the Central Criminal Court, which embraces London and
+                    Middlesex, also extended over parts of the counties of Essex, Kent and Surrey form 1834.</p>
+                  <div>
+                    <p class="scopecontent">The Home Circuit comprised Essex, Surrey, Hertfordshire, Sussex and Kent. On
+                      the abolition of the circuit all the above counties were incorporated in a newly created
+                      South-Eastern Circuit, apart from Surrey, which was unattached, until being similarly transferred
+                      by a further order in Council of 28 July 1893.</p>
+                  </div>
+                  <div>
+                    <p class="scopecontent">Prior to 1876, the Norfolk Circuit comprised Bedfordshire, Norfolk,
+                      Buckinghamshire, Northamptonshire, Cambridgeshire, Rutland, Huntingdonshire, Suffolk and
+                      Leicestershire.</p>
+                  </div>
+                  <div>
+                    <p class="scopecontent">The South-Eastern Circuit comprised Cambridgeshire, Norfolk, Essex, Suffolk
+                      Hertfordshire, Surrey (from 1893), Huntingdonshire, Sussex and Kent.</p>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+
+          <h3>What is this record about?</h3>
+          <ul class="topics">
+            <li>Topic 1</li>
+            <li>Topic 2</li>
+            <li>Topic 3</li>
+            <li>Topic 4</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-3">
+          <h3>This record is within the series</h3>
+          <div class="card shadow-sm series-panel">
+            <div class="card-body">
+              <h5 class="card-title"><small style="font-size: 1rem; font-weight: normal; margin-bottom: 0.5rem; display: inline-block;">ASSI</small><br>Records of Justices of Assize, Gaol Delivery, Oyer and Terminer, and Nisi Prius</h5>
+              <p class="card-text">See the series level description for more information about this record.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="">View series description</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+  </div>
+</footer>
+
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/dist/js/extensions.js"></script>
+
+      
+  </body>
+</html>

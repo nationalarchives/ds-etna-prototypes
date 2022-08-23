@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Details prototype</title>
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Extensions for details pages -->
+    <link href="../assets/dist/css/search.css" rel="stylesheet">
+    <link href="../assets/dist/css/extensions.css" rel="stylesheet">
+
+
+    <!-- Extensions for fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/hkj3kuz.css">
+
+  </head>
+  <body>
+
+<header class="header">
+  <div class="header__logo-holder">
+    <a href="https://ds-etna-search.herokuapp.com/" class="header__logo-link"><img src="../assets/brand/tna-square-white-logo.svg" class="header__logo-image" alt="The National Archives logo"></a>
+  </div>
+  <nav class="header__nav">
+    <ul class="header__nav-list">
+      <li class="header__nav-list-item">
+        <a class="header__nav-list-item-link" href="https://ds-etna-search.herokuapp.com/explore">Explore</a>
+      </li>
+      <li class="header__nav-list-item">
+        <a class="header__nav-list-item-link" href="https://ds-etna-search.herokuapp.com/search/catalogue/?collection=HO#">What's on</a>
+      </li>
+      <li class="header__nav-list-item">
+        <a class="header__nav-list-item-link" href="https://ds-etna-search.herokuapp.com/search/catalogue/?collection=HO#">Visit</a>
+      </li>
+      <li class="header__nav-list-item">
+        <a class="header__nav-list-item-link" href="https://ds-etna-search.herokuapp.com/search/catalogue/?collection=HO#">Learn</a>
+      </li>
+      <li class="header__nav-list-item">
+
+        <a class="header__nav-list-item-link header__nav-list-item-link-search" href="https://ds-etna-search.herokuapp.com/search" aria-current="true">
+          <span class="sr-only">Search</span></a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section class="px-4 py-3 bg-mid-grey" id="hierarchy">
+    <div class="container-fluid my-3">
+      <h2 class="font-weight-light">Where is this record in the catalogue?</h2>
+      <div class="row mx-auto my-auto justify-content-left">
+                <div class="col-md-4">
+                  <div class="card on division">
+                    <div class="card-body">
+                      <p class="icon-descriptor">You are looking at a division: <span>Level 3</span></p>
+                      <h5 class="card-title">Records of the Road Research Laboratory and Successor</h5>
+                      <p class="card-text">Division within DSIR</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="chevron-wrapper">
+                    <div class="card department">
+                      <div class="card-body">
+                        <p class="icon-descriptor">It is from the department: <span>Level 2</span></p>
+                        <h5 class="card-title"><a href="department.html">Records created or inherited by the Department of Scientific and Industrial Research, and related bodies</a></h5>
+                        <p class="card-text">DSIR</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="chevron-wrapper">
+                    <div class="card building">
+                      <div class="card-body">
+                        <p class="icon-descriptor">Which is held at: <span>Level 1</span></p>
+                        <h5 class="card-title"><a href="archive.html">The National Archives</a></h5>
+                        <p class="card-text">Located in Kew, Surrey</p>
+                      </div>
+                  </div>
+                </div>
+
+      </div>
+    </div>
+    <div class="display-controls mt-3">
+      <p class="search-sort-view__descriptor">Change display</p>
+      <ul class="search-sort-view__list">
+
+
+
+        <li class="search-sort-view__list-item">
+          <a href="/search/catalogue/?grid=n&amp;list=y" class="search-sort-view__icon-list">
+                  <span class="sr-only">Display as a list</span>
+          </a>
+        </li>
+        <li class="search-sort-view__list-item">
+            <span aria-current="true" class="search-sort-view__icon-grid">
+                <span class="sr-only">Displaying as a grid</span>
+            </span>
+
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <section class="py-3 px-5 container-fluid" id="navigation">
+    <div class="back-to-search">
+      <p><span><</span><a href="#">Back to search results</a></p>
+    </div>
+      <div class="next-previous">
+        <ul>
+          <li><span><</span> <a href="#">Division within DSIR</a></li>
+          <li>Division within DSIR</li>
+          <li><a href="#">Division within DSIR</a> <span>></span></li>
+        </ul>
+      </div>
+
+  </section>
+
+  <section class="container" id="page">
+    <div class="row py-lg-3">
+      <div class="col-md-11">
+        <div class="p-3">
+          <h3>Overview of this division</h3>
+          <h1 class="fw-light mb-4">Records of the Road Research Laboratory and Successor</h1>
+          <p class="metadata">Date created:	1931-1982</p>
+          <p class="metadata mb-4">Reference: Division within DSIR</p>
+          <p class="metadata paragraph">Records of the Road Research Laboratory and successor relating to research into materials and methods used in road construction.
+            Laboratory reports are in <a href="series.html">DSIR 27</a>, laboratory file in <a href="#">DSIR 28</a> and records of the Road Research Board in <a href="#">DSIR 12</a></p>
+          <h3 class="mt-5">Full description</h3>
+          <table class="table table-striped">
+              <tbody>
+              <tr>
+                <th scope="row">Reference:</th>
+                <td>
+                  Division within DSIR
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Title:</th>
+                <td>
+                  Records of the Road Research Laboratory and Successor
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Description:</th>
+                <td id="annotationcontentdescription">
+                  <p class="scopecontent">Records of the Road Research Laboratory and successor relating to research into materials and methods used in road construction.</p>
+                  <p class="scopecontent">Laboratory reports are in <a href="http://discovery.nationalarchives.gov.uk/SearchUI/details?Uri=C6359" class="external-link" title="Opens in a new tab" target="_blank">DSIR 27</a>, laboratory file in <a href="http://discovery.nationalarchives.gov.uk/SearchUI/details?Uri=C6360" class="external-link" title="Opens in a new tab" target="_blank">DSIR 28</a> and records of the Road Research Board in <a href="http://discovery.nationalarchives.gov.uk/SearchUI/details?Uri=C6344" class="external-link" title="Opens in a new tab" target="_blank">DSIR 12</a></p>
+                </td>
+              </tr>
+
+
+              <tr>
+                <th scope="row">Date:</th>
+                <td>
+                  1931-1982
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Separated material:</th>
+                <td>
+                  <p>See also various research institutes, <a href="/details/r/C1072">Division within AY</a></p>
+                </td>
+              </tr>
+
+
+              <tr>
+                <th scope="row">Legal status: </th>
+                <td>
+                  Public Record(s)
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Language: </th>
+                <td>
+                  English
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  Creator:
+                </th>
+                <td>
+                  <p>Road Research Laboratory, 1933-1972</p><p>Transport and Road Research Laboratory, 1972-1993</p>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Physical description: </th>
+                <td>
+                  3 series
+                </td>
+              </tr>
+
+
+
+
+              <tr>
+                <th scope="row">Administrative / biographical background:</th>
+                <td>
+                  <div>
+                    <p class="scopecontent">In May 1933 the Department of Scientific and Industrial Research assumed responsibility from the Roads Department of the Ministry of Transport for the direction and supervision of road research. Previously the department's establishments had carried out a certain amount of laboratory work in connection with road research, which at this date was mostly concerned with materials and methods of construction, for the ministry. It also took over from the ministry the Road Experimental Station which had been established at Harmondsworth in 1930, which was renamed the Road Research Laboratory. A Road Research Board was appointed for the purpose of advising generally on the conduct of road research by the department, in particular to prepare and submit an initial programme of research and thereafter annually a programme of work.</p>
+                    <p class="scopecontent">In 1939 work on kerbstones and flagstones and testing of road stones was taken over by the Road Research Laboratory from the National Physical Laboratory, and in 1943 work on road tar was taken over from the Chemical Research Laboratory.</p>
+                    <p class="scopecontent">During World War II, most of the Laboratory's resources were diverted initially to the engineering problems of civil defence and later to work for the Admiralty, Ministry of Aircraft Production, Ministry of Supply, Air Ministry and other government departments.</p>
+                    <p class="scopecontent">In 1945 the Laboratory was divided into a Materials and Construction Division at Harmondsworth and a Traffic and Safety Division to Langley. A third branch developed to deal with road and road transport problems in overseas territories, originating in the appointment of a colonial liaison officer in 1950. This post was later abolished following the establishment of a Colonial Road Research Section in 1955; this was subsequently renamed the Tropical Section, and its work was guided by a committee of the Colonial Research Council called the Committee on Colonial Road Research established in 1955 and renamed the Committee on Overseas Road Research in 1960. A Scottish Branch of the Laboratory was set up at Thorntonhall in 1949.</p>
+                    <p class="scopecontent">In 1965 responsibility for road research was returned to the Ministry of Transport; the laboratory was brought under the ministry's control, and the board and its committees were dissolved and replaced by an advisory Road Research Council. In 1966 the laboratory moved to Crowthorne, and in 1970 it was transferred to the Department of the Environment. The scope of the laboratory's work was broadened to cover transport systems and transport generally, and it was renamed the Transport and Road Research Laboratory in 1972. When a separate Department of Transport was again created in 1976, the laboratory became a common service of the two departments until 1984 when it became solely part of the Department of Transport. In April 1992 the laboratory became an executive agency of the Department of Transport and was renamed the Transport Research Laboratory a year later.</p>
+                  </div>
+                </td>
+              </tr>
+              </tbody>
+          </table>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+  </div>
+</footer>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="../assets/dist/js/extensions.js"></script>
+
+      
+  </body>
+</html>
