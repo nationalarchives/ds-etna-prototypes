@@ -208,7 +208,7 @@ table {
 }
 
 #record-description {
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 /* Page card */
 #page .card {
@@ -249,7 +249,7 @@ table {
     background: #FFCC00 url(../../brand/static/folder.svg) no-repeat 15px 12px !important;
     background-size: 30px !important;
     border-radius: 0;
-    border: 2px solid #FFCC00;
+    border: 3px solid #FFCC00;
 }
 #page .on {
     border: 2px solid #111;
@@ -280,6 +280,7 @@ table {
 
 #navigation .back-to-search {
     vertical-align: middle;
+    margin: 0 auto;
 
 }
 #navigation .back-to-search a {
@@ -333,8 +334,40 @@ table {
 #navigation li:first-child::before {
     content: "";
 }
-#navigation .next-previous {
+.next-previous {
     vertical-align: middle;
+    margin-top: 1.5rem;
+    border-top: 1px solid #FFCC00;
+    font-size: 0.9rem;
+}
+.next-previous ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.full-hierarchy .next-previous li:first-child {
+    margin: 0 2rem;
+    padding-right: 2rem;
+    border-right: 1px dotted #FFCC00;
+}
+.full-hierarchy .next-previous li {
+    background: none;
+    padding: 0;
+}
+.next-previous li:first-child {
+    text-align: right;
+}
+.full-hierarchy .next-previous li:last-child {
+    margin: 0 2rem;
+    padding-left: 2rem;
+    border-left: 1px dotted #FFCC00;
+}
+.next-previous li:last-child {
+    text-align: left;
+}
+.next-previous li {
+     text-align: center;
+     margin: 0 2rem;
 }
 .next-previous span, .next-previous a {
     font-family: 'supria-sans-condensed', sans-serif;
@@ -500,7 +533,7 @@ h1 {
 /* Condensed hierarchy */
 .hierarchy_short {
     position: relative;
-    border: 2px solid #FFCC00;
+    border: 3px solid #FFCC00;
     margin-bottom: 0.5rem;
     background: #FFCC00 url('../../brand/static/diagram-3.svg') no-repeat 11px 12px;
     background-size: 35px;
@@ -653,11 +686,10 @@ html {
 
 
 .migration-message a.primary {
-    background: #1A67A2;
+    border-bottom: 5px solid #FFCC00;
     display: inline-block;
     font-size: 1.15rem;
-    color: #fff;
-    padding: 0.5rem 0.75rem;
+    padding: 0.25rem 0;
     margin: 1rem 1rem 1rem 0;
     text-decoration: none;
     font-family: supria-sans-condensed, sans-serif;
@@ -752,14 +784,16 @@ tr {
     border-bottom-width: 0;
 }
 .download {
-    background: #faf6e0 url('../../brand/static/download.svg') no-repeat 15px !important;
+    background: #1A67A2 url('../../brand/static/download.svg') no-repeat 15px !important;
     background-size: 20px !important;
     padding: 0.5rem 1rem 0.5rem 2.75rem !important;
     margin-left: 1rem;
-    border: 2px solid #FFCC00;
-    border-left: 2px solid #FFCC00;
     /*box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, .1);*/
-
+}
+.download {
+    color: #fff !important;
+    text-decoration: none;
+    font-weight: normal;
 }
 .back-search {
     background: transparent url('../../brand/static/list-ul.svg') no-repeat left !important;
@@ -810,7 +844,7 @@ tr {
 }
 .glossary-link {
     text-decoration: none;
-    border-bottom: 2px dotted #FFCC00;
+    border-bottom: 4px dotted #FFCC00;
     color: #111 !important;
     font-weight: normal;
 }
