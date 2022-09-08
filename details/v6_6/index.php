@@ -18,7 +18,7 @@
                 <ul>
                     <li><a href="/details/v6_6/tna-record/item.html">Item</a></li>
                     <li><a href="/details/v6_6/tna-record/C198022.html">C198022</a> -
-                        <i>For user testing of closer look concept (29th June 2022)</i></li>
+                        <i>For user testing (w/c 12th September 2022)</i></li>
 
                     <!--
                     <li><a href="/details/v6_1/tna-record/piece.html">Piece</a></li>
