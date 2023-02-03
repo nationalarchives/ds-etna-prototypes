@@ -443,7 +443,7 @@ h1 {
     border: 0;
 }
 
-.level-1, .level-2, .level-3, .level-4, .level-5, .level-6, .level-7 {
+.level-1, .level-2, .level-3, .level-4, .level-5, .level-6, .level-7, .level-8 {
     background-color: #e4dec6;
     text-align: left;
     padding: 0.5rem 1rem;
@@ -506,11 +506,14 @@ h1 {
 .level-7 {
     width: 10%;
 }
+.level-8 {
+    width: 8%;
+}
 .level-current {
     background: #FFCC00;
     border-left: 0;
 }
-.level-1 img, .level-2 img, .level-3 img, .level-4 img, .level-5 img, .level-6 img, .level-7 img {
+.level-1 img, .level-2 img, .level-3 img, .level-4 img, .level-5 img, .level-6 img, .level-7 img, .level-8 img {
     float: right;
     display: inline-block;
     margin-right: -5px;
@@ -1283,4 +1286,35 @@ tr ul {
     .js-enabled .govuk-tabs__panel--hidden {
         display:none
     }
+}
+
+.image-viewer-panel {
+    margin-top: 1rem;
+    text-align: center;
+    width: 100%;
+    background-color: #26262a;
+    padding: 2rem 0 0.75rem;
+    border: 3px solid #000;
+}
+
+.image-viewer-panel figure {
+    margin: 0;
+}
+.image-viewer-panel figure img {
+    height: 25rem;
+    display: block;
+    margin: 0 auto;
+}
+.image-viewer-panel__text-link {
+    padding: 1rem 1rem 1rem 2.5rem;
+    display: inline-block;
+    color: #ffffff;
+    background: url("../../brand/fontawesome-svgs/search-plus-white.svg") no-repeat center left;
+    background-size: 1.25rem;
+    text-align: center;
+    vertical-align: top;
+    font-size: 1rem;
+}
+.image-viewer-panel__text-link:visited {
+    color: #ffffff;
 }
