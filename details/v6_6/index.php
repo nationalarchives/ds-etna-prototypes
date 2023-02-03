@@ -75,6 +75,11 @@
         color: #666;
         margin: 0 0 1.5rem;
     }
+    .highlighted {
+        padding: 2rem;
+        background: #faf6e0;
+        border: 3px solid #FFCC00;
+    }
 </style>
 
 <script>
@@ -363,7 +368,24 @@
             <div class="col">
                 <h1>Details page (version 6.6)</h1>
                 <p class="mb-1 helper-text">Date created: 2 September 2022</p>
-                <p class="helper-text">Last updated: 31 January 2023</p>
+                <p class="helper-text">Last updated: 3 February 2023</p>
+
+                <!-- Quick access -->
+                <section class="section-panel highlighted">
+                    <h2>Quick access for user testing (w/c 6th Feb 2023)</h2>
+                    <p>This is a non-digitised record example without an image viewer and is derived from <a href="https://discovery.nationalarchives.gov.uk/details/r/C10399614">the existing record in Discovery</a></p>
+                    <div class="concept-list-item">
+                        <h3><a href="/details/v6_6/tna-record/C10399614/item.html">C10399614 (Item level)</a><span class="label-warning">Untested</span></h3>
+                    </div>
+                    <div class="concept-list-item">
+                        <h3><a href="/details/v6_6/tna-record/C10399614/series.html">C10399614 (Series level)</a> Concept A<span class="label-warning">Untested</span></h3>
+                        <h3><a href="/details/v6_6/tna-record/C10399614/series-b.html">C10399614 (Series level)</a> Concept B<span class="label-warning">Untested</span></h3>
+                    </div>
+                    <div class="concept-list-item">
+                        <h3><a href="/details/v6_6/tna-record/archive.html">C10399614 (Archive level)</a> Concept A<span class="label-warning">Untested</span></h3>
+                        <h3><a href="/details/v6_6/tna-record/archive-b.html">C10399614 (Archive level)</a> Concept B<span class="label-warning">Untested</span></h3>
+                    </div>
+                </section>
 
                 <!-- Original pages section -->
                 <section class="section-panel">
@@ -449,49 +471,49 @@
                     <h2>Non-digitised example pages</h2>
                     <p class="helper-text">Created to test specific examples with selected users from the User Advisory Group (w/c 6th February 2023)</p>
                     <div class="concept-list-item">
-                        <h3><a href="/details/v6_6/tna-record/C10399614/item.html">C198022 (Item level)</a><span class="label-warning">Untested</span></h3>
+                        <h3><a href="/details/v6_6/tna-record/C10399614/item.html">C10399614 (Item level)</a><span class="label-warning">Untested</span></h3>
                         <button onclick="showHideC10399614Item()" id="notes-C10399614-item">Show design notes</button>
                         <div class="concept-list-content hide" id="C10399614-item-concept">
                             <h3>None added</h3>
                         </div>
                     </div>
                     <div class="concept-list-item">
-                        <h3><a href="/details/v6_6/tna-record/C10399614/piece.html">C198022 (Piece level)</a><span class="label-warning">Untested</span></h3>
+                        <h3><a href="/details/v6_6/tna-record/C10399614/piece.html">C10399614 (Piece level)</a><span class="label-warning">Untested</span></h3>
                         <button onclick="showHideC10399614SubSubSeries()" id="notes-C10399614-piece">Show design notes</button>
                         <div class="concept-list-content hide" id="C10399614-piece-concept">
                             <h3>None added</h3>
                         </div>
                     </div>
                     <div class="concept-list-item">
-                        <h3><a href="/details/v6_6/tna-record/C10399614/subseries.html">C198022 (Sub-series level)</a><span class="label-warning">Untested</span></h3>
+                        <h3><a href="/details/v6_6/tna-record/C10399614/subseries.html">C10399614 (Sub-series level)</a><span class="label-warning">Untested</span></h3>
                         <button onclick="showHideC10399614SubSeries()" id="notes-C10399614-subseries">Show design notes</button>
                         <div class="concept-list-content hide" id="C10399614-subseries-concept">
                             <h3>None added</h3>
                         </div>
                     </div>
                     <div class="concept-list-item">
-                        <h3><a href="/details/v6_6/tna-record/C10399614/series.html">C198022 (Series level)</a><span class="label-warning">Untested</span></h3>
+                        <h3><a href="/details/v6_6/tna-record/C10399614/series.html">C10399614 (Series level)</a><span class="label-warning">Untested</span></h3>
                         <button onclick="showHideC10399614Series()" id="notes-C10399614-series">Show design notes</button>
                         <div class="concept-list-content hide" id="C10399614-series-concept">
                             <h3>None added</h3>
                         </div>
                     </div>
                     <div class="concept-list-item">
-                        <h3><a href="/details/v6_6/tna-record/C10399614/division.html">C198022 (Division level)</a><span class="label-warning">Untested</span></h3>
+                        <h3><a href="/details/v6_6/tna-record/C10399614/division.html">C10399614 (Division level)</a><span class="label-warning">Untested</span></h3>
                         <button onclick="showHideC10399614Division()" id="notes-C10399614-division">Show design notes</button>
                         <div class="concept-list-content hide" id="C10399614-division-concept">
                             <h3>None added</h3>
                         </div>
                     </div>
                     <div class="concept-list-item">
-                        <h3><a href="/details/v6_6/tna-record/C10399614/department.html">C198022 (Department level)</a><span class="label-warning">Untested</span></h3>
+                        <h3><a href="/details/v6_6/tna-record/C10399614/department.html">C10399614 (Department level)</a><span class="label-warning">Untested</span></h3>
                         <button onclick="showHideC10399614Department()" id="notes-C10399614-department">Show design notes</button>
                         <div class="concept-list-content hide" id="C10399614-department-concept">
                             <h3>None added</h3>
                         </div>
                     </div>
                     <div class="concept-list-item">
-                        <h3><a href="/details/v6_6/tna-record/C10399614/archive.html">C198022 (Archive level)</a><span class="label-warning">Untested</span></h3>
+                        <h3><a href="/details/v6_6/tna-record/archive.html">C10399614 (Archive level)</a><span class="label-warning">Untested</span></h3>
                         <button onclick="showHideC10399614Archive()" id="notes-C10399614-archive">Show design notes</button>
                         <div class="concept-list-content hide" id="C10399614-archive-concept">
                             <h3>None added</h3>
@@ -553,7 +575,7 @@
                         </div>
                     </div>
                     <div class="concept-list-item">
-                        <h3><a href="/details/v6_6/tna-record/C14017032/archive.html">C14017032 (Archive level)</a><span class="label-warning">Untested</span></h3>
+                        <h3><a href="/details/v6_6/tna-record/archive.html">C14017032 (Archive level)</a><span class="label-warning">Untested</span></h3>
                         <button onclick="showHideC14017032Archive()" id="notes-C14017032-archive">Show design notes</button>
                         <div class="concept-list-content hide" id="C14017032-archive-concept">
                             <h3>None added</h3>
