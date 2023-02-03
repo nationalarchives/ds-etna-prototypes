@@ -67,7 +67,6 @@
       <div class="back-to-search">
         <div class="center">
           <a class="back-search" href="">Back to search results</a>
-          <a class="download" onclick="accessToggle()" href="#">Order/download this record</a>
         </div>
       </div>
 
@@ -84,39 +83,6 @@
         }
       }
     </script>
-
-    <section class="migration-message" id="access-togglee" style="display:none;">
-      <div class="container">
-        <h2>Search for records within this series</h2>
-        <div class="series-form">
-          <!--<h2 class="section-heading">Search within or <a href="/browse/r/r/C6359">browse</a> this series to find specific records of interest.</h2>-->
-          <form action="/advancedsearch/search" method="get">
-            <fieldset>
-
-              <div class="form-group row">
-                <label for="_q" class="col-sm-2 col-form-label">Keyword search</label>
-                <div class="col-sm-5">
-                  <input type="text" class="form-control" id="_q" placeholder="">
-                </div>
-              </div>
-              <div class="form-group row">
-                <label for="_q" class="col-sm-2 col-form-label">Date range</label>
-                <div class="col-sm-5">
-                  <input type="text" class="form-control" id="_q" placeholder="From (yyyy):">
-                </div>
-                <div class="col-sm-5">
-                  <input type="text" class="form-control" id="_q" placeholder="To (yyyy):">
-                </div>
-              </div>
-              <div class="form-group row">
-                <div class="col-sm-5">
-                  <input class="btn btn-primary" type="submit" name="name" value="Search">
-                </div>
-              </div>
-            </fieldset>
-          </form>
-        </div>
-    </section>
   </div>
   <script>
     function glossaryToggle() {
@@ -129,20 +95,19 @@
     }
   </script>
   <section class="container" id="page">
-    <div class="pb-lg-3" id="record-description">
-      <h3>You are viewing the catalogue description of the following <a class="glossary-link" onclick="glossaryToggle()" href="#">piece</a>:</h3>
-      <h1 class="fw-light">Headquarters Branches and Services: General Staff. (Described at item level).</h1>
+    <div class="row pb-lg-3" id="record-description">
+      <h3>You are viewing the catalogue description of the following <a class="glossary-link" onclick="glossaryToggle()" href="#">series</a>:</h3>
+      <h1 class="fw-light">Court of Chancery: Six Clerks Office: Pleadings 1714 to 1758</h1>
     </div>
     <div class="hierarchy_short">
       <div class="inner-background">
         <h4>This record is in:</h4><a class="toggle" onclick="hierarchyToggle()" href="#hierarchy"><img src="../../assets/brand/static/chevron-down-black.svg" style="margin-right: 0.5rem;">Show full hierarchy</a>
-        <p style="display:inline-block;margin:0 0 0 1.3rem;">...</p>
         <ul style="display:inline-block;">
-          <li><span class="type"><a href="department.html">Department</a></span>(WO)</li>
-          <li><span class="type"><a href="series.html">Series</a></span>(WO 95)</li>
-          <li><span class="type this">This piece</span>(WO 95/1510)</li>
+          <li><span class="type"><a href="../archive.html">Archive</a></span>(The National Archives)</li>
+          <li><span class="type"><a href="department.html">Department</a></span>(C)</li>
+          <li><span class="type this">This series</span>(C 11)</li>
         </ul>
-
+        <p style="display:inline-block;margin:0 0 0 0;">...</p>
         <script>
           function hierarchyToggle() {
             var x = document.getElementById("hierarchy-togglee");
@@ -159,7 +124,7 @@
             <div class="level-1"><span class="number">3 million</span><span class="label">records</span><span class="arrow-return-left"></span></div>
 
             <div class="level-text">
-              <h3>This record is held at: <a href="">The National Archives</a></h3>
+              <h3>This record is held at: <a href="../archive.html">The National Archives</a></h3>
               <p>Located at Kew, Surrey</p>
 
             </div>
@@ -167,56 +132,32 @@
           <div class="level-container">
             <div class="level-2"><span class="number">200,000</span><span class="label">records</span><span class="arrow-return-left"></span></div>
             <div class="level-text">
-              <h3>In the department: <a href="">WO</a></h3>
-              <p>Records created or inherited by the War Office, Armed Forces, Judge Advocate General, and related bodies</p>
+              <h3>In the department: <a href="department.html">C</a></h3>
+              <p>Records created, acquired, and inherited by Chancery, and also of the Wardrobe, Royal Household, Exchequer and various commissions</p>
               <span class="arrow-return-left"></span>
             </div>
           </div>
           <div class="level-container">
             <div class="level-3"><span class="number">20,000</span><span class="label">records</span><span class="arrow-return-left"></span></div>
             <div class="level-text">
-              <h3>Within the division: <a href="">Division within WO</a></h3>
-              <p>Records of the Armed Forces from commands, headquarters, regiments and corps</p>
+              <h3>Within the division: <a href="division.html">Division within C</a></h3>
+              <p>Records of Equity Side: the Six Clerks</p>
               <span class="arrow-return-left"></span>
             </div>
           </div>
           <div class="level-container">
-            <div class="level-4"><span class="number">500</span><span class="label">records</span><span class="arrow-return-left"></span></div>
+            <div class="level-4 level-current"><span class="number">500</span><span class="label">records</span><span class="arrow-return-left"></span></div>
             <div class="level-text">
-              <h3>Within the series: <a href="series.html">WO 95</a></h3>
-              <p>War Office: First World War and Army of Occupation War Diaries</p>
-              <span class="arrow-return-left"></span>
-            </div>
-          </div>
-          <div class="level-container">
-            <div class="level-5"><span class="number">20</span><span class="label">records</span><span class="arrow-return-left"></span></div>
-            <div class="level-text">
-              <h3>Within the sub-series: <a href="subseries.html">Subseries within WO 95</a></h3>
-              <p>PART I: FRANCE, BELGIUM AND GERMANY</p>
-              <span class="arrow-return-left"></span>
-            </div>
-          </div>
-          <div class="level-container">
-            <div class="level-6"><span class="number">20</span><span class="label">records</span><span class="arrow-return-left"></span></div>
-            <div class="level-text">
-              <h3>Within the sub-sub-series: <a href="subsubseries.html">Subsubseries within WO 95</a></h3>
-              <p>5 DIVISION</p>
-              <span class="arrow-return-left"></span>
-            </div>
-          </div>
-          <div class="level-container">
-            <div class="level-7 level-current"><span class="number">10</span><span class="label">records</span><span class="arrow-return-left"></span></div>
-            <div class="level-text">
-              <h3>You are currently looking at: <a href="piece">WO 95/1510</a></h3>
-              <p>Headquarters Branches and Services: General Staff. (Described at item level)</p>
+              <h3>Within the series: <a href="series.html">C 11</a></h3>
+              <p>Court of Chancery: Six Clerks Office: Pleadings 1714 to 1758</p>
               <span class="arrow-return-left"></span>
             </div>
           </div>
           <div class="next-previous">
             <ul>
-              <li>Previous in series<br>< &nbsp;<a href="#">WO 95/1509</a></li>
-              <li>You are looking at<br><span>WO 95/1510</span></li>
-              <li>Next in series<br><a href="#">WO 95/1511</a>&nbsp; ></li>
+              <li>Previous in series<br>< &nbsp;<a href="#">C 10</a></li>
+              <li>You are looking at<br><span>C 11</span></li>
+              <li>Next in series<br><a href="#">C 12</a>&nbsp; ></li>
             </ul>
           </div>
         </div>
@@ -233,22 +174,32 @@
           <tr>
             <th scope="row">Reference:</th>
             <td>
-              WO 95/1510<a class="copy"><span class="icon"></span>Copy reference <span class="sr-only">number to clipboard</span></a>
+              C 11<a class="copy"><span class="icon"></span>Copy reference <span class="sr-only">number to clipboard</span></a>
             </td>
           </tr>
 
           <tr>
             <th scope="row">Date:</th>
             <td>
-              1914 Aug 1 - 1914 Dec 31
+              c1700-1758
             </td>
           </tr>
 
           <tr>
             <th scope="row">Description:</th>
             <td id="annotationcontentdescription">
-              <p class="scopecontent">Headquarters Branches and Services: General Staff. (Described at item level)</p>
+              <p class="scopecontent">The records in this series consist of pleadings in equity cases initiated in the court of Chancery, filed in all six divisions of the Six Clerks Office.
+                They often comprise the plaintiff's bill of complaint only, but the defendant's answer and other documents in the process, including the plaintiffs's replication to the answer, are also filed in many cases. Country depositions are included too, and not filed separately as they were before 1714.
+                The bill gives the plaintiff's name, rank in life, occupation and place of residence. This data is now searchable the catalogue.
+                The dates given are date the records were removed to the record room, therefore the date of the item is not later than that date.
+                Matters in dispute include inheritance, lands, trusts, mortgages, debts and marriage settlements.
+                For the related Bill Books arranged alphabetically under the plaintiffs' names see IND 1/14416 - IND 1/14459; Cause Books for the Six Clerks can be found in IND 1/4105 - IND 1/4207 and the Clerks in Court Books in IND 1/7388 - IND 1/7525</p>
             </td>
+          </tr>
+
+          <tr>
+            <th scope="row">Note:</th>
+            <td>Catalogue entries for this series have been enhanced as part of a project supported by Volunteers</td>
           </tr>
 
           <tr>
@@ -266,9 +217,23 @@
           </tr>
 
           <tr>
-            <th scope="row">Closure status:</th>
+            <th scope="row">Language:</th>
             <td>
-              Open Document, Open Description
+              English/Latin
+            </td>
+          </tr>
+
+          <tr>
+            <th scope="row">Physical description:</th>
+            <td>
+              2793 bundles and files
+            </td>
+          </tr>
+
+          <tr>
+            <th scope="row">Access conditions:</th>
+            <td>
+              Open
             </td>
           </tr>
 
@@ -278,15 +243,47 @@
     </div>
   </section>
 
-  <section class="container mt-5 pb-5" id="page">
-    <h2 class="mb-4">This record is within the series</h2>
+  <section class="container pb-5" id="page">
+    <h2>Search for records within this series</h2>
+    <div class="series-form">
+      <!--<h2 class="section-heading">Search within or <a href="/browse/r/r/C6359">browse</a> this series to find specific records of interest.</h2>-->
+      <form action="/advancedsearch/search" method="get">
+        <fieldset>
+
+          <div class="form-group row">
+            <label for="_q" class="col-sm-2 col-form-label">Keyword search</label>
+            <div class="col-sm-5">
+              <input type="text" class="form-control" id="_q" placeholder="">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="_q" class="col-sm-2 col-form-label">Date range</label>
+            <div class="col-sm-5">
+              <input type="text" class="form-control" id="_q" placeholder="From (yyyy):">
+            </div>
+            <div class="col-sm-5">
+              <input type="text" class="form-control" id="_q" placeholder="To (yyyy):">
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-5">
+              <input class="btn btn-primary" type="submit" name="name" value="Search">
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </section>
+
+  <section class="container pb-5" id="page">
+    <h2 class="mb-4">This record is within the department</h2>
     <div class="card series-panel">
       <div class="card-body">
-        <h5 class="card-title"><small style="font-size: 1rem; font-weight: normal; margin-bottom: 0.5rem; display: inline-block;">WO 95</small><br>War Office: First World War and Army of Occupation War Diaries</h5>
-        <p class="card-text">See the series level description for more information about this record.</p>
+        <h5 class="card-title"><small style="font-size: 1rem; font-weight: normal; margin-bottom: 0.5rem; display: inline-block;">C</small><br>Records created, acquired, and inherited by Chancery, and also of the Wardrobe, Royal Household, Exchequer and various commissions</h5>
+        <p class="card-text">See the department level description for more information about this record.</p>
         <div class="d-flex justify-content-between align-items-center">
           <div class="btn-group">
-            <a href="series.html">View series description</a>
+            <a href="department.html">View department description</a>
           </div>
         </div>
       </div>

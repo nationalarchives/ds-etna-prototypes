@@ -444,26 +444,47 @@ h1 {
 }
 
 .level-1, .level-2, .level-3, .level-4, .level-5, .level-6, .level-7, .level-8 {
-    background-color: #e4dec6;
-    text-align: left;
-    padding: 0.5rem 1rem;
-    font-size: 0.75rem;
+    background-color: rgba(255, 204, 0, 0.168627451);
+    padding: 0.75rem 1rem;
     display: inline-block;
-    vertical-align: top;
     min-height: 60px;
-    color: #111;
-    border: 1px solid #d0c9aa;
+    border: 2px solid #FFCC00;
     border-left: 0;
 }
 .level-text {
     display: inline-block;
     vertical-align: top;
-    margin-left: 1rem;
-
+    margin: 0 1rem;
+    line-height: 1.8rem;
+    width: auto;
 }
+@media screen and (min-width: 62rem) {
+    .level-text {
+        width: 80%;
+    }
+}
+@media screen and (min-width: 75rem) {
+    .level-text {
+        width: 72.5%;
+    }
+}
+
 .level-container {
-    min-height: 60px;
+    border-top: 0;
     padding: 0.25rem 0;
+    background: transparent;
+    min-height: 60px;
+}
+.level-container p {
+    display: block;
+    text-align: left;
+    background: transparent;
+    float: none;
+    margin: 0 0 0.5rem;
+    color: #26262a;
+    padding: 0.4rem 0.35rem 0.4rem;
+    margin-top: 0.25rem;
+    line-height: 1.2rem;
 }
 .level-container:last-of-type {
     min-height: 60px;
@@ -472,15 +493,17 @@ h1 {
     padding: 0.5rem 0;
 }
 .level-text h3 {
+    font-family: supria-sans-condensed, sans-serif;
     margin: 0.7rem 0 0;
     padding: 0;
     font-size: 1.15rem;
-    line-height: 1.3rem;
+    display: inline-block;
 }
 .level-text p {
     margin: 0;
     padding: 0;
     font-size: 0.95rem;
+    line-height: 1.2rem;
 }
 .level-text a {
     font-size: 1.15rem;
