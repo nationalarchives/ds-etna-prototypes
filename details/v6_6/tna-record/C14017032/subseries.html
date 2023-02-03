@@ -9,11 +9,11 @@
 
 
   <!-- Bootstrap core CSS -->
-  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Extensions for details pages -->
-  <link href="../assets/dist/css/search.css" rel="stylesheet">
-  <link href="../assets/dist/css/extensions.css" rel="stylesheet">
+  <link href="../../assets/dist/css/search.css" rel="stylesheet">
+  <link href="../../assets/dist/css/extensions.css" rel="stylesheet">
 
 
   <!-- Extensions for fonts -->
@@ -24,7 +24,7 @@
 
 <header class="header">
   <div class="header__logo-holder">
-    <a href="https://ds-etna-search.herokuapp.com/" class="header__logo-link"><img src="../assets/brand/tna-square-white-logo.svg" class="header__logo-image" alt="The National Archives logo"></a>
+    <a href="https://ds-etna-search.herokuapp.com/" class="header__logo-link"><img src="../../assets/brand/tna-square-white-logo.svg" class="header__logo-image" alt="The National Archives logo"></a>
   </div>
   <nav class="header__nav">
     <ul class="header__nav-list">
@@ -67,7 +67,7 @@
       <div class="back-to-search">
         <div class="center">
           <a class="back-search" href="">Back to search results</a>
-          <a class="search-series" onclick="accessToggle()" href="#">Search within this series</a>
+          <a class="search-series" onclick="accessToggle()" href="#">Search this subseries (within WO 95)</a>
         </div>
       </div>
 
@@ -87,7 +87,7 @@
 
     <section class="migration-message" id="access-togglee" style="display:none;">
       <div class="container">
-        <h2>Search for records within this series</h2>
+        <h2>Search for records within this subseries</h2>
         <div class="series-form">
           <!--<h2 class="section-heading">Search within or <a href="/browse/r/r/C6359">browse</a> this series to find specific records of interest.</h2>-->
           <form action="/advancedsearch/search" method="get">
@@ -130,18 +130,19 @@
   </script>
   <section class="container" id="page">
     <div class="row pb-lg-3" id="record-description">
-      <h3>You are viewing the catalogue description of the following <a class="glossary-link" onclick="glossaryToggle()" href="#">series</a>:</h3>
-      <h1 class="fw-light">Department of Scientific and Industrial Research: Road Research Laboratory Reports</h1>
+      <h3>You are viewing the catalogue description of the following <a class="glossary-link" onclick="glossaryToggle()" href="#">subseries</a>:</h3>
+      <h1 class="fw-light">PART I: FRANCE, BELGIUM AND GERMANY</h1>
     </div>
     <div class="hierarchy_short">
       <div class="inner-background">
-        <h4>This record is in:</h4><a class="toggle" onclick="hierarchyToggle()" href="#hierarchy"><img src="../assets/brand/static/chevron-down-black.svg" style="margin-right: 0.5rem;">Show full hierarchy</a>
+        <h4>This record is in:</h4><a class="toggle" onclick="hierarchyToggle()" href="#hierarchy"><img src="../../assets/brand/static/chevron-down-black.svg" style="margin-right: 0.5rem;">Show full hierarchy</a>
+        <p style="display:inline-block;margin:0 0 0 1.3rem;">...</p>
         <ul style="display:inline-block;">
-          <li><span class="type"><a href="">Archive</a></span>(The National Archives)</li>
-          <li><span class="type"><a href="">Department</a></span>(DSIR)</li>
-          <li><span class="type this">This series</span>(DSIR 27)</li>
+          <li><span class="type"><a href="department.html">Department</a></span>(WO)</li>
+          <li><span class="type"><a href="series.html">Series</a></span>(WO 95)</li>
+          <li><span class="type this">This subseries</span>(Subseries within WO 95)</li>
         </ul>
-        <p style="display:inline-block;margin:0 0 0 0;">...</p>
+
         <script>
           function hierarchyToggle() {
             var x = document.getElementById("hierarchy-togglee");
@@ -153,7 +154,7 @@
           }
         </script>
         <div class="full-hierarchy" id="hierarchy-togglee" style="display: none;">
-          <h4 class="font-weight-light">Full hierarchy</h4>
+          <h4 class="font-weight-light">Detailed catalogue location:</h4>
           <div class="level-container">
             <div class="level-1"><span class="number">3 million</span><span class="label">records</span><span class="arrow-return-left"></span></div>
 
@@ -166,29 +167,36 @@
           <div class="level-container">
             <div class="level-2"><span class="number">200,000</span><span class="label">records</span><span class="arrow-return-left"></span></div>
             <div class="level-text">
-              <h3>In the department: <a href="">DSIR</a></h3>
-              <p>Records created or inherited by the Department of Scientific and Industrial Research, and related bodies</p>
+              <h3>In the department: <a href="">WO</a></h3>
+              <p>Records created or inherited by the War Office, Armed Forces, Judge Advocate General, and related bodies</p>
               <span class="arrow-return-left"></span>
             </div>
           </div>
           <div class="level-container">
             <div class="level-3"><span class="number">20,000</span><span class="label">records</span><span class="arrow-return-left"></span></div>
             <div class="level-text">
-              <h3>Within the division: <a href="">Division within DSIR</a></h3>
-              <p>Records of the Road Research Laboratory and Successor</p>
+              <h3>Within the division: <a href="">Division within WO</a></h3>
+              <p>Records of the Armed Forces from commands, headquarters, regiments and corps</p>
               <span class="arrow-return-left"></span>
             </div>
           </div>
           <div class="level-container">
-            <div class="level-4 level-current"><span class="number">500</span><span class="label">records</span><span class="arrow-return-left"></span></div>
+            <div class="level-4"><span class="number">500</span><span class="label">records</span><span class="arrow-return-left"></span></div>
             <div class="level-text">
-              <h3>Within the series: <a href="">DSIR 27</a></h3>
-              <p>Department of Scientific and Industrial Research: Road Research Laboratory Reports</p>
+              <h3>Within the series: <a href="series.html">WO 95</a></h3>
+              <p>War Office: First World War and Army of Occupation War Diaries</p>
+              <span class="arrow-return-left"></span>
+            </div>
+          </div>
+          <div class="level-container">
+            <div class="level-5 level-current"><span class="number">20</span><span class="label">records</span><span class="arrow-return-left"></span></div>
+            <div class="level-text">
+              <h3>Within the sub-series: <a href="">Subseries within WO 95</a></h3>
+              <p>PART I: FRANCE, BELGIUM AND GERMANY</p>
               <span class="arrow-return-left"></span>
             </div>
           </div>
         </div>
-      </div>
     </div>
     </div>
 
@@ -202,75 +210,14 @@
           <tr>
             <th scope="row">Reference:</th>
             <td>
-              DSIR 27<a class="copy"><span class="icon"></span>Copy reference <span class="sr-only">number to clipboard</span></a>
+              Subseries within WO 95<a class="copy"><span class="icon"></span>Copy reference <span class="sr-only">number to clipboard</span></a>
             </td>
           </tr>
 
           <tr>
-            <th scope="row">Date:</th>
-            <td>
-              1933-1973
-            </td>
-          </tr>
-
-          <tr>
-            <th scope="row">Description:</th>
+            <th scope="row">Title:</th>
             <td id="annotationcontentdescription">
-              <p class="scopecontent">This series contains detailed reports of tests carried out by the Road Research Laboratory on road construction methods and materials. The World War papers concern, as well, the study of engineering problems in civil defence and work undertaken for government departments.</p>
-                <p>Later papers, those in the LN, RN, TN series, concern road construction and also the wider aspects of road safety and traffic flow. Some reports of road conditions in developing countries are to be found in the RN series.</p>
-            </td>
-          </tr>
-
-          <tr>
-            <th scope="row">Arrangement:</th>
-            <td>
-              Firstly wartime material in serial letter order, then the RL series of reports of work carried out for the Ministry of Transport from 1933-1941, followed by laboratory reports in the RN series 1933-1962, LN series 1962-1965, and TN series 1965-1973.
-            </td>
-          </tr>
-
-          <tr>
-            <th scope="row">Held by:</th>
-            <td>
-              <a href="/details/a/A13530124" target="_blank">The National Archives, Kew</a>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">Former reference in its original department:</th>
-            <td>LN, RN, TN file series</td>
-          </tr>
-
-          <tr>
-            <th scope="row">Legal status:</th>
-            <td>
-              Public Record(s)
-            </td>
-          </tr>
-
-          <tr>
-            <th scope="row">Language:</th>
-            <td>
-              English
-            </td>
-          </tr>
-
-          <tr>
-            <th scope="row">Physical description:</th>
-            <td>
-              532 files and volumes
-            </td>
-          </tr>
-
-          <tr>
-            <th scope="row">Access conditions:</th>
-            <td>
-              Subject to 30 year closure
-            </td>
-          </tr>
-
-          <tr>
-            <th scope="row">Unpublished finding aids:</th>
-            <td>
-              A list of titles of papers in DSIR 27/326-531 is in DSIR 27/532
+              <p class="scopecontent">PART I: FRANCE, BELGIUM AND GERMANY</p>
             </td>
           </tr>
 
@@ -280,15 +227,15 @@
     </div>
   </section>
 
-  <section class="container pb-5" id="page">
-    <h2 class="mb-4">This record is within the department</h2>
+  <section class="container mt-5 pb-5" id="page">
+    <h2 class="mb-4">This record is within the series</h2>
     <div class="card series-panel">
       <div class="card-body">
-        <h5 class="card-title"><small style="font-size: 1rem; font-weight: normal; margin-bottom: 0.5rem; display: inline-block;">DSIR</small><br>Records created or inherited by the Department of Scientific and Industrial Research, and related bodies</h5>
-        <p class="card-text">See the department level description for more information about this record.</p>
+        <h5 class="card-title"><small style="font-size: 1rem; font-weight: normal; margin-bottom: 0.5rem; display: inline-block;">WO 95</small><br>War Office: First World War and Army of Occupation War Diaries</h5>
+        <p class="card-text">See the series level description for more information about this record.</p>
         <div class="d-flex justify-content-between align-items-center">
           <div class="btn-group">
-            <a href="series.html">View department description</a>
+            <a href="series.html">View series description</a>
           </div>
         </div>
       </div>
@@ -406,37 +353,37 @@
         <h3 class="sr-only">Follow us on social media</h3>
         <div class="col-4 col-sm-4 col-md-2">
           <a href="https://twitter.com/UKNatArchives" class="d-inline-block" target="_blank" rel="noopener noreferrer">
-            <img src="../assets/brand/fontawesome-svgs/twitter.svg" class="tna-footer__social-media-icon" alt="" width="35" height="35"><br>
+            <img src="../../assets/brand/fontawesome-svgs/twitter.svg" class="tna-footer__social-media-icon" alt="" width="35" height="35"><br>
             <span>Twitter</span>
           </a>
         </div>
         <div class="col-4 col-sm-4 col-md-2">
           <a href="https://www.youtube.com/c/TheNationalArchivesUK" class="d-inline-block" target="_blank" rel="noopener noreferrer" data-link="YouTube">
-            <img src="../assets/brand/fontawesome-svgs/youtube.svg" class="tna-footer__social-media-icon" alt="" width="40" height="35"><br>
+            <img src="../../assets/brand/fontawesome-svgs/youtube.svg" class="tna-footer__social-media-icon" alt="" width="40" height="35"><br>
             <span>YouTube</span>
           </a>
         </div>
         <div class="col-4 col-sm-4 col-md-2">
           <a href="https://www.flickr.com/photos/nationalarchives" class="d-inline-block" target="_blank" rel="noopener noreferrer" data-link="Flickr">
-            <img src="../assets/brand/fontawesome-svgs/flickr.svg" class="tna-footer__social-media-icon" alt="" width="31" height="35"><br>
+            <img src="../../assets/brand/fontawesome-svgs/flickr.svg" class="tna-footer__social-media-icon" alt="" width="31" height="35"><br>
             <span>Flickr</span>
           </a>
         </div>
         <div class="col-4 col-sm-4 col-md-2">
           <a href="https://www.facebook.com/TheNationalArchives" class="d-inline-block" target="_blank" rel="noopener noreferrer" data-link="Facebook">
-            <img src="../assets/brand/fontawesome-svgs/facebook.svg" class="tna-footer__social-media-icon" alt="" width="35" height="35"><br>
+            <img src="../../assets/brand/fontawesome-svgs/facebook.svg" class="tna-footer__social-media-icon" alt="" width="35" height="35"><br>
             <span>Facebook</span>
           </a>
         </div>
         <div class="col-4 col-sm-4 col-md-2">
           <a href="https://www.instagram.com/nationalarchivesuk/" class="d-inline-block" target="_blank" rel="noopener noreferrer" data-link="Instagram">
-            <img src="../assets/brand/fontawesome-svgs/instagram.svg" class="tna-footer__social-media-icon" alt="" width="31" height="35"><br>
+            <img src="../../assets/brand/fontawesome-svgs/instagram.svg" class="tna-footer__social-media-icon" alt="" width="31" height="35"><br>
             <span>Instagram</span>
           </a>
         </div>
         <div class="col-4 col-sm-4 col-md-2">
           <a href="https://www.nationalarchives.gov.uk/rss/" class="d-inline-block" data-link="RSS">
-            <img src="../assets/brand/fontawesome-svgs/rss.svg" class="tna-footer__social-media-icon" alt="" width="31" height="35"><br>
+            <img src="../../assets/brand/fontawesome-svgs/rss.svg" class="tna-footer__social-media-icon" alt="" width="31" height="35"><br>
             <span>RSS</span>
           </a>
         </div>
@@ -447,7 +394,7 @@
     <div class="container pb-3">
       <div class="row justify-content-md-center">
         <div class="col-md-2 text-center">
-          <img src="../assets/brand/logo-ogl.png" alt="Open Government License logo" id="ogl-logo" class="img-fluid">
+          <img src="../../assets/brand/logo-ogl.png" alt="Open Government License logo" id="ogl-logo" class="img-fluid">
         </div>
         <div class="col-md-8 text-center align-self-center">
           <p class="mb-0">
@@ -458,7 +405,7 @@
         </div>
         <div class="col-md-2 text-center">
           <a href="http://gov.uk/" target="_blank" rel="noopener noreferrer" data-link="GOV.UK logo - link opens in a new window">
-            <img alt="GOV.UK logo" src="../assets/brand/logo-gov-uk.png" class="img-fluid">
+            <img alt="GOV.UK logo" src="../../assets/brand/logo-gov-uk.png" class="img-fluid">
             <span class="sr-only">GOV.UK</span>
           </a>
         </div>
@@ -468,9 +415,9 @@
 </footer>
 
 
-<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../../assets/dist/js/bootstrap.bundle.min.js"></script>
 
-<script src="../assets/dist/js/extensions.js"></script>
+<script src="../../assets/dist/js/extensions.js"></script>
 
 
 </body>
