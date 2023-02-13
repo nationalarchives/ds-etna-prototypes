@@ -368,14 +368,15 @@
             <div class="col">
                 <h1>Details page (version 6.6)</h1>
                 <p class="mb-1 helper-text">Date created: 2 September 2022</p>
-                <p class="helper-text">Last updated: 3 February 2023</p>
+                <p class="helper-text">Last updated: 13 February 2023</p>
 
                 <!-- Quick access -->
                 <section class="section-panel highlighted">
                     <h2>Quick access for user testing (w/c 6th Feb 2023)</h2>
                     <p>This is a non-digitised record example without an image viewer and is derived from <a href="https://discovery.nationalarchives.gov.uk/details/r/C10399614">the existing record in Discovery</a></p>
                     <div class="concept-list-item">
-                        <h3><a href="/details/v6_6/tna-record/C10399614/item.html">C10399614 (Item level)</a><span class="label-warning">Untested</span></h3>
+                        <h3><a href="/details/v6_6/tna-record/C10399614/item.html">C10399614 (Item level)</a> Non-digitised example <span class="label-warning">Untested</span></h3>
+                        <h3><a href="/details/v6_6/tna-record/C14017032/item.html">C14017032 (Item level)</a> Digitised example <span class="label-warning">Untested</span></h3>
                     </div>
                     <div class="concept-list-item">
                         <h3><a href="/details/v6_6/tna-record/C10399614/series.html">C10399614 (Series level)</a> Concept A<span class="label-warning">Untested</span></h3>
