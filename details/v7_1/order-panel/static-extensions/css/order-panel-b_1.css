@@ -1,0 +1,88 @@
+.order-panel {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 0 0;
+    border: 1px solid #ccc;
+}
+.order-panel__primary-container {
+    text-align: center;
+}
+.order-panel__secondary-container {
+    padding: 1rem 0.5rem;
+}
+.order-panel h3 {
+    margin: 0 0 1rem;
+    font-size: 1.4rem;
+    font-weight: normal;
+}
+.order-panel__link {
+    text-decoration: none;
+    background-color: #1A67A2;
+    border: 0;
+    color: #fff;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    font-size: 1.1rem;
+    font-family: supria-sans-condensed, sans-serif;
+}
+.order-panel__link:hover {
+    cursor: pointer;
+    background-color: #111;
+    color: #fff;
+}
+.order-panel__link:visited {
+    background-color: #1A67A2;
+    color: #fff;
+}
+.order-panel__toggle-button {
+    display: inline-block;
+    padding: 0.25rem 0.25rem 0.25rem 2rem;
+    font-family: supria-sans-condensed, sans-serif;
+    font-size: 1.25rem;
+    text-align: center;
+    border: 0;
+    margin: 0;
+    border-bottom: 4px solid #FFCC00;
+}
+.order-panel__toggle-button {
+    background: transparent url("../../../static/images/fontawesome-svgs/chevron-down.svg") no-repeat 0;
+    background-size: 15px;
+    color: #1A67A2;
+    text-decoration: none;
+}
+.order-panel__toggle-button:link {
+    color: #1A67A2;
+}
+.order-panel__toggle-button:visited {
+    color: #1A67A2;
+}
+.order-panel__toggle-button:focus {
+    outline-offset: 0;
+    z-index: 999;
+    outline: 5px solid #26262a;
+}
+.order-panel__toggle-button:hover {
+    color: #1A67A2;
+    border-bottom: 4px solid #1A67A2;
+    cursor: pointer;
+}
+.order-panel__toggle-button:active {
+    color: #1A67A2;
+    background-color: #ffffff;
+}
+.order-panel .open {
+    background: transparent url('../../../static/images/fontawesome-svgs/chevron-up.svg') no-repeat 0;
+    background-size: 15px;
+    color: #1A67A2;
+    text-decoration: none;
+}
+.order-panel__ordered-list {
+    margin: 1.5rem 0 1.5rem 0;
+    padding: 0 0 0 1.25rem;
+}
+.order-panel__ordered-list li {
+    margin-bottom: 0.25rem;
+}
+.hierarchy {
+    margin: 0 0 4rem 0;
+}

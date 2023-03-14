@@ -1,0 +1,216 @@
+
+
+<footer class="tna-footer" data-container-name="footer">
+  <h2 class="sr-only">Footer</h2>
+
+  <!--new survey element-->
+  <div class="cta-banner-survey cta-banner-survey-js cta-banner-border" style="display: block;">
+    <div class="container py-3">
+      <div class="row justify-content-md-center text-center">
+
+        <div class="col-sm-12 col-lg-12">
+          <div class="survey-outline">
+            <h3>What did you think of this page?</h3>
+
+            <span id="replacer-easy">
+                            <a class="tna-button--dark response-btn" href="https://beta.nationalarchives.gov.uk/catalogue/id/C2519144/#" id="easy" rel="noopener noreferrer" tabindex="1" data-component-name="Feedback" data-link="Easy to use"><span><img class="thumb-image" src="../../static/images/icons/thumb-up.png" alt=""> Easy to use</span></a>
+                        </span>
+
+            <span id="replacer-hard">
+                            <a class="tna-button--dark response-btn" href="https://beta.nationalarchives.gov.uk/catalogue/id/C2519144/#" id="hard" rel="noopener noreferrer" tabindex="2" data-component-name="Feedback" data-link="Hard to use"><span><img class="thumb-image" src="../../static/images/icons/thumb-down.png" alt="">Hard to use</span></a>
+                        </span>
+            <p><a href="https://www.smartsurvey.co.uk/s/SY13JD/" target="_blank" tabindex="3">Tell us more</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--end new survey element-->
+
+  <noscript>
+    <div class="cta-banner-survey cta-banner-border no-js-survey">
+      <div class="container py-3">
+        <h3>What did you think of this page?</h3>
+        <div class="rowr">
+          <a href="https://www.smartsurvey.co.uk/s/SY13JD/" target="_blank">Take our short survey</a>
+        </div>
+      </div>
+    </div>
+  </noscript>
+
+  <script>
+    document.querySelector('.cta-banner-survey-js').style.display = 'block';
+
+
+    const buttonEasy = document.getElementById("easy");
+    const buttonHard = document.getElementById("hard");
+
+    const replaceEasy = document.getElementById("replacer-easy");
+    const replaceHard = document.getElementById("replacer-hard");
+
+    const disabledButtonEasy = '<span class="tna-button--dark response-btn"><span><img class="thumb-image" src="../../static/images/icons/thumb-up.png"> Easy to use</span></span>';
+
+    const disabledButtonHard = '<span class="tna-button--dark response-btn"><span><img class="thumb-image" src="../../static/images/icons/thumb-down.png"> Hard to use</span></span>';
+
+    //disable the 'other button'
+
+    buttonEasy.addEventListener("click", () => {
+      //easy clicked
+      event.preventDefault();
+      replaceHard.innerHTML = disabledButtonHard;
+      replaceHard.style.opacity = '0.2';
+      replaceHard.style.cursor = 'not-allowed';
+
+
+    })
+
+    buttonHard.addEventListener("click", () => {
+      //hard clicked
+      event.preventDefault();
+      replaceEasy.innerHTML = disabledButtonEasy;
+      replaceEasy.style.opacity = '0.2';
+      replaceEasy.style.cursor = 'not-allowed';
+
+
+    })
+
+  </script>
+
+  <div class="cta-banner-survey">
+    <div class="container py-3">
+      <div class="row justify-content-md-center text-center">
+        <div class="col-sm-12 col-lg-12">
+          <h3 class="cta-banner-survey__heading">How can we improve this site?</h3>
+        </div>
+        <div class="col-sm-12 col-lg-12">
+          <a class="tna-button--dark" href="https://www.smartsurvey.co.uk/s/SY13JD/" rel="noopener noreferrer"
+             target="_blank">Fill out our short survey</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tna-footer__heading tna-bg--dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h3 class="tna-footer__heading-main-title"><span class="sr-only">Address for </span>The National
+            Archives</h3>
+          <p>Kew, Richmond TW9 4DU</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tna-footer__body tna-bg--dark">
+    <div class="container pb-3">
+      <div class="row">
+        <div class="col-6 col-md-3">
+          <h3 class="tna-footer__body-heading">Find out more</h3>
+          <ul class="tna-ul--no-bullet">
+            <li class="tna-footer__list-item"><a href="https://www.nationalarchives.gov.uk/contact-us/" data-link="Contact us">Contact us</a></li>
+            <li class="tna-footer__list-item"><a href="https://www.nationalarchives.gov.uk/about/press-room/" data-link="Press room">Press room</a></li>
+            <li class="tna-footer__list-item"><a href="https://www.nationalarchives.gov.uk/about/jobs/" data-link="Jobs and careers">Jobs and careers</a></li>
+            <li class="tna-footer__list-item"><a href="https://www.nationalarchives.gov.uk/about/get-involved/friends-of-the-national-archives/" data-link="Friends of The National Archives">Friends of The National Archives</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-3">
+          <h3 class="tna-footer__body-heading">Site help</h3>
+          <ul class="tna-ul--no-bullet">
+            <li class="tna-footer__list-item"><a href="https://www.nationalarchives.gov.uk/help/" data-link="Help">Help</a></li>
+            <li class="tna-footer__list-item"><a href="https://www.nationalarchives.gov.uk/help/a-to-z/" data-link="Website A-Z index">Website A-Z index</a></li>
+            <li class="tna-footer__list-item"><a href="https://www.nationalarchives.gov.uk/help/web-accessibility/" data-link="Accessibility">Accessibility</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-3">
+          <h3 class="tna-footer__body-heading">Websites</h3>
+          <ul class="tna-ul--no-bullet">
+            <li class="tna-footer__list-item"><a href="https://blog.nationalarchives.gov.uk/" data-link="Blog">Blog</a></li>
+            <li class="tna-footer__list-item"><a href="https://media.nationalarchives.gov.uk/" data-link="Podcasts and videos">Podcasts and videos</a>
+            </li>
+            <li class="tna-footer__list-item"><a href="https://shop.nationalarchives.gov.uk/" data-link="Shop">Shop</a></li>
+            <li class="tna-footer__list-item"><a href="https://images.nationalarchives.gov.uk/" data-link="Image library">Image library</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-3">
+          <h3 class="tna-footer__body-heading">Legal</h3>
+          <ul class="tna-ul--no-bullet">
+            <li class="tna-footer__list-item"><a href="https://www.nationalarchives.gov.uk/legal/" data-link="Terms of use">Terms of use</a></li>
+            <li class="tna-footer__list-item"><a href="https://www.nationalarchives.gov.uk/legal/privacy.htm" data-link="Privacy policy">Privacy policy</a></li>
+            <li class="tna-footer__list-item"><a href="https://www.nationalarchives.gov.uk/legal/cookies/" data-link="Cookies">Cookies</a></li>
+            <li class="tna-footer__list-item"><a href="https://www.nationalarchives.gov.uk/legal/our-fees.htm" data-link="Our fees">Our fees</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tna-footer__social-media-links tna-bg--dark">
+    <div class="container pb-3">
+      <div class="row justify-content-md-center text-center">
+        <h3 class="sr-only">Follow us on social media</h3>
+        <div class="col-4 col-sm-4 col-md-2">
+          <a href="https://twitter.com/UKNatArchives" class="d-inline-block" target="_blank"
+             rel="noopener noreferrer">
+            <img src="../../static/images/fontawesome-svgs/twitter.svg" class="tna-footer__social-media-icon" alt="" width="35" height="35"><br>
+            <span>Twitter</span>
+          </a>
+        </div>
+        <div class="col-4 col-sm-4 col-md-2">
+          <a href="https://www.youtube.com/c/TheNationalArchivesUK" class="d-inline-block" target="_blank"
+             rel="noopener noreferrer" data-link="YouTube">
+            <img src="../../static/images/fontawesome-svgs/youtube.svg" class="tna-footer__social-media-icon" alt="" width="40" height="35"><br>
+            <span>YouTube</span>
+          </a>
+        </div>
+        <div class="col-4 col-sm-4 col-md-2">
+          <a href="https://www.flickr.com/photos/nationalarchives" class="d-inline-block" target="_blank"
+             rel="noopener noreferrer" data-link="Flickr">
+            <img src="../../static/images/fontawesome-svgs/flickr.svg" class="tna-footer__social-media-icon" alt="" width="31" height="35"><br>
+            <span>Flickr</span>
+          </a>
+        </div>
+        <div class="col-4 col-sm-4 col-md-2">
+          <a href="https://www.facebook.com/TheNationalArchives" class="d-inline-block" target="_blank"
+             rel="noopener noreferrer" data-link="Facebook">
+            <img src="../../static/images/fontawesome-svgs/facebook.svg" class="tna-footer__social-media-icon" alt="" width="35" height="35"><br>
+            <span>Facebook</span>
+          </a>
+        </div>
+        <div class="col-4 col-sm-4 col-md-2">
+          <a href="https://www.instagram.com/nationalarchivesuk/" class="d-inline-block" target="_blank"
+             rel="noopener noreferrer" data-link="Instagram">
+            <img src="../../static/images/fontawesome-svgs/instagram.svg" class="tna-footer__social-media-icon" alt="" width="31" height="35"><br>
+            <span>Instagram</span>
+          </a>
+        </div>
+        <div class="col-4 col-sm-4 col-md-2">
+          <a href="https://www.nationalarchives.gov.uk/rss/" class="d-inline-block" data-link="RSS">
+            <img src="../../static/images/fontawesome-svgs/rss.svg" class="tna-footer__social-media-icon" alt="" width="31" height="35"><br>
+            <span>RSS</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tna-footer__base tna-bg--dark">
+    <div class="container pb-3">
+      <div class="row justify-content-md-center">
+        <div class="col-md-2 text-center">
+          <img src="../../static/images/logo-ogl.png" alt="Open Government License logo" id="ogl-logo" class="img-fluid">
+        </div>
+        <div class="col-md-8 text-center align-self-center">
+          <p class="mb-0">
+            All content is available under the
+            <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/" target="_blank" rel="noopener noreferrer" data-link="Open Government Licence v3.0 - External website - opens in a new window">Open Government Licence v3.0 <span class="sr-only">External website - opens in a new window</span></a>, except where otherwise stated
+          </p>
+        </div>
+        <div class="col-md-2 text-center">
+          <a href="http://www.gov.uk/" target="_blank" rel="noopener noreferrer"
+             data-link="GOV.UK logo - link opens in a new window">
+            <img alt="GOV.UK logo" src="../../static/images/logo-gov-uk.png" class="img-fluid">
+            <span class="sr-only">GOV.UK</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
