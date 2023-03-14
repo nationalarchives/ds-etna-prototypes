@@ -20,6 +20,7 @@
                     <li><a href="/details/v6_5b">V6.5b</a></li>
                     <li><a href="/details/v6_6">V6.6</a></li>
                     <li><a href="/details/v7">V7</a></li>
+                    <li><a href="/details/v7_1">V7.1</a></li>
                 </ul>
             </div>
         </div>
