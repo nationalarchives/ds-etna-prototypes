@@ -1,0 +1,35 @@
+.order-panel {
+    background-color: #FFCC00;
+    padding: 2rem 2rem 3rem 2rem;
+    margin: 0 0 5rem 0;
+}
+.order-panel h2 {
+    margin: 0 0 1rem;
+    font-size: 1.8rem;
+}
+.order-panel__button {
+    text-decoration: none;
+    background-color: #1A67A2;
+    border: 0;
+    color: #fff;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    font-size: 1.1rem;
+    font-family: supria-sans-condensed, sans-serif;
+}
+.order-panel__button:hover {
+    cursor: pointer;
+    background-color: #111;
+    color: #fff;
+}
+.order-panel__button:visited {
+    background-color: #1A67A2;
+    color: #fff;
+}
+.order-panel__ordered-list {
+    margin: 1.5rem 0 1.5rem 0;
+    padding: 0 0 0 1.25rem;
+}
+.order-panel__ordered-list li {
+    margin-bottom: 0.25rem;
+}

@@ -83,9 +83,9 @@
 </style>
 
 <script>
-    function showHideItem() {
-        var $togglePanel = document.getElementById("item-concept");
-        var $toggleLinkCTA = document.getElementById("notes-item");
+    function showHideCTAItemA() {
+        var $togglePanel = document.getElementById("cta-item-concept-a");
+        var $toggleLinkCTA = document.getElementById("notes-cta-item-concept-a");
 
         $togglePanel.classList.toggle("hide");
         $toggleLinkCTA.classList.toggle("open");
@@ -96,9 +96,9 @@
             $toggleLinkCTA.innerHTML = "Show design notes";
         }
     }
-    function showHideSeriesA() {
-        var $togglePanel = document.getElementById("series-concept-a");
-        var $toggleLinkCTA = document.getElementById("notes-series-a");
+    function showHideCTAItemB() {
+        var $togglePanel = document.getElementById("cta-item-concept-b");
+        var $toggleLinkCTA = document.getElementById("notes-cta-item-concept-b");
 
         $togglePanel.classList.toggle("hide");
         $toggleLinkCTA.classList.toggle("open");
@@ -109,22 +109,9 @@
             $toggleLinkCTA.innerHTML = "Show design notes";
         }
     }
-    function showHideSeriesB() {
-        var $togglePanel = document.getElementById("series-concept-b");
-        var $toggleLinkCTA = document.getElementById("notes-series-b");
-
-        $togglePanel.classList.toggle("hide");
-        $toggleLinkCTA.classList.toggle("open");
-
-        if ($toggleLinkCTA.innerHTML === "Show design notes") {
-            $toggleLinkCTA.innerHTML = "Hide design notes";
-        } else {
-            $toggleLinkCTA.innerHTML = "Show design notes";
-        }
-    }
-    function showHideArchiveA() {
-        var $togglePanel = document.getElementById("archive-concept-a");
-        var $toggleLinkCTA = document.getElementById("notes-archive-a");
+    function showHideCTAItemC() {
+        var $togglePanel = document.getElementById("cta-item-concept-c");
+        var $toggleLinkCTA = document.getElementById("notes-cta-item-concept-c");
 
         $togglePanel.classList.toggle("hide");
         $toggleLinkCTA.classList.toggle("open");
@@ -148,102 +135,11 @@
             $toggleLinkCTA.innerHTML = "Show design notes";
         }
     }
-    function showHideC198022() {
-        var $togglePanel = document.getElementById("C198022-concept");
-        var $toggleLinkCTA = document.getElementById("notes-C198022");
-
-        $togglePanel.classList.toggle("hide");
-        $toggleLinkCTA.classList.toggle("open");
-
-        if ($toggleLinkCTA.innerHTML === "Show design notes") {
-            $toggleLinkCTA.innerHTML = "Hide design notes";
-        } else {
-            $toggleLinkCTA.innerHTML = "Show design notes";
-        }
-    }
 
     /* Non-digitised examples */
-    function showHideC10399614Item() {
-        var $togglePanel = document.getElementById("C10399614-item-concept");
-        var $toggleLinkCTA = document.getElementById("notes-C10399614-item");
-
-        $togglePanel.classList.toggle("hide");
-        $toggleLinkCTA.classList.toggle("open");
-
-        if ($toggleLinkCTA.innerHTML === "Show design notes") {
-            $toggleLinkCTA.innerHTML = "Hide design notes";
-        } else {
-            $toggleLinkCTA.innerHTML = "Show design notes";
-        }
-    }
-    function showHideC10399614Piece() {
-        var $togglePanel = document.getElementById("C10399614-piece-concept");
-        var $toggleLinkCTA = document.getElementById("notes-C10399614-piece");
-
-        $togglePanel.classList.toggle("hide");
-        $toggleLinkCTA.classList.toggle("open");
-
-        if ($toggleLinkCTA.innerHTML === "Show design notes") {
-            $toggleLinkCTA.innerHTML = "Hide design notes";
-        } else {
-            $toggleLinkCTA.innerHTML = "Show design notes";
-        }
-    }
-    function showHideC10399614SubSeries() {
-        var $togglePanel = document.getElementById("C10399614-subseries-concept");
-        var $toggleLinkCTA = document.getElementById("notes-C10399614-subseries");
-
-        $togglePanel.classList.toggle("hide");
-        $toggleLinkCTA.classList.toggle("open");
-
-        if ($toggleLinkCTA.innerHTML === "Show design notes") {
-            $toggleLinkCTA.innerHTML = "Hide design notes";
-        } else {
-            $toggleLinkCTA.innerHTML = "Show design notes";
-        }
-    }
-    function showHideC10399614Series() {
-        var $togglePanel = document.getElementById("C10399614-series-concept");
-        var $toggleLinkCTA = document.getElementById("notes-C10399614-series");
-
-        $togglePanel.classList.toggle("hide");
-        $toggleLinkCTA.classList.toggle("open");
-
-        if ($toggleLinkCTA.innerHTML === "Show design notes") {
-            $toggleLinkCTA.innerHTML = "Hide design notes";
-        } else {
-            $toggleLinkCTA.innerHTML = "Show design notes";
-        }
-    }
-    function showHideC10399614Division() {
-        var $togglePanel = document.getElementById("C10399614-division-concept");
-        var $toggleLinkCTA = document.getElementById("notes-C10399614-division");
-
-        $togglePanel.classList.toggle("hide");
-        $toggleLinkCTA.classList.toggle("open");
-
-        if ($toggleLinkCTA.innerHTML === "Show design notes") {
-            $toggleLinkCTA.innerHTML = "Hide design notes";
-        } else {
-            $toggleLinkCTA.innerHTML = "Show design notes";
-        }
-    }
-    function showHideC10399614Department() {
-        var $togglePanel = document.getElementById("C10399614-department-concept");
-        var $toggleLinkCTA = document.getElementById("notes-C10399614-department");
-
-        $togglePanel.classList.toggle("hide");
-        $toggleLinkCTA.classList.toggle("open");
-
-        if ($toggleLinkCTA.innerHTML === "Show design notes") {
-            $toggleLinkCTA.innerHTML = "Hide design notes";
-        } else {
-            $toggleLinkCTA.innerHTML = "Show design notes";
-        }
-    }
-    function showHideC10399614Archive() {
-        var $togglePanel = document.getElementById("C10399614-archive-concept");
-        var $toggleLinkCTA = document.getElementById("notes-C10399614-archive");
+    function showHideOtherArchiveMYC() {
+        var $togglePanel = document.getElementById("other-archive-myc");
+        var $toggleLinkCTA = document.getElementById("notes-other-archive-myc");
 
         $togglePanel.classList.toggle("hide");
         $toggleLinkCTA.classList.toggle("open");
@@ -255,10 +151,9 @@
         }
     }
 
-    /* Digitised examples */
-    function showHideC14017032Item() {
-        var $togglePanel = document.getElementById("C14017032-item-concept");
-        var $toggleLinkCTA = document.getElementById("notes-C14017032-item");
+    function showHideRecordCreators() {
+        var $togglePanel = document.getElementById("record-creators");
+        var $toggleLinkCTA = document.getElementById("notes-record-creators");
 
         $togglePanel.classList.toggle("hide");
         $toggleLinkCTA.classList.toggle("open");
@@ -269,97 +164,7 @@
             $toggleLinkCTA.innerHTML = "Show design notes";
         }
     }
-    function showHideC14017032Piece() {
-        var $togglePanel = document.getElementById("C14017032-piece-concept");
-        var $toggleLinkCTA = document.getElementById("notes-C14017032-piece");
 
-        $togglePanel.classList.toggle("hide");
-        $toggleLinkCTA.classList.toggle("open");
-
-        if ($toggleLinkCTA.innerHTML === "Show design notes") {
-            $toggleLinkCTA.innerHTML = "Hide design notes";
-        } else {
-            $toggleLinkCTA.innerHTML = "Show design notes";
-        }
-    }
-    function showHideC14017032SubSubSeries() {
-        var $togglePanel = document.getElementById("C14017032-subsubseries-concept");
-        var $toggleLinkCTA = document.getElementById("notes-C14017032-subsubseries");
-
-        $togglePanel.classList.toggle("hide");
-        $toggleLinkCTA.classList.toggle("open");
-
-        if ($toggleLinkCTA.innerHTML === "Show design notes") {
-            $toggleLinkCTA.innerHTML = "Hide design notes";
-        } else {
-            $toggleLinkCTA.innerHTML = "Show design notes";
-        }
-    }
-    function showHideC14017032SubSeries() {
-        var $togglePanel = document.getElementById("C14017032-subseries-concept");
-        var $toggleLinkCTA = document.getElementById("notes-C14017032-subseries");
-
-        $togglePanel.classList.toggle("hide");
-        $toggleLinkCTA.classList.toggle("open");
-
-        if ($toggleLinkCTA.innerHTML === "Show design notes") {
-            $toggleLinkCTA.innerHTML = "Hide design notes";
-        } else {
-            $toggleLinkCTA.innerHTML = "Show design notes";
-        }
-    }
-    function showHideC14017032Series() {
-        var $togglePanel = document.getElementById("C14017032-series-concept");
-        var $toggleLinkCTA = document.getElementById("notes-C14017032-series");
-
-        $togglePanel.classList.toggle("hide");
-        $toggleLinkCTA.classList.toggle("open");
-
-        if ($toggleLinkCTA.innerHTML === "Show design notes") {
-            $toggleLinkCTA.innerHTML = "Hide design notes";
-        } else {
-            $toggleLinkCTA.innerHTML = "Show design notes";
-        }
-    }
-    function showHideC14017032Division() {
-        var $togglePanel = document.getElementById("C14017032-division-concept");
-        var $toggleLinkCTA = document.getElementById("notes-C14017032-division");
-
-        $togglePanel.classList.toggle("hide");
-        $toggleLinkCTA.classList.toggle("open");
-
-        if ($toggleLinkCTA.innerHTML === "Show design notes") {
-            $toggleLinkCTA.innerHTML = "Hide design notes";
-        } else {
-            $toggleLinkCTA.innerHTML = "Show design notes";
-        }
-    }
-    function showHideC14017032Department() {
-        var $togglePanel = document.getElementById("C14017032-department-concept");
-        var $toggleLinkCTA = document.getElementById("notes-C14017032-department");
-
-        $togglePanel.classList.toggle("hide");
-        $toggleLinkCTA.classList.toggle("open");
-
-        if ($toggleLinkCTA.innerHTML === "Show design notes") {
-            $toggleLinkCTA.innerHTML = "Hide design notes";
-        } else {
-            $toggleLinkCTA.innerHTML = "Show design notes";
-        }
-    }
-    function showHideC14017032Archive() {
-        var $togglePanel = document.getElementById("C14017032-archive-concept");
-        var $toggleLinkCTA = document.getElementById("notes-C14017032-archive");
-
-        $togglePanel.classList.toggle("hide");
-        $toggleLinkCTA.classList.toggle("open");
-
-        if ($toggleLinkCTA.innerHTML === "Show design notes") {
-            $toggleLinkCTA.innerHTML = "Hide design notes";
-        } else {
-            $toggleLinkCTA.innerHTML = "Show design notes";
-        }
-    }
 </script>
 <main>
     <?php require_once '../../includes/header-and-nav-bar.php' ?>
@@ -368,34 +173,60 @@
             <div class="col">
                 <h1>Details page (version 7)</h1>
                 <p class="mb-1 helper-text">Date created: 13 February 2023</p>
-                <p class="helper-text">Last updated: 15 February 2023</p>
+                <p class="helper-text">Last updated: 7 March 2023</p>
 
-                <!-- Non-Digitised example section -->
+                <!-- Other archives example section -->
                 <section class="section-panel">
                     <h2>Other archives records</h2>
                     <p class="helper-text">Created to updated the design from version 5</p>
                     <div class="concept-list-item">
                         <h3><a href="/details/v7/tna-record/archive.html">Archive level page</a><span class="label-warning">Untested</span></h3>
-                        <button onclick="showHideC10399614Item()" id="notes-C10399614-item">Show design notes</button>
-                        <div class="concept-list-content hide" id="C10399614-item-concept">
+                        <button onclick="showHideArchiveB()" id="notes-archive-concept-b">Show design notes</button>
+                        <div class="concept-list-content hide" id="archive-concept-b">
                             <h3>None added</h3>
                         </div>
                     </div>
                     <div class="concept-list-item">
                         <h3><a href="/details/v7/other-archives/item-myc.html">MYC/A2A example (Item level)</a><span class="label-warning">Untested</span></h3>
-                        <button onclick="showHideC10399614Item()" id="notes-C10399614-item">Show design notes</button>
-                        <div class="concept-list-ccontent hide" id="C10399614-item-concept">
+                        <button onclick="showHideOtherArchiveMYC()" id="notes-other-archive-myc">Show design notes</button>
+                        <div class="concept-list-ccontent hide" id="other-archive-myc">
                             <h3>None added</h3>
                         </div>
                     </div>
                     <div class="concept-list-item">
                         <h3><a href="/details/v7/other-pages/new-record-creators.html">Record creators example</a><span class="label-warning">Untested</span></h3>
-                        <button onclick="showHideC10399614SubSubSeries()" id="notes-C10399614-piece">Show design notes</button>
-                        <div class="concept-list-content hide" id="C10399614-piece-concept">
+                        <button onclick="showHideRecordCreators()" id="notes-record-creators">Show design notes</button>
+                        <div class="concept-list-content hide" id="record-creators">
                             <h3>None added</h3>
                         </div>
                     </div>
+                </section>
 
+                <!-- Item/piece call to action example section -->
+                <section class="section-panel">
+                    <h2>Call to action amendment</h2>
+                    <p class="helper-text">Created to explore both the positioning and the labelling/content for accessing the record finding out how to </p>
+                    <div class="concept-list-item">
+                        <h3><a href="/details/v7/tna-record/cta-panel/item-a.html">Item level page (CTA panel - concept A)</a><span class="label-warning">Untested</span></h3>
+                        <button onclick="showHideCTAItemA()" id="notes-cta-item-concept-a">Show design notes</button>
+                        <div class="concept-list-content hide" id="cta-item-concept-a">
+                            <h3>None added</h3>
+                        </div>
+                    </div>
+                    <div class="concept-list-item">
+                        <h3><a href="/details/v7/tna-record/cta-panel/item-b.html">Item level page (CTA panel - concept B)</a><span class="label-warning">Untested</span></h3>
+                        <button onclick="showHideCTAItemB()" id="notes-cta-item-concept-b">Show design notes</button>
+                        <div class="concept-list-ccontent hide" id="cta-item-concept-b">
+                            <h3>None added</h3>
+                        </div>
+                    </div>
+                    <div class="concept-list-item">
+                        <h3><a href="/details/v7/tna-record/cta-panel/item-c.html">Item level page (CTA panel - concept C)</a><span class="label-warning">Untested</span></h3>
+                        <button onclick="showHideCTAItemC()" id="notes-cta-item-concept-c">Show design notes</button>
+                        <div class="concept-list-content hide" id="cta-item-concept-c">
+                            <h3>None added</h3>
+                        </div>
+                    </div>
                 </section>
 
 
