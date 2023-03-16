@@ -2,3 +2,43 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+
+.record-details__copy-link {
+  display: block;
+  font-family: supria-sans-condensed, sans-serif;
+  color: #1A67A2 !important;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+.record-details__copy-link:hover {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+.record-details__copy-link:hover {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+.record-details__copy-link:hover {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+@media screen and (min-width: 62rem) {
+  .record-details__copy-link {
+    display: inline-block;
+    float: right;
+    padding: 0.1rem 0.5rem;
+  }
+}
+
+.record-details__copy-icon {
+  display: none;
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (min-width: 62rem) {
+  .record-details__copy-icon {
+    margin-right: 0.5rem;
+  }
+}

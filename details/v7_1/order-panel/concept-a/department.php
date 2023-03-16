@@ -102,12 +102,35 @@
                 <tbody>
                     <tr>
                         <th scope="row">Reference</th>
-                        <td id="analytics-record-reference">FO</td>
+                        <td id="analytics-record-reference">FO
+                            <a class="record-details__copy-link">
+                                <svg class="record-details__copy-icon" aria-hidden="true" focusable="false">
+                                    <use xlink:href="#files" href="#files"></use>
+                                </svg>Copy reference <span class="sr-only">number to clipboard</span>
+                            </a>
+                        </td>
                     </tr>
 
                     <tr>
                         <th scope="row">Date</th>
-                        <td>1567-2004</td>
+                        <td>1567-2004
+                            <a class="record-details__copy-link">
+                                <svg class="record-details__copy-icon" aria-hidden="true" focusable="false">
+                                    <use xlink:href="#files" href="#files"></use>
+                                </svg>Copy date <span class="sr-only">to clipboard</span>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Title</th>
+                        <td id="analytics-record-reference">Records created or inherited by the Foreign Office
+                            <a class="record-details__copy-link">
+                                <svg class="record-details__copy-icon" aria-hidden="true" focusable="false">
+                                    <use xlink:href="#files" href="#files"></use>
+                                </svg>Copy title <span class="sr-only">to clipboard</span>
+                            </a>
+                        </td>
                     </tr>
 
                     <tr>
