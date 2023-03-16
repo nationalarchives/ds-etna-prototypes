@@ -184,7 +184,7 @@
             <div class="col">
                 <h1>Details page (version 7.1)</h1>
                 <p class="mb-1 helper-text">Date created: 10 March 2023</p>
-                <p class="helper-text">Last updated: 13 March 2023</p>
+                <p class="helper-text">Last updated: 16 March 2023</p>
 
                 <!-- Other archives example section -->
                 <section class="section-panel">
