@@ -49,12 +49,12 @@
                 t = document.querySelector('nav[data-id="hierarchy-detailed-view"]');
             if (e && t) {
                 var r = document.createElement("button");
-                r.innerText = "Show detailed view", r.classList.add("hierarchy-short-panel__toggle-button"), r.setAttribute("aria-expanded", !1), r.setAttribute("aria-controls", "hierarchy-togglee"), r.setAttribute("aria-label", "Show or hide detailed view"), r.setAttribute("data-link-type", "Link"), r.setAttribute("data-link", "Show detailed view"), e.appendChild(r), t.id = "hierarchyTogglee", t.hidden = !0, r.addEventListener("click", (function (e) {
+                r.innerText = "Show catalogue location", r.classList.add("hierarchy-short-panel__toggle-button"), r.setAttribute("aria-expanded", !1), r.setAttribute("aria-controls", "hierarchy-togglee"), r.setAttribute("aria-label", "Show or hide detailed view"), r.setAttribute("data-link-type", "Link"), r.setAttribute("data-link", "Show detailed view"), e.appendChild(r), t.id = "hierarchyTogglee", t.hidden = !0, r.addEventListener("click", (function (e) {
                     e.preventDefault();
                     var i = "true" == r.getAttribute("aria-expanded");
                     r.setAttribute("aria-expanded", !i);
                     var a = "true" == r.getAttribute("aria-expanded");
-                    t.hidden = !t.hidden, a ? (r.innerHTML = "Hide detailed view", r.setAttribute("class", "open")) : (r.innerHTML = "Show detailed view", r.setAttribute("class", ""))
+                    t.hidden = !t.hidden, a ? (r.innerHTML = "Hide catalogue location", r.setAttribute("class", "open")) : (r.innerHTML = "Show detailed view", r.setAttribute("class", ""))
                 }))
             }
         }(), function () {

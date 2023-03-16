@@ -66,12 +66,12 @@
 
                 <!-- DETAILED HIERARCHY VIEW -->
                 <nav class="hierarchy-full-panel" role="navigation" data-id="hierarchy-detailed-view" id="hierarchyTogglee">
-                    <h2 class="hierarchy-full-panel__heading">Detailed catalogue location:</h2>
+                    <h2 class="hierarchy-full-panel__heading">Catalogue location</h2>
 
                     <!-- Level 1 -->
                     <div class="hierarchy-full-panel__bar-container-outer">
                         <div class="hierarchy-full-panel__bar-container-inner hierarchy-full-panel__bar-container-inner--level-1">
-                            <p><span class="hierarchy-full-panel__bar-number">3 million</span>
+                            <p><span class="hierarchy-full-panel__bar-number">3 million </span>
                                 <span class="hierarchy-full-panel__bar-label">record(s)</span></p>
                         </div>
                         <div class="hierarchy-full-panel__text-container">
@@ -82,7 +82,7 @@
 
                     <div class="hierarchy-full-panel__bar-container-outer">
                         <div class="hierarchy-full-panel__bar-container-inner hierarchy-full-panel__bar-container-inner--active hierarchy-full-panel__bar-container-inner--level-2">
-                            <p><span class="hierarchy-full-panel__bar-number">200,000</span>
+                            <p><span class="hierarchy-full-panel__bar-number">200,000 </span>
                                 <span class="hierarchy-full-panel__bar-label">record(s)</span></p>
                         </div>
                         <div class="hierarchy-full-panel__text-container">
