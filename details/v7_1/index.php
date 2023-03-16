@@ -254,7 +254,7 @@
                             <p class="helper-text">This design index page shows different styling options for the toggle button:</p>
 
                             <div class="concept-list-item">
-                                <h4><a href="/details/v7_1/order-panel/concept-b/design-index.php">Design index (Concept B only)</a><span class="label-warning">Untested</span></h4>
+                                <h4><a href="/details/v7_1/order-panel/concept-b/design-index.php">Design index (Concept B only)</a></h4>
                             </div>
                         </div>
                     </div>
