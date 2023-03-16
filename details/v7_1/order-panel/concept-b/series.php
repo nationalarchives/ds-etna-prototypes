@@ -153,7 +153,7 @@
                         <a class="record-details__copy-link">
                             <svg class="record-details__copy-icon" aria-hidden="true" focusable="false">
                                 <use xlink:href="#files" href="#files"></use>
-                            </svg>Copy reference <span class="sr-only">to clipboard</span>
+                            </svg>Copy date <span class="sr-only">to clipboard</span>
                         </a>
                     </td>
                 </tr>
