@@ -136,15 +136,38 @@
         <div class="record-details">
             <table class="record-details__table">
                 <tbody>
-                    <tr>
-                        <th scope="row">Reference</th>
-                        <td id="analytics-record-reference">FO 78</td>
-                    </tr>
+                <tr>
+                    <th scope="row">Reference</th>
+                    <td id="analytics-record-reference">FO 78
+                        <a class="record-details__copy-link">
+                            <svg class="record-details__copy-icon" aria-hidden="true" focusable="false">
+                                <use xlink:href="#files" href="#files"></use>
+                            </svg>Copy reference <span class="sr-only">number to clipboard</span>
+                        </a>
+                    </td>
+                </tr>
 
-                    <tr>
-                        <th scope="row">Date</th>
-                        <td>1780-1905</td>
-                    </tr>
+                <tr>
+                    <th scope="row">Date</th>
+                    <td>1780-1905
+                        <a class="record-details__copy-link">
+                            <svg class="record-details__copy-icon" aria-hidden="true" focusable="false">
+                                <use xlink:href="#files" href="#files"></use>
+                            </svg>Copy reference <span class="sr-only">to clipboard</span>
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Title</th>
+                    <td id="analytics-record-reference">Foreign Office and predecessor: Political and Other Departments: General Correspondence...
+                        <a class="record-details__copy-link">
+                            <svg class="record-details__copy-icon" aria-hidden="true" focusable="false">
+                                <use xlink:href="#files" href="#files"></use>
+                            </svg>Copy title <span class="sr-only">to clipboard</span>
+                        </a>
+                    </td>
+                </tr>
 
                     <tr>
                         <th scope="row">Description</th>
