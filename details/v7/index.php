@@ -200,6 +200,13 @@
                             <h3>None added</h3>
                         </div>
                     </div>
+                    <div class="concept-list-item">
+                        <h3><a href="/details/v7/other-archives/item-nra.html">NRA example</a><span class="label-warning">Untested</span></h3>
+                        <button onclick="showHideRecordCreators()" id="notes-other-archive-nra">Show design notes</button>
+                        <div class="concept-list-content hide" id="other-archive-nra">
+                            <h3>None added</h3>
+                        </div>
+                    </div>
                 </section>
 
                 <!-- Item/piece call to action example section -->
