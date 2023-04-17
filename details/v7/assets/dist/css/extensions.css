@@ -628,28 +628,28 @@ h1 {
 }
 
 .type {
-    background: transparent url('../../brand/static/folder.svg') no-repeat 7px 7px !important;
+    background: transparent;
     padding: 0.3rem 0.5rem;
-    padding-left: 2rem;
+    padding-left: 0.2rem;
     margin-right: .2rem;
 }
 .this {
     padding: 0.3rem 0.5rem;
-    padding-left: 2rem;
+    padding-left: 0.2rem;
     margin-right: .2rem;
     text-decoration: underline;
     font-size: 1.1rem;
 }
 
 .hierarchy_short li:first-of-type .type {
-    background: transparent url('../../brand/static/archive.svg') no-repeat 7px 7px !important;
+    background: transparent;
 }
 
 .hierarchy_short li:last-of-type .type {
-    background: transparent url('../../brand/static/file-earmark-text.svg') no-repeat 7px 7px !important;
+    background: transparent;
 }
 .hierarchy_short li:last-of-type .this {
-    background: transparent  url('../../brand/static/file-earmark-text.svg') no-repeat 7px 7px !important;
+    background: transparent;
 }
 .hierarchy_short a {
     margin: 0.1rem 1rem;
@@ -1406,4 +1406,8 @@ tr ul {
     display: inline-block;
     font-size: 1.1rem;
     font-family: supria-sans-condensed, sans-serif;
+}
+
+.table th {
+    min-width: 11rem;
 }
