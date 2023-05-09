@@ -202,36 +202,36 @@
                     <div class="row mb-5">
                         <div class="col-md-6">
                             <div class="concept-list-item">
-                                <h4><a href="/details/v7_1/order-panel/concept-a/1.php">Concept A (variation 1)</a><span class="label-warning">Untested</span></h4>
+                                <h4><a href="/details/v7_1/order-panel/concept-a/1.php">Concept A (variation 1)</a><span class="label-success">Tested</span></h4>
                             </div>
                             <div class="concept-list-item">
-                                <h4><a href="/details/v7_1/order-panel/concept-a/2.php">Concept A (variation 2)</a><span class="label-warning">Untested</span></h4>
+                                <h4><a href="/details/v7_1/order-panel/concept-a/2.php">Concept A (variation 2)</a><span class="label-success">Tested</span></h4>
                             </div>
                             <div class="concept-list-item">
-                                <h4><a href="/details/v7_1/order-panel/concept-a/3.php">Concept A (variation 3)</a><span class="label-warning">Untested</span></h4>
+                                <h4><a href="/details/v7_1/order-panel/concept-a/3.php">Concept A (variation 3)</a><span class="label-success">Tested</span></h4>
                             </div>
                             <div class="concept-list-item">
-                                <h4><a href="/details/v7_1/order-panel/concept-a/4.php">Concept A (variation 4)</a><span class="label-warning">Untested</span></h4>
+                                <h4><a href="/details/v7_1/order-panel/concept-a/4.php">Concept A (variation 4)</a><span class="label-success">Tested</span></h4>
                             </div>
                             <div class="concept-list-item">
-                                <h4><a href="/details/v7_1/order-panel/concept-a/5.php">Concept A (variation 5)</a><span class="label-warning">Untested</span></h4>
+                                <h4><a href="/details/v7_1/order-panel/concept-a/5.php">Concept A (variation 5)</a><span class="label-success">Tested</span></h4>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="concept-list-item">
-                                <h4><a href="/details/v7_1/order-panel/concept-b/1.php">Concept B (variation 1)</a><span class="label-warning">Untested</span></h4>
+                                <h4><a href="/details/v7_1/order-panel/concept-b/1.php">Concept B (variation 1)</a><span class="label-success">Tested</span></h4>
                             </div>
                             <div class="concept-list-item">
-                                <h4><a href="/details/v7_1/order-panel/concept-b/2.php">Concept B (variation 2)</a><span class="label-warning">Untested</span></h4>
+                                <h4><a href="/details/v7_1/order-panel/concept-b/2.php">Concept B (variation 2)</a><span class="label-success">Tested</span></h4>
                             </div>
                             <div class="concept-list-item">
-                                <h4><a href="/details/v7_1/order-panel/concept-b/3.php">Concept B (variation 3)</a><span class="label-warning">Untested</span></h4>
+                                <h4><a href="/details/v7_1/order-panel/concept-b/3.php">Concept B (variation 3)</a><span class="label-success">Tested</span></h4>
                             </div>
                             <div class="concept-list-item">
-                                <h4><a href="/details/v7_1/order-panel/concept-b/4.php">Concept B (variation 4)</a><span class="label-warning">Untested</span></h4>
+                                <h4><a href="/details/v7_1/order-panel/concept-b/4.php">Concept B (variation 4)</a><span class="label-success">Tested</span></h4>
                             </div>
                             <div class="concept-list-item">
-                                <h4><a href="/details/v7_1/order-panel/concept-b/5.php">Concept B (variation 5)</a><span class="label-warning">Untested</span></h4>
+                                <h4><a href="/details/v7_1/order-panel/concept-b/5.php">Concept B (variation 5)</a><span class="label-success">Tested</span></h4>
                             </div>
                         </div>
                     </div>
@@ -258,10 +258,26 @@
                             </div>
                         </div>
                     </div>
-
-
                 </section>
 
+                <!-- Other archives example section -->
+                <section class="section-panel">
+                    <h2>Back to search results concepts</h2>
+                    <p class="helper-text">These concepts were created from Monday 17th April 2023 to address questions around how a user would navigate back to search in certain circumstances.</p>
+                    <div class="concept-list-item">
+                        <h4><a href="/details/v7_1/back-to-search-results/item.php">Concept A</a><span class="label-warning">Untested</span></h4>
+                    </div>
+                </section>
+
+                <!-- Other archives example section -->
+                <section class="section-panel">
+                    <h2>Dates in search concepts</h2>
+                    <p class="helper-text">These concepts were created on Wednesday 26th April to explore/visualise how to add date fields alongside the main search box on the search landing page as well as how to position the filters on the subsequent search results page.</p>
+                    <div class="concept-list-item">
+                        <h4><a href="/details/v7_1/search-date-filters/index.php">Search landing page</a><span class="label-warning">Untested</span></h4>
+                        <h4><a href="/details/v7_1/search-date-filters/results.php">Search results</a><span class="label-warning">Untested</span></h4>
+                    </div>
+                </section>
 
             </div>
         </div>

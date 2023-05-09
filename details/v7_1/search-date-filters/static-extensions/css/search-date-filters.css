@@ -1,0 +1,40 @@
+.search-landing-hero__form {
+    display: block;
+}
+
+.search-landing-hero__date-container {
+    display: block;
+}
+.search-landing-hero__date-col {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.search-landing-hero__date-field {
+    height: 40px;
+    padding-right: .5em;
+    padding-left: .5em;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    border: 1px solid #333;
+    border-radius: 0.25rem;
+}
+
+.search-landing-hero__date-label {
+    margin-right: 2rem;
+    display: block;
+}
+
+.search-landing-hero__date-label:nth-of-type(2) {
+    margin: 0 2rem;
+}
+
+.search-landing-hero__form-submit {
+    padding: 0.45rem;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+.date-input--inline {
+    display: inline-block;
+    margin-right: 1rem;
+}
