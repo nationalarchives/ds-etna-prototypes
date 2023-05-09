@@ -275,7 +275,7 @@
                     <p class="helper-text">These concepts were created on Wednesday 26th April to explore/visualise how to add date fields alongside the main search box on the search landing page as well as how to position the filters on the subsequent search results page.</p>
                     <div class="concept-list-item">
                         <h4><a href="/details/v7_1/search-date-filters/index.php">Search landing page</a><span class="label-warning">Untested</span></h4>
-                        <h4><a href="/details/v7_1/search-date-filters/results.php">Search results</a><span class="label-warning">Untested</span></h4>
+                        <h4><a href="/details/v7_1/search-date-filters/catalogue-results.php">Search results</a><span class="label-warning">Untested</span></h4>
                     </div>
                 </section>
 
