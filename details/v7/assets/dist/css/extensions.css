@@ -1017,7 +1017,15 @@ tr ul {
 
 .series-form {
     background-color: #FFCC00;
-    padding: 3rem 2rem 0 2rem;
+    padding: 1rem 2rem;
+}
+.series-form h2 {
+    margin: 0.5rem 0 0.75rem;
+}
+
+.series-form .btn {
+    border-radius: 0;
+    margin-bottom: 1.5rem;
 }
 
 .migration-message .series-form {
